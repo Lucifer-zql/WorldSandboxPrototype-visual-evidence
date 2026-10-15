@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="199" result="Passed" total="199" passed="199" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 10:10:38Z" end-time="2026-10-15 10:10:40Z" duration="1.7119663">
+  <test-suite type="TestSuite" id="1000" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="199" result="Passed" start-time="2026-10-15 10:10:38Z" end-time="2026-10-15 10:10:40Z" duration="1.711966" total="199" passed="199" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1260" name="WorldSandbox.Tests.EditMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.EditMode.dll" runstate="Runnable" testcasecount="199" result="Passed" start-time="2026-10-15 10:10:38Z" end-time="2026-10-15 10:10:40Z" duration="1.704870" total="199" passed="199" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="20704" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1261" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="199" result="Passed" start-time="2026-10-15 10:10:38Z" end-time="2026-10-15 10:10:40Z" duration="1.704384" total="199" passed="199" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1262" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="199" result="Passed" start-time="2026-10-15 10:10:38Z" end-time="2026-10-15 10:10:40Z" duration="1.704277" total="199" passed="199" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1263" name="EditMode" fullname="WorldSandbox.Tests.EditMode" runstate="Runnable" testcasecount="199" result="Passed" start-time="2026-10-15 10:10:38Z" end-time="2026-10-15 10:10:40Z" duration="1.703858" total="199" passed="199" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1010" name="AiADiagnosticsTests" fullname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests" classname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 10:10:38Z" end-time="2026-10-15 10:10:39Z" duration="0.072567" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1011" name="Diag_Cliff_SegmentsAndIsolatedCells" fullname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests.Diag_Cliff_SegmentsAndIsolatedCells" methodname="Diag_Cliff_SegmentsAndIsolatedCells" classname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests" runstate="Runnable" seed="529136328" result="Passed" start-time="2026-10-15 10:10:38Z" end-time="2026-10-15 10:10:39Z" duration="0.028887" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[DIAG] 世界 128x128 种子 20261013；Cliff 总数=232，连通段数=87
+  段大小 5: 2 个
+  段大小 3: 22 个
+  段大小 4: 6 个
+  段大小 2: 53 个
+  段大小 6: 2 个
+  段大小 7: 2 个
+
+[DIAG] 世界 128x128 种子 20261013；Cliff 总数=232，连通段数=87
+  段大小 5: 2 个
+  段大小 3: 22 个
+  段大小 4: 6 个
+  段大小 2: 53 个
+  段大小 6: 2 个
+  段大小 7: 2 个
+
+]]></output>
+              </test-case>
+              <test-case id="1012" name="Diag_Shadow_Distribution" fullname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests.Diag_Shadow_Distribution" methodname="Diag_Shadow_Distribution" classname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests" runstate="Runnable" seed="1789700791" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.008636" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[DIAG] Shadow 总数=0（树 0 / 金矿 0 / 食物 0 / 其他 0）；资源对象总数=207
+[DIAG] Shadow 总数=0（树 0 / 金矿 0 / 食物 0 / 其他 0）；资源对象总数=207
+]]></output>
+              </test-case>
+              <test-case id="1013" name="Diag_TreeDistributionAndClouds" fullname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests.Diag_TreeDistributionAndClouds" methodname="Diag_TreeDistributionAndClouds" classname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests" runstate="Runnable" seed="370027082" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.009912" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[DIAG] 树=153（近邻≤4格 153 / >4格 0）；栅格簇=41 个，最大簇=11；灌木=182；云=18 y范围=[9..96] 地图高=128
+[DIAG] 树=153（近邻≤4格 153 / >4格 0）；栅格簇=41 个，最大簇=11；灌木=182；云=18 y范围=[9..96] 地图高=128
+]]></output>
+              </test-case>
+              <test-case id="1015" name="Diag_WaterEdgeAndBackground" fullname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests.Diag_WaterEdgeAndBackground" methodname="Diag_WaterEdgeAndBackground" classname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests" runstate="Runnable" seed="567938508" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.005198" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[DIAG] 边缘圈全水=True；水比=0.281 陆块=0.674 尝试=1 校验=True
+[DIAG] 边缘圈全水=True；水比=0.281 陆块=0.674 尝试=1 校验=True
+]]></output>
+              </test-case>
+              <test-case id="1014" name="MainScene_CameraBackground_MatchesOfficialBgColor" fullname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests.MainScene_CameraBackground_MatchesOfficialBgColor" methodname="MainScene_CameraBackground_MatchesOfficialBgColor" classname="WorldSandbox.Tests.EditMode.AiADiagnosticsTests" runstate="Runnable" seed="403283171" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002549" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1016" name="AnimationDriverSelectionTests" fullname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests" classname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.016940" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1019" name="HumanEatFallsBackToIdle" fullname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests.HumanEatFallsBackToIdle" methodname="HumanEatFallsBackToIdle" classname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests" runstate="Runnable" seed="340956855" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.005435" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="HumanIdleAndRunSelectByTool" fullname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests.HumanIdleAndRunSelectByTool" methodname="HumanIdleAndRunSelectByTool" classname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests" runstate="Runnable" seed="1669890216" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000680" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="HumanWorkFallsBackToIdleWhenMissing" fullname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests.HumanWorkFallsBackToIdleWhenMissing" methodname="HumanWorkFallsBackToIdleWhenMissing" classname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests" runstate="Runnable" seed="95941026" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001659" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[AnimationDriver] 人类 Work/None 帧集未接线 → 回退 Idle 帧
+[AnimationDriver] 人类 Work/None 帧集未接线 → 回退 Idle 帧
+]]></output>
+              </test-case>
+              <test-case id="1020" name="SheepStatesSelectCorrectly" fullname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests.SheepStatesSelectCorrectly" methodname="SheepStatesSelectCorrectly" classname="WorldSandbox.Tests.EditMode.AnimationDriverSelectionTests" runstate="Runnable" seed="719944884" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000709" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1021" name="AssetUsageLedgerTests" fullname="WorldSandbox.Tests.EditMode.AssetUsageLedgerTests" classname="WorldSandbox.Tests.EditMode.AssetUsageLedgerTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.216115" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1022" name="UiFamilies_AllUsed_HaveExecutablePath" fullname="WorldSandbox.Tests.EditMode.AssetUsageLedgerTests.UiFamilies_AllUsed_HaveExecutablePath" methodname="UiFamilies_AllUsed_HaveExecutablePath" classname="WorldSandbox.Tests.EditMode.AssetUsageLedgerTests" runstate="Runnable" seed="2106270124" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.102661" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="WorldFamilies_AllUsed_HaveExecutablePath" fullname="WorldSandbox.Tests.EditMode.AssetUsageLedgerTests.WorldFamilies_AllUsed_HaveExecutablePath" methodname="WorldFamilies_AllUsed_HaveExecutablePath" classname="WorldSandbox.Tests.EditMode.AssetUsageLedgerTests" runstate="Runnable" seed="572926919" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.112167" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1024" name="BoundsClampTests" fullname="WorldSandbox.Tests.EditMode.BoundsClampTests" classname="WorldSandbox.Tests.EditMode.BoundsClampTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.005921" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1025" name="CenterWithinMap_SquareView" fullname="WorldSandbox.Tests.EditMode.BoundsClampTests.CenterWithinMap_SquareView" methodname="CenterWithinMap_SquareView" classname="WorldSandbox.Tests.EditMode.BoundsClampTests" runstate="Runnable" seed="638714388" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001589" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1027" name="HalfExtent_WideView_StillWithinPadding" fullname="WorldSandbox.Tests.EditMode.BoundsClampTests.HalfExtent_WideView_StillWithinPadding" methodname="HalfExtent_WideView_StillWithinPadding" classname="WorldSandbox.Tests.EditMode.BoundsClampTests" runstate="Runnable" seed="299623939" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000919" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1026" name="InsideRange_Unchanged" fullname="WorldSandbox.Tests.EditMode.BoundsClampTests.InsideRange_Unchanged" methodname="InsideRange_Unchanged" classname="WorldSandbox.Tests.EditMode.BoundsClampTests" runstate="Runnable" seed="544427367" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000837" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1028" name="ViewLargerThanMap_ReturnsPaddedCenter" fullname="WorldSandbox.Tests.EditMode.BoundsClampTests.ViewLargerThanMap_ReturnsPaddedCenter" methodname="ViewLargerThanMap_ReturnsPaddedCenter" classname="WorldSandbox.Tests.EditMode.BoundsClampTests" runstate="Runnable" seed="1888032740" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000318" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1029" name="ZeroMap_Unchanged" fullname="WorldSandbox.Tests.EditMode.BoundsClampTests.ZeroMap_Unchanged" methodname="ZeroMap_Unchanged" classname="WorldSandbox.Tests.EditMode.BoundsClampTests" runstate="Runnable" seed="859316755" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000364" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1030" name="BuildingFoundationTests" fullname="WorldSandbox.Tests.EditMode.BuildingFoundationTests" classname="WorldSandbox.Tests.EditMode.BuildingFoundationTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.008439" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1037" name="MapReader_GetBuildingId_ReflectsStore" fullname="WorldSandbox.Tests.EditMode.BuildingFoundationTests.MapReader_GetBuildingId_ReflectsStore" methodname="MapReader_GetBuildingId_ReflectsStore" classname="WorldSandbox.Tests.EditMode.BuildingFoundationTests" runstate="Runnable" seed="273048166" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001667" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1035" name="PlaceBuilding_OnBuildable_CreatesAndPublishes" fullname="WorldSandbox.Tests.EditMode.BuildingFoundationTests.PlaceBuilding_OnBuildable_CreatesAndPublishes" methodname="PlaceBuilding_OnBuildable_CreatesAndPublishes" classname="WorldSandbox.Tests.EditMode.BuildingFoundationTests" runstate="Runnable" seed="1808631627" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002842" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1036" name="PlaceBuilding_OnWater_OrOccupied_Rejected" fullname="WorldSandbox.Tests.EditMode.BuildingFoundationTests.PlaceBuilding_OnWater_OrOccupied_Rejected" methodname="PlaceBuilding_OnWater_OrOccupied_Rejected" classname="WorldSandbox.Tests.EditMode.BuildingFoundationTests" runstate="Runnable" seed="229423297" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001173" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Divine] PlaceBuilding 拒绝：格 (5,6) 不可建造（R-CIV-06/R-TOOL-10）
+[WorldSandbox][Divine] PlaceBuilding 拒绝：格 (5,6) 不可建造（R-CIV-06/R-TOOL-10）
+]]></output>
+              </test-case>
+              <test-case id="1031" name="Store_AddQueryRemove_ThreeWayIndex" fullname="WorldSandbox.Tests.EditMode.BuildingFoundationTests.Store_AddQueryRemove_ThreeWayIndex" methodname="Store_AddQueryRemove_ThreeWayIndex" classname="WorldSandbox.Tests.EditMode.BuildingFoundationTests" runstate="Runnable" seed="1295065996" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000786" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1033" name="Store_IdsNeverReused" fullname="WorldSandbox.Tests.EditMode.BuildingFoundationTests.Store_IdsNeverReused" methodname="Store_IdsNeverReused" classname="WorldSandbox.Tests.EditMode.BuildingFoundationTests" runstate="Runnable" seed="437207353" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000292" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1032" name="Store_RejectsDuplicateIdAndOccupiedCell" fullname="WorldSandbox.Tests.EditMode.BuildingFoundationTests.Store_RejectsDuplicateIdAndOccupiedCell" methodname="Store_RejectsDuplicateIdAndOccupiedCell" classname="WorldSandbox.Tests.EditMode.BuildingFoundationTests" runstate="Runnable" seed="978452264" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000233" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1034" name="VisualVariant_HouseDeterministicCastleZero" fullname="WorldSandbox.Tests.EditMode.BuildingFoundationTests.VisualVariant_HouseDeterministicCastleZero" methodname="VisualVariant_HouseDeterministicCastleZero" classname="WorldSandbox.Tests.EditMode.BuildingFoundationTests" runstate="Runnable" seed="1941834220" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000229" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1038" name="CameraConfigTests" fullname="WorldSandbox.Tests.EditMode.CameraConfigTests" classname="WorldSandbox.Tests.EditMode.CameraConfigTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002799" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1040" name="Asset_Loads_And_StepsValid" fullname="WorldSandbox.Tests.EditMode.CameraConfigTests.Asset_Loads_And_StepsValid" methodname="Asset_Loads_And_StepsValid" classname="WorldSandbox.Tests.EditMode.CameraConfigTests" runstate="Runnable" seed="942726347" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001832" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1039" name="StepsAreAscendingIntegers" fullname="WorldSandbox.Tests.EditMode.CameraConfigTests.StepsAreAscendingIntegers" methodname="StepsAreAscendingIntegers" classname="WorldSandbox.Tests.EditMode.CameraConfigTests" runstate="Runnable" seed="2026758800" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000334" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1041" name="CameraRigPrefabTests" fullname="WorldSandbox.Tests.EditMode.CameraRigPrefabTests" classname="WorldSandbox.Tests.EditMode.CameraRigPrefabTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.013407" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1042" name="Prefab_Loads_And_RigResolvesCameraAndConfig" fullname="WorldSandbox.Tests.EditMode.CameraRigPrefabTests.Prefab_Loads_And_RigResolvesCameraAndConfig" methodname="Prefab_Loads_And_RigResolvesCameraAndConfig" classname="WorldSandbox.Tests.EditMode.CameraRigPrefabTests" runstate="Runnable" seed="227782469" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.012094" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1043" name="Prefab_Text_HasNoMalformedFileIdReference" fullname="WorldSandbox.Tests.EditMode.CameraRigPrefabTests.Prefab_Text_HasNoMalformedFileIdReference" methodname="Prefab_Text_HasNoMalformedFileIdReference" classname="WorldSandbox.Tests.EditMode.CameraRigPrefabTests" runstate="Runnable" seed="1569042725" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000601" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1044" name="CliffTileSelectionTests" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.071324" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1045" name="CliffTileAssets_MapToExpectedSlices" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.CliffTileAssets_MapToExpectedSlices" methodname="CliffTileAssets_MapToExpectedSlices" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="1287175183" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.006288" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1050" name="Corner_AllCliffCellsResolved" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.Corner_AllCliffCellsResolved" methodname="Corner_AllCliffCellsResolved" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="1472506846" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.014245" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+              <test-case id="1047" name="HorizontalCliff_UniformLandTile" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.HorizontalCliff_UniformLandTile" methodname="HorizontalCliff_UniformLandTile" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="2042538418" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003028" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+              <test-case id="1052" name="MapEdge_NoException_FootByNeighbor" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.MapEdge_NoException_FootByNeighbor" methodname="MapEdge_NoException_FootByNeighbor" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="226192755" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003265" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+              <test-case id="1054" name="RealWorld_TwoSeeds_AllCliffCellsResolved" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.RealWorld_TwoSeeds_AllCliffCellsResolved" methodname="RealWorld_TwoSeeds_AllCliffCellsResolved" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="1631033848" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.029465" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[CLIFF] 真实世界冒烟：陆脚 327 格 / 水脚 107 格（两种子合计）
+[CLIFF] 真实世界冒烟：陆脚 327 格 / 水脚 107 格（两种子合计）
+]]></output>
+              </test-case>
+              <test-case id="1053" name="Refresh_AnchorChange_UpdatesWholeRun" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.Refresh_AnchorChange_UpdatesWholeRun" methodname="Refresh_AnchorChange_UpdatesWholeRun" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="839617443" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003207" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+              <test-case id="1046" name="SegmentAnchor_HorizontalAndVertical" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.SegmentAnchor_HorizontalAndVertical" methodname="SegmentAnchor_HorizontalAndVertical" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="311581876" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002413" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+              <test-case id="1051" name="SeparateSegments_GetDifferentTilesByAnchor" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.SeparateSegments_GetDifferentTilesByAnchor" methodname="SeparateSegments_GetDifferentTilesByAnchor" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="103655970" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002054" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+              <test-case id="1049" name="VerticalCliff_UniformTile_FootPerBottomNeighbor" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.VerticalCliff_UniformTile_FootPerBottomNeighbor" methodname="VerticalCliff_UniformTile_FootPerBottomNeighbor" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="1445693601" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002210" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+              <test-case id="1048" name="WaterFoot_SelectsWaterGroup" fullname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests.WaterFoot_SelectsWaterGroup" methodname="WaterFoot_SelectsWaterGroup" classname="WorldSandbox.Tests.EditMode.CliffTileSelectionTests" runstate="Runnable" seed="1700180525" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002086" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1055" name="ConfigTests" fullname="WorldSandbox.Tests.EditMode.ConfigTests" classname="WorldSandbox.Tests.EditMode.ConfigTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003070" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1056" name="FieldNamesMatchSpec" fullname="WorldSandbox.Tests.EditMode.ConfigTests.FieldNamesMatchSpec" methodname="FieldNamesMatchSpec" classname="WorldSandbox.Tests.EditMode.ConfigTests" runstate="Runnable" seed="1756898276" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001601" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1057" name="ContractWiringTests" fullname="WorldSandbox.Tests.EditMode.ContractWiringTests" classname="WorldSandbox.Tests.EditMode.ContractWiringTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.004170" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1058" name="Bootstrap_ProvidesMapReader" fullname="WorldSandbox.Tests.EditMode.ContractWiringTests.Bootstrap_ProvidesMapReader" methodname="Bootstrap_ProvidesMapReader" classname="WorldSandbox.Tests.EditMode.ContractWiringTests" runstate="Runnable" seed="1929570482" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003560" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1059" name="CreatureAnimAssetTests" fullname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests" classname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.035903" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1065" name="AllFrameSetsHaveConsecutiveIndexSuffixes" fullname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests.AllFrameSetsHaveConsecutiveIndexSuffixes" methodname="AllFrameSetsHaveConsecutiveIndexSuffixes" classname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests" runstate="Runnable" seed="803915832" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002879" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1060" name="AllHumanIdleSlicedToEightFrames" fullname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests.AllHumanIdleSlicedToEightFrames" methodname="AllHumanIdleSlicedToEightFrames" classname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests" runstate="Runnable" seed="1483858584" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000641" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1061" name="AllHumanRunSlicedToSixFrames" fullname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests.AllHumanRunSlicedToSixFrames" methodname="AllHumanRunSlicedToSixFrames" classname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests" runstate="Runnable" seed="1831066162" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000545" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1064" name="PopulatedLibrary_SheepGrassFrames_InNaturalOrder" fullname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests.PopulatedLibrary_SheepGrassFrames_InNaturalOrder" methodname="PopulatedLibrary_SheepGrassFrames_InNaturalOrder" classname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests" runstate="Runnable" seed="104360816" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.028595" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1063" name="SheepThreeStatesSliced" fullname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests.SheepThreeStatesSliced" methodname="SheepThreeStatesSliced" classname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests" runstate="Runnable" seed="1077390018" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000495" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1062" name="WorkFramesPresentOnlyForToolVariants" fullname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests.WorkFramesPresentOnlyForToolVariants" methodname="WorkFramesPresentOnlyForToolVariants" classname="WorldSandbox.Tests.EditMode.CreatureAnimAssetTests" runstate="Runnable" seed="921487965" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000572" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1066" name="ElevationStoreTests" fullname="WorldSandbox.Tests.EditMode.ElevationStoreTests" classname="WorldSandbox.Tests.EditMode.ElevationStoreTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003643" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1069" name="CanTraverse_SameLevelAlways_StairsCrossLevel" fullname="WorldSandbox.Tests.EditMode.ElevationStoreTests.CanTraverse_SameLevelAlways_StairsCrossLevel" methodname="CanTraverse_SameLevelAlways_StairsCrossLevel" classname="WorldSandbox.Tests.EditMode.ElevationStoreTests" runstate="Runnable" seed="504060841" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000905" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1067" name="FromTerrain_CliffIsHighGround_OthersZero" fullname="WorldSandbox.Tests.EditMode.ElevationStoreTests.FromTerrain_CliffIsHighGround_OthersZero" methodname="FromTerrain_CliffIsHighGround_OthersZero" classname="WorldSandbox.Tests.EditMode.ElevationStoreTests" runstate="Runnable" seed="1636566342" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000412" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1070" name="LegacyWorld_NoStore_DeferredDerivation_MatchesCliff" fullname="WorldSandbox.Tests.EditMode.ElevationStoreTests.LegacyWorld_NoStore_DeferredDerivation_MatchesCliff" methodname="LegacyWorld_NoStore_DeferredDerivation_MatchesCliff" classname="WorldSandbox.Tests.EditMode.ElevationStoreTests" runstate="Runnable" seed="479349396" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000343" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1071" name="SetElevation_ClampsAndRejectsOutOfBounds" fullname="WorldSandbox.Tests.EditMode.ElevationStoreTests.SetElevation_ClampsAndRejectsOutOfBounds" methodname="SetElevation_ClampsAndRejectsOutOfBounds" classname="WorldSandbox.Tests.EditMode.ElevationStoreTests" runstate="Runnable" seed="294044343" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000264" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1068" name="StairLink_RequiresDifferentElevations_AndDeduplicates" fullname="WorldSandbox.Tests.EditMode.ElevationStoreTests.StairLink_RequiresDifferentElevations_AndDeduplicates" methodname="StairLink_RequiresDifferentElevations_AndDeduplicates" classname="WorldSandbox.Tests.EditMode.ElevationStoreTests" runstate="Runnable" seed="904873708" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000298" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1072" name="EventLogBufferTests" fullname="WorldSandbox.Tests.EditMode.EventLogBufferTests" classname="WorldSandbox.Tests.EditMode.EventLogBufferTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.006427" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1075" name="EventTones_MatchSpec_06_8_1" fullname="WorldSandbox.Tests.EditMode.EventLogBufferTests.EventTones_MatchSpec_06_8_1" methodname="EventTones_MatchSpec_06_8_1" classname="WorldSandbox.Tests.EditMode.EventLogBufferTests" runstate="Runnable" seed="714995655" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000803" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1074" name="TenEventTypes_MapToKeysPresentInBothTables" fullname="WorldSandbox.Tests.EditMode.EventLogBufferTests.TenEventTypes_MapToKeysPresentInBothTables" methodname="TenEventTypes_MapToKeysPresentInBothTables" classname="WorldSandbox.Tests.EditMode.EventLogBufferTests" runstate="Runnable" seed="1359370555" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002200" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1073" name="Throttle_MaxPerFrame_ThenDrainRemainderNextFrame" fullname="WorldSandbox.Tests.EditMode.EventLogBufferTests.Throttle_MaxPerFrame_ThenDrainRemainderNextFrame" methodname="Throttle_MaxPerFrame_ThenDrainRemainderNextFrame" classname="WorldSandbox.Tests.EditMode.EventLogBufferTests" runstate="Runnable" seed="555985749" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002549" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1076" name="EventLogEmptyStateTests" fullname="WorldSandbox.Tests.EditMode.EventLogEmptyStateTests" classname="WorldSandbox.Tests.EditMode.EventLogEmptyStateTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.076652" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1078" name="EmptyLog_RelocalizeToEnglish" fullname="WorldSandbox.Tests.EditMode.EventLogEmptyStateTests.EmptyLog_RelocalizeToEnglish" methodname="EmptyLog_RelocalizeToEnglish" classname="WorldSandbox.Tests.EditMode.EventLogEmptyStateTests" runstate="Runnable" seed="786397549" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.062137" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1077" name="EmptyLog_ShowsEmptyState_InChinese" fullname="WorldSandbox.Tests.EditMode.EventLogEmptyStateTests.EmptyLog_ShowsEmptyState_InChinese" methodname="EmptyLog_ShowsEmptyState_InChinese" classname="WorldSandbox.Tests.EditMode.EventLogEmptyStateTests" runstate="Runnable" seed="2100702994" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.005860" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1079" name="WithEvent_EmptyStateHidden_EntryShown" fullname="WorldSandbox.Tests.EditMode.EventLogEmptyStateTests.WithEvent_EmptyStateHidden_EntryShown" methodname="WithEvent_EmptyStateHidden_EntryShown" classname="WorldSandbox.Tests.EditMode.EventLogEmptyStateTests" runstate="Runnable" seed="1070303753" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.006441" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1080" name="EventQueueTests" fullname="WorldSandbox.Tests.EditMode.EventQueueTests" classname="WorldSandbox.Tests.EditMode.EventQueueTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.007294" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1085" name="Clear_DoesNotCountAsDropped" fullname="WorldSandbox.Tests.EditMode.EventQueueTests.Clear_DoesNotCountAsDropped" methodname="Clear_DoesNotCountAsDropped" classname="WorldSandbox.Tests.EditMode.EventQueueTests" runstate="Runnable" seed="1217450373" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000480" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1083" name="Drain_EdgeCases_Safe" fullname="WorldSandbox.Tests.EditMode.EventQueueTests.Drain_EdgeCases_Safe" methodname="Drain_EdgeCases_Safe" classname="WorldSandbox.Tests.EditMode.EventQueueTests" runstate="Runnable" seed="595159434" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000885" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1082" name="Drain_QueueLimitHasPriority_OverCallerMax" fullname="WorldSandbox.Tests.EditMode.EventQueueTests.Drain_QueueLimitHasPriority_OverCallerMax" methodname="Drain_QueueLimitHasPriority_OverCallerMax" classname="WorldSandbox.Tests.EditMode.EventQueueTests" runstate="Runnable" seed="1471526762" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001043" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Sim] 事件队列限流：本帧丢弃 30 条事件（累计丢弃 30；04 R-ORDER-05）。
+[WorldSandbox][Sim] 事件队列限流：本帧丢弃 30 条事件（累计丢弃 30；04 R-ORDER-05）。
+]]></output>
+              </test-case>
+              <test-case id="1084" name="Publish_And_Enqueue_AreEquivalent" fullname="WorldSandbox.Tests.EditMode.EventQueueTests.Publish_And_Enqueue_AreEquivalent" methodname="Publish_And_Enqueue_AreEquivalent" classname="WorldSandbox.Tests.EditMode.EventQueueTests" runstate="Runnable" seed="1214171160" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000491" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1081" name="Throttle" fullname="WorldSandbox.Tests.EditMode.EventQueueTests.Throttle" methodname="Throttle" classname="WorldSandbox.Tests.EditMode.EventQueueTests" runstate="Runnable" seed="1928629923" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000608" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1086" name="ExceptionIsolationTests" fullname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests" classname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.005228" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1087" name="EntityException_RemovesEntity_OthersContinue" fullname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests.EntityException_RemovesEntity_OthersContinue" methodname="EntityException_RemovesEntity_OthersContinue" classname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests" runstate="Runnable" seed="2036770622" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001924" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1091" name="NullBody_Safe" fullname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests.NullBody_Safe" methodname="NullBody_Safe" classname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests" runstate="Runnable" seed="889532370" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000726" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1090" name="RepeatedEntityErrors_LogsCoalesced" fullname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests.RepeatedEntityErrors_LogsCoalesced" methodname="RepeatedEntityErrors_LogsCoalesced" classname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests" runstate="Runnable" seed="551703121" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000555" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1089" name="SettlementException_SkipsTick" fullname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests.SettlementException_SkipsTick" methodname="SettlementException_SkipsTick" classname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests" runstate="Runnable" seed="17239788" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000382" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1088" name="SystemException_Pauses" fullname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests.SystemException_Pauses" methodname="SystemException_Pauses" classname="WorldSandbox.Tests.EditMode.ExceptionIsolationTests" runstate="Runnable" seed="1705123401" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000559" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1092" name="FinalSceneAssemblyTests" fullname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests" classname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.081169" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1097" name="KeyboardBridge_ProxyResolves_InEditorEnvironment" fullname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests.KeyboardBridge_ProxyResolves_InEditorEnvironment" methodname="KeyboardBridge_ProxyResolves_InEditorEnvironment" classname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests" runstate="Runnable" seed="761253572" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000955" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1096" name="Scene_Bootstrap_ReferencesUIRoot_AndKeyboardBridge" fullname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests.Scene_Bootstrap_ReferencesUIRoot_AndKeyboardBridge" methodname="Scene_Bootstrap_ReferencesUIRoot_AndKeyboardBridge" classname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests" runstate="Runnable" seed="300118424" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000748" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1093" name="Scene_Canvas_IsMainCanvasPrefabInstance_WithCanvas" fullname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests.Scene_Canvas_IsMainCanvasPrefabInstance_WithCanvas" methodname="Scene_Canvas_IsMainCanvasPrefabInstance_WithCanvas" classname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests" runstate="Runnable" seed="1927328060" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001154" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1094" name="Scene_CanvasScaler_MatchesFrozenReferenceResolution" fullname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests.Scene_CanvasScaler_MatchesFrozenReferenceResolution" methodname="Scene_CanvasScaler_MatchesFrozenReferenceResolution" classname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests" runstate="Runnable" seed="448755129" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001718" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1095" name="Scene_EventSystem_HasInputSystemUIModule_WithAssignedActions" fullname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests.Scene_EventSystem_HasInputSystemUIModule_WithAssignedActions" methodname="Scene_EventSystem_HasInputSystemUIModule_WithAssignedActions" classname="WorldSandbox.Tests.EditMode.FinalSceneAssemblyTests" runstate="Runnable" seed="1580931548" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000757" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1098" name="LifeFoundationTests" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.111294" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1107" name="CreatureData_ToolSurvivesJsonRoundTrip_AndOldJsonDefaultsToNone" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.CreatureData_ToolSurvivesJsonRoundTrip_AndOldJsonDefaultsToNone" methodname="CreatureData_ToolSurvivesJsonRoundTrip_AndOldJsonDefaultsToNone" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="535299240" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001476" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1106" name="CreatureSnapshot_LegacyCtor_DefaultsToolToNone" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.CreatureSnapshot_LegacyCtor_DefaultsToolToNone" methodname="CreatureSnapshot_LegacyCtor_DefaultsToolToNone" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="1370643484" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000443" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1100" name="Registry_AfterRemove_NewIdGreaterThanAllHistory" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.Registry_AfterRemove_NewIdGreaterThanAllHistory" methodname="Registry_AfterRemove_NewIdGreaterThanAllHistory" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="1491624181" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001378" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1099" name="Registry_CreatedIds_UniqueAndIncreasing" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.Registry_CreatedIds_UniqueAndIncreasing" methodname="Registry_CreatedIds_UniqueAndIncreasing" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="283796037" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000384" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1101" name="Registry_TenThousandCreateRemove_NoLeak" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.Registry_TenThousandCreateRemove_NoLeak" methodname="Registry_TenThousandCreateRemove_NoLeak" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="461802149" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001112" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1111" name="RemoveCreature_RemovesEntity" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.RemoveCreature_RemovesEntity" methodname="RemoveCreature_RemovesEntity" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="92285986" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002552" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Divine] RemoveCreature：实体 1 不存在
+[WorldSandbox][Divine] RemoveCreature：实体 1 不存在
+]]></output>
+              </test-case>
+              <test-case id="1104" name="SnapshotSystem_FillsCreaturesFromRegistry" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.SnapshotSystem_FillsCreaturesFromRegistry" methodname="SnapshotSystem_FillsCreaturesFromRegistry" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="1082381236" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001411" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1105" name="SnapshotSystem_PreservesToolVariant" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.SnapshotSystem_PreservesToolVariant" methodname="SnapshotSystem_PreservesToolVariant" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="1448939227" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000482" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1108" name="SnapshotSystem_RepeatedTick_IdenticalContent" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.SnapshotSystem_RepeatedTick_IdenticalContent" methodname="SnapshotSystem_RepeatedTick_IdenticalContent" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="820511647" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000894" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1109" name="SpawnCreature_OnLand_CreatesIdleAtCellCenter" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.SpawnCreature_OnLand_CreatesIdleAtCellCenter" methodname="SpawnCreature_OnLand_CreatesIdleAtCellCenter" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="300909396" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001197" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1110" name="SpawnCreature_OnWater_Rejected" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.SpawnCreature_OnWater_Rejected" methodname="SpawnCreature_OnWater_Rejected" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="1498698686" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001207" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Divine] SpawnCreature 拒绝：格 (2,3) 为水域（R-LIFE-05）
+[WorldSandbox][Divine] SpawnCreature 拒绝：格 (2,3) 为水域（R-LIFE-05）
+]]></output>
+              </test-case>
+              <test-case id="1102" name="StateMachine_ExactlyFiveStates" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.StateMachine_ExactlyFiveStates" methodname="StateMachine_ExactlyFiveStates" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="14326292" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000176" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1103" name="StateMachine_IllegalTransitionRejected" fullname="WorldSandbox.Tests.EditMode.LifeFoundationTests.StateMachine_IllegalTransitionRejected" methodname="StateMachine_IllegalTransitionRejected" classname="WorldSandbox.Tests.EditMode.LifeFoundationTests" runstate="Runnable" seed="820814832" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000836" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][CreatureState] 非法状态转换被拒：实体 7 Dead → Move（R-LIFE-14）
+[WorldSandbox][CreatureState] 非法状态转换被拒：实体 7 Dead → Move（R-LIFE-14）
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1112" name="LocalizationKeyTests" fullname="WorldSandbox.Tests.EditMode.LocalizationKeyTests" classname="WorldSandbox.Tests.EditMode.LocalizationKeyTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.039977" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1113" name="AllKeysHaveBothLanguages" fullname="WorldSandbox.Tests.EditMode.LocalizationKeyTests.AllKeysHaveBothLanguages" methodname="AllKeysHaveBothLanguages" classname="WorldSandbox.Tests.EditMode.LocalizationKeyTests" runstate="Runnable" seed="850484687" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002343" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1114" name="NoHardcodedChineseInUIScripts" fullname="WorldSandbox.Tests.EditMode.LocalizationKeyTests.NoHardcodedChineseInUIScripts" methodname="NoHardcodedChineseInUIScripts" classname="WorldSandbox.Tests.EditMode.LocalizationKeyTests" runstate="Runnable" seed="562831391" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.036818" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1115" name="MapIndexTests" fullname="WorldSandbox.Tests.EditMode.MapIndexTests" classname="WorldSandbox.Tests.EditMode.MapIndexTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.004553" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1117" name="OutOfRange_ReturnsMinusOne" fullname="WorldSandbox.Tests.EditMode.MapIndexTests.OutOfRange_ReturnsMinusOne" methodname="OutOfRange_ReturnsMinusOne" classname="WorldSandbox.Tests.EditMode.MapIndexTests" runstate="Runnable" seed="135615414" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000329" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1116" name="ToIndex_MatchesManual" fullname="WorldSandbox.Tests.EditMode.MapIndexTests.ToIndex_MatchesManual" methodname="ToIndex_MatchesManual" classname="WorldSandbox.Tests.EditMode.MapIndexTests" runstate="Runnable" seed="1638294789" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003233" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1118" name="MapReaderTests" fullname="WorldSandbox.Tests.EditMode.MapReaderTests" classname="WorldSandbox.Tests.EditMode.MapReaderTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.008414" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1121" name="OutOfBounds_Queries_AreSafe" fullname="WorldSandbox.Tests.EditMode.MapReaderTests.OutOfBounds_Queries_AreSafe" methodname="OutOfBounds_Queries_AreSafe" classname="WorldSandbox.Tests.EditMode.MapReaderTests" runstate="Runnable" seed="1367788260" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001901" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1120" name="ResourceNode_BlocksBuilding_ButNotWalking" fullname="WorldSandbox.Tests.EditMode.MapReaderTests.ResourceNode_BlocksBuilding_ButNotWalking" methodname="ResourceNode_BlocksBuilding_ButNotWalking" classname="WorldSandbox.Tests.EditMode.MapReaderTests" runstate="Runnable" seed="562595673" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000712" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1119" name="T_04_09_DecorationAddRemove_DoesNotAffectQueries" fullname="WorldSandbox.Tests.EditMode.MapReaderTests.T_04_09_DecorationAddRemove_DoesNotAffectQueries" methodname="T_04_09_DecorationAddRemove_DoesNotAffectQueries" classname="WorldSandbox.Tests.EditMode.MapReaderTests" runstate="Runnable" seed="1703654513" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000977" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1122" name="WorldEdge_IsNotWalkable" fullname="WorldSandbox.Tests.EditMode.MapReaderTests.WorldEdge_IsNotWalkable" methodname="WorldEdge_IsNotWalkable" classname="WorldSandbox.Tests.EditMode.MapReaderTests" runstate="Runnable" seed="585731296" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000423" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1123" name="PanControllerTests" fullname="WorldSandbox.Tests.EditMode.PanControllerTests" classname="WorldSandbox.Tests.EditMode.PanControllerTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.008621" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1124" name="ThreePaths_Identical" fullname="WorldSandbox.Tests.EditMode.PanControllerTests.ThreePaths_Identical" methodname="ThreePaths_Identical" classname="WorldSandbox.Tests.EditMode.PanControllerTests" runstate="Runnable" seed="1915119099" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.004282" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1125" name="UsesSharedCore" fullname="WorldSandbox.Tests.EditMode.PanControllerTests.UsesSharedCore" methodname="UsesSharedCore" classname="WorldSandbox.Tests.EditMode.PanControllerTests" runstate="Runnable" seed="1672841384" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001408" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1126" name="ZeroMap_SkipsClamp_NoThrow" fullname="WorldSandbox.Tests.EditMode.PanControllerTests.ZeroMap_SkipsClamp_NoThrow" methodname="ZeroMap_SkipsClamp_NoThrow" classname="WorldSandbox.Tests.EditMode.PanControllerTests" runstate="Runnable" seed="1167468273" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001465" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Input] 地图尺寸为 0（Width=0, Height=0）→ 平移暂不执行边界钳制（EXC-03，地图生成后自动恢复）。
+[WorldSandbox][Input] 地图尺寸为 0（Width=0, Height=0）→ 平移暂不执行边界钳制（EXC-03，地图生成后自动恢复）。
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1127" name="PixelPerfectTests" fullname="WorldSandbox.Tests.EditMode.PixelPerfectTests" classname="WorldSandbox.Tests.EditMode.PixelPerfectTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.009354" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1129" name="IsIntegerZoom_DetectsIntegerSteps" fullname="WorldSandbox.Tests.EditMode.PixelPerfectTests.IsIntegerZoom_DetectsIntegerSteps" methodname="IsIntegerZoom_DetectsIntegerSteps" classname="WorldSandbox.Tests.EditMode.PixelPerfectTests" runstate="Runnable" seed="95948190" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000763" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1128" name="SnapToPixel_Aligns" fullname="WorldSandbox.Tests.EditMode.PixelPerfectTests.SnapToPixel_Aligns" methodname="SnapToPixel_Aligns" classname="WorldSandbox.Tests.EditMode.PixelPerfectTests" runstate="Runnable" seed="210200859" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001452" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1130" name="ValidateSteps_ChecksAscendingIntegers" fullname="WorldSandbox.Tests.EditMode.PixelPerfectTests.ValidateSteps_ChecksAscendingIntegers" methodname="ValidateSteps_ChecksAscendingIntegers" classname="WorldSandbox.Tests.EditMode.PixelPerfectTests" runstate="Runnable" seed="1380361321" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000668" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1131" name="ResourceNodeAnchorTests" fullname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests" classname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.012456" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1136" name="ResourceNodeBand_StaysBetweenTerrainAndBuilding" fullname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests.ResourceNodeBand_StaysBetweenTerrainAndBuilding" methodname="ResourceNodeBand_StaysBetweenTerrainAndBuilding" classname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests" runstate="Runnable" seed="1313233767" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000649" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1135" name="RootDepthZ_SouthernTreesInFront" fullname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests.RootDepthZ_SouthernTreesInFront" methodname="RootDepthZ_SouthernTreesInFront" classname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests" runstate="Runnable" seed="1130261464" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001492" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1132" name="Tree1Sheet_EightSlices192x256_WithRootPivot" fullname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests.Tree1Sheet_EightSlices192x256_WithRootPivot" methodname="Tree1Sheet_EightSlices192x256_WithRootPivot" classname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests" runstate="Runnable" seed="160253168" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003286" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1133" name="Tree4Sheet_EightSlices192_WithRootPivot" fullname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests.Tree4Sheet_EightSlices192_WithRootPivot" methodname="Tree4Sheet_EightSlices192_WithRootPivot" classname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests" runstate="Runnable" seed="1079157379" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001595" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1134" name="TreeSlices_CannotContainNeighborFragments" fullname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests.TreeSlices_CannotContainNeighborFragments" methodname="TreeSlices_CannotContainNeighborFragments" classname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests" runstate="Runnable" seed="218300761" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000797" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1137" name="TryPlace_TreeRootsAtCellCenter_WithBandOrder" fullname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests.TryPlace_TreeRootsAtCellCenter_WithBandOrder" methodname="TryPlace_TreeRootsAtCellCenter_WithBandOrder" classname="WorldSandbox.Tests.EditMode.ResourceNodeAnchorTests" runstate="Runnable" seed="2044619378" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003347" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1138" name="ResponsiveLayoutTests" fullname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests" classname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.004606" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1140" name="Breakpoints_At_1279x720" fullname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests.Breakpoints_At_1279x720" methodname="Breakpoints_At_1279x720" classname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests" runstate="Runnable" seed="715360739" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000859" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1139" name="Breakpoints_At_1280x720" fullname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests.Breakpoints_At_1280x720" methodname="Breakpoints_At_1280x720" classname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests" runstate="Runnable" seed="306565692" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000506" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1141" name="Breakpoints_At_1920x1080" fullname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests.Breakpoints_At_1920x1080" methodname="Breakpoints_At_1920x1080" classname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests" runstate="Runnable" seed="479226423" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000343" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1142" name="Breakpoints_At_2560x1440" fullname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests.Breakpoints_At_2560x1440" methodname="Breakpoints_At_2560x1440" classname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests" runstate="Runnable" seed="89921575" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000244" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1143" name="TopAndBottomBars_DoNotOverlap_AtTargetResolutions" fullname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests.TopAndBottomBars_DoNotOverlap_AtTargetResolutions" methodname="TopAndBottomBars_DoNotOverlap_AtTargetResolutions" classname="WorldSandbox.Tests.EditMode.ResponsiveLayoutTests" runstate="Runnable" seed="1970129208" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000854" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1144" name="SceneLoadTests" fullname="WorldSandbox.Tests.EditMode.SceneLoadTests" classname="WorldSandbox.Tests.EditMode.SceneLoadTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.042743" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1145" name="MainScene_Loads_WithBootstrapAndCamera" fullname="WorldSandbox.Tests.EditMode.SceneLoadTests.MainScene_Loads_WithBootstrapAndCamera" methodname="MainScene_Loads_WithBootstrapAndCamera" classname="WorldSandbox.Tests.EditMode.SceneLoadTests" runstate="Runnable" seed="184948016" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.042157" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1146" name="SceneSpriteBindingTests" fullname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests" classname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.059793" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1149" name="DecorationRenderer_SpriteArrays_BindExpectedSourcesInOrder" fullname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests.DecorationRenderer_SpriteArrays_BindExpectedSourcesInOrder" methodname="DecorationRenderer_SpriteArrays_BindExpectedSourcesInOrder" classname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests" runstate="Runnable" seed="870546690" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.009057" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1147" name="DecorationRenderer_SpriteArrays_HaveExactLengths" fullname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests.DecorationRenderer_SpriteArrays_HaveExactLengths" methodname="DecorationRenderer_SpriteArrays_HaveExactLengths" classname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests" runstate="Runnable" seed="1512635814" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001339" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1152" name="FoodSprites_UseMeatIcon_NotGoldOrWood" fullname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests.FoodSprites_UseMeatIcon_NotGoldOrWood" methodname="FoodSprites_UseMeatIcon_NotGoldOrWood" classname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests" runstate="Runnable" seed="1627153344" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000868" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1151" name="GoldSprites_ExcludeHighlightVariants" fullname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests.GoldSprites_ExcludeHighlightVariants" methodname="GoldSprites_ExcludeHighlightVariants" classname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests" runstate="Runnable" seed="203111210" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001708" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1150" name="ResourceNodeRenderer_SpriteArrays_BindExpectedSourcesInOrder" fullname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests.ResourceNodeRenderer_SpriteArrays_BindExpectedSourcesInOrder" methodname="ResourceNodeRenderer_SpriteArrays_BindExpectedSourcesInOrder" classname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests" runstate="Runnable" seed="1282269951" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001436" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1148" name="ResourceNodeRenderer_SpriteArrays_HaveExactLengths" fullname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests.ResourceNodeRenderer_SpriteArrays_HaveExactLengths" methodname="ResourceNodeRenderer_SpriteArrays_HaveExactLengths" classname="WorldSandbox.Tests.EditMode.SceneSpriteBindingTests" runstate="Runnable" seed="2062670905" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000887" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1153" name="ScreenWorldMathTests" fullname="WorldSandbox.Tests.EditMode.ScreenWorldMathTests" classname="WorldSandbox.Tests.EditMode.ScreenWorldMathTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.005930" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1154" name="ScreenToTile_RoundTrip" fullname="WorldSandbox.Tests.EditMode.ScreenWorldMathTests.ScreenToTile_RoundTrip" methodname="ScreenToTile_RoundTrip" classname="WorldSandbox.Tests.EditMode.ScreenWorldMathTests" runstate="Runnable" seed="1945643097" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003167" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1155" name="SimClockTests" fullname="WorldSandbox.Tests.EditMode.SimClockTests" classname="WorldSandbox.Tests.EditMode.SimClockTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.005059" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1156" name="FrameRateIndependent" fullname="WorldSandbox.Tests.EditMode.SimClockTests.FrameRateIndependent" methodname="FrameRateIndependent" classname="WorldSandbox.Tests.EditMode.SimClockTests" runstate="Runnable" seed="1229620697" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001000" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1161" name="InvalidConfig_FallsBack_NoThrow" fullname="WorldSandbox.Tests.EditMode.SimClockTests.InvalidConfig_FallsBack_NoThrow" methodname="InvalidConfig_FallsBack_NoThrow" classname="WorldSandbox.Tests.EditMode.SimClockTests" runstate="Runnable" seed="448913223" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000631" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1159" name="MaxTicksClamp" fullname="WorldSandbox.Tests.EditMode.SimClockTests.MaxTicksClamp" methodname="MaxTicksClamp" classname="WorldSandbox.Tests.EditMode.SimClockTests" runstate="Runnable" seed="322356933" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000553" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1158" name="Pause_NoTicks" fullname="WorldSandbox.Tests.EditMode.SimClockTests.Pause_NoTicks" methodname="Pause_NoTicks" classname="WorldSandbox.Tests.EditMode.SimClockTests" runstate="Runnable" seed="482531017" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000343" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1157" name="SpeedMultiplier_1x_3x" fullname="WorldSandbox.Tests.EditMode.SimClockTests.SpeedMultiplier_1x_3x" methodname="SpeedMultiplier_1x_3x" classname="WorldSandbox.Tests.EditMode.SimClockTests" runstate="Runnable" seed="111269923" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000196" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1160" name="SwitchSpeed_NoReset" fullname="WorldSandbox.Tests.EditMode.SimClockTests.SwitchSpeed_NoReset" methodname="SwitchSpeed_NoReset" classname="WorldSandbox.Tests.EditMode.SimClockTests" runstate="Runnable" seed="537337810" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000311" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1162" name="SimulationFaultInterruptTests" fullname="WorldSandbox.Tests.EditMode.SimulationFaultInterruptTests" classname="WorldSandbox.Tests.EditMode.SimulationFaultInterruptTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.004379" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1163" name="FaultDuringMultiTickFrame_DispatchesExactlyOneTick" fullname="WorldSandbox.Tests.EditMode.SimulationFaultInterruptTests.FaultDuringMultiTickFrame_DispatchesExactlyOneTick" methodname="FaultDuringMultiTickFrame_DispatchesExactlyOneTick" classname="WorldSandbox.Tests.EditMode.SimulationFaultInterruptTests" runstate="Runnable" seed="1818146409" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001901" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1164" name="FaultFrame_NoTimeBanked_PausedFramesIdle_ResumeAtNormalCadence" fullname="WorldSandbox.Tests.EditMode.SimulationFaultInterruptTests.FaultFrame_NoTimeBanked_PausedFramesIdle_ResumeAtNormalCadence" methodname="FaultFrame_NoTimeBanked_PausedFramesIdle_ResumeAtNormalCadence" classname="WorldSandbox.Tests.EditMode.SimulationFaultInterruptTests" runstate="Runnable" seed="1271309194" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000791" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1165" name="NormalMultiTickFrame_LastFrameTicksMatchesDispatched" fullname="WorldSandbox.Tests.EditMode.SimulationFaultInterruptTests.NormalMultiTickFrame_LastFrameTicksMatchesDispatched" methodname="NormalMultiTickFrame_LastFrameTicksMatchesDispatched" classname="WorldSandbox.Tests.EditMode.SimulationFaultInterruptTests" runstate="Runnable" seed="101733697" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000688" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1166" name="SimulationLongRunTests" fullname="WorldSandbox.Tests.EditMode.SimulationLongRunTests" classname="WorldSandbox.Tests.EditMode.SimulationLongRunTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.042061" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1167" name="LongRun_10000Ticks_MonotonicAndConsistent" fullname="WorldSandbox.Tests.EditMode.SimulationLongRunTests.LongRun_10000Ticks_MonotonicAndConsistent" methodname="LongRun_10000Ticks_MonotonicAndConsistent" classname="WorldSandbox.Tests.EditMode.SimulationLongRunTests" runstate="Runnable" seed="93690215" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.041178" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1168" name="SimulationOrderTests" fullname="WorldSandbox.Tests.EditMode.SimulationOrderTests" classname="WorldSandbox.Tests.EditMode.SimulationOrderTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001965" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1169" name="OrdersAreDistinctAndAscending" fullname="WorldSandbox.Tests.EditMode.SimulationOrderTests.OrdersAreDistinctAndAscending" methodname="OrdersAreDistinctAndAscending" classname="WorldSandbox.Tests.EditMode.SimulationOrderTests" runstate="Runnable" seed="884948585" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000438" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1170" name="SimulationRunnerTests" fullname="WorldSandbox.Tests.EditMode.SimulationRunnerTests" classname="WorldSandbox.Tests.EditMode.SimulationRunnerTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.004920" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1172" name="CreatureBeforeSettlement" fullname="WorldSandbox.Tests.EditMode.SimulationRunnerTests.CreatureBeforeSettlement" methodname="CreatureBeforeSettlement" classname="WorldSandbox.Tests.EditMode.SimulationRunnerTests" runstate="Runnable" seed="1680123562" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000592" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1173" name="MultiTickFullSteps" fullname="WorldSandbox.Tests.EditMode.SimulationRunnerTests.MultiTickFullSteps" methodname="MultiTickFullSteps" classname="WorldSandbox.Tests.EditMode.SimulationRunnerTests" runstate="Runnable" seed="1150836443" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000879" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1171" name="OrderAscending" fullname="WorldSandbox.Tests.EditMode.SimulationRunnerTests.OrderAscending" methodname="OrderAscending" classname="WorldSandbox.Tests.EditMode.SimulationRunnerTests" runstate="Runnable" seed="437985928" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000458" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1174" name="RealSystems_RunInDeclaredOrder_SnapshotLast" fullname="WorldSandbox.Tests.EditMode.SimulationRunnerTests.RealSystems_RunInDeclaredOrder_SnapshotLast" methodname="RealSystems_RunInDeclaredOrder_SnapshotLast" classname="WorldSandbox.Tests.EditMode.SimulationRunnerTests" runstate="Runnable" seed="1798741890" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000555" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1176" name="Register_InvalidInputs_Ignored_EmptyRunnerSafe" fullname="WorldSandbox.Tests.EditMode.SimulationRunnerTests.Register_InvalidInputs_Ignored_EmptyRunnerSafe" methodname="Register_InvalidInputs_Ignored_EmptyRunnerSafe" classname="WorldSandbox.Tests.EditMode.SimulationRunnerTests" runstate="Runnable" seed="1192630006" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000403" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1175" name="SystemFault_StopsTick_PausesClock_BlocksUntilCleared" fullname="WorldSandbox.Tests.EditMode.SimulationRunnerTests.SystemFault_StopsTick_PausesClock_BlocksUntilCleared" methodname="SystemFault_StopsTick_PausesClock_BlocksUntilCleared" classname="WorldSandbox.Tests.EditMode.SimulationRunnerTests" runstate="Runnable" seed="248052037" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000737" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1177" name="SnapshotTests" fullname="WorldSandbox.Tests.EditMode.SnapshotTests" classname="WorldSandbox.Tests.EditMode.SnapshotTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002654" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1178" name="GeneratedAtTickEnd" fullname="WorldSandbox.Tests.EditMode.SnapshotTests.GeneratedAtTickEnd" methodname="GeneratedAtTickEnd" classname="WorldSandbox.Tests.EditMode.SnapshotTests" runstate="Runnable" seed="371562898" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001479" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1179" name="NullClock_LazyWithError" fullname="WorldSandbox.Tests.EditMode.SnapshotTests.NullClock_LazyWithError" methodname="NullClock_LazyWithError" classname="WorldSandbox.Tests.EditMode.SnapshotTests" runstate="Runnable" seed="274947151" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000248" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1180" name="SortingOrdersTests" fullname="WorldSandbox.Tests.EditMode.SortingOrdersTests" classname="WorldSandbox.Tests.EditMode.SortingOrdersTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001602" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1181" name="MatchSpec" fullname="WorldSandbox.Tests.EditMode.SortingOrdersTests.MatchSpec" methodname="MatchSpec" classname="WorldSandbox.Tests.EditMode.SortingOrdersTests" runstate="Runnable" seed="1610837610" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.000685" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1182" name="TerrainCompositionTests" fullname="WorldSandbox.Tests.EditMode.TerrainCompositionTests" classname="WorldSandbox.Tests.EditMode.TerrainCompositionTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.008866" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1185" name="CliffShoreStep_FormsContiguousSegments_Deterministic" fullname="WorldSandbox.Tests.EditMode.TerrainCompositionTests.CliffShoreStep_FormsContiguousSegments_Deterministic" methodname="CliffShoreStep_FormsContiguousSegments_Deterministic" classname="WorldSandbox.Tests.EditMode.TerrainCompositionTests" runstate="Runnable" seed="1828226814" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002291" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1183" name="RuleTiles_GrassAndForest_UseCanonicalNineSlot" fullname="WorldSandbox.Tests.EditMode.TerrainCompositionTests.RuleTiles_GrassAndForest_UseCanonicalNineSlot" methodname="RuleTiles_GrassAndForest_UseCanonicalNineSlot" classname="WorldSandbox.Tests.EditMode.TerrainCompositionTests" runstate="Runnable" seed="256533956" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002780" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1184" name="WaterFoam_Animation_FullMiddleRowSequence" fullname="WorldSandbox.Tests.EditMode.TerrainCompositionTests.WaterFoam_Animation_FullMiddleRowSequence" methodname="WaterFoam_Animation_FullMiddleRowSequence" classname="WorldSandbox.Tests.EditMode.TerrainCompositionTests" runstate="Runnable" seed="286247484" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.002357" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1186" name="TerrainFoamPlacementTests" fullname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" classname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:40Z" duration="0.196394" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1194" name="FoamPhase_Deterministic_AndInRange" fullname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests.FoamPhase_Deterministic_AndInRange" methodname="FoamPhase_Deterministic_AndInRange" classname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" runstate="Runnable" seed="1510108699" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.003831" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1192" name="NeedsFoam_CliffCell_False" fullname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests.NeedsFoam_CliffCell_False" methodname="NeedsFoam_CliffCell_False" classname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" runstate="Runnable" seed="1972600138" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001805" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1190" name="NeedsFoam_InlandGrass_False" fullname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests.NeedsFoam_InlandGrass_False" methodname="NeedsFoam_InlandGrass_False" classname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" runstate="Runnable" seed="1730219971" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001342" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1189" name="NeedsFoam_NarrowStrip_True" fullname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests.NeedsFoam_NarrowStrip_True" methodname="NeedsFoam_NarrowStrip_True" classname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" runstate="Runnable" seed="1130834546" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001460" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1188" name="NeedsFoam_ShoreLandCell_True" fullname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests.NeedsFoam_ShoreLandCell_True" methodname="NeedsFoam_ShoreLandCell_True" classname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" runstate="Runnable" seed="1613367990" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:39Z" duration="0.001119" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1191" name="NeedsFoam_WaterCell_Never" fullname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests.NeedsFoam_WaterCell_Never" methodname="NeedsFoam_WaterCell_Never" classname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" runstate="Runnable" seed="1913094129" result="Passed" start-time="2026-10-15 10:10:39Z" end-time="2026-10-15 10:10:40Z" duration="0.172463" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1187" name="PhaseAssets_FourTilesWithDistinctStartFrames" fullname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests.PhaseAssets_FourTilesWithDistinctStartFrames" methodname="PhaseAssets_FourTilesWithDistinctStartFrames" classname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" runstate="Runnable" seed="729970715" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.003184" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1193" name="RebuildAll_ShoreLandOnly_AndDeterministic" fullname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests.RebuildAll_ShoreLandOnly_AndDeterministic" methodname="RebuildAll_ShoreLandOnly_AndDeterministic" classname="WorldSandbox.Tests.EditMode.TerrainFoamPlacementTests" runstate="Runnable" seed="1703675112" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.009338" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1195" name="TerrainPaletteAndUiLibraryTests" fullname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests" classname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.052760" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1199" name="PaletteLibrary_GrassPaletteFallback_ToDefault" fullname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests.PaletteLibrary_GrassPaletteFallback_ToDefault" methodname="PaletteLibrary_GrassPaletteFallback_ToDefault" classname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests" runstate="Runnable" seed="2074593845" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.003282" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1198" name="PaletteTiles_RuleStructureMatchesSource_SpritesRemapped" fullname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests.PaletteTiles_RuleStructureMatchesSource_SpritesRemapped" methodname="PaletteTiles_RuleStructureMatchesSource_SpritesRemapped" classname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests" runstate="Runnable" seed="221192278" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.002347" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1197" name="UiCursorMap_MapsFourGroups_NoneNegative" fullname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests.UiCursorMap_MapsFourGroups_NoneNegative" methodname="UiCursorMap_MapsFourGroups_NoneNegative" classname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests" runstate="Runnable" seed="1733609484" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000349" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1196" name="UiLibrary_ToolIcons_MapS4Semantics" fullname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests.UiLibrary_ToolIcons_MapS4Semantics" methodname="UiLibrary_ToolIcons_MapS4Semantics" classname="WorldSandbox.Tests.EditMode.TerrainPaletteAndUiLibraryTests" runstate="Runnable" seed="1968846538" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.044382" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1200" name="TerrainPlacementRuleTests" fullname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests" classname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.020806" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1207" name="DecorationFamily_PivotsAndPlacement" fullname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests.DecorationFamily_PivotsAndPlacement" methodname="DecorationFamily_PivotsAndPlacement" classname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests" runstate="Runnable" seed="440728969" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.004956" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1201" name="FoamFrames_SixteenCrossTileCanvases" fullname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests.FoamFrames_SixteenCrossTileCanvases" methodname="FoamFrames_SixteenCrossTileCanvases" classname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests" runstate="Runnable" seed="862683597" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001158" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1205" name="LayerChain_ElevatedBetweenShadowAndResource" fullname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests.LayerChain_ElevatedBetweenShadowAndResource" methodname="LayerChain_ElevatedBetweenShadowAndResource" classname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests" runstate="Runnable" seed="1284709834" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000718" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1202" name="ShadowSprite_CrossTileCanvas_CenterPivot" fullname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests.ShadowSprite_CrossTileCanvas_CenterPivot" methodname="ShadowSprite_CrossTileCanvas_CenterPivot" classname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests" runstate="Runnable" seed="512217574" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000451" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1204" name="StumpSprites_PivotAtArtCenter" fullname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests.StumpSprites_PivotAtArtCenter" methodname="StumpSprites_PivotAtArtCenter" classname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests" runstate="Runnable" seed="854636842" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001358" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1206" name="TerrainLayers_CliffOnElevated_GrassOnFlat_RefreshConsistent" fullname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests.TerrainLayers_CliffOnElevated_GrassOnFlat_RefreshConsistent" methodname="TerrainLayers_CliffOnElevated_GrassOnFlat_RefreshConsistent" classname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests" runstate="Runnable" seed="1336980539" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.008207" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+              <test-case id="1203" name="TreeSprites_KeepRootPivots" fullname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests.TreeSprites_KeepRootPivots" methodname="TreeSprites_KeepRootPivots" classname="WorldSandbox.Tests.EditMode.TerrainPlacementRuleTests" runstate="Runnable" seed="1208608010" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001132" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1208" name="TerrainRendererTests" fullname="WorldSandbox.Tests.EditMode.TerrainRendererTests" classname="WorldSandbox.Tests.EditMode.TerrainRendererTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.006825" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1209" name="T_04_10_A_CollectAffected_CellCounts" fullname="WorldSandbox.Tests.EditMode.TerrainRendererTests.T_04_10_A_CollectAffected_CellCounts" methodname="T_04_10_A_CollectAffected_CellCounts" classname="WorldSandbox.Tests.EditMode.TerrainRendererTests" runstate="Runnable" seed="2020185736" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000385" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1210" name="T_04_10_B_Renderer_TypeContract_ViaReflection" fullname="WorldSandbox.Tests.EditMode.TerrainRendererTests.T_04_10_B_Renderer_TypeContract_ViaReflection" methodname="T_04_10_B_Renderer_TypeContract_ViaReflection" classname="WorldSandbox.Tests.EditMode.TerrainRendererTests" runstate="Runnable" seed="1528176681" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001220" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1211" name="T_04_10_C_RebuildAndRefresh_RestoresClearedTiles" fullname="WorldSandbox.Tests.EditMode.TerrainRendererTests.T_04_10_C_RebuildAndRefresh_RestoresClearedTiles" methodname="T_04_10_C_RebuildAndRefresh_RestoresClearedTiles" classname="WorldSandbox.Tests.EditMode.TerrainRendererTests" runstate="Runnable" seed="1249867005" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.003458" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（M-01），对应地形将以空白呈现。请在场景中为 TerrainTilemapRenderer 赋值 RT_Grass/RT_Forest/RT_Cliff/WaterBackground（水格不铺地形砖，无需 RT_Water）。
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1212" name="TerrainStoreTests" fullname="WorldSandbox.Tests.EditMode.TerrainStoreTests" classname="WorldSandbox.Tests.EditMode.TerrainStoreTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.016177" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1213" name="T_04_01_InternalIndex_MatchesMapIndex" fullname="WorldSandbox.Tests.EditMode.TerrainStoreTests.T_04_01_InternalIndex_MatchesMapIndex" methodname="T_04_01_InternalIndex_MatchesMapIndex" classname="WorldSandbox.Tests.EditMode.TerrainStoreTests" runstate="Runnable" seed="1458710760" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.014086" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1214" name="T_04_02_OutOfBounds_GetReturnsNone_SetReturnsFalse" fullname="WorldSandbox.Tests.EditMode.TerrainStoreTests.T_04_02_OutOfBounds_GetReturnsNone_SetReturnsFalse" methodname="T_04_02_OutOfBounds_GetReturnsNone_SetReturnsFalse" classname="WorldSandbox.Tests.EditMode.TerrainStoreTests" runstate="Runnable" seed="541380874" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000632" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1215" name="TileAssetReferenceTests" fullname="WorldSandbox.Tests.EditMode.TileAssetReferenceTests" classname="WorldSandbox.Tests.EditMode.TileAssetReferenceTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.005633" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1216" name="TileAssets_LoadAsTileBase" fullname="WorldSandbox.Tests.EditMode.TileAssetReferenceTests.TileAssets_LoadAsTileBase" methodname="TileAssets_LoadAsTileBase" classname="WorldSandbox.Tests.EditMode.TileAssetReferenceTests" runstate="Runnable" seed="686204603" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001001" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1217" name="TileAssets_SpriteReferences_AreNonNullAndResolvable" fullname="WorldSandbox.Tests.EditMode.TileAssetReferenceTests.TileAssets_SpriteReferences_AreNonNullAndResolvable" methodname="TileAssets_SpriteReferences_AreNonNullAndResolvable" classname="WorldSandbox.Tests.EditMode.TileAssetReferenceTests" runstate="Runnable" seed="1609879390" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.003756" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1218" name="TileMathTests" fullname="WorldSandbox.Tests.EditMode.TileMathTests" classname="WorldSandbox.Tests.EditMode.TileMathTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.081867" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1219" name="TileToWorld_RoundTrip" fullname="WorldSandbox.Tests.EditMode.TileMathTests.TileToWorld_RoundTrip" methodname="TileToWorld_RoundTrip" classname="WorldSandbox.Tests.EditMode.TileMathTests" runstate="Runnable" seed="1062311408" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.079913" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1220" name="WorldToTile_Floor" fullname="WorldSandbox.Tests.EditMode.TileMathTests.WorldToTile_Floor" methodname="WorldToTile_Floor" classname="WorldSandbox.Tests.EditMode.TileMathTests" runstate="Runnable" seed="1899087612" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001059" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1221" name="UiGuardTests" fullname="WorldSandbox.Tests.EditMode.UiGuardTests" classname="WorldSandbox.Tests.EditMode.UiGuardTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.006800" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1222" name="OverUi_NoPan" fullname="WorldSandbox.Tests.EditMode.UiGuardTests.OverUi_NoPan" methodname="OverUi_NoPan" classname="WorldSandbox.Tests.EditMode.UiGuardTests" runstate="Runnable" seed="156538645" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.002985" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1224" name="PressRelease_MapPress_UiRelease_KeepsOperating" fullname="WorldSandbox.Tests.EditMode.UiGuardTests.PressRelease_MapPress_UiRelease_KeepsOperating" methodname="PressRelease_MapPress_UiRelease_KeepsOperating" classname="WorldSandbox.Tests.EditMode.UiGuardTests" runstate="Runnable" seed="2085802281" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000837" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1223" name="PressRelease_UiPress_MapRelease_NoMapOperation" fullname="WorldSandbox.Tests.EditMode.UiGuardTests.PressRelease_UiPress_MapRelease_NoMapOperation" methodname="PressRelease_UiPress_MapRelease_NoMapOperation" classname="WorldSandbox.Tests.EditMode.UiGuardTests" runstate="Runnable" seed="1561797867" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000737" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1225" name="Scroll_BlockedOnlyWhilePointerOverUi" fullname="WorldSandbox.Tests.EditMode.UiGuardTests.Scroll_BlockedOnlyWhilePointerOverUi" methodname="Scroll_BlockedOnlyWhilePointerOverUi" classname="WorldSandbox.Tests.EditMode.UiGuardTests" runstate="Runnable" seed="1242872254" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000834" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1226" name="UiToolCatalogContractTests" fullname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests" classname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.016529" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1227" name="Catalog_HasTenEntries_StableOrderNoDuplicates" fullname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests.Catalog_HasTenEntries_StableOrderNoDuplicates" methodname="Catalog_HasTenEntries_StableOrderNoDuplicates" classname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests" runstate="Runnable" seed="888083095" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.003445" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1233" name="CreatureAllTypeToolCombos_CodecDomainComplete" fullname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests.CreatureAllTypeToolCombos_CodecDomainComplete" methodname="CreatureAllTypeToolCombos_CodecDomainComplete" classname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests" runstate="Runnable" seed="412751097" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001058" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1230" name="CreatureEntries_DecodeToNameKeyTarget_AndRoundTrip" fullname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests.CreatureEntries_DecodeToNameKeyTarget_AndRoundTrip" methodname="CreatureEntries_DecodeToNameKeyTarget_AndRoundTrip" classname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests" runstate="Runnable" seed="1251293557" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001994" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1231" name="RemoveEntry_FixedVariant_IsDirectSelect" fullname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests.RemoveEntry_FixedVariant_IsDirectSelect" methodname="RemoveEntry_FixedVariant_IsDirectSelect" classname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests" runstate="Runnable" seed="910811220" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000511" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1229" name="ResourceEntries_VariantIsResourceType_MatchesNameKey" fullname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests.ResourceEntries_VariantIsResourceType_MatchesNameKey" methodname="ResourceEntries_VariantIsResourceType_MatchesNameKey" classname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests" runstate="Runnable" seed="1665350788" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001595" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1232" name="SelectionState_AcceptsCodecCreatureVariants_RejectsInvalid" fullname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests.SelectionState_AcceptsCodecCreatureVariants_RejectsInvalid" methodname="SelectionState_AcceptsCodecCreatureVariants_RejectsInvalid" classname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests" runstate="Runnable" seed="361292" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000646" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1228" name="TerrainEntries_VariantIsPaintableTerrain_MatchesNameKey" fullname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests.TerrainEntries_VariantIsPaintableTerrain_MatchesNameKey" methodname="TerrainEntries_VariantIsPaintableTerrain_MatchesNameKey" classname="WorldSandbox.Tests.EditMode.UiToolCatalogContractTests" runstate="Runnable" seed="210146297" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001475" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1234" name="UiToolStateTests" fullname="WorldSandbox.Tests.EditMode.UiToolStateTests" classname="WorldSandbox.Tests.EditMode.UiToolStateTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.006760" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1235" name="Catalog_TenEntries_OrderAndGroups" fullname="WorldSandbox.Tests.EditMode.UiToolStateTests.Catalog_TenEntries_OrderAndGroups" methodname="Catalog_TenEntries_OrderAndGroups" classname="WorldSandbox.Tests.EditMode.UiToolStateTests" runstate="Runnable" seed="2121520977" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001565" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1236" name="SelectionState_FourSemantics" fullname="WorldSandbox.Tests.EditMode.UiToolStateTests.SelectionState_FourSemantics" methodname="SelectionState_FourSemantics" classname="WorldSandbox.Tests.EditMode.UiToolStateTests" runstate="Runnable" seed="802197749" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.004382" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1237" name="UiVariantCodecTests" fullname="WorldSandbox.Tests.EditMode.UiVariantCodecTests" classname="WorldSandbox.Tests.EditMode.UiVariantCodecTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.004032" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1238" name="EncodeDecode_RoundTrip_AllTypesAndTools" fullname="WorldSandbox.Tests.EditMode.UiVariantCodecTests.EncodeDecode_RoundTrip_AllTypesAndTools" methodname="EncodeDecode_RoundTrip_AllTypesAndTools" classname="WorldSandbox.Tests.EditMode.UiVariantCodecTests" runstate="Runnable" seed="1039344102" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000570" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1239" name="Formula_IsStable_TypeTimes8PlusTool" fullname="WorldSandbox.Tests.EditMode.UiVariantCodecTests.Formula_IsStable_TypeTimes8PlusTool" methodname="Formula_IsStable_TypeTimes8PlusTool" classname="WorldSandbox.Tests.EditMode.UiVariantCodecTests" runstate="Runnable" seed="2147430664" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000387" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1241" name="InvalidVariants_Rejected" fullname="WorldSandbox.Tests.EditMode.UiVariantCodecTests.InvalidVariants_Rejected" methodname="InvalidVariants_Rejected" classname="WorldSandbox.Tests.EditMode.UiVariantCodecTests" runstate="Runnable" seed="2060506994" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001033" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1240" name="Selection_TryDecode_CreatureGroupOnly" fullname="WorldSandbox.Tests.EditMode.UiVariantCodecTests.Selection_TryDecode_CreatureGroupOnly" methodname="Selection_TryDecode_CreatureGroupOnly" classname="WorldSandbox.Tests.EditMode.UiVariantCodecTests" runstate="Runnable" seed="1614834749" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000542" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1242" name="WorldGenConfigTests" fullname="WorldSandbox.Tests.EditMode.WorldGenConfigTests" classname="WorldSandbox.Tests.EditMode.WorldGenConfigTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.003650" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1245" name="Defaults_FieldTypes_AreIntRange_OrScalar" fullname="WorldSandbox.Tests.EditMode.WorldGenConfigTests.Defaults_FieldTypes_AreIntRange_OrScalar" methodname="Defaults_FieldTypes_AreIntRange_OrScalar" classname="WorldSandbox.Tests.EditMode.WorldGenConfigTests" runstate="Runnable" seed="287850283" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000650" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1244" name="Defaults_Match_Section13_1" fullname="WorldSandbox.Tests.EditMode.WorldGenConfigTests.Defaults_Match_Section13_1" methodname="Defaults_Match_Section13_1" classname="WorldSandbox.Tests.EditMode.WorldGenConfigTests" runstate="Runnable" seed="1411220612" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000586" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1243" name="T_04_11_PublicFields_ExactlyMatch_Section13_1_List" fullname="WorldSandbox.Tests.EditMode.WorldGenConfigTests.T_04_11_PublicFields_ExactlyMatch_Section13_1_List" methodname="T_04_11_PublicFields_ExactlyMatch_Section13_1_List" classname="WorldSandbox.Tests.EditMode.WorldGenConfigTests" runstate="Runnable" seed="1428635884" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001440" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1246" name="WorldGeneratorTests" fullname="WorldSandbox.Tests.EditMode.WorldGeneratorTests" classname="WorldSandbox.Tests.EditMode.WorldGeneratorTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.254347" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1247" name="T_04_03_SameSeed_ProducesIdenticalResult" fullname="WorldSandbox.Tests.EditMode.WorldGeneratorTests.T_04_03_SameSeed_ProducesIdenticalResult" methodname="T_04_03_SameSeed_ProducesIdenticalResult" classname="WorldSandbox.Tests.EditMode.WorldGeneratorTests" runstate="Runnable" seed="1550335107" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.003780" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1248" name="T_04_04_100Seeds_WaterRatioWithinRange" fullname="WorldSandbox.Tests.EditMode.WorldGeneratorTests.T_04_04_100Seeds_WaterRatioWithinRange" methodname="T_04_04_100Seeds_WaterRatioWithinRange" classname="WorldSandbox.Tests.EditMode.WorldGeneratorTests" runstate="Runnable" seed="1775524941" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.101323" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1249" name="T_04_05_100Seeds_LargestLandBlobAtLeast25Percent" fullname="WorldSandbox.Tests.EditMode.WorldGeneratorTests.T_04_05_100Seeds_LargestLandBlobAtLeast25Percent" methodname="T_04_05_100Seeds_LargestLandBlobAtLeast25Percent" classname="WorldSandbox.Tests.EditMode.WorldGeneratorTests" runstate="Runnable" seed="1402368156" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.101794" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1250" name="T_04_06_EdgeCells_AreWater_AndNotWalkable" fullname="WorldSandbox.Tests.EditMode.WorldGeneratorTests.T_04_06_EdgeCells_AreWater_AndNotWalkable" methodname="T_04_06_EdgeCells_AreWater_AndNotWalkable" classname="WorldSandbox.Tests.EditMode.WorldGeneratorTests" runstate="Runnable" seed="569830623" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.002625" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1251" name="T_04_07_NoNone_NoSand" fullname="WorldSandbox.Tests.EditMode.WorldGeneratorTests.T_04_07_NoNone_NoSand" methodname="T_04_07_NoNone_NoSand" classname="WorldSandbox.Tests.EditMode.WorldGeneratorTests" runstate="Runnable" seed="1858339403" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.041516" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1252" name="T_04_08_DecorationAndNodeCounts_WithinConfiguredRanges" fullname="WorldSandbox.Tests.EditMode.WorldGeneratorTests.T_04_08_DecorationAndNodeCounts_WithinConfiguredRanges" methodname="T_04_08_DecorationAndNodeCounts_WithinConfiguredRanges" classname="WorldSandbox.Tests.EditMode.WorldGeneratorTests" runstate="Runnable" seed="1566032317" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001781" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1253" name="ZoomControllerTests" fullname="WorldSandbox.Tests.EditMode.ZoomControllerTests" classname="WorldSandbox.Tests.EditMode.ZoomControllerTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.007841" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1254" name="AnchorKeepsTile" fullname="WorldSandbox.Tests.EditMode.ZoomControllerTests.AnchorKeepsTile" methodname="AnchorKeepsTile" classname="WorldSandbox.Tests.EditMode.ZoomControllerTests" runstate="Runnable" seed="1069159832" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.002596" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1255" name="ClampSilent" fullname="WorldSandbox.Tests.EditMode.ZoomControllerTests.ClampSilent" methodname="ClampSilent" classname="WorldSandbox.Tests.EditMode.ZoomControllerTests" runstate="Runnable" seed="1198616892" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000940" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1256" name="DiscreteSteps" fullname="WorldSandbox.Tests.EditMode.ZoomControllerTests.DiscreteSteps" methodname="DiscreteSteps" classname="WorldSandbox.Tests.EditMode.ZoomControllerTests" runstate="Runnable" seed="816295451" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.000631" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1257" name="InvalidSteps_FallbackSingleStep" fullname="WorldSandbox.Tests.EditMode.ZoomControllerTests.InvalidSteps_FallbackSingleStep" methodname="InvalidSteps_FallbackSingleStep" classname="WorldSandbox.Tests.EditMode.ZoomControllerTests" runstate="Runnable" seed="1873167788" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.002097" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Input] CameraZoomSteps 为空或非法（EXC-02）→ 缩放回退为单一档位 16（不阻塞运行；该值 `待标定`，D-050）。
+[WorldSandbox][Input] CameraZoomSteps 为空或非法（EXC-02）→ 缩放回退为单一档位 16（不阻塞运行；该值 `待标定`，D-050）。
+
+IgnoreFailingMessages:false
+
+IgnoreFailingMessages:false
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1258" name="ZoomPanTests" fullname="WorldSandbox.Tests.EditMode.ZoomPanTests" classname="WorldSandbox.Tests.EditMode.ZoomPanTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.003199" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1259" name="ClampAfterZoom" fullname="WorldSandbox.Tests.EditMode.ZoomPanTests.ClampAfterZoom" methodname="ClampAfterZoom" classname="WorldSandbox.Tests.EditMode.ZoomPanTests" runstate="Runnable" seed="1966647170" result="Passed" start-time="2026-10-15 10:10:40Z" end-time="2026-10-15 10:10:40Z" duration="0.001751" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

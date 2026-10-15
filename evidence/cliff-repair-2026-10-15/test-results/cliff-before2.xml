@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="6" result="Passed" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 09:53:17Z" end-time="2026-10-15 09:53:21Z" duration="4.3687584">
+  <test-suite type="TestSuite" id="1089" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="55" result="Passed" start-time="2026-10-15 09:53:17Z" end-time="2026-10-15 09:53:21Z" duration="4.368758" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1174" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="55" result="Passed" start-time="2026-10-15 09:53:17Z" end-time="2026-10-15 09:53:21Z" duration="4.357672" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="31100" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1175" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="55" result="Passed" start-time="2026-10-15 09:53:17Z" end-time="2026-10-15 09:53:21Z" duration="4.354616" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1176" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="55" result="Passed" start-time="2026-10-15 09:53:17Z" end-time="2026-10-15 09:53:21Z" duration="4.350644" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1177" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="55" result="Passed" start-time="2026-10-15 09:53:17Z" end-time="2026-10-15 09:53:21Z" duration="4.344962" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1106" name="CliffAuditCaptureTests" fullname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests" classname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-15 09:53:17Z" end-time="2026-10-15 09:53:21Z" duration="4.339411" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1107" name="C1_HorizontalRun_Closeup" fullname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests.C1_HorizontalRun_Closeup" methodname="C1_HorizontalRun_Closeup" classname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests" runstate="Runnable" seed="470307747" result="Passed" start-time="2026-10-15 09:53:17Z" end-time="2026-10-15 09:53:18Z" duration="1.089559" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] 水平段中心=(5,5)
+[CLIFF] 水平段中心=(5,5)
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+]]></output>
+              </test-case>
+              <test-case id="1108" name="C2_VerticalRun_Closeup" fullname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests.C2_VerticalRun_Closeup" methodname="C2_VerticalRun_Closeup" classname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests" runstate="Runnable" seed="1122172842" result="Passed" start-time="2026-10-15 09:53:18Z" end-time="2026-10-15 09:53:18Z" duration="0.657233" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] 垂直段中心=(55,10)
+[CLIFF] 垂直段中心=(55,10)
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+]]></output>
+              </test-case>
+              <test-case id="1109" name="C3_Corner_Closeup" fullname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests.C3_Corner_Closeup" methodname="C3_Corner_Closeup" classname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests" runstate="Runnable" seed="1554811190" result="Passed" start-time="2026-10-15 09:53:18Z" end-time="2026-10-15 09:53:19Z" duration="0.600729" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] 转角格=(123,18)
+[CLIFF] 转角格=(123,18)
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+]]></output>
+              </test-case>
+              <test-case id="1110" name="C4_WaterFoot_Closeup" fullname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests.C4_WaterFoot_Closeup" methodname="C4_WaterFoot_Closeup" classname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests" runstate="Runnable" seed="1753824676" result="Passed" start-time="2026-10-15 09:53:19Z" end-time="2026-10-15 09:53:20Z" duration="0.634757" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] 水脚格=(67,4)
+[CLIFF] 水脚格=(67,4)
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+]]></output>
+              </test-case>
+              <test-case id="1111" name="C5_LandFoot_Closeup" fullname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests.C5_LandFoot_Closeup" methodname="C5_LandFoot_Closeup" classname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests" runstate="Runnable" seed="270729726" result="Passed" start-time="2026-10-15 09:53:20Z" end-time="2026-10-15 09:53:20Z" duration="0.624665" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] 陆脚格=(68,4)
+[CLIFF] 陆脚格=(68,4)
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+]]></output>
+              </test-case>
+              <test-case id="1112" name="C6_Overview" fullname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests.C6_Overview" methodname="C6_Overview" classname="WorldSandbox.Tests.PlayMode.CliffAuditCaptureTests" runstate="Runnable" seed="463332241" result="Passed" start-time="2026-10-15 09:53:20Z" end-time="2026-10-15 09:53:21Z" duration="0.711062" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=241 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+[CLIFF] mode=legacy(RT_Cliff); Screen=1280x720
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

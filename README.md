@@ -4,6 +4,17 @@
 
 > 本仓库**只包含验证证据材料**，不包含任何游戏源码、Scene、Prefab、ScriptableObject、Packages 或 ProjectSettings。主游戏仓库保持私有，其内容不在本仓库中。
 
+## 批次索引
+
+本仓库按批次组织证据，各批次独立完整、互不修改：
+
+| 批次 | 内容 | 目录 |
+|---|---|---|
+| ① 独立视觉复验（制作人复检批） | 39 张画面复验（A–H 八类）+ 3 份测试 XML | [evidence/independent-visual-verification-2026-10-15/](evidence/independent-visual-verification-2026-10-15) |
+| ② **悬崖修复专项（新增）** | 修复前/后各 6 张 + v1 失败方案存档 6 张 + 专项联系表 + 4 份原始测试 XML | [evidence/cliff-repair-2026-10-15/](evidence/cliff-repair-2026-10-15) · [批次 README](evidence/cliff-repair-2026-10-15/README.md) |
+
+> 下方"批次摘要 / 三类画面 / 分类导览"描述的是**批次①（独立视觉复验）**；批次②（悬崖修复专项）的完整导览、同条件对照设计与"能证明/不能证明"边界见其[批次 README](evidence/cliff-repair-2026-10-15/README.md)。
+
 ## 批次摘要
 
 | 项 | 值 |
@@ -117,6 +128,7 @@
 - 原始测试 XML：[test-results/](evidence/independent-visual-verification-2026-10-15/test-results)（final5-em.xml / final5-pm.xml / vv-pm7.xml）
 - 发布前核查说明与已知问题：[VERIFICATION-NOTES.md](VERIFICATION-NOTES.md)
 - 全部文件哈希清单（sha256sum 格式）：[SHA256SUMS.txt](SHA256SUMS.txt)
+- **悬崖修复专项（批次②，2026-10-15 新增）**：[批次 README](evidence/cliff-repair-2026-10-15/README.md)（含证明力边界与测试基线声明） · [捕获清单](evidence/cliff-repair-2026-10-15/capture-manifest.md) · [专项联系表](evidence/cliff-repair-2026-10-15/cliff-contact-sheet.svg) · [测试结果](evidence/cliff-repair-2026-10-15/test-results) · [v1 失败方案存档说明](evidence/cliff-repair-2026-10-15/iteration-v1-rejected/NOTES.md)
 
 ### 原始文件访问方式
 

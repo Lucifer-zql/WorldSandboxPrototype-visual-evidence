@@ -1,0 +1,43 @@
+[2026-10-15 21:26:48] ---- session mode=cloud seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 21:26:48] stat MVO5a framing=cloud-tree-pair cloud=(55.57,63.50) tree=(53,65) chebyshev=2 logic=取当前帧云格-树格切比雪夫最小组合并对准两者中点, ortho=5, 帧间隔≈2s(云横漂0.1格/秒), 云order250应完整盖过树冠200
+[2026-10-15 21:26:48] capture MVO5a-cloud-over-forest-frame1.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:26:50] capture MVO5a-cloud-over-forest-frame2.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+; backfilled 2026-10-15 by Agent F
+[2026-10-15 21:58:07] ---- session mode=cloud seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 21:58:07] note MVO5 v2 重拍：v1 证据经 A 终审判定无效（两帧逐字节相同且全帧无云体），本轮以云为锚+视口/字节双自检
+[2026-10-15 21:58:07] stat MVO5a framing=cloud-anchored cloudAnchor=(55.57,63.50) nearestTree=(53,65) treeChebyshev=2 logic=相机以云实时坐标为锚(云近画面中心), ortho=7, 帧间隔≥3s, 最近树≤6格同框作树冠被压证据, 云order250应完整盖过树冠200
+[2026-10-15 21:58:07] capture MVO5a-cloud-over-forest-frame1.png ortho=7 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327 ; superseded by v4
+[2026-10-15 21:58:10] capture MVO5a-cloud-over-forest-frame2.png ortho=7 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327 ; superseded by v4
+[2026-10-15 21:58:13] capture MVO5a-cloud-over-forest-frame2.png ortho=7 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327 ; superseded by v4
+[2026-10-15 23:00:29] ---- session mode=cloud seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 23:00:29] note MVO5 v2 重拍：v1 证据经 A 终审判定无效（两帧逐字节相同且全帧无云体），本轮以云为锚+视口/字节双自检
+[2026-10-15 23:00:29] stat MVO5a framing=cloud-anchored cloudAnchor=(55.57,63.50) nearestTree=(53,65) treeChebyshev=2 logic=相机以云实时坐标为锚(云近画面中心), ortho=7, 帧间隔≥3s, 最近树≤6格同框作树冠被压证据, 云order250应完整盖过树冠200
+[2026-10-15 23:00:29] capture MVO5a-cloud-over-forest-frame1.png ortho=7 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327 ; superseded by v4
+[2026-10-15 23:00:32] capture MVO5a-cloud-over-forest-frame2.png ortho=7 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327 ; superseded by v4
+[2026-10-15 23:00:35] capture MVO5a-cloud-over-forest-frame2.png ortho=7 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327 ; superseded by v4
+[2026-10-15 23:00:35] check MVO5 drift-bytes-differ attempt=2 interval=3.0s files=MVO5a-cloud-over-forest-frame1.png+MVO5a-cloud-over-forest-frame2.png （双帧字节不同=云漂移已入画，链路有效） ; superseded by v4
+[2026-10-15 23:21:33] ---- session mode=cloud seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 23:21:34] note MVO5 v4 重拍：v2/v3 证据经 A 复核判无效（云位重合、字节差被 1px 噪声假阳性满足），本轮遮挡取景（切比雪夫≤1）+ 云屏幕位移≥8px 漂移门，旧同名行已标 superseded by v4
+[2026-10-15 23:22:19] stat MVO5b framing=cloud-tree-midpoint overlap=adjacent-not-overlapped cloud=(55.57,63.50) tree=(53,65) chebyshev=2 logic=45s泵帧轮询后无≤1组合, 取最近组合如实拍并声明不重叠, 相机对准云与树格中点, ortho=6, 漂移门=云屏幕位移≥8px
+[2026-10-15 23:22:19] capture MVO5b-cloud-adjacent-tree-frame1.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327 ; files removed by later cleanup, superseded
+[2026-10-15 23:22:22] capture MVO5b-cloud-adjacent-tree-frame2.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327 ; files removed by later cleanup, superseded
+[2026-10-15 23:22:25] capture MVO5b-cloud-adjacent-tree-frame2.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327 ; files removed by later cleanup, superseded
+[2026-10-15 23:46:00] ---- session mode=cloud seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 23:46:00] note MVO5 v4 重拍：v2/v3 证据经 A 复核判无效（云位重合、字节差被 1px 噪声假阳性满足），本轮遮挡取景（切比雪夫≤1）+ 云屏幕位移≥8px 漂移门，旧同名行已标 superseded by v4
+[2026-10-15 23:46:04] stat MVO5a framing=cloud-tree-midpoint overlap=overlapped cloud=(56.01,63.50) tree=(57,63) chebyshev=1 logic=云-树切比雪夫≤1(树冠192宽画布自树根向上展开,必与冠层像素重叠,order250遮挡语义), 相机对准云与树格中点, ortho=6, 帧间隔≥3s, 漂移门=云屏幕位移≥8px ; superseded by v6
+[2026-10-15 23:46:04] capture MVO5a-cloud-over-forest-frame1.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 23:46:07] capture MVO5a-cloud-over-forest-frame2.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 23:46:07] check MVO5 drift-screen-px=19.3 gate=min8px wrapped=false byteDiff=differ attempt=1 interval=3.1s files=MVO5a-cloud-over-forest-frame1.png+MVO5a-cloud-over-forest-frame2.png （云屏幕位移≥8px=漂移已入画，链路有效；字节差为辅助）
+[2026-10-16 00:05:05] ---- session mode=cloud seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-16 00:05:05] note MVO5 v5 重拍：v4 漂移门已过（dx=20px 与 manifest 19.3px 互证），终项=云与树冠像素级重叠帧（屏幕空间触发 |dx|≤40px 且云屏点高于树根），旧 overlap=overlapped 行系画布推断非像素事实，已标注 superseded by v6
+[2026-10-16 00:05:17] stat MVO5a framing=cloud-tree-midpoint overlap=pixel-overlapped cloud=(56.87,63.50) tree=(57,63) chebyshev=2 trigger=screen-space cloudScreen=(659.3,360.0) treeScreen=(697.0,360.0) dxScreen=-37.7px dyScreen=0.0px logic=云屏点进入冠层x域±40px且高于树根屏点(云在冠层高度带), frame1即重叠帧, frame2漂移继续穿过冠层, 相机冻结于选中时刻中点, ortho=6, 漂移门=云屏幕位移≥8px ; superseded by v7 (pixel-adjacent gap 1-3px contested=0, 画布/屏幕代理推断非量测事实)
+[2026-10-16 00:05:18] capture MVO5a-cloud-over-forest-frame1.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-16 00:05:21] capture MVO5a-cloud-over-forest-frame2.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-16 00:05:21] check MVO5 drift-screen-px=19.4 gate=min8px wrapped=false byteDiff=differ attempt=1 interval=3.1s files=MVO5a-cloud-over-forest-frame1.png+MVO5a-cloud-over-forest-frame2.png （云屏幕位移≥8px=漂移已入画，链路有效；字节差为辅助）
+[2026-10-16 00:16:42] ---- session mode=cloud seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-16 00:16:42] note MVO5 v7 重拍：v6 终裁距闭合仅 1-3px（云已抵松树描边前、争议像素=0），本轮双帧间隔延至 ≥6s（0.5s×12 次泵帧迭代，云再进 ~38px，右半叶完整滑入松针带），成功行按 A 争议像素判据记 overlap=contested-px>=20，v6 行已标 superseded by v7
+[2026-10-16 00:16:55] stat MVO5a framing=cloud-tree-midpoint overlap=contested-px>=20 cloud=(56.88,63.50) tree=(57,63) chebyshev=2 trigger=screen-space cloudScreen=(659.7,360.0) treeScreen=(696.7,360.0) dxScreen=-37.1px dyScreen=0.0px logic=云屏点进入冠层x域±40px且高于树根屏点(云在冠层高度带), frame1即拍, 帧间隔≥6s(0.5s×12次泵帧, 云再进~38px, 右半叶完整滑入松针带), 相机冻结于选中时刻中点, ortho=6, 漂移门=云屏幕位移≥8px, overlap按A争议像素判据记
+[2026-10-16 00:16:55] capture MVO5a-cloud-over-forest-frame1.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-16 00:17:02] capture MVO5a-cloud-over-forest-frame2.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-16 00:17:02] check MVO5 drift-screen-px=37.5 gate=min8px wrapped=false byteDiff=differ attempt=1 interval=6.1s files=MVO5a-cloud-over-forest-frame1.png+MVO5a-cloud-over-forest-frame2.png （云屏幕位移≥8px=漂移已入画，链路有效；字节差为辅助）
+; backfilled 2026-10-15 by Agent F

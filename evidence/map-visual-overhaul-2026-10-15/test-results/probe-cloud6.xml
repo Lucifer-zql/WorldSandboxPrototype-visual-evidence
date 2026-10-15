@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 15:24:28Z" end-time="2026-10-15 15:24:34Z" duration="5.7718564">
+  <test-suite type="TestSuite" id="1097" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="61" result="Passed" start-time="2026-10-15 15:24:28Z" end-time="2026-10-15 15:24:34Z" duration="5.771856" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1190" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="61" result="Passed" start-time="2026-10-15 15:24:28Z" end-time="2026-10-15 15:24:34Z" duration="5.756693" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="11796" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1191" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="61" result="Passed" start-time="2026-10-15 15:24:28Z" end-time="2026-10-15 15:24:34Z" duration="5.752981" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1192" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="61" result="Passed" start-time="2026-10-15 15:24:28Z" end-time="2026-10-15 15:24:34Z" duration="5.750175" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1193" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="61" result="Passed" start-time="2026-10-15 15:24:28Z" end-time="2026-10-15 15:24:34Z" duration="5.747366" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1139" name="MVOCloudProbe" fullname="WorldSandbox.Tests.PlayMode.MVOCloudProbe" classname="WorldSandbox.Tests.PlayMode.MVOCloudProbe" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 15:24:28Z" end-time="2026-10-15 15:24:34Z" duration="5.741767" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1140" name="Probe_CloudDriftState" fullname="WorldSandbox.Tests.PlayMode.MVOCloudProbe.Probe_CloudDriftState" methodname="Probe_CloudDriftState" classname="WorldSandbox.Tests.PlayMode.MVOCloudProbe" runstate="Runnable" seed="195273938" result="Passed" start-time="2026-10-15 15:24:28Z" end-time="2026-10-15 15:24:34Z" duration="5.721124" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.33 陆块=0.64 尝试=1 校验=True 装饰=272 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.33 陆块=0.64 尝试=1 校验=True 装饰=272 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[CLOUDPROBE2] deco.enabled=True goActive=True timeScale=1 deltaTime=0.076 frame=13 clockSpeed=1
+[CLOUDPROBE2] deco.enabled=True goActive=True timeScale=1 deltaTime=0.076 frame=13 clockSpeed=1
+[CLOUDPROBE2] t=0.5s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.002 frame=162
+[CLOUDPROBE2] t=0.5s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.002 frame=162
+[CLOUDPROBE2] t=1.0s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.003 frame=317
+[CLOUDPROBE2] t=1.0s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.003 frame=317
+[CLOUDPROBE2] t=1.5s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.004 frame=464
+[CLOUDPROBE2] t=1.5s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.004 frame=464
+[CLOUDPROBE2] t=2.0s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.004 frame=632
+[CLOUDPROBE2] t=2.0s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.004 frame=632
+[CLOUDPROBE2] t=2.5s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.003 frame=796
+[CLOUDPROBE2] t=2.5s pos=(127.05, 35.50, 0.00) moved=0.007 timeScale=1 dt=0.003 frame=796
+[CLOUDPROBE2][泵] t=0.5s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+[CLOUDPROBE2][泵] t=0.5s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+[CLOUDPROBE2][泵] t=1.0s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+[CLOUDPROBE2][泵] t=1.0s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+[CLOUDPROBE2][泵] t=1.5s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+[CLOUDPROBE2][泵] t=1.5s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+[CLOUDPROBE2][泵] t=2.0s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+[CLOUDPROBE2][泵] t=2.0s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+[CLOUDPROBE2][泵] t=2.5s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+[CLOUDPROBE2][泵] t=2.5s pos=(127.05, 35.50, 0.00) movedFromQ0=0.000
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

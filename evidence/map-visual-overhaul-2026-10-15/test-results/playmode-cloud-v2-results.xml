@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 13:58:06Z" end-time="2026-10-15 13:58:13Z" duration="7.2239099">
+  <test-suite type="TestSuite" id="1095" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="60" result="Failed" site="Child" start-time="2026-10-15 13:58:06Z" end-time="2026-10-15 13:58:13Z" duration="7.223910" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1186" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="60" result="Failed" site="Child" start-time="2026-10-15 13:58:06Z" end-time="2026-10-15 13:58:13Z" duration="7.209097" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="39192" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1187" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="60" result="Failed" site="Child" start-time="2026-10-15 13:58:06Z" end-time="2026-10-15 13:58:13Z" duration="7.205697" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1188" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="60" result="Failed" site="Child" start-time="2026-10-15 13:58:06Z" end-time="2026-10-15 13:58:13Z" duration="7.202932" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1189" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="60" result="Failed" site="Child" start-time="2026-10-15 13:58:06Z" end-time="2026-10-15 13:58:13Z" duration="7.200192" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1137" name="MapVisualOverhaulCaptureTests" fullname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests" classname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-15 13:58:06Z" end-time="2026-10-15 13:58:13Z" duration="7.193760" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1142" name="MVO5_CloudOverForest_Closeups" fullname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests.MVO5_CloudOverForest_Closeups" methodname="MVO5_CloudOverForest_Closeups" classname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests" runstate="Runnable" seed="1959733735" result="Failed" start-time="2026-10-15 13:58:06Z" end-time="2026-10-15 13:58:13Z" duration="7.175412" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[MVO5 双帧字节差自检失败：两次尝试两帧均逐字节相同（捕获链路无像素变化，证据无效不得产出）]]></message>
+                  <stack-trace><![CDATA[at WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests+<CaptureDriftPair>d__21.MoveNext () [0x00271] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\PlayMode\MapVisualOverhaulCaptureTests.cs:353
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@80f691d4262b\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.33 陆块=0.64 尝试=1 校验=True 装饰=272 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.33 陆块=0.64 尝试=1 校验=True 装饰=272 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[MVO] SetGameViewSize: [OK(1280x720@7)] / [OK(1280x720@7)]; Screen=1280x720（目标 1280x720）; mode=cloud; WS_WORLD_SEED=<未设置(默认20261013)>; 实际种子=20261013
+[MVO] SetGameViewSize: [OK(1280x720@7)] / [OK(1280x720@7)]; Screen=1280x720（目标 1280x720）; mode=cloud; WS_WORLD_SEED=<未设置(默认20261013)>; 实际种子=20261013
+[MVO:5] 清除上一轮旧图 MVO5a-cloud-over-forest-frame1.png
+[MVO:5] 清除上一轮旧图 MVO5a-cloud-over-forest-frame1.png
+[MVO:5] 清除上一轮旧图 MVO5a-cloud-over-forest-frame2.png
+[MVO:5] 清除上一轮旧图 MVO5a-cloud-over-forest-frame2.png
+[MVO:5] 池渲染对象=272 激活云=18 Store云数=18 mode=cloud seed=20261013
+[MVO:5] 池渲染对象=272 激活云=18 Store云数=18 mode=cloud seed=20261013
+[MVO:5a] 云锚=(55.57,63.50) 最近树=(53,65) 切比雪夫=2 → 云树同框 ortho=7
+[MVO:5a] 云锚=(55.57,63.50) 最近树=(53,65) 切比雪夫=2 → 云树同框 ortho=7
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+[MVO:5] frame1 前 云=(55.58,63.50) viewport=(0.500,0.500) cam=(55.57,63.50)
+[MVO:5] frame1 前 云=(55.58,63.50) viewport=(0.500,0.500) cam=(55.57,63.50)
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+[MVO:5] frame2 前 云=(55.57,63.50) viewport=(0.500,0.500) cam=(55.57,63.50)
+[MVO:5] frame2 前 云=(55.57,63.50) viewport=(0.500,0.500) cam=(55.57,63.50)
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+[MVO:5] 第 1 次双帧逐字节相同（云漂移未体现）——按修复要求③重试
+[MVO:5] 第 1 次双帧逐字节相同（云漂移未体现）——按修复要求③重试
+[MVO:5] frame3 前 云=(55.57,63.50) viewport=(0.500,0.500) cam=(55.57,63.50)
+[MVO:5] frame3 前 云=(55.57,63.50) viewport=(0.500,0.500) cam=(55.57,63.50)
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+[MVO:5] 第 2 次双帧逐字节相同（云漂移未体现）——按修复要求③重试
+[MVO:5] 第 2 次双帧逐字节相同（云漂移未体现）——按修复要求③重试
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

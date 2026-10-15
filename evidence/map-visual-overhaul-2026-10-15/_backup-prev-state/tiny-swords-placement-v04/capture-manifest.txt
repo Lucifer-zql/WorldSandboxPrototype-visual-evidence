@@ -1,0 +1,27 @@
+# TV-02-R3 捕获清单（正常 Play Mode，真实加载 Main.unity，窗口化编辑器）
+scene          : Assets/_Project/Scenes/Main.unity
+captureMethod  : PlayMode + ScreenCapture.CaptureScreenshot（非离屏、非 RT 放大）
+stumpPath      : 资源耗尽态渲染路径验证（ResourceNodeStore.TryUpdate RemainingHits=0 + RefreshTile，D-11；非玩家砍树交互验收）
+cloudNote      : 云位移动画未接入（素材矩阵 §5），以漂移两帧为证（drift-a/b 间隔约 5s）
+
+terrainHash     : 47b0d1a5（Terrain 128×128 逐格 FNV-1a；仅证明地形格数据一致，不含实体/UI/装饰状态）
+worldSeed       : 20261013
+file=hud_1280x720.png  screen=1280x720  terrainHash=47b0d1a5  cam=(64.00,64.00,-10.00)  ortho=16.00  note=HUD 全景
+file=hud_1920x1080.png  screen=1920x1080  terrainHash=47b0d1a5  cam=(64.00,64.00,-10.00)  ortho=16.00  note=HUD 全景
+file=hud_2560x1440.png  screen=2560x1440  terrainHash=47b0d1a5  cam=(64.00,64.00,-10.00)  ortho=16.00  note=HUD 全景
+file=water-foam-coast-closeup.png  screen=1280x720  terrainHash=47b0d1a5  cam=(64.50,64.50,-10.00)  ortho=7.00  note=水岸泡沫 coast=(64,64) 192² 跨格画布+棋盘密度
+file=island-shore-closeup.png  screen=1280x720  terrainHash=47b0d1a5  cam=(65.50,64.50,-10.00)  ortho=7.00  note=岛岸 island=(65,64)（四邻域全水）
+file=lake-center-closeup.png  screen=1280x720  terrainHash=47b0d1a5  cam=(65.50,62.50,-10.00)  ortho=8.00  note=湖心 lake=(65,62)
+file=narrow-waterway-closeup.png  screen=1280x720  terrainHash=47b0d1a5  cam=(65.50,65.50,-10.00)  ortho=8.00  note=窄水道 narrow=(65,65)
+file=grass-forest-edge-closeup.png  screen=1280x720  terrainHash=47b0d1a5  cam=(64.50,77.50,-10.00)  ortho=7.00  note=草林交界 grass=(64,77)（9 槽 NotThis 过渡）
+file=cliff-elevated-ground-closeup.png  screen=1280x720  terrainHash=47b0d1a5  cam=(62.50,68.50,-10.00)  ortho=7.00  note=崖段 cliff=(62,68) ElevatedTerrain(160)
+file=shadow-overlap-closeup.png  SKIPPED（固定种子无带影树）
+file=tree-closeup-conifer.png  screen=1280x720  terrainHash=47b0d1a5  cam=(6.50,114.00,-10.00)  ortho=4.00  note=针叶树 sprite=Tree1_0 cell=(6,114) 根枢轴 (0.5,0.0625)
+file=tree-closeup-birch.png  screen=1280x720  terrainHash=47b0d1a5  cam=(109.50,49.00,-10.00)  ortho=4.00  note=黄桦 sprite=Tree4_0 cell=(109,49) 根枢轴 (0.5,0.1302)
+file=tree-overlap-closeup.png  screen=1280x720  terrainHash=47b0d1a5  cam=(7.50,114.00,-10.00)  ortho=6.00  note=前后遮挡 south=(7,113) north=(7,114)
+file=stump-ground-contact.png  screen=1280x720  terrainHash=47b0d1a5  cam=(6.50,114.00,-10.00)  ortho=4.00  note=树桩 tree cell=(6,114) 画面中心枢轴=格心
+file=bush-ground-contact.png  screen=1280x720  terrainHash=47b0d1a5  cam=(68.50,66.50,-10.00)  ortho=5.00  note=灌木 bush=(68,66) 128² 跨格格心摆放
+file=ground-rock-placement.png  screen=1280x720  terrainHash=47b0d1a5  cam=(63.50,44.50,-10.00)  ortho=5.00  note=地面岩石 rock=(63,44)
+file=water-rock-placement.png  screen=1280x720  terrainHash=47b0d1a5  cam=(55.50,77.50,-10.00)  ortho=5.00  note=水中岩石 wrock=(55,77)
+file=cloud-drift-a.png  screen=1280x720  terrainHash=47b0d1a5  cam=(68.50,57.50,-10.00)  ortho=7.00  note=云漂移 A cloud≈(68,57)
+file=cloud-drift-b.png  screen=1280x720  terrainHash=47b0d1a5  cam=(68.50,57.50,-10.00)  ortho=7.00  note=云漂移 B（A 后 5s，漂移 ~0.5 格）

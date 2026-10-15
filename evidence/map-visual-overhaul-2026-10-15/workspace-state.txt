@@ -1,0 +1,8 @@
+== 本轮工作区状态快照（2026-10-15 18:51:15）==
+HEAD: 47d8185d92e0d248f252460b535a39679eb71262
+branch: main
+dirty files: 306
+untracked: 207
+seed: 20261013 (GameBootstrap.worldSeed 序列化默认值, Main.unity)
+Unity: 6000.6.5f1
+GameView: 1280x720

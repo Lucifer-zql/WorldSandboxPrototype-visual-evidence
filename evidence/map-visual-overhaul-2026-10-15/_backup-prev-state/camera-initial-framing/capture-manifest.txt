@@ -1,0 +1,9 @@
+# CAM-INIT-01 捕获清单（正常 Play Mode，真实加载 Main.unity，窗口化编辑器）
+scene          : Assets/_Project/Scenes/Main.unity
+captureMethod  : PlayMode + ScreenCapture.CaptureScreenshot（非离屏、非 RenderTexture 放大）
+state          : 进入 HUD（UIRoot.ShowGame()）
+note           : 文件名中的尺寸 = 实测 Screen 尺寸；match 表示是否等于目标分辨率。
+
+target=1280x720  actualScreen=1280x720  match=True  setGameView=OK idx=7 texts=Free Aspect,16:9 Aspect,16:10 Aspect,Full HD (1920x1080),WXGA (1366x768),QHD (2560x1440),4K UHD (3840x2160),HD (1280x720)  cam=(64.000,64.000,-10.000)  orthoSize=16  map=128x128  file=hud_1280x720.png
+target=1920x1080  actualScreen=1920x1080  match=True  setGameView=OK idx=3 texts=Free Aspect,16:9 Aspect,16:10 Aspect,Full HD (1920x1080),WXGA (1366x768),QHD (2560x1440),4K UHD (3840x2160),HD (1280x720)  cam=(64.000,64.000,-10.000)  orthoSize=16  map=128x128  file=hud_1920x1080.png
+target=2560x1440  actualScreen=2560x1440  match=True  setGameView=OK idx=5 texts=Free Aspect,16:9 Aspect,16:10 Aspect,Full HD (1920x1080),WXGA (1366x768),QHD (2560x1440),4K UHD (3840x2160),HD (1280x720)  cam=(64.000,64.000,-10.000)  orthoSize=16  map=128x128  file=hud_2560x1440.png

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="20" result="Passed" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-14 13:10:46Z" end-time="2026-10-14 13:10:58Z" duration="12.819824">
+  <test-suite type="TestSuite" id="1038" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-14 13:10:46Z" end-time="2026-10-14 13:10:58Z" duration="12.819824" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1072" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-14 13:10:46Z" end-time="2026-10-14 13:10:58Z" duration="12.812479" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="47596" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1073" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-14 13:10:46Z" end-time="2026-10-14 13:10:58Z" duration="12.811732" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1074" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-14 13:10:46Z" end-time="2026-10-14 13:10:58Z" duration="12.811263" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1075" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-14 13:10:46Z" end-time="2026-10-14 13:10:58Z" duration="12.810645" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1042" name="CameraFramingEvidenceTests" fullname="WorldSandbox.Tests.PlayMode.CameraFramingEvidenceTests" classname="WorldSandbox.Tests.PlayMode.CameraFramingEvidenceTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-14 13:10:46Z" end-time="2026-10-14 13:10:50Z" duration="4.173538" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1043" name="CaptureHudAtThreeResolutions" fullname="WorldSandbox.Tests.PlayMode.CameraFramingEvidenceTests.CaptureHudAtThreeResolutions" methodname="CaptureHudAtThreeResolutions" classname="WorldSandbox.Tests.PlayMode.CameraFramingEvidenceTests" runstate="Runnable" seed="158991148" result="Passed" start-time="2026-10-14 13:10:46Z" end-time="2026-10-14 13:10:50Z" duration="4.160007" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[CameraFramingEvidence] 捕获完成 -> docs/impl/evidence/ui-terrain-integration/camera-initial-framing
+[CameraFramingEvidence] 捕获完成 -> docs/impl/evidence/ui-terrain-integration/camera-initial-framing
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1044" name="CameraInitialFramingTests" fullname="WorldSandbox.Tests.PlayMode.CameraInitialFramingTests" classname="WorldSandbox.Tests.PlayMode.CameraInitialFramingTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-14 13:10:50Z" end-time="2026-10-14 13:10:51Z" duration="0.760341" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1045" name="MainScene_InitialCamera_FramedOnMapCentre" fullname="WorldSandbox.Tests.PlayMode.CameraInitialFramingTests.MainScene_InitialCamera_FramedOnMapCentre" methodname="MainScene_InitialCamera_FramedOnMapCentre" classname="WorldSandbox.Tests.PlayMode.CameraInitialFramingTests" runstate="Runnable" seed="1201634433" result="Passed" start-time="2026-10-14 13:10:50Z" end-time="2026-10-14 13:10:50Z" duration="0.273235" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+]]></output>
+              </test-case>
+              <test-case id="1046" name="RepeatedWireWorld_DoesNotOverrideAdjustedView" fullname="WorldSandbox.Tests.PlayMode.CameraInitialFramingTests.RepeatedWireWorld_DoesNotOverrideAdjustedView" methodname="RepeatedWireWorld_DoesNotOverrideAdjustedView" classname="WorldSandbox.Tests.PlayMode.CameraInitialFramingTests" runstate="Runnable" seed="97835183" result="Passed" start-time="2026-10-14 13:10:50Z" end-time="2026-10-14 13:10:51Z" duration="0.481305" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] CenterOnMap 已应用过初始取景 → 跳过，保留当前视角（不覆盖用户调整）。
+[WorldSandbox][Camera] CenterOnMap 已应用过初始取景 → 跳过，保留当前视角（不覆盖用户调整）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1047" name="FinalIntegrationTests" fullname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" classname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:51Z" duration="0.056166" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1048" name="FullStack_GameBootstrap_AssemblesClockSnapshotAndUi" fullname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests.FullStack_GameBootstrap_AssemblesClockSnapshotAndUi" methodname="FullStack_GameBootstrap_AssemblesClockSnapshotAndUi" classname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" runstate="Runnable" seed="2142828067" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:51Z" duration="0.031930" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+]]></output>
+              </test-case>
+              <test-case id="1049" name="KeyboardBridge_ProxyAvailable_And_SingleTogglePerKeyPress" fullname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests.KeyboardBridge_ProxyAvailable_And_SingleTogglePerKeyPress" methodname="KeyboardBridge_ProxyAvailable_And_SingleTogglePerKeyPress" classname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" runstate="Runnable" seed="1986584109" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:51Z" duration="0.016698" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][UI] UIRoot 装配完成（视图 0 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 0 个；本地化 zh-Hans）。
+]]></output>
+              </test-case>
+              <test-case id="1050" name="UiSnapshotProvider_ForwardsSource_And_NullIsGraceful" fullname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests.UiSnapshotProvider_ForwardsSource_And_NullIsGraceful" methodname="UiSnapshotProvider_ForwardsSource_And_NullIsGraceful" classname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" runstate="Runnable" seed="1532881610" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:51Z" duration="0.002236" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1051" name="NineSliceEvidenceTests" fullname="WorldSandbox.Tests.PlayMode.NineSliceEvidenceTests" classname="WorldSandbox.Tests.PlayMode.NineSliceEvidenceTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:51Z" duration="0.645408" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1052" name="CaptureNineSliceEvidence" fullname="WorldSandbox.Tests.PlayMode.NineSliceEvidenceTests.CaptureNineSliceEvidence" methodname="CaptureNineSliceEvidence" classname="WorldSandbox.Tests.PlayMode.NineSliceEvidenceTests" runstate="Runnable" seed="1408522753" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:51Z" duration="0.640991" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[NineSliceEvidence] 捕获完成，Screen=2560x1440 -> docs/impl/evidence/ui-terrain-integration/post-fix-nine-slice
+[NineSliceEvidence] 捕获完成，Screen=2560x1440 -> docs/impl/evidence/ui-terrain-integration/post-fix-nine-slice
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1053" name="PlayModeSmokeTests" fullname="WorldSandbox.Tests.PlayMode.PlayModeSmokeTests" classname="WorldSandbox.Tests.PlayMode.PlayModeSmokeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:51Z" duration="0.070355" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1054" name="Bootstrap_FullAssembly_WorldAndRenderers_NoErrors" fullname="WorldSandbox.Tests.PlayMode.PlayModeSmokeTests.Bootstrap_FullAssembly_WorldAndRenderers_NoErrors" methodname="Bootstrap_FullAssembly_WorldAndRenderers_NoErrors" classname="WorldSandbox.Tests.PlayMode.PlayModeSmokeTests" runstate="Runnable" seed="809330604" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:51Z" duration="0.066393" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=0，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=0，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1055" name="TerrainCompositionEvidenceTests" fullname="WorldSandbox.Tests.PlayMode.TerrainCompositionEvidenceTests" classname="WorldSandbox.Tests.PlayMode.TerrainCompositionEvidenceTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:58Z" duration="6.530720" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1056" name="CaptureEvidence" fullname="WorldSandbox.Tests.PlayMode.TerrainCompositionEvidenceTests.CaptureEvidence" methodname="CaptureEvidence" classname="WorldSandbox.Tests.PlayMode.TerrainCompositionEvidenceTests" runstate="Runnable" seed="588306962" result="Passed" start-time="2026-10-14 13:10:51Z" end-time="2026-10-14 13:10:58Z" duration="6.523768" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[TerrainCompositionEvidence] 捕获完成 -> docs/impl/evidence/ui-terrain-composition-v02
+[TerrainCompositionEvidence] 捕获完成 -> docs/impl/evidence/ui-terrain-composition-v02
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1057" name="TreeOverlapRenderTests" fullname="WorldSandbox.Tests.PlayMode.TreeOverlapRenderTests" classname="WorldSandbox.Tests.PlayMode.TreeOverlapRenderTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.329876" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1058" name="TreeOverlap_RealRender_SouthInFront" fullname="WorldSandbox.Tests.PlayMode.TreeOverlapRenderTests.TreeOverlap_RealRender_SouthInFront" methodname="TreeOverlap_RealRender_SouthInFront" classname="WorldSandbox.Tests.PlayMode.TreeOverlapRenderTests" runstate="Runnable" seed="844790267" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.324637" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261013 尺寸=128x128 水比=0.28 陆块=0.67 尝试=1 校验=True 装饰=368 资源=207
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1059" name="UIInteractionTests" fullname="WorldSandbox.Tests.PlayMode.UIInteractionTests" classname="WorldSandbox.Tests.PlayMode.UIInteractionTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.082552" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1060" name="SpeedButtonMatchesClock" fullname="WorldSandbox.Tests.PlayMode.UIInteractionTests.SpeedButtonMatchesClock" methodname="SpeedButtonMatchesClock" classname="WorldSandbox.Tests.PlayMode.UIInteractionTests" runstate="Runnable" seed="1179340737" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.017414" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1062" name="ToastShowsLocalizedFailure_AndMergesSameKey" fullname="WorldSandbox.Tests.PlayMode.UIInteractionTests.ToastShowsLocalizedFailure_AndMergesSameKey" methodname="ToastShowsLocalizedFailure_AndMergesSameKey" classname="WorldSandbox.Tests.PlayMode.UIInteractionTests" runstate="Runnable" seed="1239270202" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.016441" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1061" name="ToolbarHighlightMatchesTool" fullname="WorldSandbox.Tests.PlayMode.UIInteractionTests.ToolbarHighlightMatchesTool" methodname="ToolbarHighlightMatchesTool" classname="WorldSandbox.Tests.PlayMode.UIInteractionTests" runstate="Runnable" seed="1773705934" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.016611" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][UI] 工具图标缺失（_toolIcons[4]，IconKey=icon.tool.tree），该按钮沿用模板图标。
+[WorldSandbox][UI] 工具图标缺失（_toolIcons[4]，IconKey=icon.tool.tree），该按钮沿用模板图标。
+]]></output>
+              </test-case>
+              <test-case id="1064" name="UIRoot_TogglePause_WritesClock" fullname="WorldSandbox.Tests.PlayMode.UIInteractionTests.UIRoot_TogglePause_WritesClock" methodname="UIRoot_TogglePause_WritesClock" classname="WorldSandbox.Tests.PlayMode.UIInteractionTests" runstate="Runnable" seed="1100480101" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.011752" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][UI] UIRoot 装配完成（视图 0 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 0 个；本地化 zh-Hans）。
+]]></output>
+              </test-case>
+              <test-case id="1063" name="WindowModeMapping_MatchesFinalSemantics" fullname="WorldSandbox.Tests.PlayMode.UIInteractionTests.WindowModeMapping_MatchesFinalSemantics" methodname="WindowModeMapping_MatchesFinalSemantics" classname="WorldSandbox.Tests.PlayMode.UIInteractionTests" runstate="Runnable" seed="1648435642" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.014946" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1065" name="UISnapshotConsistencyTests" fullname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests" classname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.070755" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1068" name="BindingLayer_NoRepeatedEnumeration_And_ValueCopies" fullname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests.BindingLayer_NoRepeatedEnumeration_And_ValueCopies" methodname="BindingLayer_NoRepeatedEnumeration_And_ValueCopies" classname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests" runstate="Runnable" seed="1746023676" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.013093" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1067" name="DetailCardClosesOnDespawn" fullname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests.DetailCardClosesOnDespawn" methodname="DetailCardClosesOnDespawn" classname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests" runstate="Runnable" seed="412724368" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.018462" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Can't add 'Image' to text because a 'Text' is already added to the game object!
+A GameObject can only contain one 'Graphic' component.
+Can't add 'Image' to text because a 'Text' is already added to the game object!
+A GameObject can only contain one 'Graphic' component.
+]]></output>
+              </test-case>
+              <test-case id="1066" name="HudEqualsSnapshot" fullname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests.HudEqualsSnapshot" methodname="HudEqualsSnapshot" classname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests" runstate="Runnable" seed="1862009498" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.012486" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1069" name="MainCanvasPrefab_HasAllRegions_AndUIRoot" fullname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests.MainCanvasPrefab_HasAllRegions_AndUIRoot" methodname="MainCanvasPrefab_HasAllRegions_AndUIRoot" classname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests" runstate="Runnable" seed="1514526023" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.021581" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1070" name="UIVisualSnapshotTests" fullname="WorldSandbox.Tests.PlayMode.UIVisualSnapshotTests" classname="WorldSandbox.Tests.PlayMode.UIVisualSnapshotTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.088853" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1071" name="CaptureGameHud_And_MainMenu" fullname="WorldSandbox.Tests.PlayMode.UIVisualSnapshotTests.CaptureGameHud_And_MainMenu" methodname="CaptureGameHud_And_MainMenu" classname="WorldSandbox.Tests.PlayMode.UIVisualSnapshotTests" runstate="Runnable" seed="1653120132" result="Passed" start-time="2026-10-14 13:10:58Z" end-time="2026-10-14 13:10:58Z" duration="0.084064" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

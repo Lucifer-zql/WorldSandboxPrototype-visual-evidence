@@ -1,0 +1,20 @@
+[2026-10-15 21:25:26] ---- session mode=after seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 21:25:27] capture MVO1a-fullmap-overview-ortho40.png ortho=40 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:27] capture MVO1b-fullmap-entire-ortho64.png ortho=64 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:27] ---- session mode=after seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 21:25:27] capture MVO2a-cliff-longest-run.png ortho=6 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:27] stat longest-horizontal-cliff-run=8
+[2026-10-15 21:25:27] capture MVO2b-cliff-water-foot.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:27] capture MVO2c-cliff-land-foot.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:27] capture MVO2d-cliff-corner.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:28] ---- session mode=after seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 21:25:28] capture MVO3a-shore-grass-water.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:28] capture MVO3b-grass-forest-edge.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:28] ---- session mode=after seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 21:25:28] capture MVO4a-tree-cluster.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:28] capture MVO4b-rock.png ortho=4 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:29] ---- session mode=after seedEnv=<未设置(默认20261013)> effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-15 21:25:29] stat MVO5a framing=cloud-tree-pair cloud=(55.57,63.50) tree=(53,65) chebyshev=2 logic=取当前帧云格-树格切比雪夫最小组合并对准两者中点, ortho=5, 帧间隔≈2s(云横漂0.1格/秒), 云order250应完整盖过树冠200
+[2026-10-15 21:25:29] capture MVO5a-cloud-over-forest-frame1.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+[2026-10-15 21:25:31] capture MVO5a-cloud-over-forest-frame2.png ortho=5 seed=20261013 screen=1280x720 HEAD=47d8185 dirtyFiles=327
+; backfilled 2026-10-15 by Agent F

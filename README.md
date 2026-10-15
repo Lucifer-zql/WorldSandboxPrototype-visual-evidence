@@ -12,8 +12,10 @@
 |---|---|---|
 | ① 独立视觉复验（制作人复检批） | 39 张画面复验（A–H 八类）+ 3 份测试 XML | [evidence/independent-visual-verification-2026-10-15/](evidence/independent-visual-verification-2026-10-15) |
 | ② **悬崖修复专项（新增）** | 修复前/后各 6 张 + v1 失败方案存档 6 张 + 专项联系表 + 4 份原始测试 XML | [evidence/cliff-repair-2026-10-15/](evidence/cliff-repair-2026-10-15) · [批次 README](evidence/cliff-repair-2026-10-15/README.md) |
+| ③ **地图视觉重构 MVO（新增）** | 修复前基线 + 一轮/终版对照 + 3 种子全图 + 云树同框 + 官方×基线×终版联系表 + 272 文件哈希清单 + 30 份原始测试 XML（EditMode 211/211、PlayMode 60/60 终态） | [evidence/map-visual-overhaul-2026-10-15/](evidence/map-visual-overhaul-2026-10-15) · [批次 README](evidence/map-visual-overhaul-2026-10-15/README.md) |
 
 > 下方"批次摘要 / 三类画面 / 分类导览"描述的是**批次①（独立视觉复验）**；批次②（悬崖修复专项）的完整导览、同条件对照设计与"能证明/不能证明"边界见其[批次 README](evidence/cliff-repair-2026-10-15/README.md)。
+> 批次③（地图视觉重构 MVO）以 `after/MVO1a-fullmap-overview-ortho40.png` 为完整地图主对照图，官方×基线×终版×多种子对照见其 [联系表](evidence/map-visual-overhaul-2026-10-15/contact-sheet-mvo.svg)；完整导览、迭代史与逐张"能证明/不能证明"边界见其[批次 README](evidence/map-visual-overhaul-2026-10-15/README.md)。
 
 ## 批次摘要
 

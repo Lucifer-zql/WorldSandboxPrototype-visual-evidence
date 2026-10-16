@@ -1,0 +1,48 @@
+[2026-10-16 09:54:47] ---- session mode=ts-seed-20261015 seedEnv=20261015 effectiveSeed=20261015 screen=1280x720 ----
+[2026-10-16 09:54:47] capture MVO1a-fullmap-overview-ortho40.png ortho=40 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:47] capture MVO1b-fullmap-entire-ortho64.png ortho=64 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:48] ---- session mode=ts-seed-20261015 seedEnv=20261015 effectiveSeed=20261015 screen=1280x720 ----
+[2026-10-16 09:54:48] capture MVO3a-shore-grass-water.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:48] capture MVO3b-grass-forest-edge.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:49] ---- session mode=ts-seed-20261015 seedEnv=20261015 effectiveSeed=20261015 screen=1280x720 ----
+[2026-10-16 09:54:49] capture MVO4a-tree-cluster.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:49] capture MVO4b-rock.png ortho=4 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:50] ---- session mode=ts-seed-20261015 seedEnv=20261015 effectiveSeed=20261015 screen=1280x720 ----
+[2026-10-16 09:54:50] note MVO5 v7 重拍：v6 终裁距闭合仅 1-3px（云已抵松树描边前、争议像素=0），本轮双帧间隔延至 ≥6s（0.5s×12 次泵帧迭代，云再进 ~38px，右半叶完整滑入松针带），成功行按 A 争议像素判据记 overlap=contested-px>=20，v6 行已标 superseded by v7
+[2026-10-16 09:54:50] stat MVO5b framing=cloud-tree-midpoint overlap=adjacent-not-overlapped cloud=(71.14,104.50) tree=(68,104) chebyshev=3 triggerReason=cloud-right-of-crown-x-domain cloudScreen=(719.1,360.0) treeScreen=(561.0,360.0) dxScreen=158.1px dyScreen=0.0px logic=屏幕空间触发未满足(如实声明不重叠), 相机冻结于选中时刻中点, ortho=6, 漂移门=云屏幕位移≥8px
+[2026-10-16 09:54:50] capture MVO5b-cloud-adjacent-tree-frame1.png ortho=6 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:57] capture MVO5b-cloud-adjacent-tree-frame2.png ortho=6 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:57] check MVO5 drift-screen-px=37.5 gate=min8px wrapped=false byteDiff=differ attempt=1 interval=6.1s files=MVO5b-cloud-adjacent-tree-frame1.png+MVO5b-cloud-adjacent-tree-frame2.png （云屏幕位移≥8px=漂移已入画，链路有效；字节差为辅助）
+[2026-10-16 09:54:57] ---- session mode=ts-seed-20261015 seedEnv=20261015 effectiveSeed=20261015 screen=1280x720 ----
+[2026-10-16 09:54:57] stat ts1 elevation hillBlocks=1 mountBlocks=1 hillCells=884 mountCells=220 cliffWallCells=172 slopeCells=84 stairs=1 seed=20261015
+[2026-10-16 09:54:58] capture TS1a-fullmap-ortho40.png ortho=40 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:58] capture TS1b-fullmap-ortho64.png ortho=64 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:59] ---- session mode=ts-seed-20261015 seedEnv=20261015 effectiveSeed=20261015 screen=1280x720 ----
+[2026-10-16 09:54:59] capture TS2a-waterfoot-cliff.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:59] stat ts2a waterfoot-row5 cell=19,4
+[2026-10-16 09:54:59] capture TS2b-longest-horizontal-wall.png ortho=6 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:59] stat ts2b longest-horizontal-wall-run=8
+[2026-10-16 09:54:59] capture TS2c-longest-vertical-wall.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:59] stat ts2c longest-vertical-wall-run=3
+[2026-10-16 09:54:59] capture TS2d-wall-corner.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:59] capture TS2e-wall-endcap.png ortho=4 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:54:59] stat ts2e wall-variant-histogram v0=45 v1=2 v2=39 v3=86 capturedVariant=3
+[2026-10-16 09:54:59] capture TS2f-hilltop-and-wall.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:00] ---- session mode=ts-seed-20261015 seedEnv=20261015 effectiveSeed=20261015 screen=1280x720 ----
+[2026-10-16 09:55:00] capture TS3a-stairs.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:00] stat ts3a stairs=1 first=(110,102)-(110,101) side=RightPair
+[2026-10-16 09:55:01] capture TS3b-slope.png ortho=4 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:01] stat ts3b slopeCells=84 first=(24,6) side=Right panelLevel=1
+[2026-10-16 09:55:01] capture TS3c-shadow-and-transparency.png ortho=4 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:01] stat ts3c shadowRenderers=884 pick=(19.50,4.50) ortho=4
+[2026-10-16 09:55:02] ---- session mode=ts-seed-20261015 seedEnv=20261015 effectiveSeed=20261015 screen=1280x720 ----
+[2026-10-16 09:55:02] capture TS4a-grass-forest-edge.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:02] capture TS4b-shore-foam.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:02] capture TS4c-hill-forest.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:02] capture TS4d-hill-grass.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:02] capture TS4e-hill-water.png ortho=5 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:02] stat ts4e hill-water cell=14,4 neighbor=13,4
+[2026-10-16 09:55:02] capture TS4f-clearance.png ortho=6 seed=20261015 screen=1280x720 HEAD=47d8185 dirtyFiles=349 [backfilled 2026-10-16]
+[2026-10-16 09:55:02] stat ts4f clearance-anchor=stairs-lower(110,101) nearestTreeDist=11 treesInsideClearance=0 （treesInsideClearance 预期 0——E 净空过滤落地后复验，本轮只记录不断言）
+[2026-10-16 10:30:00] [backfilled] HEAD=47d8185 dirtyFiles=349（实测于批次终化时点，git status --porcelain 计数；F 终化补记）——注：上方 stat ts1 行的 hillBlocks/mountBlocks=1 为谓词修复前旧跑残留（见 verification-notes.md §二.1），其余统计有效
+stat ts1 elevation correction: hillBlocks=6 (EditMode SeedMatrix 终态断言绿为准); 上行 hillBlocks/mountBlocks=1 系谓词修复前 CollectComponents4 索引谓词残跑，仅记录性统计无断言参与 [corrected 2026-10-16 by 主Agent]

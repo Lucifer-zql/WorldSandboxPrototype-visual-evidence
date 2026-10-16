@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:53Z" duration="0.7851704">
+  <test-suite type="TestSuite" id="1000" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="220" result="Failed" site="Child" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:53Z" duration="0.785170" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1283" name="WorldSandbox.Tests.EditMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.EditMode.dll" runstate="Runnable" testcasecount="220" result="Failed" site="Child" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:53Z" duration="0.767581" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="45916" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1284" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="220" result="Failed" site="Child" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:53Z" duration="0.766040" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1285" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="220" result="Failed" site="Child" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:53Z" duration="0.764833" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1286" name="EditMode" fullname="WorldSandbox.Tests.EditMode" runstate="Runnable" testcasecount="220" result="Failed" site="Child" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:53Z" duration="0.763452" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1133" name="MapVisualOverhaulSeedMatrixTests" fullname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests" classname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:53Z" duration="0.758945" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1137" name="SeedMatrix_InvariantsPerSeed" fullname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests.SeedMatrix_InvariantsPerSeed" classname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:53Z" duration="0.690588" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1134" name="SeedMatrix_InvariantsPerSeed(20261013)" fullname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests.SeedMatrix_InvariantsPerSeed(20261013)" methodname="SeedMatrix_InvariantsPerSeed" classname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests" runstate="Runnable" seed="2124786655" result="Failed" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:52Z" duration="0.242911" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  种子 20261013 HILL 区域应 3~6 块（4 连通，D-059 §五.2；实测 1，明细=[16383]，高地格总数=1028）——若 Agent C 的 ElevationStep 尚未落地则属预期时序失败
+  Expected: in range (3,6)
+  But was:  1
+]]></message>
+                    <stack-trace><![CDATA[at WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests.SeedMatrix_InvariantsPerSeed (System.Int32 seed) [0x00297] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\EditMode\MapVisualOverhaulSeedMatrixTests.cs:119
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1135" name="SeedMatrix_InvariantsPerSeed(20261014)" fullname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests.SeedMatrix_InvariantsPerSeed(20261014)" methodname="SeedMatrix_InvariantsPerSeed" classname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests" runstate="Runnable" seed="905888034" result="Failed" start-time="2026-10-16 01:09:52Z" end-time="2026-10-16 01:09:53Z" duration="0.224513" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  种子 20261014 HILL 区域应 3~6 块（4 连通，D-059 §五.2；实测 1，明细=[16383]，高地格总数=926）——若 Agent C 的 ElevationStep 尚未落地则属预期时序失败
+  Expected: in range (3,6)
+  But was:  1
+]]></message>
+                    <stack-trace><![CDATA[at WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests.SeedMatrix_InvariantsPerSeed (System.Int32 seed) [0x00297] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\EditMode\MapVisualOverhaulSeedMatrixTests.cs:119
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1136" name="SeedMatrix_InvariantsPerSeed(20261015)" fullname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests.SeedMatrix_InvariantsPerSeed(20261015)" methodname="SeedMatrix_InvariantsPerSeed" classname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests" runstate="Runnable" seed="1405866199" result="Failed" start-time="2026-10-16 01:09:53Z" end-time="2026-10-16 01:09:53Z" duration="0.215856" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  种子 20261015 HILL 区域应 3~6 块（4 连通，D-059 §五.2；实测 1，明细=[16383]，高地格总数=884）——若 Agent C 的 ElevationStep 尚未落地则属预期时序失败
+  Expected: in range (3,6)
+  But was:  1
+]]></message>
+                    <stack-trace><![CDATA[at WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests.SeedMatrix_InvariantsPerSeed (System.Int32 seed) [0x00297] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\EditMode\MapVisualOverhaulSeedMatrixTests.cs:119
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-case id="1138" name="T_04_03_SemanticCheck_SameSeed_RegeneratesIdenticalTerrain" fullname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests.T_04_03_SemanticCheck_SameSeed_RegeneratesIdenticalTerrain" methodname="T_04_03_SemanticCheck_SameSeed_RegeneratesIdenticalTerrain" classname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests" runstate="Runnable" seed="1334983709" result="Passed" start-time="2026-10-16 01:09:53Z" end-time="2026-10-16 01:09:53Z" duration="0.054230" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1139" name="TerrainHashes_DistinctAcrossThreeSeeds" fullname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests.TerrainHashes_DistinctAcrossThreeSeeds" methodname="TerrainHashes_DistinctAcrossThreeSeeds" classname="WorldSandbox.Tests.EditMode.MapVisualOverhaulSeedMatrixTests" runstate="Runnable" seed="1751083298" result="Passed" start-time="2026-10-16 01:09:53Z" end-time="2026-10-16 01:09:53Z" duration="0.003183" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[MVO:Hash] seed=20261013 hash=97DC6812; seed=20261014 hash=F75E50BB; seed=20261015 hash=28A7FFCD
+[MVO:Hash] seed=20261013 hash=97DC6812; seed=20261014 hash=F75E50BB; seed=20261015 hash=28A7FFCD
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

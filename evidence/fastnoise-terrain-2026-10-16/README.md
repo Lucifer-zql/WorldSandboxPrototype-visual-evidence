@@ -149,17 +149,33 @@ export WS_WORLD_SEED=20261013
 
 ---
 
-## 八、测试计数引用（终态）
+## 八、测试证据（`test-results/` 逐文件产源标注）
 
-| 套件 | 结果 | XML 路径（本批次 test-results/） |
+> `test-results/` 于 **2026-10-16 12:21 冻结**（此后无写入；冻结后仅本 README 与 SHA256SUMS.txt 更新）。
+> 每对 `*.xml`（结果）+ `*.log`（原始日志）**按产源逐文件标注如下**，全部**原样收录**以保留完整审计链。
+
+| 文件（`.xml`/`.log` 成对） | 产源 | 结果 |
 | --- | --- | --- |
-| EditMode 全量（终态） | **235 / 235 passed, 0 failed** | `editmode-full-2.xml`（另 `editmode-full.xml` 同为 235/235） |
-| PlayMode 全量（Run 2，64 用例） | **64 / 64 passed, 0 failed** | `playmode-full-minus-3-run1-all64.xml` |
-| PlayMode 全量减 3（新 `!(A\|B\|C)` 语法生效） | **54 / 54 passed, 0 failed** | `playmode-full-minus-3.xml` |
-| 本批三种子捕获（各 8 用例） | **8 / 8 passed ×3** | `fn-seed-20261013.xml` / `fn-seed-20261014.xml` / `fn-seed-20261015.xml` |
+| `editmode-full-2.*` | **EditMode 终态**（12:12）——**交付口径** | **235/235 passed** |
+| `editmode-full.*` | EditMode 过渡（12:05） | 235/235 passed |
+| `editmode-diag.*` | EditMode 修复轨迹（12:03，处置前诊断态） | 234/235（1 失败，已处置） |
+| `playmode-full-minus-3.*` | **PlayMode 修正排除「全量减 3」**（12:15）——**交付口径**；`!(A\|B\|C)` 单值正则组否定生效（VV/泡沫 0 命中） | **54/54 passed** |
+| `playmode-full-minus-3-run1-all64.*` | 首轮**全量 64/64**（含 VV+泡沫；排除语法失效时归档保全——**事实上的最强全量回归记录**） | **64/64 passed** |
+| `_filter-probe.*` | `-testFilter` 排除语法实证之一（单元素否定生效） | 224 = 235 − 11 |
+| `_filter-probe2.*` | 排除语法实证之二（**逗号列表失效**） | 235 |
+| `_filter-probe3.*` | 排除语法实证之三（**正则组否定 `!(A\|B\|C)` 生效**） | 214 |
+| `fn-seed-20261013.*` | 本批种子 20261013 捕获运行 | **8/8 passed** |
+| `fn-seed-20261014.*` | 本批种子 20261014 捕获运行 | **8/8 passed** |
+| `fn-seed-20261015.*` | 本批种子 20261015 捕获运行 | **8/8 passed** |
 
-> `test-results/` 另含调查/迭代产物：`_filter-probe{,2,3}.xml/.log`（`-testFilter` 语法排查）、
-> `editmode-diag.xml`（235 中 1 失败、处置前诊断态）、各 `.log` 原始运行日志。全部**原样收录**以保留审计链。
+**测试计数引用（终态）**：
+
+| 套件 | 结果 | 口径文件 |
+| --- | --- | --- |
+| EditMode 全量 | **235 / 235** | `editmode-full-2.xml` |
+| PlayMode 全量（64 用例，含 VV+泡沫） | **64 / 64** | `playmode-full-minus-3-run1-all64.xml` |
+| PlayMode 全量减 3（新语法生效） | **54 / 54** | `playmode-full-minus-3.xml` |
+| 本批三种子捕获（各 8 用例） | **8 / 8 ×3** | `fn-seed-2026xxxx.xml` |
 
 ---
 

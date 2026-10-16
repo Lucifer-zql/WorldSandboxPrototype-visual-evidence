@@ -1,0 +1,78 @@
+[2026-10-17 07:23:47] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 07:23:47] ---- session mode=tpr4-seed-20261014 seedEnv=20261014 effectiveSeed=20261014 screen=1280x720 ----
+[2026-10-17 07:23:47] capture MVO1a-fullmap-overview-ortho40.png ortho=40 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:48] capture MVO1b-fullmap-entire-ortho64.png ortho=64 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:48] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 07:23:48] ---- session mode=tpr4-seed-20261014 seedEnv=20261014 effectiveSeed=20261014 screen=1280x720 ----
+[2026-10-17 07:23:49] capture MVO3a-shore-grass-water.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:49] capture MVO3b-grass-forest-edge.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:50] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 07:23:50] ---- session mode=tpr4-seed-20261014 seedEnv=20261014 effectiveSeed=20261014 screen=1280x720 ----
+[2026-10-17 07:23:50] capture MVO4a-tree-cluster.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:50] capture MVO4b-rock.png ortho=4 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:51] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 07:23:51] ---- session mode=tpr4-seed-20261014 seedEnv=20261014 effectiveSeed=20261014 screen=1280x720 ----
+[2026-10-17 07:23:51] note MVO5 v7 重拍：v6 终裁距闭合仅 1-3px（云已抵松树描边前、争议像素=0），本轮双帧间隔延至 ≥6s（0.5s×12 次泵帧迭代，云再进 ~38px，右半叶完整滑入松针带），成功行按 A 争议像素判据记 overlap=contested-px>=20，v6 行已标 superseded by v7
+[2026-10-17 07:23:51] stat MVO5a framing=cloud-tree-midpoint overlap=contested-px>=20 cloud=(40.88,115.50) tree=(40,115) chebyshev=0 trigger=screen-space cloudScreen=(653.1,360.0) treeScreen=(630.0,360.0) dxScreen=23.0px dyScreen=0.0px logic=云屏点进入冠层x域±40px且高于树根屏点(云在冠层高度带), frame1即拍, 帧间隔≥6s(0.5s×12次泵帧, 云再进~38px, 右半叶完整滑入松针带), 相机冻结于选中时刻中点, ortho=6, 漂移门=云屏幕位移≥8px, overlap按A争议像素判据记
+[2026-10-17 07:23:51] capture MVO5a-cloud-over-forest-frame1.png ortho=6 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:58] capture MVO5a-cloud-over-forest-frame2.png ortho=6 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:58] check MVO5 drift-screen-px=37.6 gate=min8px wrapped=false byteDiff=differ attempt=1 interval=6.1s files=MVO5a-cloud-over-forest-frame1.png+MVO5a-cloud-over-forest-frame2.png （云屏幕位移≥8px=漂移已入画，链路有效；字节差为辅助）
+[2026-10-17 07:23:59] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 07:23:59] ---- session mode=tpr4-seed-20261014 seedEnv=20261014 effectiveSeed=20261014 screen=1280x720 ----
+[2026-10-17 07:23:59] capture tpr2-closeup-stairs.png ortho=3 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:59] stat tpr2-closeup-stairs upper=(14,16) lower=(14,15) side=RightPair total=3 （ortho 3 近景：台阶居中、上下接缝入画）
+[2026-10-17 07:23:59] capture tpr2-closeup-slope.png ortho=3.5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:59] stat tpr2-closeup-slope cell=(21,4) side=Left panelLevel=1 total=234 highSideDx=1 （坡格+高地面中点，坡顶到坡脚完整一段）
+[2026-10-17 07:23:59] capture tpr2-closeup-twotier.png ortho=4.5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:59] stat tpr2-closeup-twotier front=(24,4) strictSouthZero=False （正侧位：上带/草台/下带三层）
+[2026-10-17 07:23:59] capture tpr2-closeup-endcap.png ortho=4 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:59] stat tpr2-closeup-endcap cell=(13,17) variant=3 histogram v0=34 v1=221 v2=34 v3=25 （机位与 ts 批次 TS2e 完全一致，A/B 可比）
+[2026-10-17 07:23:59] capture tpr2-closeup-clearance.png ortho=4 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:59] stat tpr2-closeup-clearance anchor=stairs-lower(14,15) nearestTreeDist=7 treesInsideClearance=0 （主体居中修复 TS4f 全水面失败；树距/带内树数只记录不断言）
+[2026-10-17 07:23:59] capture tpr2-closeup-clifftop.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:23:59] stat tpr2-closeup-clifftop longest-run=13 center=(54,111) （崖顶+墙带上缘同框，UQ-19 白线观察）
+[2026-10-17 07:24:00] capture tpr2-closeup-vertwall.png ortho=3 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:00] stat tpr2-closeup-vertwall longest-vertical-run=2 center=(63,110) （竖列居中放大，v5 变体观察位）
+[2026-10-17 07:24:00] capture tpr4-closeup-diagonal.png ortho=4 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:00] stat tpr4-closeup-diagonal a=(40,4) variantA=1 diag=(41,5) variantDiag=1 （A 与对角邻中点，ortho 4；P1a 对角边角连续性观察位）
+[2026-10-17 07:24:00] capture tpr4-closeup-waterfront.png ortho=4 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:00] stat tpr4-closeup-waterfront cell=(98,56) elevation=1 southTerrain=Water （高地南临水中点，ortho 4；P1b 南向临水与阴影落水观察位）
+[2026-10-17 07:24:00] capture tpr4-closeup-twotier-land.png ortho=4.5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:00] stat tpr4-closeup-twotier-land upper=(72,72) row=4 variant=1 lower=(72,71) row=4 variant=1 southTerrain=Grass （两级退台前缘对中点，ortho 4.5；P2 两级退台可读性观察位）
+[2026-10-17 07:24:01] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 07:24:01] ---- session mode=tpr4-seed-20261014 seedEnv=20261014 effectiveSeed=20261014 screen=1280x720 ----
+[2026-10-17 07:24:01] stat ts1 elevation hillBlocks=9 mountBlocks=10 hillCells=2294 mountCells=652 cliffWallCells=314 slopeCells=234 stairs=3 seed=20261014 totalCells=16384 waterCells=3605 lowlandCells=10485 elev1Cells=1642 elev2Cells=652 waterPct=22.0032 lowlandPct=63.9954 hillPct=10.0220 mountPct=3.9795
+[2026-10-17 07:24:01] capture TS1a-fullmap-ortho40.png ortho=40 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:01] capture TS1b-fullmap-ortho64.png ortho=64 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:02] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 07:24:02] ---- session mode=tpr4-seed-20261014 seedEnv=20261014 effectiveSeed=20261014 screen=1280x720 ----
+[2026-10-17 07:24:02] capture TS2a-waterfoot-cliff.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:02] stat ts2a waterfoot-row5 cell=22,3
+[2026-10-17 07:24:02] capture TS2b-longest-horizontal-wall.png ortho=6 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:02] stat ts2b longest-horizontal-wall-run=13
+[2026-10-17 07:24:02] capture TS2c-longest-vertical-wall.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:02] stat ts2c longest-vertical-wall-run=2
+[2026-10-17 07:24:03] capture TS2d-wall-corner.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:03] capture TS2e-wall-endcap.png ortho=4 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:03] stat ts2e wall-variant-histogram v0=34 v1=221 v2=34 v3=25 capturedVariant=3
+[2026-10-17 07:24:03] capture TS2f-hilltop-and-wall.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:03] capture TS2g-two-tier-wall.png ortho=6 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:03] stat ts2g two-tier-front cell=24,4 strictSouthZero=False
+[2026-10-17 07:24:04] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 07:24:04] ---- session mode=tpr4-seed-20261014 seedEnv=20261014 effectiveSeed=20261014 screen=1280x720 ----
+[2026-10-17 07:24:04] capture TS3a-stairs.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:04] stat ts3a stairs=3 first=(14,16)-(14,15) side=RightPair
+[2026-10-17 07:24:04] capture TS3b-slope.png ortho=4 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:04] stat ts3b slopeCells=234 first=(21,4) side=Left panelLevel=1
+[2026-10-17 07:24:04] capture TS3c-shadow-and-transparency.png ortho=4 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:04] stat ts3c shadowRenderers=2245 pick=(22.50,4.50) ortho=4
+[2026-10-17 07:24:05] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 07:24:05] ---- session mode=tpr4-seed-20261014 seedEnv=20261014 effectiveSeed=20261014 screen=1280x720 ----
+[2026-10-17 07:24:05] capture TS4a-grass-forest-edge.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:05] capture TS4b-shore-foam.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:06] capture TS4c-hill-forest.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:06] capture TS4d-hill-grass.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:06] capture TS4e-hill-water.png ortho=5 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:06] stat ts4e hill-water cell=22,4 neighbor=22,3
+[2026-10-17 07:24:06] capture TS4f-clearance.png ortho=6 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 07:24:06] stat ts4f clearance-anchor=stairs-lower(14,15) nearestTreeDist=7 treesInsideClearance=0 （treesInsideClearance 预期 0——E 净空过滤落地后复验，本轮只记录不断言）

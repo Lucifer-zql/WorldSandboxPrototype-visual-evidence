@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tiny Swords — Example World (200x200)</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { overflow: hidden; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #11161d; color: #e6edf3; }
+  header { padding: 10px 14px; border-bottom: 1px solid #232c37; }
+  h1 { font-size: 15px; margin: 0 0 8px; font-weight: 600; }
+  .controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 12px; }
+  .controls label { display: flex; gap: 5px; align-items: center; color: #cbd5e1; }
+  .controls input[type="number"] { width: 52px; background: #0d1117; color: #e6edf3; border: 1px solid #2c3744; border-radius: 5px; padding: 4px 6px; }
+  .controls input[type="text"] { width: 280px; background: #0d1117; color: #e6edf3; border: 1px solid #2c3744; border-radius: 5px; padding: 4px 6px; font-size: 11px; }
+  .controls button { background: #1b232e; color: #cbd5e1; border: 1px solid #2c3744; border-radius: 5px; padding: 5px 10px; cursor: pointer; font-size: 12px; }
+  .controls button.primary { background: #2563eb; border-color: #2563eb; color: #fff; }
+  .controls button:hover { filter: brightness(1.12); }
+  .toggles { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+  .toggles label { font-size: 11px; gap: 4px; }
+  .layout { display: flex; align-items: flex-start; }
+  .stage-wrap {
+    width: 1920px; height: 1080px; flex: none;
+    overflow: hidden; position: relative; background: #1a212b;
+    cursor: grab;
+    outline: none;
+    scrollbar-width: none;
+  }
+  .stage-wrap::-webkit-scrollbar { width: 0; height: 0; display: none; }
+  .stage-wrap.panning { cursor: grabbing; }
+  .stage-inner { position: relative; display: inline-block; }
+  #map, #props, #overlay { display: block; image-rendering: pixelated; box-shadow: 0 0 0 1px #2c3744; }
+  #props, #overlay { position: absolute; left: 0; top: 0; pointer-events: none; }
+  .hit-layer { position: absolute; left: 0; top: 0; cursor: inherit; }
+  #panel { width: 320px; height: 1080px; border-left: 1px solid #232c37; overflow: auto; padding: 10px; font-size: 11px; background: #0d1117; }
+  #panel h2 { font-size: 12px; margin: 0 0 8px; color: #93a4b8; }
+  #violations { list-style: none; padding: 0; margin: 0; max-height: 40vh; overflow: auto; }
+  #violations li { padding: 4px 0; border-bottom: 1px solid #232c37; line-height: 1.4; }
+  #violations .adj { color: #f87171; }
+  #violations .step { color: #fb923c; }
+  #tooltip {
+    position: fixed; display: none; z-index: 20; pointer-events: none;
+    background: #1b232e; border: 1px solid #3d4f63; border-radius: 6px;
+    padding: 8px 10px; font-size: 11px; line-height: 1.5; max-width: 340px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.5);
+  }
+  #msg {
+    position: fixed; left: 50%; top: 50%; transform: translate(-50%,-50%);
+    max-width: 560px; padding: 18px 22px; background: #1b232e; border: 1px solid #b5552c;
+    border-radius: 10px; font-size: 13px; line-height: 1.6; display: none; z-index: 30;
+  }
+  #msg code { background:#0d1117; padding:2px 6px; border-radius:4px; }
+  .note { color: #8b98a8; font-size: 10px; margin-top: 6px; line-height: 1.4; }
+  #meta { color: #8b98a8; font-size: 11px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Tiny Swords — 200x200 Example World</h1>
+  <div class="controls">
+    <label>Zoom <input id="zoom" type="number" min="1" max="64" value="64" /><span style="color:#8b98a8;margin-left:2px">px/tile</span></label>
+    <button id="oneToOne" title="1:1 native pixels (64px tiles)">1:1</button>
+    <button id="pause" title="Pause/resume prop animations">Pause</button>
+    <button id="reload" class="primary">Reload</button>
+    <span id="meta"></span>
+  </div>
+  <div class="controls">
+    <label>Assets <input id="assets" type="text" value="Terrain" /></label>
+    <label>Adjacency <input id="adjPath" type="text" value="Terrain/Tileset/piece_adjacency_allowed.json" /></label>
+  </div>
+  <div class="toggles">
+    <label><input type="checkbox" id="togGrid" /> Grid</label>
+    <label><input type="checkbox" id="togElev" /> Elevation</label>
+    <label><input type="checkbox" id="togIds" /> Tile IDs</label>
+    <label><input type="checkbox" id="togLabels" /> Labels</label>
+    <label><input type="checkbox" id="togShadow" /> Shadows</label>
+    <label><input type="checkbox" id="togViol" /> Violations</label>
+    <span style="color:#4b5563;margin:0 4px">|</span>
+    <label><input type="checkbox" id="togTrees" checked /> Trees</label>
+    <label><input type="checkbox" id="togBushes" checked /> Bushes</label>
+    <label><input type="checkbox" id="togRocks" checked /> Rocks</label>
+    <label><input type="checkbox" id="togWaterRocks" checked /> Water Rocks</label>
+    <label><input type="checkbox" id="togSheep" checked /> Sheep</label>
+    <label><input type="checkbox" id="togTowns" checked /> Towns</label>
+    <label><input type="checkbox" id="togUnits" checked /> Units</label>
+  </div>
+  <p class="note">200x200 organic example world: a noise-shaped island coastline, scattered inland lakes, stepped hills/plateaus (tiers 1–4) linked by auto-placed ramps, clustered forests, four widely-spaced faction-colored towns (Blue/Red/Purple/Yellow) with roaming units, and roaming sheep. Toggle prop categories or <b>Pause</b> the animation. Turn on <b>Violations</b> to verify the terrain stays rule-valid. <b>Drag/WASD to pan; scroll wheel zooms</b> (opens at 1:1, overlays off). Serve from repo root: <code>python -m http.server 8000</code> then open <code>/elevation-examples.html</code>.</p>
+</header>
+
+<div class="layout">
+  <div class="stage-wrap" id="stageWrap" tabindex="0">
+    <div class="stage-inner" id="stageInner">
+      <canvas id="map"></canvas>
+      <canvas id="props"></canvas>
+      <canvas id="overlay"></canvas>
+      <div class="hit-layer" id="hitLayer"></div>
+    </div>
+  </div>
+  <div id="panel">
+    <h2>Violations <span id="violCount"></span></h2>
+    <ul id="violations"></ul>
+    <h2 style="margin-top:14px">Scenarios</h2>
+    <ul id="scenarioList" style="padding-left:16px;margin:0;line-height:1.5"></ul>
+  </div>
+</div>
+<div id="tooltip"></div>
+<div id="msg"></div>
+
+<script>
+"use strict";
+
+const W = 200, H = 200, TILE = 64;
+const WATER = -1;
+
+// mask NESW -> piece id (flatGround lookup)
+const FLAT_LOOKUP = {
+  0:16, 1:12, 2:13, 3:3, 4:10, 5:11, 6:1, 7:2,
+  8:15, 9:9, 10:14, 11:6, 12:7, 13:8, 14:4, 15:5,
+};
+const IMPLICIT_LIP = { 4:10, 5:11, 1:12, 0:16 };
+
+const FLAT = {
+  1:[0,0],2:[64,0],3:[128,0],4:[0,64],5:[64,64],6:[128,64],
+  7:[0,128],8:[64,128],9:[128,128],10:[0,192],11:[64,192],12:[128,192],
+  13:[192,0],14:[192,64],15:[192,128],16:[192,192],
+};
+const ELEV = {
+  1:[320,0],2:[384,0],3:[448,0],4:[320,64],5:[384,64],6:[448,64],
+  7:[320,128],8:[384,128],9:[448,128],10:[320,192],11:[384,192],12:[448,192],
+  13:[512,0],14:[512,64],15:[512,128],16:[512,192],
+  17:[320,256],18:[384,256],19:[448,256],20:[512,256],
+  21:[320,320],22:[384,320],23:[448,320],24:[512,320],
+};
+const STAIRS = {
+  25:[0,256], 28:[192,256], 29:[0,320], 32:[192,320],
+};
+const LIP_SUB = { 7:10, 8:11, 9:12, 15:16 };
+
+const ASSET_FILES = {
+  color1:"Tileset/Tilemap_color1.png", color2:"Tileset/Tilemap_color2.png",
+  color3:"Tileset/Tilemap_color3.png", color4:"Tileset/Tilemap_color4.png",
+  color5:"Tileset/Tilemap_color5.png",
+  foam:"Tileset/Water Foam.png", water:"Tileset/Water Background color.png",
+  shadow:"Tileset/Shadow.png",
+  bush1:"Decorations/Bushes/Bushe1.png", bush2:"Decorations/Bushes/Bushe2.png",
+  bush3:"Decorations/Bushes/Bushe3.png", bush4:"Decorations/Bushes/Bushe4.png",
+  rock1:"Decorations/Rocks/Rock1.png", rock2:"Decorations/Rocks/Rock2.png",
+  rock3:"Decorations/Rocks/Rock3.png", rock4:"Decorations/Rocks/Rock4.png",
+  waterrock1:"Decorations/Rocks in the Water/Water Rocks_01.png",
+  waterrock2:"Decorations/Rocks in the Water/Water Rocks_02.png",
+  waterrock3:"Decorations/Rocks in the Water/Water Rocks_03.png",
+  waterrock4:"Decorations/Rocks in the Water/Water Rocks_04.png",
+  sheepIdle:"Resources/Meat/Sheep/Sheep_Idle.png",
+  sheepMove:"Resources/Meat/Sheep/Sheep_Move.png",
+  sheepGrass:"Resources/Meat/Sheep/Sheep_Grass.png",
+  tree1:"Resources/Wood/Trees/Tree1.png", tree2:"Resources/Wood/Trees/Tree2.png",
+  tree3:"Resources/Wood/Trees/Tree3.png", tree4:"Resources/Wood/Trees/Tree4.png",
+  stump1:"Resources/Wood/Trees/Stump 1.png", stump2:"Resources/Wood/Trees/Stump 2.png",
+  stump3:"Resources/Wood/Trees/Stump 3.png", stump4:"Resources/Wood/Trees/Stump 4.png",
+};
+
+const TOWN_COLORS = ["Blue", "Red", "Purple", "Yellow"];
+const BUILDING_TYPES = [
+  { id:"Castle",    file:"Castle.png",    w:320, h:256, fw:5, fh:3 },
+  { id:"Monastery", file:"Monastery.png", w:192, h:320, fw:3, fh:2 },
+  { id:"Barracks",  file:"Barracks.png",  w:192, h:256, fw:3, fh:2 },
+  { id:"Archery",   file:"Archery.png",   w:192, h:256, fw:3, fh:2 },
+  { id:"Tower",     file:"Tower.png",     w:128, h:256, fw:2, fh:1 },
+  { id:"House1",    file:"House1.png",    w:128, h:192, fw:2, fh:1 },
+  { id:"House2",    file:"House2.png",    w:128, h:192, fw:2, fh:1 },
+  { id:"House3",    file:"House3.png",    w:128, h:192, fw:2, fh:1 },
+];
+for (const color of TOWN_COLORS)
+  for (const bt of BUILDING_TYPES) {
+    const key = `b_${color}_${bt.id}`;
+    ASSET_FILES[key] = `../Buildings/${color} Buildings/${bt.file}`;
+  }
+
+const UNIT_TYPES = [
+  { id:"Warrior", size:192, idle:"Warrior_Idle.png", iF:8, run:"Warrior_Run.png", rF:6 },
+  { id:"Archer",  size:192, idle:"Archer_Idle.png",  iF:6, run:"Archer_Run.png",  rF:4 },
+  { id:"Pawn",    size:192, idle:"Pawn_Idle.png",    iF:8, run:"Pawn_Run.png",    rF:6 },
+  { id:"Monk",    size:192, idle:"Idle.png",         iF:6, run:"Run.png",         rF:4 },
+  { id:"Lancer",  size:320, idle:"Lancer_Idle.png",  iF:12, run:"Lancer_Run.png", rF:6 },
+];
+for (const color of TOWN_COLORS)
+  for (const ut of UNIT_TYPES) {
+    const idleKey = `u_${color}_${ut.id}_idle`;
+    const runKey = `u_${color}_${ut.id}_run`;
+    ASSET_FILES[idleKey] = `../Units/${color} Units/${ut.id}/${ut.idle}`;
+    ASSET_FILES[runKey] = `../Units/${color} Units/${ut.id}/${ut.run}`;
+  }
+
+const ANIM_MS = 100;
+const PROP_DEFS = {
+  bush1:  { assetKey:"bush1",  frameW:128, frameH:128, frameCount:8,  frameDurationMs:ANIM_MS, anchorX:64, anchorY:128, animated:true },
+  bush2:  { assetKey:"bush2",  frameW:128, frameH:128, frameCount:8,  frameDurationMs:ANIM_MS, anchorX:64, anchorY:128, animated:true },
+  bush3:  { assetKey:"bush3",  frameW:128, frameH:128, frameCount:8,  frameDurationMs:ANIM_MS, anchorX:64, anchorY:128, animated:true },
+  bush4:  { assetKey:"bush4",  frameW:128, frameH:128, frameCount:8,  frameDurationMs:ANIM_MS, anchorX:64, anchorY:128, animated:true },
+  rock1:  { assetKey:"rock1",  frameW:64,  frameH:64,  frameCount:1,  frameDurationMs:ANIM_MS, anchorX:32, anchorY:64,  animated:false },
+  rock2:  { assetKey:"rock2",  frameW:64,  frameH:64,  frameCount:1,  frameDurationMs:ANIM_MS, anchorX:32, anchorY:64,  animated:false },
+  rock3:  { assetKey:"rock3",  frameW:64,  frameH:64,  frameCount:1,  frameDurationMs:ANIM_MS, anchorX:32, anchorY:64,  animated:false },
+  rock4:  { assetKey:"rock4",  frameW:64,  frameH:64,  frameCount:1,  frameDurationMs:ANIM_MS, anchorX:32, anchorY:64,  animated:false },
+  waterrock1:{ assetKey:"waterrock1",frameW:64, frameH:64, frameCount:16, frameDurationMs:ANIM_MS, anchorX:32, anchorY:64, animated:true },
+  waterrock2:{ assetKey:"waterrock2",frameW:64, frameH:64, frameCount:16, frameDurationMs:ANIM_MS, anchorX:32, anchorY:64, animated:true },
+  waterrock3:{ assetKey:"waterrock3",frameW:64, frameH:64, frameCount:16, frameDurationMs:ANIM_MS, anchorX:32, anchorY:64, animated:true },
+  waterrock4:{ assetKey:"waterrock4",frameW:64, frameH:64, frameCount:16, frameDurationMs:ANIM_MS, anchorX:32, anchorY:64, animated:true },
+  sheepIdle:{ assetKey:"sheepIdle",frameW:128, frameH:128, frameCount:6,  frameDurationMs:ANIM_MS, anchorX:64, anchorY:128, animated:true },
+  sheepMove:{ assetKey:"sheepMove",frameW:128, frameH:128, frameCount:4,  frameDurationMs:ANIM_MS, anchorX:64, anchorY:128, animated:true },
+  sheepGrass:{assetKey:"sheepGrass",frameW:128,frameH:128, frameCount:12, frameDurationMs:ANIM_MS, anchorX:64, anchorY:128, animated:true },
+  tree1:  { assetKey:"tree1",  frameW:192, frameH:256, frameCount:8,  frameDurationMs:ANIM_MS, anchorX:96, anchorY:256, animated:true },
+  tree2:  { assetKey:"tree2",  frameW:192, frameH:256, frameCount:8,  frameDurationMs:ANIM_MS, anchorX:96, anchorY:256, animated:true },
+  tree3:  { assetKey:"tree3",  frameW:192, frameH:192, frameCount:8,  frameDurationMs:ANIM_MS, anchorX:96, anchorY:192, animated:true },
+  tree4:  { assetKey:"tree4",  frameW:192, frameH:192, frameCount:8,  frameDurationMs:ANIM_MS, anchorX:96, anchorY:192, animated:true },
+  stump1: { assetKey:"stump1", frameW:192, frameH:256, frameCount:1,  frameDurationMs:ANIM_MS, anchorX:96, anchorY:256, animated:false },
+  stump2: { assetKey:"stump2", frameW:192, frameH:256, frameCount:1,  frameDurationMs:ANIM_MS, anchorX:96, anchorY:256, animated:false },
+  stump3: { assetKey:"stump3", frameW:192, frameH:256, frameCount:1,  frameDurationMs:ANIM_MS, anchorX:96, anchorY:256, animated:false },
+  stump4: { assetKey:"stump4", frameW:192, frameH:256, frameCount:1,  frameDurationMs:ANIM_MS, anchorX:96, anchorY:256, animated:false },
+};
+for (const color of TOWN_COLORS)
+  for (const bt of BUILDING_TYPES) {
+    const key = `b_${color}_${bt.id}`;
+    PROP_DEFS[key] = {
+      assetKey: key, frameW: bt.w, frameH: bt.h, frameCount: 1,
+      frameDurationMs: ANIM_MS, anchorX: bt.w / 2, anchorY: bt.h,
+      animated: false, fw: bt.fw, fh: bt.fh,
+    };
+  }
+for (const color of TOWN_COLORS)
+  for (const ut of UNIT_TYPES) {
+    const idleKey = `u_${color}_${ut.id}_idle`;
+    const runKey = `u_${color}_${ut.id}_run`;
+    PROP_DEFS[idleKey] = {
+      assetKey: idleKey, frameW: ut.size, frameH: ut.size, frameCount: ut.iF,
+      frameDurationMs: ANIM_MS, anchorX: ut.size / 2, anchorY: ut.size, animated: true,
+    };
+    PROP_DEFS[runKey] = {
+      assetKey: runKey, frameW: ut.size, frameH: ut.size, frameCount: ut.rF,
+      frameDurationMs: ANIM_MS, anchorX: ut.size / 2, anchorY: ut.size, animated: true,
+    };
+  }
+
+const PROP_SEED = 0xDEC0FCAE;
+const TOWN_SEED = 0x70A11;
+const PROP_TOGGLE_IDS = new Set(["togTrees", "togBushes", "togRocks", "togWaterRocks", "togSheep", "togTowns", "togUnits"]);
+let PROPS = [];
+let blockedCells = new Set();
+let layerEnabled = { trees:true, bushes:true, rocks:true, waterrocks:true, sheep:true, buildings:true, units:true };
+
+const BLOCKED_CATS = new Set(["trees", "bushes", "rocks", "buildings"]);
+
+function readLayerEnabled() {
+  layerEnabled.trees = document.getElementById("togTrees").checked;
+  layerEnabled.bushes = document.getElementById("togBushes").checked;
+  layerEnabled.rocks = document.getElementById("togRocks").checked;
+  layerEnabled.waterrocks = document.getElementById("togWaterRocks").checked;
+  layerEnabled.sheep = document.getElementById("togSheep").checked;
+  layerEnabled.buildings = document.getElementById("togTowns").checked;
+  layerEnabled.units = document.getElementById("togUnits").checked;
+}
+
+function mulberry32(a) {
+  return function () {
+    a |= 0; a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+// Deterministic lattice hash -> [0,1).
+function hash2(ix, iy, seed) {
+  let h = (seed ^ Math.imul(ix | 0, 374761393) ^ Math.imul(iy | 0, 668265263)) | 0;
+  h = Math.imul(h ^ (h >>> 13), 1274126177);
+  h ^= h >>> 16;
+  return (h >>> 0) / 4294967296;
+}
+
+// Smooth value noise sampler. Returns (x,y) -> [0,1) with bilinear smoothstep
+// interpolation over a `period`-tile lattice.
+function makeValueNoise(seed, period) {
+  return (x, y) => {
+    const gx = x / period, gy = y / period;
+    const x0 = Math.floor(gx), y0 = Math.floor(gy);
+    const fx = gx - x0, fy = gy - y0;
+    const sx = fx * fx * (3 - 2 * fx);
+    const sy = fy * fy * (3 - 2 * fy);
+    const v00 = hash2(x0, y0, seed), v10 = hash2(x0 + 1, y0, seed);
+    const v01 = hash2(x0, y0 + 1, seed), v11 = hash2(x0 + 1, y0 + 1, seed);
+    const a = v00 + (v10 - v00) * sx;
+    const b = v01 + (v11 - v01) * sx;
+    return a + (b - a) * sy;
+  };
+}
+
+// Two-octave fractal value noise for more organic shapes.
+function makeFbm(seed, period) {
+  const n1 = makeValueNoise(seed, period);
+  const n2 = makeValueNoise(seed ^ 0x9E3779B9, Math.max(2, period >> 1));
+  return (x, y) => n1(x, y) * 0.65 + n2(x, y) * 0.35;
+}
+
+function openWater(g, x, y) {
+  if (get(g, x, y) >= 0) return false;
+  for (let dy = -1; dy <= 1; dy++)
+    for (let dx = -1; dx <= 1; dx++) {
+      if (!dx && !dy) continue;
+      if (get(g, x + dx, y + dy) >= 0) return false;
+    }
+  return true;
+}
+
+function isInteriorGrass(x, y) {
+  const rec = cellRecord[y][x];
+  return rec && rec.layer === "ground" && rec.semanticId === 5;
+}
+
+function pickVariant(rng, ids) {
+  return ids[Math.floor(rng() * ids.length)];
+}
+
+function buildingCells(ax, ay, fw, fh) {
+  const cells = [];
+  const x0 = ax - Math.floor(fw / 2);
+  const y0 = ay - fh + 1;
+  for (let cy = y0; cy <= ay; cy++)
+    for (let cx = x0; cx < x0 + fw; cx++)
+      cells.push([cx, cy]);
+  return cells;
+}
+
+function buildable(g, ax, ay, fw, fh, blocked, margin = 1) {
+  if (!inB(ax, ay)) return false;
+  const elev = g[ay][ax];
+  if (elev < 1) return false;
+  for (const [cx, cy] of buildingCells(ax, ay, fw, fh)) {
+    for (let dy = -margin; dy <= margin; dy++)
+      for (let dx = -margin; dx <= margin; dx++) {
+        const nx = cx + dx, ny = cy + dy;
+        if (!inB(nx, ny)) return false;
+        if (g[ny][nx] < 1 || g[ny][nx] !== elev) return false;
+        const rec = cellRecord[ny][nx];
+        if (!rec || rec.layer !== "ground") return false;
+        if (blocked.has(`${nx},${ny}`)) return false;
+      }
+  }
+  return true;
+}
+
+function placeBuilding(g, ax, ay, def, blocked, list) {
+  if (!buildable(g, ax, ay, def.fw, def.fh, blocked)) return false;
+  for (const [cx, cy] of buildingCells(ax, ay, def.fw, def.fh))
+    blocked.add(`${cx},${cy}`);
+  list.push({ x: ax, y: ay, cat: "buildings", def });
+  return true;
+}
+
+function spiralNear(cx, cy, maxR) {
+  const pts = [];
+  for (let r = 0; r <= maxR; r++)
+    for (let dy = -r; dy <= r; dy++)
+      for (let dx = -r; dx <= r; dx++)
+        if (Math.max(Math.abs(dx), Math.abs(dy)) === r)
+          pts.push([cx + dx, cy + dy]);
+  return pts;
+}
+
+const TOWN_TARGETS = [
+  { color: "Blue",   tx: 55,  ty: 55 },
+  { color: "Red",    tx: 145, ty: 55 },
+  { color: "Purple", tx: 55,  ty: 145 },
+  { color: "Yellow", tx: 145, ty: 145 },
+];
+
+const TOWN_COMPOSITION = [
+  { id: "Monastery", count: 1 },
+  { id: "Barracks",  count: 1 },
+  { id: "Archery",   count: 1 },
+  { id: "Tower",     count: 2 },
+  { id: "House1",    count: 3 },
+  { id: "House2",    count: 2 },
+  { id: "House3",    count: 2 },
+];
+
+const UNIT_COMPOSITION = [
+  { id: "Warrior", count: 3 },
+  { id: "Archer",  count: 2 },
+  { id: "Pawn",    count: 3 },
+  { id: "Monk",    count: 1 },
+  { id: "Lancer",  count: 2 },
+];
+
+function spawnTownUnits(g, color, homeX, homeY, castleElev, blocked, list, rng) {
+  for (const entry of UNIT_COMPOSITION) {
+    const idleKey = `u_${color}_${entry.id}_idle`;
+    const runKey = `u_${color}_${entry.id}_run`;
+    const idleDef = PROP_DEFS[idleKey];
+    for (let n = 0; n < entry.count; n++) {
+      for (let t = 0; t < 60; t++) {
+        const ox = Math.floor(rng() * 21) - 10;
+        const oy = Math.floor(rng() * 21) - 10;
+        const ux = homeX + ox, uy = homeY + oy;
+        if (!inB(ux, uy) || g[uy][ux] !== castleElev) continue;
+        if (!sheepWalkable(g, ux, uy, null, blocked)) continue;
+        const startMove = rng() < 0.4;
+        const runDef = PROP_DEFS[runKey];
+        list.push({
+          x: ux, y: uy, cat: "units", color, unitType: entry.id,
+          idleKey, runKey,
+          def: startMove ? runDef : idleDef,
+          state: startMove ? "move" : "idle",
+          fx: ux, fy: uy, homeX, homeY,
+          facing: rng() < 0.5 ? 1 : -1,
+          heading: rng() * Math.PI * 2,
+          stateUntil: animClock + 800 + rng() * 4000,
+          phaseMs: rng() * (startMove ? runDef : idleDef).frameCount * ANIM_MS,
+          wanderRadius: 9,
+        });
+        break;
+      }
+    }
+  }
+}
+
+function generateTowns(g, blocked, list) {
+  const rng = mulberry32(TOWN_SEED);
+  for (const town of TOWN_TARGETS) {
+    const { color, tx, ty } = town;
+    const castleDef = PROP_DEFS[`b_${color}_Castle`];
+    for (const [ax, ay] of spiralNear(tx, ty, 30)) {
+      if (!placeBuilding(g, ax, ay, castleDef, blocked, list)) continue;
+      LABELS.push({ x: ax - 2, y: ay - castleDef.fh - 1, text: `${color} Town` });
+      for (const entry of TOWN_COMPOSITION) {
+        const bdef = PROP_DEFS[`b_${color}_${entry.id}`];
+        for (let n = 0; n < entry.count; n++)
+          for (let t = 0; t < 80; t++) {
+            const ox = Math.floor(rng() * 25) - 12;
+            const oy = Math.floor(rng() * 25) - 12;
+            if (placeBuilding(g, ax + ox, ay + oy, bdef, blocked, list)) break;
+          }
+      }
+      spawnTownUnits(g, color, ax, ay, g[ay][ax], blocked, list, rng);
+      break;
+    }
+  }
+}
+
+function buildProps(g) {
+  const rng = mulberry32(PROP_SEED);
+  const list = [];
+  const blocked = new Set();
+
+  generateTowns(g, blocked, list);
+
+  const bushIds = ["bush1", "bush2", "bush3", "bush4"];
+  const rockIds = ["rock1", "rock2", "rock3", "rock4"];
+  const treeIds = ["tree1", "tree2", "tree3", "tree4"];
+  const stumpIds = ["stump1", "stump2", "stump3", "stump4"];
+  const waterIds = ["waterrock1", "waterrock2", "waterrock3", "waterrock4"];
+
+  // Forest density field: trees cluster into woods where this is high and thin
+  // out to open plains where it is low. Sampled by position (does not consume
+  // the scatter RNG) so layouts stay deterministic.
+  const forest = makeFbm(PROP_SEED ^ 0x4444, 10);
+
+  for (let y = 1; y < H - 1; y++)
+    for (let x = 1; x < W - 1; x++) {
+      if (isInteriorGrass(x, y)) {
+        if (g[y][x] < 1) continue;
+        if (blocked.has(`${x},${y}`)) continue;
+        const r = rng();
+        let defId = null, cat = null;
+        const f = Math.max(0, (forest(x, y) - 0.45) / 0.55); // 0 open .. 1 dense
+        const tThresh = 0.02 + 0.24 * f;   // tree band scales with forest density
+        const bThresh = tThresh + 0.05;    // bushes ~5%
+        const rThresh = bThresh + 0.03;    // rocks ~3%
+        const sThresh = rThresh + 0.02;    // sheep ~2%
+        if (r < tThresh) {
+          cat = "trees";
+          const ti = Math.floor(rng() * 4);
+          defId = rng() < 0.15 ? stumpIds[ti] : treeIds[ti];
+        } else if (r < bThresh) {
+          cat = "bushes";
+          defId = pickVariant(rng, bushIds);
+        } else if (r < rThresh) {
+          cat = "rocks";
+          defId = pickVariant(rng, rockIds);
+        } else if (r < sThresh) {
+          // Sheep are roaming agents: a state machine cycles them between
+          // walking (move anim, actually moving) and resting (idle/grass).
+          const startMove = rng() < 0.5;
+          const state = startMove ? "move" : (rng() < 0.5 ? "grass" : "idle");
+          const def = PROP_DEFS[state === "move" ? "sheepMove" : state === "grass" ? "sheepGrass" : "sheepIdle"];
+          list.push({
+            x, y, cat: "sheep", def, state,
+            fx: x, fy: y, homeX: x, homeY: y,
+            facing: rng() < 0.5 ? 1 : -1,
+            heading: rng() * Math.PI * 2,
+            stateUntil: animClock + 800 + rng() * 4000,
+            phaseMs: rng() * def.frameCount * def.frameDurationMs,
+          });
+          continue;
+        }
+        if (defId) {
+          const def = PROP_DEFS[defId];
+          list.push({ x, y, cat, def, phaseMs: rng() * def.frameCount * def.frameDurationMs });
+          if (BLOCKED_CATS.has(cat)) blocked.add(`${x},${y}`);
+        }
+      } else if (openWater(g, x, y) && rng() < 0.003) {
+        const defId = pickVariant(rng, waterIds);
+        const def = PROP_DEFS[defId];
+        list.push({ x, y, cat: "waterrocks", def, phaseMs: rng() * def.frameCount * def.frameDurationMs });
+      }
+    }
+
+  list.sort((a, b) => a.y - b.y || a.x - b.x);
+  PROPS = list;
+  blockedCells = blocked;
+}
+
+function sizePropsCanvas(zoom) {
+  const propsCanvas = document.getElementById("props");
+  propsCanvas.width = W * TILE;
+  propsCanvas.height = H * TILE;
+  propsCanvas.style.width = (W * zoom) + "px";
+  propsCanvas.style.height = (H * zoom) + "px";
+  const ctx = propsCanvas.getContext("2d");
+  ctx.imageSmoothingEnabled = false;
+}
+
+// Roaming walkers (sheep + town units) ------------------------------------
+const WALKER_CATS = new Set(["sheep", "units"]);
+const SHEEP_SPEED = 0.9;       // tiles per second while walking
+const SHEEP_WANDER_RADIUS = 7; // max tiles a sheep strays from its spawn
+const UNIT_SPEED = 1.2;
+const UNIT_WANDER_RADIUS = 9;
+
+function isRampCell(x, y) {
+  if (!inB(x, y)) return false;
+  const rec = cellRecord[y][x];
+  return !!(rec && rec.layer && rec.layer.startsWith("ramp"));
+}
+
+function sheepSpriteClear(g, fx, fy, size = 128) {
+  const tx = Math.floor(fx), ty = Math.floor(fy);
+  if (!inB(tx, ty)) return false;
+  if (isRampCell(tx, ty)) return true; // ramps intentionally bridge tiers
+  const baseElev = g[ty][tx];
+  const destX = fx * TILE - TILE / 2;
+  const destY = fy * TILE - TILE;
+  const cx0 = Math.max(0, Math.floor(destX / TILE));
+  const cy0 = Math.max(0, Math.floor(destY / TILE));
+  const cx1 = Math.min(W - 1, Math.floor((destX + size - 1) / TILE));
+  const cy1 = Math.min(H - 1, Math.floor((destY + size - 1) / TILE));
+  for (let cy = cy0; cy <= cy1; cy++)
+    for (let cx = cx0; cx <= cx1; cx++)
+      if (g[cy][cx] >= 1 && g[cy][cx] !== baseElev) return false;
+  return true;
+}
+
+function sheepWalkable(g, fx, fy, self, blocked = blockedCells) {
+  const tx = Math.floor(fx), ty = Math.floor(fy);
+  if (!inB(tx, ty) || g[ty][tx] < 1) return false;
+  if (blocked.has(`${tx},${ty}`)) return false;
+  const rec = cellRecord[ty][tx];
+  if (rec && rec.layer === "cliff") return false;
+  if (!sheepSpriteClear(g, fx, fy)) return false;
+  if (self) {
+    for (const o of PROPS) {
+      if (!WALKER_CATS.has(o.cat) || o === self) continue;
+      const ox = o.fx !== undefined ? o.fx : o.x;
+      const oy = o.fy !== undefined ? o.fy : o.y;
+      if (Math.floor(ox) === tx && Math.floor(oy) === ty) return false;
+    }
+  }
+  return true;
+}
+
+function walkerStep(p, speed, wanderRadius, stepSec) {
+  const dx = Math.cos(p.heading), dy = Math.sin(p.heading);
+  const nx = p.fx + dx * speed * stepSec;
+  const ny = p.fy + dy * speed * stepSec;
+  const distHome = Math.hypot(nx - p.homeX, ny - p.homeY);
+  const ctx0 = Math.floor(p.fx), cty0 = Math.floor(p.fy);
+  const ntx = Math.floor(nx), nty = Math.floor(ny);
+  const sameElev = inB(ntx, nty) && WORLD[nty][ntx] === WORLD[cty0][ctx0];
+  const rampTarget = isRampCell(ntx, nty);
+  const rampCurrent = isRampCell(ctx0, cty0);
+  const elevDelta = inB(ntx, nty) ? Math.abs(WORLD[nty][ntx] - WORLD[cty0][ctx0]) : Infinity;
+  const viaRamp = rampTarget && rampCurrent && elevDelta === 1;
+  const elevOk = sameElev || viaRamp;
+  if (elevOk && sheepWalkable(WORLD, nx, ny, p) && distHome < wanderRadius) {
+    p.fx = nx; p.fy = ny;
+    if (Math.abs(dx) > 0.01) p.facing = dx > 0 ? 1 : -1;
+  } else {
+    p.heading = Math.atan2(p.homeY - p.fy, p.homeX - p.fx) + (Math.random() * 2 - 1) * 0.8;
+  }
+}
+
+function setSheepState(p, state) {
+  p.state = state;
+  p.def = PROP_DEFS[state === "move" ? "sheepMove" : state === "grass" ? "sheepGrass" : "sheepIdle"];
+  p.phaseMs = Math.random() * p.def.frameCount * p.def.frameDurationMs;
+}
+
+function advanceSheepState(p) {
+  if (p.state === "move") {
+    setSheepState(p, Math.random() < 0.5 ? "grass" : "idle");
+    p.stateUntil = animClock + 2000 + Math.random() * 4000;
+  } else {
+    setSheepState(p, "move");
+    p.heading = Math.random() * Math.PI * 2;
+    p.stateUntil = animClock + 1500 + Math.random() * 3500;
+  }
+}
+
+function updateSheep(dtMs) {
+  const stepSec = dtMs / 1000;
+  for (const p of PROPS) {
+    if (p.cat !== "sheep") continue;
+    if (animClock >= p.stateUntil) advanceSheepState(p);
+    if (p.state !== "move") continue;
+    walkerStep(p, SHEEP_SPEED, SHEEP_WANDER_RADIUS, stepSec);
+  }
+}
+
+function setUnitState(p, state) {
+  p.state = state;
+  p.def = PROP_DEFS[state === "move" ? p.runKey : p.idleKey];
+  p.phaseMs = Math.random() * p.def.frameCount * p.def.frameDurationMs;
+}
+
+function advanceUnitState(p) {
+  if (p.state === "move") {
+    setUnitState(p, "idle");
+    p.stateUntil = animClock + 2000 + Math.random() * 3000;
+  } else {
+    setUnitState(p, "move");
+    p.heading = Math.random() * Math.PI * 2;
+    p.stateUntil = animClock + 1500 + Math.random() * 2500;
+  }
+}
+
+function updateUnits(dtMs) {
+  const stepSec = dtMs / 1000;
+  for (const p of PROPS) {
+    if (p.cat !== "units") continue;
+    if (animClock >= p.stateUntil) advanceUnitState(p);
+    if (p.state !== "move") continue;
+    walkerStep(p, UNIT_SPEED, p.wanderRadius ?? UNIT_WANDER_RADIUS, stepSec);
+  }
+}
+
+function propBaseX(p) { return p.fx !== undefined ? p.fx : p.x; }
+function propBaseY(p) { return p.fy !== undefined ? p.fy : p.y; }
+
+function propDestRect(p) {
+  const d = p.def;
+  const px = propBaseX(p), py = propBaseY(p);
+  return {
+    destX: px * TILE + TILE / 2 - d.anchorX,
+    destY: py * TILE + TILE - d.anchorY,
+    w: d.frameW,
+    h: d.frameH,
+    tx: Math.floor(px),
+    ty: Math.floor(py),
+  };
+}
+
+function drawProp(ctx, A, p, now) {
+  const d = p.def;
+  const img = A[d.assetKey];
+  if (!img) return;
+  let frame = 0;
+  if (d.animated) frame = Math.floor((now + p.phaseMs) / d.frameDurationMs) % d.frameCount;
+  const px = p.fx !== undefined ? p.fx : p.x;
+  const py = p.fy !== undefined ? p.fy : p.y;
+  const destX = px * TILE + TILE / 2 - d.anchorX;
+  const destY = py * TILE + TILE - d.anchorY;
+  if (p.facing === -1) {
+    const cx = px * TILE + TILE / 2;
+    ctx.save();
+    ctx.translate(cx, 0);
+    ctx.scale(-1, 1);
+    ctx.translate(-cx, 0);
+    ctx.drawImage(img, frame * d.frameW, 0, d.frameW, d.frameH, destX, destY, d.frameW, d.frameH);
+    ctx.restore();
+  } else {
+    ctx.drawImage(img, frame * d.frameW, 0, d.frameW, d.frameH, destX, destY, d.frameW, d.frameH);
+  }
+}
+
+function renderPropsFrame(now) {
+  if (!WORLD || !ASSETS) return;
+  const canvas = document.getElementById("props");
+  const ctx = canvas.getContext("2d");
+  const stage = document.getElementById("stageWrap");
+  const zoom = Math.max(1, Math.min(64, parseInt(document.getElementById("zoom").value) || 6));
+  const pad = 10;
+  const vx0 = Math.max(0, Math.floor(stage.scrollLeft / zoom) - pad);
+  const vy0 = Math.max(0, Math.floor(stage.scrollTop / zoom) - pad);
+  const vx1 = Math.min(W - 1, Math.ceil((stage.scrollLeft + stage.clientWidth) / zoom) + pad);
+  const vy1 = Math.min(H - 1, Math.ceil((stage.scrollTop + stage.clientHeight) / zoom) + pad);
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  const visible = [];
+  for (const p of PROPS) {
+    if (!layerEnabled[p.cat]) continue;
+    const px = propBaseX(p), py = propBaseY(p);
+    if (px < vx0 || px > vx1 || py < vy0 || py > vy1) continue;
+    visible.push(p);
+  }
+  visible.sort((a, b) => propBaseY(a) - propBaseY(b) || propBaseX(a) - propBaseX(b));
+  for (const p of visible) {
+    drawProp(ctx, ASSETS, p, now);
+  }
+}
+
+let propsAnimLast = 0;
+const PROPS_FRAME_MS = 1000 / 15;
+
+// Internal animation clock that only advances while playing, so pausing
+// freezes every prop and resuming continues without skipping frames.
+let animClock = 0;
+let lastRafTime = null;
+let animPaused = false;
+
+function propsAnimLoop(now) {
+  if (lastRafTime === null) lastRafTime = now;
+  const delta = Math.min(100, now - lastRafTime); // clamp tab-switch jumps
+  lastRafTime = now;
+  if (!animPaused) {
+    animClock += delta;
+    updateSheep(delta);
+    updateUnits(delta);
+  }
+
+  if (now - propsAnimLast >= PROPS_FRAME_MS) {
+    propsAnimLast = now;
+    renderPropsFrame(animClock);
+  }
+  requestAnimationFrame(propsAnimLoop);
+}
+
+// ---------------------------------------------------------------------------
+// Geometry helpers
+// ---------------------------------------------------------------------------
+function rawIdFromCoords(sx, sy) { return (sy / 64) * 9 + (sx / 64) + 1; }
+function rawIdFromRegion(region, semanticId) {
+  const m = region === "flat" ? FLAT : region === "elev" ? ELEV : STAIRS;
+  const c = m[semanticId];
+  return c ? rawIdFromCoords(c[0], c[1]) : null;
+}
+function regionLabel(r) { return r === "flat" ? "FG" : r === "elev" ? "EG" : "ST"; }
+
+function inB(x, y) { return x >= 0 && y >= 0 && x < W && y < H; }
+function get(g, x, y) { return inB(x, y) ? g[y][x] : WATER; }
+
+function sameGroup(nv, e) {
+  // Equal-or-higher land = same autotile group; water/off-map (-1) and lower land stay OTHER.
+  return nv >= e ? 1 : 0;
+}
+function mask4(g, x, y) {
+  const e = g[y][x];
+  const N = sameGroup(get(g, x, y - 1), e);
+  const E = sameGroup(get(g, x + 1, y), e);
+  const S = sameGroup(get(g, x, y + 1), e);
+  const Ww = sameGroup(get(g, x - 1, y), e);
+  return (N << 3) | (E << 2) | (S << 1) | Ww;
+}
+function maskStr(m) {
+  return "" + ((m>>3)&1) + ((m>>2)&1) + ((m>>1)&1) + (m&1);
+}
+function eightWater(g, x, y) {
+  for (let dy = -1; dy <= 1; dy++)
+    for (let dx = -1; dx <= 1; dx++) {
+      if (!dx && !dy) continue;
+      if (get(g, x + dx, y + dy) < 0) return true;
+    }
+  return false;
+}
+
+// ---------------------------------------------------------------------------
+// Scenario authoring
+// ---------------------------------------------------------------------------
+const CARD_W = 20, CARD_H = 25;
+
+function emptyGrid(fill = 1) {
+  return Array.from({ length: H }, () => new Array(W).fill(fill));
+}
+function cardOrigin(col, row) { return { ox: col * CARD_W, oy: row * CARD_H }; }
+
+function fillRect(g, x, y, w, h, v) {
+  for (let j = y; j < y + h; j++)
+    for (let i = x; i < x + w; i++)
+      if (inB(i, j)) g[j][i] = v;
+}
+function stampDisc(g, cx, cy, r, lvl) {
+  for (let j = cy - r; j <= cy + r; j++)
+    for (let i = cx - r; i <= cx + r; i++)
+      if (inB(i, j) && Math.hypot(i - cx, j - cy) <= r)
+        g[j][i] = Math.max(g[j][i], lvl);
+}
+function stampLake(g, cx, cy, r) {
+  for (let j = cy - r; j <= cy + r; j++)
+    for (let i = cx - r; i <= cx + r; i++)
+      if (inB(i, j) && Math.hypot(i - cx, j - cy) <= r) g[j][i] = WATER;
+}
+
+// Rain-filled basin: raise a flush rim at `tier`, then fill the interior with water.
+function carveLake(g, cx, cy, r, tier) {
+  stampDisc(g, cx, cy, r + 2, tier);
+  stampLake(g, cx, cy, r);
+}
+
+function autopad(g) {
+  let changed = true, guard = 0;
+  while (changed && guard++ < 800) {
+    changed = false;
+    for (let y = 0; y < H; y++)
+      for (let x = 0; x < W; x++) {
+        const e = g[y][x];
+        if (e <= 0) continue;
+        for (const [dx, dy] of [[0, -1], [1, 0], [0, 1], [-1, 0]]) {
+          const nx = x + dx, ny = y + dy;
+          const n = get(g, nx, ny);
+          if (n >= 0 && n < e - 1) { g[ny][nx] = e - 1; changed = true; }
+        }
+      }
+  }
+}
+
+const SCENARIOS = [];
+const RAMPS = [];
+const LABELS = [];
+
+function scenario(id, col, row, title, fn) {
+  const { ox, oy } = cardOrigin(col, row);
+  SCENARIOS.push({ id, title, ox, oy });
+  LABELS.push({ x: ox + 1, y: oy + 1, text: title });
+  fn(ox, oy);
+}
+
+function pyramid(g, x, y, sz) {
+  for (let t = 1; t <= 4; t++) {
+    const i = (t - 1) * Math.floor(sz / 8);
+    fillRect(g, x + i, y + i, sz - 2 * i, sz - 2 * i, t);
+  }
+}
+function volcano(g, cx, cy) {
+  for (let t = 1; t <= 4; t++) stampDisc(g, cx, cy, 12 - (t - 1) * 3, t);
+  carveLake(g, cx, cy, 2, 4);
+}
+function atoll(g, cx, cy) {
+  stampDisc(g, cx, cy, 8, 1);
+  stampLake(g, cx, cy, 4);
+}
+function moatKeep(g, cx, cy) {
+  fillRect(g, cx - 7, cy - 7, 14, 14, 1);
+  for (let j = -9; j <= 9; j++)
+    for (let i = -9; i <= 9; i++)
+      if (Math.max(Math.abs(i), Math.abs(j)) === 9 && inB(cx + i, cy + j))
+        g[cy + j][cx + i] = WATER;
+  fillRect(g, cx - 4, cy - 4, 8, 8, 3);
+}
+function wall(g, x, y, len) { fillRect(g, x, y, len, 3, 2); }
+function mountain(g, cx, cy) {
+  stampDisc(g, cx, cy, 16, 1);
+  stampDisc(g, cx, cy, 11, 2);
+  stampDisc(g, cx, cy, 7, 3);
+  stampDisc(g, cx, cy, 3, 4);
+}
+function terraces(g, x, y) {
+  for (let t = 1; t <= 4; t++) fillRect(g, x, y + (t - 1) * 6, 40, 6, t);
+  carveLake(g, x + 6, y + 2, 1, 1);
+  carveLake(g, x + 6, y + 8, 1, 2);
+  carveLake(g, x + 6, y + 14, 1, 3);
+  carveLake(g, x + 6, y + 20, 1, 4);
+}
+function maze(g, x, y) {
+  for (let i = 0; i < 8; i++) fillRect(g, x + i * 4, y, 2, 30, 2);
+  for (let j = 0; j < 4; j++) fillRect(g, x, y + j * 8, 30, 2, 2);
+}
+function archipelago(g, cx, cy) {
+  fillRect(g, cx - 15, cy - 15, 30, 30, WATER);
+  for (const [dx, dy] of [[-8, -6], [0, 0], [7, 5], [-5, 8], [9, -9], [3, -7]])
+    g[cy + dy][cx + dx] = 1;
+}
+function elevLake(g, x, y, tier) {
+  fillRect(g, x, y, 14, 14, tier);
+  carveLake(g, x + 7, y + 7, 2, tier);
+}
+function staircase(g, x, y, w, bh) {
+  fillRect(g, x, y + 2 * bh, w, bh, 2);
+  fillRect(g, x + 4, y + bh, w - 4, bh, 3);
+  fillRect(g, x + 8, y, w - 8, bh, 4);
+}
+
+const WORLD_SEED = 0x7A91C3;
+
+// Smooth land/water mask a few times so the coastline reads cleanly (no
+// single-cell speckles or pinholes that the tileset cannot represent well).
+function smoothLandWater(g, passes) {
+  for (let p = 0; p < passes; p++) {
+    const snap = g.map(row => row.slice());
+    for (let y = 0; y < H; y++)
+      for (let x = 0; x < W; x++) {
+        let land = 0, total = 0;
+        for (let dy = -1; dy <= 1; dy++)
+          for (let dx = -1; dx <= 1; dx++) {
+            const v = get(snap, x + dx, y + dy);
+            total++;
+            if (v >= 0) land++;
+          }
+        if (land >= 6) g[y][x] = Math.max(g[y][x], 1);
+        else if (land <= 2) g[y][x] = WATER;
+      }
+  }
+}
+
+// Drop land cells that are not part of the main contiguous landmass (tiny
+// stranded islets) so the map is one clean island.
+function keepMainLandmass(g) {
+  const seen = Array.from({ length: H }, () => new Array(W).fill(false));
+  let best = null, bestSize = 0;
+  for (let y = 0; y < H; y++)
+    for (let x = 0; x < W; x++) {
+      if (seen[y][x] || g[y][x] < 0) continue;
+      const stack = [[x, y]], cells = [];
+      seen[y][x] = true;
+      while (stack.length) {
+        const [cx, cy] = stack.pop();
+        cells.push([cx, cy]);
+        for (const [dx, dy] of [[0, -1], [1, 0], [0, 1], [-1, 0]]) {
+          const nx = cx + dx, ny = cy + dy;
+          if (inB(nx, ny) && !seen[ny][nx] && g[ny][nx] >= 0) {
+            seen[ny][nx] = true;
+            stack.push([nx, ny]);
+          }
+        }
+      }
+      if (cells.length > bestSize) { bestSize = cells.length; best = cells; }
+    }
+  if (!best) return;
+  const keep = new Set(best.map(([x, y]) => x + "," + y));
+  for (let y = 0; y < H; y++)
+    for (let x = 0; x < W; x++)
+      if (g[y][x] >= 0 && !keep.has(x + "," + y)) g[y][x] = WATER;
+}
+
+// Find valid side-ramp anchors along the south edges of plateaus. Mirrors the
+// renderer's own guard so every emitted ramp draws and connects cleanly.
+function autoRamps(g) {
+  const placed = [];
+  const tryPlace = (sx, sy, side) => {
+    if (!inB(sx, sy) || !inB(sx, sy - 1)) return;
+    const cornerX = side === "L" ? sx + 1 : sx - 1;
+    if (!inB(cornerX, sy - 1)) return;
+    const platform = get(g, cornerX, sy - 1);
+    if (platform < 2) return;
+    const landing = platform - 1;
+    if (get(g, sx, sy) !== landing) return;      // landing tier under the slope base
+    if (get(g, sx, sy - 1) !== landing) return;  // slope top sits on lower land beside the cliff
+    if (get(g, sx, sy + 1) < 0) return;          // need walkable ground to step off
+    if (get(g, side === "L" ? sx - 1 : sx + 1, sy) < 0) return; // exit-side apron is land
+    for (const p of placed)
+      if (Math.max(Math.abs(p.x - sx), Math.abs(p.y - sy)) < 6) return; // spread them out
+    placed.push({ side, x: sx, y: sy, label: `ramp ${landing}->${platform}` });
+  };
+  for (let y = 1; y < H - 1; y++)
+    for (let x = 1; x < W - 1; x++) {
+      const e = g[y][x];
+      if (e < 2) continue;
+      if (get(g, x, y + 1) !== e - 1) continue;  // south edge with a 1-step drop
+      if (get(g, x - 1, y) < e) tryPlace(x - 1, y + 1, "L"); // plateau bottom-left corner
+      if (get(g, x + 1, y) < e) tryPlace(x + 1, y + 1, "R"); // plateau bottom-right corner
+    }
+  return placed;
+}
+
+function buildWorld() {
+  const g = emptyGrid(WATER);
+  RAMPS.length = 0;
+  LABELS.length = 0;
+  SCENARIOS.length = 0;
+
+  const rng = mulberry32(WORLD_SEED);
+  const coast = makeFbm(WORLD_SEED ^ 0x1111, 16);
+  const cx = (W - 1) / 2, cy = (H - 1) / 2;
+  const maxR = Math.hypot(cx, cy);
+
+  // 1. Island landmass: value noise minus a radial falloff so land fills the
+  // centre and dissolves into sea toward the edges (irregular coastline).
+  for (let y = 0; y < H; y++)
+    for (let x = 0; x < W; x++) {
+      const radial = Math.hypot(x - cx, y - cy) / maxR; // 0 centre .. 1 corner
+      const v = coast(x, y) - radial * 1.15 + 0.42;
+      g[y][x] = v > 0 ? 1 : WATER;
+    }
+  smoothLandWater(g, 2);
+  keepMainLandmass(g);
+
+  // 2. Inland lakes scattered across the landmass (organic, never on the very edge).
+  const lakeField = makeFbm(WORLD_SEED ^ 0x2222, 9);
+  let lakes = 0;
+  for (let tries = 0; tries < 1500 && lakes < 28; tries++) {
+    const lx = 12 + Math.floor(rng() * (W - 24));
+    const ly = 12 + Math.floor(rng() * (H - 24));
+    if (g[ly][lx] < 1) continue;
+    if (lakeField(lx, ly) < 0.52) continue;
+    const r = 2 + Math.floor(rng() * 4);
+    let ok = true;
+    for (let j = -r - 2; j <= r + 2 && ok; j++)
+      for (let i = -r - 2; i <= r + 2 && ok; i++)
+        if (!inB(lx + i, ly + j) || g[ly + j][lx + i] < 0) ok = false; // keep lakes inland
+    if (!ok) continue;
+    stampLake(g, lx, ly, r);
+    lakes++;
+  }
+
+  // 3. Hills / plateaus: a central "keep" highland plus a few scattered hills.
+  // stampDisc raises only land it covers (max), so hills rise out of the plains.
+  const stampHillOnLand = (hx, hy, r, lvl) => {
+    for (let j = hy - r; j <= hy + r; j++)
+      for (let i = hx - r; i <= hx + r; i++)
+        if (inB(i, j) && g[j][i] >= 1 && Math.hypot(i - hx, j - hy) <= r)
+          g[j][i] = Math.max(g[j][i], lvl);
+  };
+  // Central keep highland (offset north so it shows a south face).
+  stampHillOnLand(Math.round(cx), Math.round(cy) - 4, 12, 2);
+  stampHillOnLand(Math.round(cx), Math.round(cy) - 6, 7, 3);
+  stampHillOnLand(Math.round(cx), Math.round(cy) - 8, 3, 4);
+  // Scattered outer hills.
+  const hillField = makeFbm(WORLD_SEED ^ 0x3333, 11);
+  let hills = 0;
+  for (let tries = 0; tries < 1500 && hills < 16; tries++) {
+    const hx = 14 + Math.floor(rng() * (W - 28));
+    const hy = 14 + Math.floor(rng() * (H - 28));
+    if (g[hy][hx] < 1) continue;
+    if (Math.hypot(hx - cx, hy - cy) < 18) continue; // keep clear of the keep
+    if (hillField(hx, hy) < 0.5) continue;
+    const r = 4 + Math.floor(rng() * 4);
+    stampHillOnLand(hx, hy, r, 2);
+    if (rng() < 0.5) stampHillOnLand(hx, hy - 2, Math.max(2, r - 3), 3);
+    hills++;
+  }
+
+  autopad(g);
+  RAMPS.push(...autoRamps(g));
+
+  return g;
+}
+
+// ---------------------------------------------------------------------------
+// Render state: per-cell records + overrides
+// ---------------------------------------------------------------------------
+let cellRecord = []; // [y][x] = { elevation, region, semanticId, rawId, layer }
+let cornerOverride = new Map(); // "x,y" -> { region, semanticId }
+let cliffOverride = new Map();
+
+function key(x, y) { return x + "," + y; }
+
+function makeRecord(g, x, y, region, semanticId, layer = "ground") {
+  const coords = region === "flat" ? FLAT[semanticId]
+    : region === "elev" ? ELEV[semanticId]
+    : STAIRS[semanticId];
+  const rec = {
+    elevation: g[y][x],
+    region, semanticId,
+    rawId: coords ? rawIdFromCoords(coords[0], coords[1]) : null,
+    sheetX: coords ? coords[0] : 0,
+    sheetY: coords ? coords[1] : 0,
+    layer,
+  };
+  cellRecord[y][x] = rec;
+  return rec;
+}
+
+function pickGroundPiece(g, x, y) {
+  const e = g[y][x];
+  const m = mask4(g, x, y);
+  let piece = FLAT_LOOKUP[m];
+  const region = e === 0 ? "flat" : "elev";
+
+  if (e > 0) {
+    const s = get(g, x, y + 1);
+    const north = get(g, x, y - 1);
+    if (s < e && s !== WATER) {
+      if (north === WATER && LIP_SUB[piece]) piece = LIP_SUB[piece];
+      else if (IMPLICIT_LIP[m] !== undefined) piece = IMPLICIT_LIP[m];
+    }
+  }
+  const ov = cornerOverride.get(key(x, y));
+  if (ov) return { region: ov.region, piece: ov.semanticId };
+  return { region, piece };
+}
+
+// Per-level sameness mask for stacked-tier rendering: a neighbour counts as
+// "same" at level L when its elevation is >= L (i.e. it is land at this tier).
+function maskAtLevel(g, x, y, L) {
+  const N = get(g, x, y - 1) >= L ? 1 : 0;
+  const E = get(g, x + 1, y) >= L ? 1 : 0;
+  const S = get(g, x, y + 1) >= L ? 1 : 0;
+  const Ww = get(g, x - 1, y) >= L ? 1 : 0;
+  return (N << 3) | (E << 2) | (S << 1) | Ww;
+}
+// Underlay tile for a lower tier L beneath a higher cell, so the higher tile's
+// transparent rim reveals the tier below (not water). Mirrors pickGroundPiece's
+// lip logic but keyed on L instead of the cell's own elevation.
+function pickPieceAtLevel(g, x, y, L) {
+  const m = maskAtLevel(g, x, y, L);
+  let piece = FLAT_LOOKUP[m];
+  const region = L === 0 ? "flat" : "elev";
+  if (L > 0) {
+    const south = get(g, x, y + 1);
+    const north = get(g, x, y - 1);
+    if (south < L && south !== WATER) {
+      if (north < L && LIP_SUB[piece]) piece = LIP_SUB[piece];
+      else if (IMPLICIT_LIP[m] !== undefined) piece = IMPLICIT_LIP[m];
+    }
+  }
+  return { region, piece };
+}
+
+function cliffVariant(g, x, y) {
+  const e = g[y][x];
+  // Rounded END only where the neighbor is lower/open ground; against
+  // same-or-higher land a wall continues, so the face butts flush.
+  const openL = get(g, x - 1, y) < e;
+  const openR = get(g, x + 1, y) < e;
+  if (openL && openR) return "narrow";
+  if (openL && !openR) return "left";
+  if (!openL && openR) return "right";
+  return "mid";
+}
+
+function prepareRampOverrides(g, ramps) {
+  cornerOverride.clear();
+  cliffOverride.clear();
+  for (const r of ramps) {
+    const { side, x: sx, y: sy } = r;
+    const cornerX = side === "L" ? sx + 1 : sx - 1;
+    const cornerY = sy - 1;
+    if (!inB(cornerX, cornerY) || g[cornerY][cornerX] !== g[sy][sx] + 1) continue;
+    cornerOverride.set(key(cornerX, cornerY), { region: "elev", semanticId: 5 });
+    if (inB(cornerX, sy)) {
+      const piece = side === "L" ? 17 : 19;
+      cliffOverride.set(key(cornerX, sy), { region: "elev", semanticId: 18, replaces: piece });
+    }
+  }
+}
+
+function sheetFor(A, e) {
+  return e <= 0 ? A.color1 : A[`color${Math.min(5, e + 1)}`];
+}
+
+function renderMap(canvas, g, zoom, A, drawShadow) {
+  cellRecord = Array.from({ length: H }, () => new Array(W).fill(null));
+  prepareRampOverrides(g, RAMPS);
+
+  canvas.width = W * TILE;
+  canvas.height = H * TILE;
+  canvas.style.width = (W * zoom) + "px";
+  canvas.style.height = (H * zoom) + "px";
+  const ctx = canvas.getContext("2d");
+  ctx.imageSmoothingEnabled = false;
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // 1 water
+  for (let y = 0; y < H; y++)
+    for (let x = 0; x < W; x++)
+      ctx.drawImage(A.water, x * TILE, y * TILE, TILE, TILE);
+
+  // 2 foam
+  const FOAM_FRAME = 8, FS = 192;
+  for (let y = 0; y < H; y++)
+    for (let x = 0; x < W; x++) {
+      if (g[y][x] < 0) continue;
+      if (!eightWater(g, x, y)) continue;
+      ctx.drawImage(A.foam, FOAM_FRAME * FS, 0, FS, FS, x * TILE - TILE, y * TILE - TILE, FS, FS);
+    }
+
+  // 3 ground tops (stacked tiers: for each cell draw every tier from level 0 up
+  // to its elevation, so a higher tile's transparent rim reveals the tier below
+  // instead of the water background). The cell's own (top) tile is recorded.
+  let maxE = 0;
+  for (let y = 0; y < H; y++)
+    for (let x = 0; x < W; x++)
+      if (g[y][x] > maxE) maxE = g[y][x];
+
+  for (let L = 0; L <= maxE; L++) {
+    const sheet = sheetFor(A, L);
+    for (let y = 0; y < H; y++)
+      for (let x = 0; x < W; x++) {
+        const e = g[y][x];
+        if (e < L) continue; // cell is not land at this tier
+        const top = e === L;
+        const { region, piece } = top ? pickGroundPiece(g, x, y) : pickPieceAtLevel(g, x, y, L);
+        const co = (region === "flat" ? FLAT : ELEV)[piece];
+        ctx.drawImage(sheet, co[0], co[1], TILE, TILE, x * TILE, y * TILE, TILE, TILE);
+        if (top) makeRecord(g, x, y, region, piece, "ground");
+      }
+  }
+
+  // 4 cliff bases
+  for (let y = 0; y < H - 1; y++)
+    for (let x = 0; x < W; x++) {
+      const e = g[y][x];
+      if (e <= 0) continue;
+      const s = get(g, x, y + 1);
+      if (s >= e) continue;
+      if (s === WATER) continue; // flush lake/sea: no vertical cliff into water
+      let variant = cliffVariant(g, x, y);
+      const ids = { left:17, mid:18, right:19, narrow:20 };
+      let semId = ids[variant];
+      const cov = cliffOverride.get(key(x, y + 1));
+      if (cov && (semId === 17 || semId === 19)) semId = 18;
+      const co = ELEV[semId];
+      const sheet = sheetFor(A, e);
+      ctx.drawImage(sheet, co[0], co[1], TILE, TILE, x * TILE, (y + 1) * TILE, TILE, TILE);
+      if (inB(x, y + 1)) makeRecord(g, x, y + 1, "elev", semId, "cliff");
+    }
+
+  // 5 ramps
+  for (const r of RAMPS) {
+    const { side, x: sx, y: sy } = r;
+    const landing = g[sy][sx];
+    const platform = landing + 1;
+    const cornerX = side === "L" ? sx + 1 : sx - 1;
+    if (get(g, cornerX, sy - 1) !== platform) continue;
+    const topId = side === "L" ? 25 : 28;
+    const botId = side === "L" ? 29 : 32;
+    const topY = sy - 1;
+    if (inB(sx, topY) && get(g, sx, sy - 2) === platform) {
+      const bd = ELEV[18];
+      const sheet = sheetFor(A, platform);
+      ctx.drawImage(sheet, bd[0], bd[1], TILE, TILE, sx * TILE, topY * TILE, TILE, TILE);
+      makeRecord(g, sx, topY, "elev", 18, "ramp-backdrop");
+    }
+    if (inB(sx, topY)) {
+      const tc = STAIRS[topId];
+      const sheet = sheetFor(A, platform);
+      ctx.drawImage(sheet, tc[0], tc[1], TILE, TILE, sx * TILE, topY * TILE, TILE, TILE);
+      makeRecord(g, sx, topY, "stairs", topId, "ramp-top");
+    }
+    if (inB(sx, sy)) {
+      const bc = STAIRS[botId];
+      // Whole ramp is drawn from the elevated (platform) colour sheet so the
+      // top and bottom read as one continuous piece in a single tier colour.
+      const sheet = sheetFor(A, platform);
+      ctx.drawImage(sheet, bc[0], bc[1], TILE, TILE, sx * TILE, sy * TILE, TILE, TILE);
+      makeRecord(g, sx, sy, "stairs", botId, "ramp-bottom");
+    }
+  }
+
+  // 7 shadows
+  if (drawShadow) {
+    for (let y = 0; y < H - 2; y++)
+      for (let x = 0; x < W; x++) {
+        const e = g[y][x];
+        if (e < 1) continue;
+        const s = get(g, x, y + 1), ss = get(g, x, y + 2);
+        if (s < 0 || ss < 0) continue;
+        if (s >= e) continue;
+        ctx.drawImage(A.shadow, x * TILE, (y + 1) * TILE, TILE, TILE);
+      }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Overlays + violations
+// ---------------------------------------------------------------------------
+const DX8 = [-1,0,1,-1,1,-1,0,1];
+const DY8 = [-1,-1,-1,0,0,1,1,1];
+const N8LABEL = ["NW","N","NE","W","E","SW","S","SE"];
+
+function neighborToken(g, x, y, adjAllowed) {
+  if (!inB(x, y) || g[y][x] < 0) return "water";
+  const rec = cellRecord[y][x];
+  if (!rec || rec.rawId == null) return "water";
+  return rec.rawId;
+}
+
+function checkViolations(g, adjAllowed) {
+  const list = [];
+  const flaggedAdj = new Set();
+  const flaggedStep = new Set();
+
+  for (let y = 0; y < H; y++)
+    for (let x = 0; x < W; x++) {
+      const e = g[y][x];
+      if (e >= 0) {
+        const s = get(g, x, y + 1);
+        if (s >= 0 && e - s !== 1 && s < e) {
+          list.push({ type: "step", x, y, msg: `(${x},${y}) el${e} south el${s} drop=${e-s}` });
+          flaggedStep.add(key(x, y));
+        }
+      }
+      const rec = cellRecord[y][x];
+      if (!rec || rec.rawId == null) continue;
+      const allowed = adjAllowed[String(rec.rawId)];
+      if (!allowed) continue;
+      const allowSet = new Set(allowed.map(v => v === "water" ? "water" : Number(v)));
+
+      for (let i = 0; i < 8; i++) {
+        const nx = x + DX8[i], ny = y + DY8[i];
+        const tok = neighborToken(g, nx, ny, adjAllowed);
+        const tokVal = tok === "water" ? "water" : tok;
+        if (!allowSet.has(tokVal)) {
+          list.push({
+            type: "adj",
+            x, y, nx, ny,
+            msg: `(${x},${y}) #${rec.rawId} ${N8LABEL[i]} -> ${tokVal === "water" ? "water" : "#"+tokVal} not in allowed`,
+          });
+          flaggedAdj.add(key(x, y));
+          if (inB(nx, ny)) flaggedAdj.add(key(nx, ny));
+        }
+      }
+    }
+  return { list, flaggedAdj, flaggedStep };
+}
+
+function renderOverlay(overlay, g, zoom, violations, flaggedAdj, flaggedStep) {
+  overlay.width = W * zoom;
+  overlay.height = H * zoom;
+  const ctx = overlay.getContext("2d");
+  ctx.clearRect(0, 0, overlay.width, overlay.height);
+
+  const showGrid = document.getElementById("togGrid").checked;
+  const showElev = document.getElementById("togElev").checked;
+  const showIds = document.getElementById("togIds").checked;
+  const showLabels = document.getElementById("togLabels").checked;
+  const showViol = document.getElementById("togViol").checked;
+
+  if (showGrid) {
+    ctx.strokeStyle = "rgba(255,255,255,0.12)";
+    ctx.lineWidth = 1;
+    for (let x = 0; x <= W; x++) {
+      ctx.beginPath(); ctx.moveTo(x * zoom, 0); ctx.lineTo(x * zoom, H * zoom); ctx.stroke();
+    }
+    for (let y = 0; y <= H; y++) {
+      ctx.beginPath(); ctx.moveTo(0, y * zoom); ctx.lineTo(W * zoom, y * zoom); ctx.stroke();
+    }
+  }
+
+  if (showViol) {
+    for (const k of flaggedStep) {
+      const [x, y] = k.split(",").map(Number);
+      ctx.fillStyle = "rgba(251,146,60,0.4)";
+      ctx.fillRect(x * zoom, y * zoom, zoom, zoom);
+      ctx.strokeStyle = "#fb923c";
+      ctx.lineWidth = 2;
+      ctx.strokeRect(x * zoom + 1, y * zoom + 1, zoom - 2, zoom - 2);
+    }
+    for (const k of flaggedAdj) {
+      const [x, y] = k.split(",").map(Number);
+      ctx.fillStyle = "rgba(248,113,113,0.35)";
+      ctx.fillRect(x * zoom, y * zoom, zoom, zoom);
+      ctx.strokeStyle = "#f87171";
+      ctx.lineWidth = 2;
+      ctx.strokeRect(x * zoom + 1, y * zoom + 1, zoom - 2, zoom - 2);
+    }
+  }
+
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  const fs = Math.max(7, Math.floor(zoom * 0.55));
+
+  for (let y = 0; y < H; y++)
+    for (let x = 0; x < W; x++) {
+      const cx = x * zoom + zoom / 2;
+      const cy = y * zoom + zoom / 2;
+      const rec = cellRecord[y][x];
+      if (showElev && g[y][x] >= 0) {
+        ctx.fillStyle = "rgba(0,0,0,0.55)";
+        ctx.fillRect(x * zoom, y * zoom, zoom, zoom * 0.45);
+        ctx.fillStyle = "#fde68a";
+        ctx.font = `bold ${fs}px monospace`;
+        ctx.fillText(String(g[y][x]), cx, y * zoom + zoom * 0.22);
+      }
+      if (showIds && rec && rec.rawId != null) {
+        ctx.fillStyle = "#a5f3fc";
+        ctx.font = `${fs}px monospace`;
+        ctx.fillText("#" + rec.rawId, cx, cy - (showElev ? 2 : 0));
+        ctx.fillStyle = "#86efac";
+        ctx.font = `${Math.max(6, fs - 1)}px monospace`;
+        ctx.fillText(regionLabel(rec.region) + rec.semanticId, cx, cy + fs);
+      }
+    }
+
+  if (showLabels) {
+    ctx.textAlign = "left";
+    ctx.textBaseline = "top";
+    for (const lb of LABELS) {
+      ctx.fillStyle = "rgba(0,0,0,0.7)";
+      const tx = lb.x * zoom, ty = lb.y * zoom;
+      ctx.fillRect(tx, ty, lb.text.length * 6.2 + 8, 14);
+      ctx.fillStyle = "#f8fafc";
+      ctx.font = "bold 11px system-ui";
+      ctx.fillText(lb.text, tx + 4, ty + 1);
+    }
+  }
+}
+
+function updateViolationPanel(violData) {
+  const ul = document.getElementById("violations");
+  const { list } = violData;
+  const adjN = list.filter(v => v.type === "adj").length;
+  const stepN = list.filter(v => v.type === "step").length;
+  document.getElementById("violCount").textContent = `(${list.length}: ${adjN} adj, ${stepN} step)`;
+  ul.innerHTML = "";
+  const cap = 200;
+  for (let i = 0; i < Math.min(cap, list.length); i++) {
+    const li = document.createElement("li");
+    li.className = list[i].type;
+    li.textContent = list[i].msg;
+    ul.appendChild(li);
+  }
+  if (list.length > cap) {
+    const li = document.createElement("li");
+    li.textContent = `... and ${list.length - cap} more`;
+    ul.appendChild(li);
+  }
+}
+
+function updateScenarioList() {
+  const ul = document.getElementById("scenarioList");
+  ul.innerHTML = SCENARIOS.map(s =>
+    `<li><strong>${s.title}</strong> @ (${s.ox},${s.oy})</li>`
+  ).join("");
+}
+
+// ---------------------------------------------------------------------------
+// Tooltip
+// ---------------------------------------------------------------------------
+function showTooltip(ev, g, zoom) {
+  const inner = document.getElementById("stageInner");
+  const rect = inner.getBoundingClientRect();
+  // rect is live and already reflects the current pan/scroll, so no scroll offset is added.
+  const px = ev.clientX - rect.left;
+  const py = ev.clientY - rect.top;
+  const x = Math.floor(px / zoom);
+  const y = Math.floor(py / zoom);
+  const tip = document.getElementById("tooltip");
+  if (!inB(x, y)) { tip.style.display = "none"; return; }
+
+  const rec = cellRecord[y][x];
+  const m = g[y][x] >= 0 ? mask4(g, x, y) : null;
+  let html = `<strong>(${x}, ${y})</strong> elev=${g[y][x]}<br>`;
+  if (rec && rec.rawId != null) {
+    html += `tile: raw <b>#${rec.rawId}</b> ${regionLabel(rec.region)}${rec.semanticId} [${rec.layer}]<br>`;
+  } else {
+    html += `tile: <i>none / water fill</i><br>`;
+  }
+  if (m !== null) html += `mask NESW: <b>${maskStr(m)}</b> (${m})<br>`;
+  html += `<table style="border-collapse:collapse;font-size:10px;margin-top:4px">`;
+  html += `<tr><td></td><td>N</td><td></td></tr>`;
+  const nb = [
+    [-1,-1,"NW"], [0,-1,"N"], [1,-1,"NE"],
+    [-1,0,"W"], [null,null,"."], [1,0,"E"],
+    [-1,1,"SW"], [0,1,"S"], [1,1,"SE"],
+  ];
+  for (let row = 0; row < 3; row++) {
+    html += "<tr>";
+    for (let col = 0; col < 3; col++) {
+      const item = nb[row * 3 + col];
+      if (item[0] === null) { html += `<td style="padding:2px 4px;text-align:center">@</td>`; continue; }
+      const nx = x + item[0], ny = y + item[1];
+      const nrec = inB(nx, ny) ? cellRecord[ny][nx] : null;
+      const nel = inB(nx, ny) ? g[ny][nx] : "oob";
+      const nid = !inB(nx, ny) || g[ny][nx] < 0 ? "w" : (nrec && nrec.rawId != null ? "#" + nrec.rawId : "-");
+      html += `<td style="padding:2px 4px;text-align:center" title="el ${nel}">${item[2]}:${nid}</td>`;
+    }
+    html += "</tr>";
+  }
+  html += `</table>`;
+  tip.innerHTML = html;
+  tip.style.display = "block";
+  tip.style.left = (ev.clientX + 14) + "px";
+  tip.style.top = (ev.clientY + 14) + "px";
+}
+
+// ---------------------------------------------------------------------------
+// Loading + main
+// ---------------------------------------------------------------------------
+function loadImage(src) {
+  return new Promise((res, rej) => {
+    const img = new Image();
+    img.onload = () => res(img);
+    img.onerror = () => rej(src);
+    img.src = src;
+  });
+}
+
+let ASSETS = null, assetBase = null, ADJ_ALLOWED = null;
+
+async function ensureAssets(base) {
+  if (ASSETS && assetBase === base) return ASSETS;
+  const prefix = base.replace(/\/+$/, "") + "/";
+  const entries = await Promise.all(
+    Object.entries(ASSET_FILES).map(async ([k, f]) => [k, await loadImage(prefix + encodeURI(f))])
+  );
+  ASSETS = Object.fromEntries(entries);
+  assetBase = base;
+  return ASSETS;
+}
+
+async function loadAdjacency(path) {
+  const r = await fetch(path);
+  if (!r.ok) throw new Error(path);
+  return r.json();
+}
+
+function showMsg(html) {
+  const m = document.getElementById("msg");
+  m.innerHTML = html;
+  m.style.display = html ? "block" : "none";
+}
+
+let WORLD = null;
+let lastViol = { list: [], flaggedAdj: new Set(), flaggedStep: new Set() };
+
+async function run() {
+  const zoom = Math.max(1, Math.min(64, parseInt(document.getElementById("zoom").value) || 6));
+  const base = document.getElementById("assets").value.trim();
+  const adjPath = document.getElementById("adjPath").value.trim();
+  showMsg("");
+
+  let A, adj;
+  try {
+    [A, adj] = await Promise.all([ensureAssets(base), loadAdjacency(adjPath)]);
+    ADJ_ALLOWED = adj;
+  } catch (e) {
+    showMsg(`<strong>Load failed:</strong> <code>${e}</code><br><br>Run <code>python -m http.server 8000</code> from the repo root.`);
+    return;
+  }
+
+  WORLD = buildWorld();
+  const drawShadow = document.getElementById("togShadow").checked;
+  const mapCanvas = document.getElementById("map");
+  renderMap(mapCanvas, WORLD, zoom, A, drawShadow);
+  buildProps(WORLD);
+  sizePropsCanvas(zoom);
+  renderPropsFrame(animClock);
+
+  lastViol = checkViolations(WORLD, ADJ_ALLOWED);
+  updateViolationPanel(lastViol);
+  updateScenarioList();
+
+  const overlay = document.getElementById("overlay");
+  overlay.style.width = mapCanvas.style.width;
+  overlay.style.height = mapCanvas.style.height;
+  renderOverlay(overlay, WORLD, zoom, lastViol.list, lastViol.flaggedAdj, lastViol.flaggedStep);
+
+  const hit = document.getElementById("hitLayer");
+  hit.style.width = mapCanvas.style.width;
+  hit.style.height = mapCanvas.style.height;
+
+  document.getElementById("meta").textContent =
+    `${W}x${H} | ${SCENARIOS.length} scenarios | ${RAMPS.length} ramps | ${PROPS.length} props | zoom ${zoom}px/tile`;
+}
+
+function refreshOverlays() {
+  if (!WORLD) return;
+  const zoom = Math.max(1, Math.min(64, parseInt(document.getElementById("zoom").value) || 6));
+  const drawShadow = document.getElementById("togShadow").checked;
+  if (ASSETS) {
+    renderMap(document.getElementById("map"), WORLD, zoom, ASSETS, drawShadow);
+    buildProps(WORLD);
+    sizePropsCanvas(zoom);
+    renderPropsFrame(animClock);
+  }
+  lastViol = checkViolations(WORLD, ADJ_ALLOWED || {});
+  updateViolationPanel(lastViol);
+  const overlay = document.getElementById("overlay");
+  const mapCanvas = document.getElementById("map");
+  overlay.style.width = mapCanvas.style.width;
+  overlay.style.height = mapCanvas.style.height;
+  renderOverlay(overlay, WORLD, zoom, lastViol.list, lastViol.flaggedAdj, lastViol.flaggedStep);
+}
+
+document.getElementById("reload").onclick = run;
+document.getElementById("pause").onclick = () => {
+  animPaused = !animPaused;
+  const btn = document.getElementById("pause");
+  btn.textContent = animPaused ? "Play" : "Pause";
+  btn.classList.toggle("primary", animPaused);
+};
+document.getElementById("oneToOne").onclick = () => {
+  document.getElementById("zoom").value = TILE; // 64 px/tile = native 1:1
+  if (WORLD && ASSETS) refreshOverlays();
+  else run();
+};
+document.getElementById("zoom").addEventListener("change", () => {
+  if (WORLD && ASSETS) refreshOverlays();
+});
+document.querySelectorAll(".toggles input").forEach(el => {
+  el.addEventListener("change", () => {
+    if (PROP_TOGGLE_IDS.has(el.id)) {
+      readLayerEnabled();
+      return;
+    }
+    if (el.id === "togShadow" && WORLD && ASSETS) refreshOverlays();
+    else if (WORLD) {
+      const zoom = parseInt(document.getElementById("zoom").value) || 6;
+      renderOverlay(document.getElementById("overlay"), WORLD, zoom, lastViol.list, lastViol.flaggedAdj, lastViol.flaggedStep);
+    }
+  });
+});
+readLayerEnabled();
+
+const hitLayer = document.getElementById("hitLayer");
+const stageWrap = document.getElementById("stageWrap");
+
+// Drag-to-pan across the locked 1920x1080 viewport.
+let panning = false, panStartX = 0, panStartY = 0, panScrollX = 0, panScrollY = 0;
+hitLayer.addEventListener("mousedown", ev => {
+  if (ev.button !== 0) return;
+  panning = true;
+  panStartX = ev.clientX; panStartY = ev.clientY;
+  panScrollX = stageWrap.scrollLeft; panScrollY = stageWrap.scrollTop;
+  stageWrap.classList.add("panning");
+  document.getElementById("tooltip").style.display = "none";
+  ev.preventDefault();
+});
+window.addEventListener("mousemove", ev => {
+  if (!panning) return;
+  stageWrap.scrollLeft = panScrollX - (ev.clientX - panStartX);
+  stageWrap.scrollTop = panScrollY - (ev.clientY - panStartY);
+});
+window.addEventListener("mouseup", () => {
+  if (!panning) return;
+  panning = false;
+  stageWrap.classList.remove("panning");
+});
+
+// Lightweight zoom: the map canvas is drawn at native resolution and only
+// CSS-scaled, so changing zoom just restyles and redraws the overlay.
+function applyZoom(zoom) {
+  const map = document.getElementById("map");
+  map.style.width = (W * zoom) + "px";
+  map.style.height = (H * zoom) + "px";
+  const props = document.getElementById("props");
+  props.style.width = map.style.width;
+  props.style.height = map.style.height;
+  const overlay = document.getElementById("overlay");
+  overlay.style.width = map.style.width;
+  overlay.style.height = map.style.height;
+  const hit = document.getElementById("hitLayer");
+  hit.style.width = map.style.width;
+  hit.style.height = map.style.height;
+  if (lastViol) renderOverlay(overlay, WORLD, zoom, lastViol.list, lastViol.flaggedAdj, lastViol.flaggedStep);
+  document.getElementById("meta").textContent =
+    `${W}x${H} | ${SCENARIOS.length} scenarios | ${RAMPS.length} ramps | ${PROPS.length} props | zoom ${zoom}px/tile`;
+}
+
+// Wheel-to-zoom, anchored on the cursor (overflow hidden, so drive scroll).
+stageWrap.addEventListener("wheel", ev => {
+  ev.preventDefault();
+  if (!WORLD) return;
+  const zoomInput = document.getElementById("zoom");
+  const oldZoom = Math.max(1, Math.min(64, parseInt(zoomInput.value) || 6));
+  let newZoom = Math.round(oldZoom * (ev.deltaY < 0 ? 1.2 : 1 / 1.2));
+  if (newZoom === oldZoom) newZoom = oldZoom + (ev.deltaY < 0 ? 1 : -1);
+  newZoom = Math.max(1, Math.min(64, newZoom));
+  if (newZoom === oldZoom) return;
+  const rect = stageWrap.getBoundingClientRect();
+  const cx = ev.clientX - rect.left, cy = ev.clientY - rect.top;
+  const wx = (stageWrap.scrollLeft + cx) / oldZoom;
+  const wy = (stageWrap.scrollTop + cy) / oldZoom;
+  zoomInput.value = newZoom;
+  applyZoom(newZoom);
+  stageWrap.scrollLeft = wx * newZoom - cx;
+  stageWrap.scrollTop = wy * newZoom - cy;
+}, { passive: false });
+
+// WASD keyboard panning. A rAF loop reads a held-key set so movement is
+// smooth and diagonals combine; ignored while typing in a form field.
+const heldKeys = new Set();
+const WASD_SPEED = 18; // px per frame
+function isTypingTarget(t) {
+  return t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+}
+window.addEventListener("keydown", ev => {
+  if (isTypingTarget(ev.target)) return;
+  const k = ev.key.toLowerCase();
+  if (k === "w" || k === "a" || k === "s" || k === "d") {
+    heldKeys.add(k);
+    ev.preventDefault();
+  }
+});
+window.addEventListener("keyup", ev => {
+  heldKeys.delete(ev.key.toLowerCase());
+});
+window.addEventListener("blur", () => heldKeys.clear());
+function wasdTick() {
+  if (heldKeys.size) {
+    let dx = 0, dy = 0;
+    if (heldKeys.has("a")) dx -= WASD_SPEED;
+    if (heldKeys.has("d")) dx += WASD_SPEED;
+    if (heldKeys.has("w")) dy -= WASD_SPEED;
+    if (heldKeys.has("s")) dy += WASD_SPEED;
+    if (dx) stageWrap.scrollLeft += dx;
+    if (dy) stageWrap.scrollTop += dy;
+  }
+  requestAnimationFrame(wasdTick);
+}
+requestAnimationFrame(wasdTick);
+
+hitLayer.addEventListener("mousemove", ev => {
+  if (!WORLD || panning) return;
+  const zoom = parseInt(document.getElementById("zoom").value) || 6;
+  showTooltip(ev, WORLD, zoom);
+});
+hitLayer.addEventListener("mouseleave", () => {
+  document.getElementById("tooltip").style.display = "none";
+});
+
+run();
+requestAnimationFrame(propsAnimLoop);
+</script>
+</body>
+</html>

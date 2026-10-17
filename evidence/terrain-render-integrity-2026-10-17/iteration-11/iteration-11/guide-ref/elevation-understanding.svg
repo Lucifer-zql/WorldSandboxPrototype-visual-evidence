@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="900" viewBox="0 0 1100 900" font-family="Segoe UI, system-ui, sans-serif">
+  <!-- ============ background ============ -->
+  <rect x="0" y="0" width="1100" height="900" fill="#0f141b"/>
+  <text x="40" y="40" fill="#e6edf3" font-size="26" font-weight="700">Tiny Swords &#8212; Elevation system, as I understand it</text>
+  <text x="40" y="66" fill="#93a4b8" font-size="14">5 land tiers (color1=lowest .. color5=highest) + water (-1). Cliffs are SOUTH-FACING ONLY.</text>
+
+  <!-- ============ legend (elevation palette) ============ -->
+  <g transform="translate(40,86)">
+    <text x="0" y="14" fill="#cbd5e1" font-size="13" font-weight="600">Tiers:</text>
+    <rect x="48"  y="2" width="28" height="14" fill="#3aa6c9"/><text x="80"  y="14" fill="#93a4b8" font-size="12">water (-1)</text>
+    <rect x="168" y="2" width="28" height="14" fill="#c2d97a"/><text x="200" y="14" fill="#93a4b8" font-size="12">0 (shoreline)</text>
+    <rect x="300" y="2" width="28" height="14" fill="#9ecb54"/><text x="332" y="14" fill="#93a4b8" font-size="12">1 (base)</text>
+    <rect x="402" y="2" width="28" height="14" fill="#79b03c"/><text x="434" y="14" fill="#93a4b8" font-size="12">2</text>
+    <rect x="452" y="2" width="28" height="14" fill="#5b9230"/><text x="484" y="14" fill="#93a4b8" font-size="12">3</text>
+    <rect x="502" y="2" width="28" height="14" fill="#447024"/><text x="534" y="14" fill="#93a4b8" font-size="12">4</text>
+    <rect x="552" y="2" width="28" height="14" fill="#7a5736"/><text x="584" y="14" fill="#93a4b8" font-size="12">cliff face</text>
+    <rect x="668" y="2" width="28" height="14" fill="#d8b46b"/><text x="700" y="14" fill="#93a4b8" font-size="12">ramp</text>
+    <rect x="752" y="2" width="28" height="14" fill="#ffffff"/><text x="784" y="14" fill="#93a4b8" font-size="12">foam</text>
+    <rect x="838" y="2" width="28" height="14" fill="#000000" opacity="0.35"/><text x="872" y="14" fill="#93a4b8" font-size="12">shadow</text>
+  </g>
+
+  <!-- ============ PANEL A: top-down plan view ============ -->
+  <text x="40" y="140" fill="#e6edf3" font-size="18" font-weight="700">A. Top-down (map) view</text>
+  <g transform="translate(40,150)">
+    <rect x="0" y="0" width="500" height="380" rx="8" fill="#121922" stroke="#28323e"/>
+
+    <!-- base land elev1 -->
+    <rect x="10" y="10" width="480" height="360" rx="6" fill="#9ecb54"/>
+
+    <!-- left sea -->
+    <rect x="10" y="10" width="80" height="360" fill="#3aa6c9"/>
+    <!-- shoreline ring: elev0 strip + foam -->
+    <rect x="90" y="10" width="18" height="360" fill="#c2d97a"/>
+    <g stroke="#ffffff" stroke-width="3" opacity="0.9" fill="none">
+      <path d="M90,22 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16 q6,8 0,16 q-6,8 0,16"/>
+    </g>
+    <text x="20" y="195" fill="#e6edf3" font-size="13" transform="rotate(-90 20,195)" text-anchor="middle">LEFT SEA</text>
+
+    <!-- plateau elev2 with nested elev3 -->
+    <rect x="220" y="40" width="230" height="150" rx="10" fill="#79b03c"/>
+    <rect x="290" y="52" width="120" height="95" rx="10" fill="#5b9230"/>
+    <text x="300" y="78" fill="#0f141b" font-size="12" font-weight="700">elev 3</text>
+    <text x="232" y="60" fill="#0f141b" font-size="12" font-weight="700">elev 2 plateau</text>
+
+    <!-- south cliffs (only along bottom/south edges) -->
+    <rect x="220" y="186" width="230" height="9" fill="#7a5736"/>
+    <rect x="290" y="143" width="120" height="9" fill="#7a5736"/>
+    <!-- shadow band south of plateau -->
+    <rect x="220" y="195" width="230" height="16" fill="#000000" opacity="0.32"/>
+    <text x="226" y="225" fill="#1c2530" font-size="11" font-weight="600">south cliff + shadow &#8595;</text>
+
+    <!-- flush N/E/W note -->
+    <text x="455" y="120" fill="#0f141b" font-size="10" transform="rotate(90 455,120)">flush grass edge (no cliff) &#8594;</text>
+
+    <!-- ramp on the side of plateau -->
+    <rect x="196" y="150" width="22" height="40" fill="#d8b46b" stroke="#8a6a36"/>
+    <text x="150" y="145" fill="#1c2530" font-size="11" font-weight="700">ramp &#8600; (only way up)</text>
+
+    <!-- inland lake, flush -->
+    <circle cx="170" cy="300" r="48" fill="#3aa6c9"/>
+    <circle cx="170" cy="300" r="48" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="5 5" opacity="0.9"/>
+    <text x="170" y="304" fill="#e6edf3" font-size="11" text-anchor="middle">inland lake</text>
+    <text x="128" y="362" fill="#1c2530" font-size="10">flush in tier, no cliff</text>
+
+    <!-- compass -->
+    <g transform="translate(440,300)">
+      <line x1="20" y1="40" x2="20" y2="0" stroke="#e6edf3" stroke-width="2"/>
+      <polygon points="20,-6 15,6 25,6" fill="#e6edf3"/>
+      <text x="20" y="-10" fill="#e6edf3" font-size="12" text-anchor="middle">N</text>
+      <text x="20" y="56" fill="#ff8a8a" font-size="12" text-anchor="middle">S (cliffs)</text>
+    </g>
+  </g>
+
+  <!-- ============ PANEL B: side cross-section ============ -->
+  <text x="580" y="140" fill="#e6edf3" font-size="18" font-weight="700">B. Side cross-section (North to South)</text>
+  <text x="580" y="158" fill="#93a4b8" font-size="12">Walking south, land steps DOWN exactly one tier per drop. Each cliff face = 2 tiles (grass lip + base).</text>
+  <g transform="translate(580,170)">
+    <rect x="0" y="0" width="480" height="360" rx="8" fill="#121922" stroke="#28323e"/>
+    <!-- axis labels left -->
+    <text x="8" y="20" fill="#93a4b8" font-size="11">high</text>
+    <text x="8" y="320" fill="#93a4b8" font-size="11">low</text>
+    <text x="40" y="350" fill="#93a4b8" font-size="12">&#9664; North</text>
+    <text x="380" y="350" fill="#ff8a8a" font-size="12">South &#9654;</text>
+
+    <!-- columns: e = 4,4,3,3,2,2,1,1,0,water  width 44, start x=40 baseline y=320 step=44 -->
+    <!-- e4 col0 -->
+    <rect x="40"  y="124" width="44" height="208" fill="#447024"/>
+    <rect x="84"  y="124" width="44" height="208" fill="#447024"/>
+    <!-- e3 -->
+    <rect x="128" y="168" width="44" height="164" fill="#5b9230"/>
+    <rect x="172" y="168" width="44" height="164" fill="#5b9230"/>
+    <!-- e2 -->
+    <rect x="216" y="212" width="44" height="120" fill="#79b03c"/>
+    <rect x="260" y="212" width="44" height="120" fill="#79b03c"/>
+    <!-- e1 -->
+    <rect x="304" y="256" width="44" height="76"  fill="#9ecb54"/>
+    <rect x="348" y="256" width="44" height="76"  fill="#9ecb54"/>
+    <!-- e0 -->
+    <rect x="392" y="300" width="44" height="32"  fill="#c2d97a"/>
+    <!-- water -->
+    <rect x="436" y="312" width="44" height="20"  fill="#3aa6c9"/>
+
+    <!-- cliff faces (south/right side of each higher block), 2-tile = full step height -->
+    <rect x="112" y="124" width="16" height="44" fill="#7a5736"/>
+    <rect x="200" y="168" width="16" height="44" fill="#7a5736"/>
+    <rect x="288" y="212" width="16" height="44" fill="#7a5736"/>
+    <rect x="376" y="256" width="16" height="44" fill="#7a5736"/>
+    <!-- thin grass lip line atop each cliff -->
+    <rect x="112" y="124" width="16" height="6" fill="#9ecb54"/>
+    <rect x="200" y="168" width="16" height="6" fill="#9ecb54"/>
+    <rect x="288" y="212" width="16" height="6" fill="#79b03c"/>
+    <rect x="376" y="256" width="16" height="6" fill="#9ecb54"/>
+
+    <!-- shadows on lower tier just south of each cliff -->
+    <ellipse cx="150" cy="170" rx="22" ry="6" fill="#000" opacity="0.32"/>
+    <ellipse cx="238" cy="214" rx="22" ry="6" fill="#000" opacity="0.32"/>
+    <ellipse cx="326" cy="258" rx="22" ry="6" fill="#000" opacity="0.32"/>
+    <ellipse cx="414" cy="302" rx="22" ry="6" fill="#000" opacity="0.32"/>
+
+    <!-- foam at the elev0 -> water shoreline (no cliff here) -->
+    <g stroke="#ffffff" stroke-width="3" fill="none" opacity="0.9">
+      <path d="M392,312 q8,-6 16,0 q8,6 16,0 q8,-6 12,0"/>
+    </g>
+    <text x="398" y="294" fill="#1c2530" font-size="10">foam</text>
+
+    <!-- ramp bridging e1 -> e2 step (drawn over the e2 south cliff) -->
+    <polygon points="288,256 304,256 304,212 288,212" fill="#d8b46b" stroke="#8a6a36"/>
+    <polygon points="288,256 304,212 304,256" fill="#c89f56"/>
+    <text x="244" y="200" fill="#e6edf3" font-size="11">ramp (2-tile,</text>
+    <text x="244" y="214" fill="#e6edf3" font-size="11">bridges 1 step)</text>
+    <line x1="284" y1="206" x2="296" y2="230" stroke="#e6edf3" stroke-width="1"/>
+
+    <!-- elevation number labels on surfaces -->
+    <text x="56"  y="119" fill="#e6edf3" font-size="12" font-weight="700">4</text>
+    <text x="144" y="163" fill="#e6edf3" font-size="12" font-weight="700">3</text>
+    <text x="232" y="207" fill="#0f141b" font-size="12" font-weight="700">2</text>
+    <text x="320" y="251" fill="#0f141b" font-size="12" font-weight="700">1</text>
+    <text x="404" y="295" fill="#0f141b" font-size="12" font-weight="700">0</text>
+  </g>
+
+  <!-- ============ key rules box ============ -->
+  <g transform="translate(40,560)">
+    <text x="0" y="6" fill="#e6edf3" font-size="18" font-weight="700">Key rules driving all of the above</text>
+    <g fill="#cbd5e1" font-size="14">
+      <text x="0" y="38">1. <tspan fill="#ffd479">South-only cliffs.</tspan> Land may step DOWN only toward the south, exactly 1 tier per drop. N/E/W boundaries</text>
+      <text x="22" y="58">sit flush on lower land using grass-rim pieces &#8212; no vertical cliff art exists for those sides.</text>
+      <text x="0" y="84">2. <tspan fill="#ffd479">2-tile cliff face.</tspan> A drop = a grass lip tile (on the high cell) + one cliff-base tile below it. Onto land =</text>
+      <text x="22" y="104">pieces 17-20; into water = pieces 21-24 (these include foam). Drops &gt;1 tier are stepped into a staircase by autopad.</text>
+      <text x="0" y="130">3. <tspan fill="#ffd479">Ramps</tspan> are the only way up: a 2-tile side ramp bridging one step, attached diagonally to a plateau corner,</text>
+      <text x="22" y="150">with a walkable apron. Every region &#8805;40 tiles needs ramps; none &gt;30 tiles from one (rampDensity).</text>
+      <text x="0" y="176">4. <tspan fill="#ffd479">Water.</tspan> Left sea gets an elevation-0 shoreline ring + foam. Inland lakes are flush water holes in their tier</text>
+      <text x="22" y="196">(no elev-0 ring, no cliff). Shadows sit one tile south under elevated land; suppressed if they'd bleed onto water.</text>
+      <text x="0" y="222">5. <tspan fill="#ffd479">Default world model:</tspan> flat base = elev 1, a thin sea shoreline = elev 0, plus 4-6 deliberate plateaus (elev 2-4).</text>
+    </g>
+  </g>
+</svg>

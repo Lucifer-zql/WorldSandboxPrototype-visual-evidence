@@ -161,7 +161,8 @@
 | 套件 | 结果 | 证据 |
 | --- | --- | --- |
 | EditMode 全量 | **361 / 361 通过，0 失败，0 跳过** | `tests/editmode-final.xml` + `tests/editmode-final.log` |
-| PlayMode 全量 | 见 `tests/playmode-final.xml`（函数性用例全过；证据捕获套件按 D-063-A 失败关闭） | `tests/playmode-final.xml` + `.log` |
+| PlayMode 全量 | **74 例：23 通过 / 51 失败 / 0 跳过；51 例失败全部为证据捕获套件的 D-063-A 失败关闭（缺 `AIA_CAPTURE_DIR`、历史目录、文件已存在），逐条 `failure/message` 均为 `CaptureWriteGuard` / `CapturePathGuard`，**函数性用例 0 失败** | `tests/playmode-final.xml` + `.log` |
+| PlayMode 定向（地形集成） | `FastNoiseRenderIntegrationTests` 1/1 通过（阴影数 = guide 南缘条件） | `tests/playmode-terrain-fastnoise.xml` |
 | 真实游戏截图 | 三种子各 8–10 张（`game-seed-*`），全部来自 Main.unity + GameBootstrap 正式装配 | 见目录 |
 
 ### E.1 新增/重写的独立测试

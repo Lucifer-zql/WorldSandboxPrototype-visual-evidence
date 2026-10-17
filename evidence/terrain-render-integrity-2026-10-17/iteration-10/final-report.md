@@ -86,13 +86,14 @@
 
 ## 12. 证据仓库提交
 
-`2b9f117`（证据仓库 main；本轮新增 final-r3 / P1-official-r2 / P1-official-2cell /
-test-evidence/final-r3，更新 README/final-report/SHA256SUMS；历史轨迹目录全部保留）
+提交链 `2b9f117` → `336b848` → **`ee4504b`（最终）**（证据仓库 main；本轮新增 final-r3 /
+P1-official-r2 / P1-official-2cell / test-evidence/final-r3 / peer-review，更新
+README/final-report/SHA256SUMS；历史轨迹目录全部保留）
 
 ## 13. 远端 SHA-256 核验
 
-稀疏 clone（分叶子目录检出，代理 127.0.0.1:7897）+ `sha256sum -c`：**853/853 全部 OK，0 失败**
-（远端真实字节；复算明细 `remote-verify.txt` 归档于 test-evidence/final-r3/）。
+稀疏 clone（分叶子目录检出，代理 127.0.0.1:7897）+ `sha256sum -c`：**864/864 全部 OK，0 失败**
+（远端真实字节 @ `ee4504b`；复算明细 `remote-verify-r3.txt` 归档于 test-evidence/final-r3/）。
 
 ## 14. 历史证据零覆盖
 

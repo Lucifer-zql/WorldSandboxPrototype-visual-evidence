@@ -1,0 +1,12 @@
+[2026-10-17 10:29:31] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 10:29:31] ---- session mode=tri-iteration-06 seedEnv=20261013 effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-17 10:29:31] capture TS6d-gold-small.png ortho=2.5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 10:29:31] capture TS6d-gold-mid.png ortho=2.5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 10:29:31] capture TS6d-gold-big.png ortho=2.5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 10:29:31] capture TS6d-rock-1.png ortho=2.5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 10:29:31] capture TS6d-rock-2.png ortho=2.5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 10:29:32] capture TS6d-rock-3.png ortho=2.5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 10:29:32] capture TS6d-rock-4.png ortho=2.5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 10:29:32] stat ts6d resource-size-variants done
+[2026-10-17 10:30:52] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 10:30:52] ---- session mode=tri-iteration-06 seedEnv=20261013 effectiveSeed=20261013 screen=1280x720 ----

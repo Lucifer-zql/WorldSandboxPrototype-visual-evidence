@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 02:30:14Z" end-time="2026-10-17 02:30:16Z" duration="1.9001263">
+  <test-suite type="TestSuite" id="1105" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-10-17 02:30:14Z" end-time="2026-10-17 02:30:16Z" duration="1.900126" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1206" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-10-17 02:30:14Z" end-time="2026-10-17 02:30:16Z" duration="1.888626" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="38568" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1207" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-10-17 02:30:14Z" end-time="2026-10-17 02:30:16Z" duration="1.884793" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1208" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-10-17 02:30:14Z" end-time="2026-10-17 02:30:16Z" duration="1.881501" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1209" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-10-17 02:30:14Z" end-time="2026-10-17 02:30:16Z" duration="1.877646" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1149" name="MapVisualOverhaulCaptureTests" fullname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests" classname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-17 02:30:14Z" end-time="2026-10-17 02:30:16Z" duration="1.871750" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1162" name="TS6d_ResourceSizeVariants" fullname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests.TS6d_ResourceSizeVariants" methodname="TS6d_ResourceSizeVariants" classname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests" runstate="Runnable" seed="1373193960" result="Passed" start-time="2026-10-17 02:30:14Z" end-time="2026-10-17 02:30:16Z" duration="1.851485" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261015 尺寸=128x128 水比=0.26 陆块=0.74 尝试=1 校验=True 装饰=253 资源=182
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261015 尺寸=128x128 水比=0.26 陆块=0.74 尝试=1 校验=True 装饰=253 资源=182
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[MVO] SetGameViewSize: [OK(1280x720@7)] / [OK(1280x720@7)]; Screen=1280x720（目标 1280x720）; mode=tri-iteration-06; WS_WORLD_SEED=20261015; 实际种子=20261015
+[MVO] SetGameViewSize: [OK(1280x720@7)] / [OK(1280x720@7)]; Screen=1280x720（目标 1280x720）; mode=tri-iteration-06; WS_WORLD_SEED=20261015; 实际种子=20261015
+[MVO] 帧呈现设置 runInBackground=True targetFrameRate=60 vSync=1
+[MVO] 帧呈现设置 runInBackground=True targetFrameRate=60 vSync=1
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+[TS:6d] 未找到树实例 Tree1
+[TS:6d] 未找到树实例 Tree1
+[TS:6d] 未找到树实例 Tree4
+[TS:6d] 未找到树实例 Tree4
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

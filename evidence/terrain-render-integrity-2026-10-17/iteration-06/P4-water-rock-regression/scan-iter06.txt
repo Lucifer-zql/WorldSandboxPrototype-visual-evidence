@@ -1,0 +1,54 @@
+seed-20261013\MVO1a-fullmap-overview-ortho40.png: duck_px=31 clusters=3 | meat_px=0 clusters=0
+    duck cluster @(563,93) n=7
+    duck cluster @(877,236) n=7
+    duck cluster @(1112,245) n=8
+seed-20261013\TS1a-fullmap-ortho40.png: duck_px=31 clusters=3 | meat_px=0 clusters=0
+    duck cluster @(563,93) n=7
+    duck cluster @(877,236) n=7
+    duck cluster @(1112,245) n=8
+seed-20261014\MVO1a-fullmap-overview-ortho40.png: duck_px=10 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(275,507) n=6
+seed-20261014\TS1a-fullmap-ortho40.png: duck_px=10 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(275,507) n=6
+seed-20261014\TS6d-gold-big.png: duck_px=684 clusters=4 | meat_px=0 clusters=0
+    duck cluster @(631,329) n=300
+    duck cluster @(661,327) n=119
+    duck cluster @(623,364) n=148
+    duck cluster @(650,362) n=116
+seed-20261014\TS6d-gold-mid.png: duck_px=317 clusters=2 | meat_px=0 clusters=0
+    duck cluster @(642,348) n=255
+    duck cluster @(636,374) n=62
+seed-20261014\TS6d-gold-small.png: duck_px=66 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(641,357) n=66
+seed-20261015\MVO1a-fullmap-overview-ortho40.png: duck_px=27 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(176,408) n=11
+seed-20261015\MVO3b-grass-forest-edge.png: duck_px=446 clusters=4 | meat_px=0 clusters=0
+    duck cluster @(135,342) n=339
+    duck cluster @(158,328) n=15
+    duck cluster @(121,363) n=73
+    duck cluster @(141,368) n=19
+seed-20261015\TS1a-fullmap-ortho40.png: duck_px=27 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(176,408) n=11
+seed-20261015\TS4a-grass-forest-edge.png: duck_px=448 clusters=4 | meat_px=0 clusters=0
+    duck cluster @(134,342) n=342
+    duck cluster @(158,329) n=16
+    duck cluster @(121,364) n=71
+    duck cluster @(141,368) n=19
+seed-20261015\TS4c-hill-forest.png: duck_px=424 clusters=3 | meat_px=0 clusters=0
+    duck cluster @(43,198) n=235
+    duck cluster @(15,208) n=166
+    duck cluster @(38,228) n=21
+seed-20261015\TS4f-clearance.png: duck_px=32 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(1151,507) n=32
+seed-20261015\TS6d-gold-big.png: duck_px=692 clusters=5 | meat_px=0 clusters=0
+    duck cluster @(663,332) n=259
+    duck cluster @(621,342) n=262
+    duck cluster @(633,372) n=92
+    duck cluster @(654,365) n=73
+    duck cluster @(682,359) n=6
+seed-20261015\TS6d-gold-mid.png: duck_px=317 clusters=2 | meat_px=0 clusters=0
+    duck cluster @(642,348) n=255
+    duck cluster @(636,374) n=62
+seed-20261015\TS6d-gold-small.png: duck_px=66 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(641,357) n=66
+== 汇总: 命中图 16 张 | duck 像素总 3628 | meat 像素总 0 ==

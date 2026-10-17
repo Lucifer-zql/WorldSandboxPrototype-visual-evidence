@@ -1,0 +1,392 @@
+ D Assets/Editor.meta
+ D Assets/Editor/HubForceResolve.cs
+ D Assets/Editor/HubForceResolve.cs.meta
+ M Assets/Tests/EditMode/SceneSpriteBindingTests.cs
+ M Assets/Tests/EditMode/SortingOrdersTests.cs
+ M Assets/Tests/EditMode/TerrainCompositionTests.cs
+ M Assets/Tests/EditMode/TerrainFoamPlacementTests.cs
+ M Assets/Tests/EditMode/WorldGeneratorTests.cs
+ M Assets/Tests/EditMode/WorldSandbox.Tests.EditMode.asmdef
+ M Assets/Tests/PlayMode/CameraFramingEvidenceTests.cs
+ M Assets/Tests/PlayMode/NineSliceEvidenceTests.cs
+ M Assets/Tests/PlayMode/TerrainCompositionEvidenceTests.cs
+ M Assets/Tests/PlayMode/TerrainPlacementEvidenceTests.cs
+ M Assets/Tests/PlayMode/TinySwordsPlacementEvidenceTests.cs
+ M Assets/Tests/PlayMode/UIInteractionTests.cs
+ M Assets/Tests/PlayMode/UISnapshotConsistencyTests.cs
+ M Assets/Tests/PlayMode/UIVisualSnapshotTests.cs
+ M Assets/Tests/PlayMode/WorldSandbox.Tests.PlayMode.asmdef
+ M Assets/Welcome/2d-template.png
+ M Assets/_Project/Art/Decorations/Clouds_01.png.meta
+ M Assets/_Project/Art/Decorations/Clouds_02.png.meta
+ M Assets/_Project/Art/Decorations/Clouds_03.png.meta
+ M Assets/_Project/Art/Decorations/Clouds_04.png.meta
+ M Assets/_Project/Art/Decorations/Clouds_05.png.meta
+ M Assets/_Project/Art/Decorations/Clouds_06.png.meta
+ M Assets/_Project/Art/Decorations/Clouds_07.png.meta
+ M Assets/_Project/Art/Decorations/Clouds_08.png.meta
+ M Assets/_Project/Art/Terrain/RuleTiles/RT_Forest.asset
+ M Assets/_Project/Art/Terrain/RuleTiles/RT_Grass.asset
+ M Assets/_Project/Art/Terrain/RuleTiles/RT_Grass_color2.asset
+ M Assets/_Project/Art/Terrain/RuleTiles/RT_Grass_color3.asset
+ M Assets/_Project/Art/Terrain/RuleTiles/RT_Grass_color4.asset
+ M Assets/_Project/Editor/TerrainDiagnostics/TerrainCaptureTool.cs
+ M Assets/_Project/Editor/UiCaptureTool.cs
+ M Assets/_Project/Editor/WorldSandbox.Editor.asmdef
+ M Assets/_Project/Prefabs/UI/MainCanvas.prefab
+ M Assets/_Project/Scenes/Main.unity
+ M Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs
+ M Assets/_Project/Scripts/Core/Config/WorldGenConfig.cs
+ M Assets/_Project/Scripts/Core/Contracts/IWorldCommandBus.cs
+ M Assets/_Project/Scripts/Core/Contracts/IWorldSnapshot.cs
+ M Assets/_Project/Scripts/Core/Contracts/Snapshots.cs
+ M Assets/_Project/Scripts/Divine/CommandBusPlaceholder.cs
+ M Assets/_Project/Scripts/Presentation/DecorationRenderer.cs
+ M Assets/_Project/Scripts/Presentation/Input/PointerGestureRouter.cs
+ M Assets/_Project/Scripts/Presentation/ResourceNodeRenderer.cs
+ M Assets/_Project/Scripts/Presentation/SortingOrders.cs
+ M Assets/_Project/Scripts/Presentation/TerrainTilemapRenderer.cs
+ M Assets/_Project/Scripts/Presentation/WaterFoamRenderer.cs
+ M Assets/_Project/Scripts/Simulation/SimulationContext.cs
+ M Assets/_Project/Scripts/Simulation/Snapshot/WorldSnapshot.cs
+ M Assets/_Project/Scripts/Simulation/Systems/SnapshotSystem.cs
+ M Assets/_Project/Scripts/UI/Tools/UiToolCatalog.cs
+ M Assets/_Project/Scripts/UI/Tools/UiToolSelectionState.cs
+ M Assets/_Project/Scripts/UI/UIRoot.cs
+ M Assets/_Project/Scripts/UI/UIStyle.cs
+ M Assets/_Project/Scripts/UI/Views/MainMenuView.cs
+ M Assets/_Project/Scripts/UI/Views/MenuDialogView.cs
+ M Assets/_Project/Scripts/UI/Views/ObjectDetailCardView.cs
+ M Assets/_Project/Scripts/UI/Views/SettingsDialogView.cs
+ M Assets/_Project/Scripts/UI/Views/TimeControlView.cs
+ M Assets/_Project/Scripts/World/GenSteps/CliffShoreStep.cs
+ M Assets/_Project/Scripts/World/GenSteps/ScatterStep.cs
+ M Assets/_Project/Scripts/World/GenSteps/WaterLandStep.cs
+ M Assets/_Project/Scripts/World/ITerrainRenderer.cs
+ M Assets/_Project/Scripts/World/IWorldGenerator.cs
+ M Assets/_Project/Scripts/World/MapReader.cs
+ M Assets/_Project/Scripts/World/ResourceNodeStore.cs
+ M Assets/_Project/Scripts/World/WorldGenerator.cs
+ M Assets/_Project/Scripts/World/WorldSandbox.World.asmdef
+ M Packages/packages-lock.json
+ M ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json
+ M "docs/04-\346\240\270\345\277\203\347\216\251\346\263\225\344\270\216\346\250\241\346\213\237\350\247\204\345\210\231.md"
+ M "docs/12-\345\210\206\346\255\245\345\256\236\346\226\275\346\226\207\346\241\243\347\233\256\345\275\225.md"
+ M "docs/14-AI\345\267\245\345\205\267\346\216\245\345\205\245\344\270\216\347\264\240\346\235\220Skill\347\273\264\346\212\244.md"
+ M docs/DECISIONS.md
+ M docs/README.md
+ M "docs/Tiny-Swords-\345\234\260\345\275\242\347\264\240\346\235\220\344\275\277\347\224\250\350\247\204\350\214\203.md"
+ M "docs/Tiny-Swords-\347\264\240\346\235\220\346\270\205\345\215\225\344\270\216\346\221\206\346\224\276\350\247\204\345\210\231\347\237\251\351\230\265.md"
+ M "docs/impl/IMPL-04-\345\234\260\345\233\276\346\225\260\346\215\256\344\270\216\345\234\260\345\275\242\346\270\262\346\237\223.md"
+ M docs/impl/evidence/tiny-swords-placement-v04/README.md
+ M docs/impl/evidence/tiny-swords-placement-v04/bush-ground-contact.png
+ M docs/impl/evidence/tiny-swords-placement-v04/capture-manifest.txt
+ M docs/impl/evidence/tiny-swords-placement-v04/cliff-elevated-ground-closeup.png
+ M docs/impl/evidence/tiny-swords-placement-v04/cloud-drift-a.png
+ M docs/impl/evidence/tiny-swords-placement-v04/cloud-drift-b.png
+ M docs/impl/evidence/tiny-swords-placement-v04/grass-forest-edge-closeup.png
+ M docs/impl/evidence/tiny-swords-placement-v04/ground-rock-placement.png
+ M docs/impl/evidence/tiny-swords-placement-v04/hud_1280x720.png
+ M docs/impl/evidence/tiny-swords-placement-v04/hud_1920x1080.png
+ M docs/impl/evidence/tiny-swords-placement-v04/hud_2560x1440.png
+ M docs/impl/evidence/tiny-swords-placement-v04/island-shore-closeup.png
+ M docs/impl/evidence/tiny-swords-placement-v04/lake-center-closeup.png
+ M docs/impl/evidence/tiny-swords-placement-v04/narrow-waterway-closeup.png
+ M docs/impl/evidence/tiny-swords-placement-v04/shadow-overlap-closeup.png
+ M docs/impl/evidence/tiny-swords-placement-v04/stump-ground-contact.png
+ M docs/impl/evidence/tiny-swords-placement-v04/tree-closeup-birch.png
+ M docs/impl/evidence/tiny-swords-placement-v04/tree-closeup-conifer.png
+ M docs/impl/evidence/tiny-swords-placement-v04/tree-overlap-closeup.png
+ M docs/impl/evidence/tiny-swords-placement-v04/water-foam-coast-closeup.png
+ M docs/impl/evidence/tiny-swords-placement-v04/water-rock-placement.png
+ M docs/impl/evidence/ui-terrain-composition-v02/capture-manifest.txt
+ M docs/impl/evidence/ui-terrain-composition-v02/coast-transition-closeup.png
+ M docs/impl/evidence/ui-terrain-composition-v02/foam-anim-a.png
+ M docs/impl/evidence/ui-terrain-composition-v02/foam-anim-b.png
+ M docs/impl/evidence/ui-terrain-composition-v02/hud_1280x720.png
+ M docs/impl/evidence/ui-terrain-composition-v02/hud_1920x1080.png
+ M docs/impl/evidence/ui-terrain-composition-v02/hud_2560x1440.png
+ M docs/impl/evidence/ui-terrain-composition-v02/lake-center-closeup.png
+ M docs/impl/evidence/ui-terrain-composition-v02/tree-closeup-birch.png
+ M docs/impl/evidence/ui-terrain-composition-v02/tree-closeup-conifer.png
+ M docs/impl/evidence/ui-terrain-composition-v02/tree-overlap-closeup.png
+ M docs/impl/evidence/ui-terrain-integration/camera-initial-framing/capture-manifest.txt
+ M docs/impl/evidence/ui-terrain-integration/camera-initial-framing/hud_1280x720.png
+ M docs/impl/evidence/ui-terrain-integration/camera-initial-framing/hud_1920x1080.png
+ M docs/impl/evidence/ui-terrain-integration/camera-initial-framing/hud_2560x1440.png
+ M docs/impl/evidence/ui-terrain-integration/post-fix-nine-slice/capture-manifest.txt
+ M docs/impl/evidence/ui-terrain-placement-v03/README.md
+ M docs/impl/evidence/ui-terrain-placement-v03/capture-manifest.txt
+ M docs/impl/evidence/ui-terrain-placement-v03/coast-transition-closeup.png
+ M docs/impl/evidence/ui-terrain-placement-v03/elevated-ground-cliff-closeup.png
+ M docs/impl/evidence/ui-terrain-placement-v03/hud-event-en-1920x1080.png
+ M docs/impl/evidence/ui-terrain-placement-v03/hud-event-with-1920x1080.png
+ M docs/impl/evidence/ui-terrain-placement-v03/hud-event-zh-1920x1080.png
+ M docs/impl/evidence/ui-terrain-placement-v03/hud_1280x720.png
+ M docs/impl/evidence/ui-terrain-placement-v03/hud_1920x1080.png
+ M docs/impl/evidence/ui-terrain-placement-v03/hud_2560x1440.png
+ M docs/impl/evidence/ui-terrain-placement-v03/lake-center-closeup.png
+ M docs/impl/evidence/ui-terrain-placement-v03/narrow-waterway-closeup.png
+ M docs/impl/evidence/ui-terrain-placement-v03/shadow-overlap-closeup.png
+ M docs/impl/evidence/ui-terrain-placement-v03/tree-closeup-birch.png
+ M docs/impl/evidence/ui-terrain-placement-v03/tree-closeup-conifer.png
+ M docs/impl/evidence/ui-terrain-placement-v03/tree-overlap-closeup.png
+ M "docs/\345\233\276\346\240\207\345\220\253\344\271\211\347\231\273\350\256\260\350\241\250.md"
+ M "docs/\345\270\247\346\225\260\347\231\273\350\256\260\350\241\250.md"
+?? .spec-workflow/
+?? .ui-terrain-integration/
+?? .workbuddy-ai/
+?? .workbuddy/ai-a-runs/
+?? .workbuddy/memory/
+?? .workbuddy/tmp_b3_crop.png
+?? .workbuddy/tmp_c3_crop.png
+?? .workbuddy/tmp_cliff1.png
+?? .workbuddy/tmp_cliff2.png
+?? .workbuddy/tmp_cliff_core_6x.png
+?? .workbuddy/tmp_cliff_ring.png
+?? .workbuddy/tmp_cliff_ring2.png
+?? .workbuddy/tmp_cliff_slices_5x.png
+?? .workbuddy/tmp_cliff_source_strip.png
+?? .workbuddy/tmp_cloud_pair.png
+?? .workbuddy/tmp_cmp_C1-horizontal-run.png
+?? .workbuddy/tmp_cmp_C1_zoom.png
+?? .workbuddy/tmp_cmp_C2-vertical-run.png
+?? .workbuddy/tmp_cmp_C3-corner.png
+?? .workbuddy/tmp_cmp_C4-water-foot.png
+?? .workbuddy/tmp_cmp_C5-land-foot.png
+?? .workbuddy/tmp_cmp_v2_C1zoom.png
+?? .workbuddy/tmp_color1_cliffrows.png
+?? .workbuddy/tmp_color1_full.png
+?? .workbuddy/tmp_color1_indexed.png
+?? .workbuddy/tmp_conn_41414141.png
+?? .workbuddy/tmp_conn_41424344.png
+?? .workbuddy/tmp_conn_42424242.png
+?? .workbuddy/tmp_conn_44434241.png
+?? .workbuddy/tmp_conn_all.png
+?? .workbuddy/tmp_detailcard_zoom.png
+?? .workbuddy/tmp_detailcard_zoom2.png
+?? .workbuddy/tmp_diff01.png
+?? .workbuddy/tmp_expA_4548.png
+?? .workbuddy/tmp_expB_4144_land.png
+?? .workbuddy/tmp_expC_2rows_water.png
+?? .workbuddy/tmp_expD_5053_water.png
+?? .workbuddy/tmp_foam3x.png
+?? .workbuddy/tmp_foam_frames_strip.png
+?? .workbuddy/tmp_game_cliff_a.png
+?? .workbuddy/tmp_game_cliff_b.png
+?? .workbuddy/tmp_guard_4x.png
+?? .workbuddy/tmp_mainmenu_z.png
+?? .workbuddy/tmp_mainmenu_zoom.png
+?? .workbuddy/tmp_off_a.png
+?? .workbuddy/tmp_off_b.png
+?? .workbuddy/tmp_off_c.png
+?? .workbuddy/tmp_off_castle.png
+?? .workbuddy/tmp_off_coast1.png
+?? .workbuddy/tmp_off_coast2.png
+?? .workbuddy/tmp_off_grid.png
+?? .workbuddy/tmp_off_left2.png
+?? .workbuddy/tmp_off_left_edge.png
+?? .workbuddy/tmp_off_north.png
+?? .workbuddy/tmp_off_shore_cliff.png
+?? .workbuddy/tmp_off_shore_cliff2.png
+?? .workbuddy/tmp_off_top_edge.png
+?? .workbuddy/tmp_official_birch.png
+?? .workbuddy/tmp_official_castle.png
+?? .workbuddy/tmp_official_cliff_left.png
+?? .workbuddy/tmp_official_cliff_main.png
+?? .workbuddy/tmp_official_house.png
+?? .workbuddy/tmp_official_houses2.png
+?? .workbuddy/tmp_official_pine.png
+?? .workbuddy/tmp_official_rockrow.png
+?? .workbuddy/tmp_official_units.png
+?? .workbuddy/tmp_official_village.png
+?? .workbuddy/tmp_repeat_vs_ring.png
+?? .workbuddy/tmp_res_Gold_Stone_1.png
+?? .workbuddy/tmp_res_Meat_Resource.png
+?? .workbuddy/tmp_row1_0to8.png
+?? .workbuddy/tmp_row2_9to17.png
+?? .workbuddy/tmp_row3_18to26.png
+?? .workbuddy/tmp_row4_27to35.png
+?? .workbuddy/tmp_shadow_alpha.png
+?? .workbuddy/tmp_stump4.png
+?? .workbuddy/tmp_tree4_root.png
+?? .workbuddy/tmp_v2_grid.png
+?? .workbuddy/tmp_vcomb.png
+?? Assets/Tests/Common.meta
+?? Assets/Tests/Common/
+?? Assets/Tests/EditMode/AiADiagnosticsTests.cs
+?? Assets/Tests/EditMode/AiADiagnosticsTests.cs.meta
+?? Assets/Tests/EditMode/AnimationDriverSelectionTests.cs
+?? Assets/Tests/EditMode/AnimationDriverSelectionTests.cs.meta
+?? Assets/Tests/EditMode/AssetUsageLedgerTests.cs
+?? Assets/Tests/EditMode/AssetUsageLedgerTests.cs.meta
+?? Assets/Tests/EditMode/BaseTerrainRefinementTests.cs
+?? Assets/Tests/EditMode/BaseTerrainRefinementTests.cs.meta
+?? Assets/Tests/EditMode/BuildingFoundationTests.cs
+?? Assets/Tests/EditMode/BuildingFoundationTests.cs.meta
+?? Assets/Tests/EditMode/CaptureWriteGuardTests.cs
+?? Assets/Tests/EditMode/CaptureWriteGuardTests.cs.meta
+?? Assets/Tests/EditMode/CliffTileSelectionTests.cs
+?? Assets/Tests/EditMode/CliffTileSelectionTests.cs.meta
+?? Assets/Tests/EditMode/CreatureAnimAssetTests.cs
+?? Assets/Tests/EditMode/CreatureAnimAssetTests.cs.meta
+?? Assets/Tests/EditMode/DecorationClearanceTests.cs
+?? Assets/Tests/EditMode/DecorationClearanceTests.cs.meta
+?? Assets/Tests/EditMode/ElevationStoreTests.cs
+?? Assets/Tests/EditMode/ElevationStoreTests.cs.meta
+?? Assets/Tests/EditMode/FastNoiseElevationTests.cs
+?? Assets/Tests/EditMode/FastNoiseElevationTests.cs.meta
+?? Assets/Tests/EditMode/LifeFoundationTests.cs
+?? Assets/Tests/EditMode/LifeFoundationTests.cs.meta
+?? Assets/Tests/EditMode/MapVisualOverhaulSeedMatrixTests.cs
+?? Assets/Tests/EditMode/MapVisualOverhaulSeedMatrixTests.cs.meta
+?? Assets/Tests/EditMode/TerrainPaletteAndUiLibraryTests.cs
+?? Assets/Tests/EditMode/TerrainPaletteAndUiLibraryTests.cs.meta
+?? Assets/Tests/EditMode/UiToolCatalogContractTests.cs
+?? Assets/Tests/EditMode/UiToolCatalogContractTests.cs.meta
+?? Assets/Tests/EditMode/UiVariantCodecTests.cs
+?? Assets/Tests/EditMode/UiVariantCodecTests.cs.meta
+?? Assets/Tests/PlayMode/AiAMapEnvCaptureTests.cs
+?? Assets/Tests/PlayMode/AiAMapEnvCaptureTests.cs.meta
+?? Assets/Tests/PlayMode/BuildingFxShowcaseTests.cs
+?? Assets/Tests/PlayMode/BuildingFxShowcaseTests.cs.meta
+?? Assets/Tests/PlayMode/CliffAuditCaptureTests.cs
+?? Assets/Tests/PlayMode/CliffAuditCaptureTests.cs.meta
+?? Assets/Tests/PlayMode/CreatureToolVariantTests.cs
+?? Assets/Tests/PlayMode/CreatureToolVariantTests.cs.meta
+?? Assets/Tests/PlayMode/FastNoiseRenderIntegrationTests.cs
+?? Assets/Tests/PlayMode/FastNoiseRenderIntegrationTests.cs.meta
+?? Assets/Tests/PlayMode/FoamAfterCapture.cs
+?? Assets/Tests/PlayMode/FoamAfterCapture.cs.meta
+?? Assets/Tests/PlayMode/FoamBaselineCapture.cs
+?? Assets/Tests/PlayMode/FoamBaselineCapture.cs.meta
+?? Assets/Tests/PlayMode/FullAssetSurveyTests.cs
+?? Assets/Tests/PlayMode/FullAssetSurveyTests.cs.meta
+?? Assets/Tests/PlayMode/FxTriggerPathTests.cs
+?? Assets/Tests/PlayMode/FxTriggerPathTests.cs.meta
+?? Assets/Tests/PlayMode/GameViewSizeText.cs
+?? Assets/Tests/PlayMode/GameViewSizeText.cs.meta
+?? Assets/Tests/PlayMode/LifeAnimCoverageTests.cs
+?? Assets/Tests/PlayMode/LifeAnimCoverageTests.cs.meta
+?? Assets/Tests/PlayMode/LifeViewIntegrationTests.cs
+?? Assets/Tests/PlayMode/LifeViewIntegrationTests.cs.meta
+?? Assets/Tests/PlayMode/MapVisualOverhaulCaptureTests.cs
+?? Assets/Tests/PlayMode/MapVisualOverhaulCaptureTests.cs.meta
+?? Assets/Tests/PlayMode/ToolInputChainTests.cs
+?? Assets/Tests/PlayMode/ToolInputChainTests.cs.meta
+?? Assets/Tests/PlayMode/UiAssetsEvidenceTests.cs
+?? Assets/Tests/PlayMode/UiAssetsEvidenceTests.cs.meta
+?? Assets/Tests/PlayMode/UiWiringEvidenceTests.cs
+?? Assets/Tests/PlayMode/UiWiringEvidenceTests.cs.meta
+?? Assets/Tests/PlayMode/VisualVerificationTests.cs
+?? Assets/Tests/PlayMode/VisualVerificationTests.cs.meta
+?? Assets/_Project/Art/Terrain/Cliff_Land_41.asset
+?? Assets/_Project/Art/Terrain/Cliff_Land_41.asset.meta
+?? Assets/_Project/Art/Terrain/Cliff_Land_42.asset
+?? Assets/_Project/Art/Terrain/Cliff_Land_42.asset.meta
+?? Assets/_Project/Art/Terrain/Cliff_Land_43.asset
+?? Assets/_Project/Art/Terrain/Cliff_Land_43.asset.meta
+?? Assets/_Project/Art/Terrain/Cliff_Land_44.asset
+?? Assets/_Project/Art/Terrain/Cliff_Land_44.asset.meta
+?? Assets/_Project/Art/Terrain/Cliff_Water_50.asset
+?? Assets/_Project/Art/Terrain/Cliff_Water_50.asset.meta
+?? Assets/_Project/Art/Terrain/Cliff_Water_51.asset
+?? Assets/_Project/Art/Terrain/Cliff_Water_51.asset.meta
+?? Assets/_Project/Art/Terrain/Cliff_Water_52.asset
+?? Assets/_Project/Art/Terrain/Cliff_Water_52.asset.meta
+?? Assets/_Project/Art/Terrain/Cliff_Water_53.asset
+?? Assets/_Project/Art/Terrain/Cliff_Water_53.asset.meta
+?? Assets/_Project/Art/Terrain/Slope_Hill_Left.asset
+?? Assets/_Project/Art/Terrain/Slope_Hill_Left.asset.meta
+?? Assets/_Project/Art/Terrain/Slope_Hill_Right.asset
+?? Assets/_Project/Art/Terrain/Slope_Hill_Right.asset.meta
+?? Assets/_Project/Art/Terrain/Slope_Mount_Left.asset
+?? Assets/_Project/Art/Terrain/Slope_Mount_Left.asset.meta
+?? Assets/_Project/Art/Terrain/Slope_Mount_Right.asset
+?? Assets/_Project/Art/Terrain/Slope_Mount_Right.asset.meta
+?? Assets/_Project/Art/Terrain/Stair_Left_Lower.asset
+?? Assets/_Project/Art/Terrain/Stair_Left_Lower.asset.meta
+?? Assets/_Project/Art/Terrain/Stair_Left_Upper.asset
+?? Assets/_Project/Art/Terrain/Stair_Left_Upper.asset.meta
+?? Assets/_Project/Art/Terrain/Stair_Right_Lower.asset
+?? Assets/_Project/Art/Terrain/Stair_Right_Lower.asset.meta
+?? Assets/_Project/Art/Terrain/Stair_Right_Upper.asset
+?? Assets/_Project/Art/Terrain/Stair_Right_Upper.asset.meta
+?? Assets/_Project/Editor/AnimLibraryPopulator.cs
+?? Assets/_Project/Editor/AnimLibraryPopulator.cs.meta
+?? Assets/_Project/Editor/TerrainPalettePopulator.cs
+?? Assets/_Project/Editor/TerrainPalettePopulator.cs.meta
+?? Assets/_Project/Editor/UiWiringPopulator.cs
+?? Assets/_Project/Editor/UiWiringPopulator.cs.meta
+?? Assets/_Project/Scripts/Bootstrap/FxCommandBus.cs
+?? Assets/_Project/Scripts/Bootstrap/FxCommandBus.cs.meta
+?? Assets/_Project/Scripts/Core/CapturePathGuard.cs
+?? Assets/_Project/Scripts/Core/CapturePathGuard.cs.meta
+?? Assets/_Project/Scripts/Core/Enums/CreatureTool.cs
+?? Assets/_Project/Scripts/Core/Enums/CreatureTool.cs.meta
+?? Assets/_Project/Scripts/Presentation/BuildingLibrary.cs
+?? Assets/_Project/Scripts/Presentation/BuildingLibrary.cs.meta
+?? Assets/_Project/Scripts/Presentation/BuildingRenderer.cs
+?? Assets/_Project/Scripts/Presentation/BuildingRenderer.cs.meta
+?? Assets/_Project/Scripts/Presentation/Entities.meta
+?? Assets/_Project/Scripts/Presentation/Entities/
+?? Assets/_Project/Scripts/Presentation/Input/ToolPointerController.cs
+?? Assets/_Project/Scripts/Presentation/Input/ToolPointerController.cs.meta
+?? Assets/_Project/Scripts/Presentation/TerrainPaletteLibrary.cs
+?? Assets/_Project/Scripts/Presentation/TerrainPaletteLibrary.cs.meta
+?? Assets/_Project/Scripts/Simulation/Entities.meta
+?? Assets/_Project/Scripts/Simulation/Entities/
+?? Assets/_Project/Scripts/UI/Tools/UiCreatureVariantCodec.cs
+?? Assets/_Project/Scripts/UI/Tools/UiCreatureVariantCodec.cs.meta
+?? Assets/_Project/Scripts/UI/UiCursorMap.cs
+?? Assets/_Project/Scripts/UI/UiCursorMap.cs.meta
+?? Assets/_Project/Scripts/UI/UiSpriteLibrary.cs
+?? Assets/_Project/Scripts/UI/UiSpriteLibrary.cs.meta
+?? Assets/_Project/Scripts/World/BuildingData.cs
+?? Assets/_Project/Scripts/World/BuildingData.cs.meta
+?? Assets/_Project/Scripts/World/BuildingStore.cs
+?? Assets/_Project/Scripts/World/BuildingStore.cs.meta
+?? Assets/_Project/Scripts/World/ElevationStore.cs
+?? Assets/_Project/Scripts/World/ElevationStore.cs.meta
+?? Assets/_Project/Scripts/World/GenSteps/PlateauStep.cs
+?? Assets/_Project/Scripts/World/GenSteps/PlateauStep.cs.meta
+?? Assets/_Project/Scripts/World/GenSteps/TerrainOverlayPlan.cs
+?? Assets/_Project/Scripts/World/GenSteps/TerrainOverlayPlan.cs.meta
+?? Assets/_Project/ThirdParty.meta
+?? Assets/_Project/ThirdParty/
+?? docs/impl/evidence/IMPL-14/shot-gamehud-1920.png
+?? docs/impl/evidence/IMPL-14/shot-mainmenu-1920.png
+?? docs/impl/evidence/base-terrain-refinement-2026-10-16/
+?? docs/impl/evidence/buildings-fx/
+?? docs/impl/evidence/creature-tool-variants/
+?? docs/impl/evidence/fastnoise-terrain-2026-10-16/
+?? docs/impl/evidence/foam-alignment-fix/
+?? docs/impl/evidence/full-audit-v05/
+?? docs/impl/evidence/icon-audit/
+?? docs/impl/evidence/independent-visual-verification-2026-10-15/
+?? docs/impl/evidence/life-views-v01/
+?? docs/impl/evidence/map-visual-overhaul-2026-10-15/
+?? docs/impl/evidence/parallel-repair-ai-a/
+?? docs/impl/evidence/parallel-repair-b/
+?? docs/impl/evidence/terrain-render-integrity-2026-10-17/
+?? docs/impl/evidence/terrain-structure-2026-10-16/
+?? docs/impl/evidence/tile-placement-repair-2026-10-16-r2-iter1/
+?? docs/impl/evidence/tile-placement-repair-2026-10-16-r2/
+?? docs/impl/evidence/tile-placement-repair-2026-10-16-r3/
+?? docs/impl/evidence/tile-placement-repair-2026-10-16-r4/
+?? docs/impl/evidence/tile-placement-repair-2026-10-16/
+?? docs/impl/evidence/tiny-swords-asset-audit/new-guids.json
+?? docs/impl/evidence/tiny-swords-asset-audit/pawn-frames-audit.png
+?? docs/impl/evidence/tiny-swords-asset-audit/sprite-fileids.json
+?? docs/impl/evidence/ui-assets-v01/
+?? docs/impl/evidence/ui-terrain-integration/post-fix-nine-slice/hud_1280x720.png
+?? docs/impl/evidence/ui-terrain-integration/post-fix-nine-slice/hud_2880x1418.png
+?? docs/impl/evidence/ui-terrain-integration/post-fix-nine-slice/mainmenu_1280x720.png
+?? docs/impl/evidence/ui-terrain-integration/post-fix-nine-slice/mainmenu_2880x1418.png
+?? docs/impl/evidence/ui-terrain-integration/post-fix-nine-slice/settings_1280x720.png
+?? docs/impl/evidence/ui-terrain-integration/post-fix-nine-slice/settings_2880x1418.png
+?? docs/impl/evidence/ui-terrain-placement-v03/elevated-ground-highland-closeup.png
+?? docs/impl/evidence/ui-wiring-v01/
+?? "docs/impl/life-views-v01-\345\267\245\344\275\234\350\256\260\345\275\225.md"
+?? docs/impl/parallel-repair/
+?? "docs/impl/\347\264\240\346\235\220\346\216\245\345\205\245/"

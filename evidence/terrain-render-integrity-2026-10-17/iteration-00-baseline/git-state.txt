@@ -1,0 +1,32 @@
+# 主仓库状态快照 —— iteration-00-baseline 采集时的代码状态（2026-10-17 08:08 补记）
+
+> 用途：三种子 capture-manifest.txt 中各 capture 行 `HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>`
+> 的正式补记来源。采集进程（Unity Test Runner）内无法执行 git 命令，故由主 Agent 在采集后立即补记。
+
+## 快照
+
+- 主仓库：WorldSandboxPrototype（D:/data/UnityProjects/WorldSandboxPrototype）
+- 分支：main
+- HEAD：47d8185d92e0d248f252460b535a39679eb71262
+  - 47d8185「chore(assets): Tiny Swords 全量素材与官方示意图入库（D-057 授权，经 Git LFS）」
+- 工作区：392 项脏（132 修改 / 3 删除 / 257 未跟踪）——为 D-059~D-064 累积的工作区状态，
+  主仓库按项目纪律零 git 写（本快照仅只读命令）。
+- 全量 `git status --porcelain` 清单（392 行）：见同目录 `git-status-porcelain.txt`。
+
+## 关键生产文件 SHA-256（本批截图所对应的精确工作区状态）
+
+| 文件（仓库相对路径） | SHA-256（完整） |
+| --- | --- |
+| Assets/_Project/Scripts/World/GenSteps/TerrainOverlayPlan.cs | cb4f180f5c31dcf09bab5aac8d652d9a1e6aaf58846b46ff372b1e85f557f170 |
+| Assets/_Project/Scripts/Presentation/TerrainTilemapRenderer.cs | 500c97ebd83de019fd518b694e4c9c88a92bccb9a814c176f9cae46897c12204 |
+| Assets/_Project/Scripts/Presentation/WaterFoamRenderer.cs | c33967d61c10aecdb6d66852d5f7a275b50f44282096754275dc50e31496657f |
+| Assets/_Project/Scenes/Main.unity | 1b2b1c8b139ae1ca68d48c4ac59180a56352ae00789fbd573a00b2bec0bb8d7e |
+| Assets/_Project/Art/Terrain/RuleTiles/RT_Forest.asset | cb08fd3623dd7a30aadaa0e9481c5e3ed3b419e48f1347ff2533e00bdc1d399f |
+| Assets/_Project/Art/Terrain/RuleTiles/RT_Grass.asset | 1efa72c03682d5ad46d80f88b9735b06abbfe42e2642e3755935aae5d16de4c4 |
+| Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs | 9fb13ff624b78641fe008ea4c12f1b53d1be810cec42398ae558cafdc2ee1e29 |
+
+## 与后续迭代的对照用法
+
+本文件是 iteration-00 的"代码状态指纹"：后续 iteration-NN 采集后重算同表即可逐位判定
+"哪些生产文件被该轮修改"。渲染修复的判定不依赖本表（以同机位截图对照为准），本表用于
+审计"声明改了 A 文件、实际 B 文件也变了"这类不一致。

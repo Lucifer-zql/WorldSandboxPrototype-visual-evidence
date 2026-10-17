@@ -1,5 +1,7 @@
 # iteration-00-baseline 全文件 SHA-256（2026-10-17 采集）；校验：sha256sum -c SHA256SUMS.txt
-2acf155a41304b26ec7f0af4519d56cc073bae902792745404b106fd182d3e70 *./README.md
+28fb513450028521ffd02d25ec74a0db96f7293af8284d32520b05b6899b7364 *./README.md
+e6f5d828a146fce366eb022dc52f39b68960ef5a14bd60078debd3279b919fcc *./capture-safety/capture-post-verify.txt
+da304881d9fafce983fce2824c9f9d9a74e1ad251b31de49eb6dc1985b703c29 *./capture-safety/d065-capture-pre.sha256.txt
 7aeac5f3e354bde9055cd6e02788d0489f5cb7b9db3bb1d018d1c36f0fa85d48 *./git-state.txt
 349b3e67a35f44a7f2a8e6c723abca21109aea25b27572646b1ecefc4e1d1ae8 *./git-status-porcelain.txt
 c666f5880869ca8152754d4f257570e77a947e8a5f26130bf0700a1a376631ac *./seed-20261013/MVO1a-fullmap-overview-ortho40.png

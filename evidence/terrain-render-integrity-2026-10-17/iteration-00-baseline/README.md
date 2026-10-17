@@ -41,6 +41,7 @@
 | 近景 | `tpr2-closeup-`{`stairs`(3),`slope`(3.5),`twotier`(4.5),`endcap`(4),`clearance`(4),`clifftop`(5)}；种子14/15 另有 `vertwall`(3，v5 竖列变体观察位) | 逐类邻接组合特写 |
 | 记录 | `capture-manifest.txt`（逐拍时间/种子/相机/stat 注记） | 数据侧核对 |
 | 状态 | `git-state.txt`（HEAD/工作区/关键生产文件 SHA-256）+ `git-status-porcelain.txt`（392 行全量） | 代码状态指纹（见 §五） |
+| 捕获安全 | `capture-safety/d065-capture-pre.sha256.txt`（采前 1998 项历史证据快照）+ `capture-safety/capture-post-verify.txt`（采后零覆盖核验方法与结果） | 历史证据零覆盖的可核验材料（见 §五） |
 
 ## 四、逐组"能/不能证明"
 
@@ -53,7 +54,7 @@
 
 - 测试 XML：`seed-20261013|14|15/test-results.xml`（各 9 passed + 1 skipped + 0 failed）；原始日志 `test-run.log`。
 - 捕获安全：全部产出经 `CaptureWriteGuard`（白名单仅本轮批次根、模式仅 `tri-`、文件已存在拒绝）；
-  采前/采后历史哈希 1998/1998 零覆盖（基线 `d065-capture-pre.sha256.txt`，存主仓库诊断目录）。
+  采前/采后历史哈希 **1998/1998 零覆盖**——采前快照与采后核验（含可复现命令）见 `capture-safety/`。
 - 代码状态指纹：`git-status-porcelain.txt`（采集时点主仓库 392 项脏全量清单）；
   `git-state.txt`（HEAD `47d8185`/分支 main/关键地形生产文件完整 SHA-256）——后续每轮迭代重算同表即可
   逐位判定哪些生产文件被改。manifest 内 `<待主Agent补记>` 占位符已由各文件末行 backfill 行闭环。

@@ -1,0 +1,30 @@
+# D-065 第 0 轮 · 历史证据完整性采后核验（零覆盖证明）
+# 生成：2026-10-17 08:11（发布收尾补发材料）
+# ---------------------------------------------------------------------------
+# 目的
+#   证明本批三种子采集与发布收尾过程中，主仓库 docs/impl/evidence/ 下 1998 项历史证据
+#   （不含本批新目录 terrain-render-integrity-2026-10-17/）逐字节零改动。
+#
+# 方法（可复现）
+#   以采集前快照 capture-safety/d065-capture-pre.sha256.txt 为准，对主仓库当前状态重算：
+#     cd <主仓库根>
+#     tr -d '\r' < capture-safety/d065-capture-pre.sha256.txt | sha256sum -c -
+#   注意：快照为 Windows CRLF 行尾，直接 `sha256sum -c` 会因路径尾部 \r 解析失败；
+#   必须先经 tr -d '\r' 剥离（这是校验方唯一需要的预处理）。
+#
+# 结果（两次独立执行一致）
+#   - 采集后即刻（2026-10-17 08:06~08:07，会话运行记录）
+#   - 发布收尾重跑（2026-10-17 08:10，本条输出）
+#     OK = 1998 / FAILED = 0 / MISSING = 0（非 OK 行 0；首行 # 注释被 sha256sum 忽略）
+#
+# 快照范围说明
+#   - 快照生成于采集开始前 08:04，刻意排除本轮新批次目录（新批为新增，不属于历史保护对象）。
+#   - 1998 项覆盖主仓库证据树全部既存文件：IMPL-01、parallel-repair 系列、tile-placement-repair
+#     系列（r1~r4）、map-visual-overhaul、base-terrain-refinement、cliff-repair、fastnoise 等。
+#
+# 机制保障（同批生效，非仅靠事后核对）
+#   - 本批全部写盘经 CaptureWriteGuard 失败关闭门禁：白名单仅本批根、模式前缀仅 tri-、
+#     目标文件已存在一律拒绝；门禁负向用例含于 EditMode 288/288 套件
+#     （主仓库 docs/impl/parallel-repair/d065-editmode-guard.xml）。
+#   - 快照文件本身与主仓库原件一致（sha256=da304881d9fafce983fce2824c9f9d9a74e1ad251b31de49eb6dc1985b703c29，
+#     1999 行：1 行注释 + 1998 行哈希）。

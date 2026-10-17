@@ -2440,7 +2440,7 @@ seed,x,y,terrain,elev,flat,flat_sprite,top,top_sprite,wall_plan,wall_actual,wall
 20261015,6,19,Water,0,0,null,0,null,0,0,null,0,OK
 20261015,7,19,Water,0,0,null,0,null,0,0,null,0,OK
 20261015,8,19,Water,0,0,null,0,null,0,0,null,0,OK
-20261015,9,19,Grass,0,1,Tilemap_color1_10,0,null,0,0,null,0,OK
+20261015,9,19,Grass,0,1,Tilemap_color1_8,0,null,0,0,null,0,OK
 20261015,10,19,Water,0,0,null,0,null,0,0,null,0,OK
 20261015,11,19,Water,0,0,null,0,null,0,0,null,0,OK
 20261015,12,19,Water,0,0,null,0,null,0,0,null,0,OK
@@ -3208,7 +3208,7 @@ seed,x,y,terrain,elev,flat,flat_sprite,top,top_sprite,wall_plan,wall_actual,wall
 20261015,6,25,Water,0,0,null,0,null,0,0,null,0,OK
 20261015,7,25,Water,0,0,null,0,null,0,0,null,0,OK
 20261015,8,25,Water,0,0,null,0,null,0,0,null,0,OK
-20261015,9,25,Grass,0,1,Tilemap_color1_10,0,null,0,0,null,0,OK
+20261015,9,25,Grass,0,1,Tilemap_color1_26,0,null,0,0,null,0,OK
 20261015,10,25,Water,0,0,null,0,null,0,0,null,0,OK
 20261015,11,25,Water,0,0,null,0,null,0,0,null,0,OK
 20261015,12,25,Water,0,0,null,0,null,0,0,null,0,OK

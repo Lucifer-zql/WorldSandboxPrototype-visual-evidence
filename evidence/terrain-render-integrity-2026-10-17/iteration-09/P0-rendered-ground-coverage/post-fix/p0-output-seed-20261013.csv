@@ -5238,7 +5238,7 @@ seed,x,y,terrain,elev,flat,flat_sprite,top,top_sprite,wall_plan,wall_actual,wall
 20261013,116,40,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,117,40,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,118,40,Water,0,0,null,0,null,0,0,null,0,OK
-20261013,119,40,Grass,0,1,Tilemap_color1_10,0,null,0,0,null,0,OK
+20261013,119,40,Grass,0,1,Tilemap_color1_8,0,null,0,0,null,0,OK
 20261013,120,40,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,121,40,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,122,40,Water,0,0,null,0,null,0,0,null,0,OK
@@ -14966,7 +14966,7 @@ seed,x,y,terrain,elev,flat,flat_sprite,top,top_sprite,wall_plan,wall_actual,wall
 20261013,116,116,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,117,116,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,118,116,Water,0,0,null,0,null,0,0,null,0,OK
-20261013,119,116,Grass,0,1,Tilemap_color1_10,0,null,0,0,null,0,OK
+20261013,119,116,Grass,0,1,Tilemap_color1_26,0,null,0,0,null,0,OK
 20261013,120,116,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,121,116,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,122,116,Water,0,0,null,0,null,0,0,null,0,OK
@@ -15221,7 +15221,7 @@ seed,x,y,terrain,elev,flat,flat_sprite,top,top_sprite,wall_plan,wall_actual,wall
 20261013,115,118,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,116,118,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,117,118,Water,0,0,null,0,null,0,0,null,0,OK
-20261013,118,118,Grass,0,1,Tilemap_color1_10,0,null,0,0,null,0,OK
+20261013,118,118,Grass,0,1,Tilemap_color1_32,0,null,0,0,null,0,OK
 20261013,119,118,Grass,0,1,Tilemap_color1_10,0,null,0,0,null,0,OK
 20261013,120,118,Grass,0,1,Tilemap_color1_11,0,null,0,0,null,0,OK
 20261013,121,118,Water,0,0,null,0,null,0,0,null,0,OK
@@ -15608,7 +15608,7 @@ seed,x,y,terrain,elev,flat,flat_sprite,top,top_sprite,wall_plan,wall_actual,wall
 20261013,118,121,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,119,121,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,120,121,Water,0,0,null,0,null,0,0,null,0,OK
-20261013,121,121,Grass,0,1,Tilemap_color1_10,0,null,0,0,null,0,OK
+20261013,121,121,Grass,0,1,Tilemap_color1_8,0,null,0,0,null,0,OK
 20261013,122,121,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,123,121,Water,0,0,null,0,null,0,0,null,0,OK
 20261013,124,121,Water,0,0,null,0,null,0,0,null,0,OK

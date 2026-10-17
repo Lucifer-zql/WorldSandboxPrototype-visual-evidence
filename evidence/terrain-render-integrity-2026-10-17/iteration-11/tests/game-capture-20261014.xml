@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 10:06:29Z" end-time="2026-10-17 10:06:30Z" duration="1.3245715">
+  <test-suite type="TestSuite" id="1111" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="74" result="Passed" start-time="2026-10-17 10:06:29Z" end-time="2026-10-17 10:06:30Z" duration="1.324572" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1218" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="74" result="Passed" start-time="2026-10-17 10:06:29Z" end-time="2026-10-17 10:06:30Z" duration="1.317088" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="8396" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1219" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="74" result="Passed" start-time="2026-10-17 10:06:29Z" end-time="2026-10-17 10:06:30Z" duration="1.316102" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1220" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="74" result="Passed" start-time="2026-10-17 10:06:29Z" end-time="2026-10-17 10:06:30Z" duration="1.315347" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1221" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="74" result="Passed" start-time="2026-10-17 10:06:29Z" end-time="2026-10-17 10:06:30Z" duration="1.314600" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1151" name="Iter11GameCaptureTests" fullname="WorldSandbox.Tests.PlayMode.Iter11GameCaptureTests" classname="WorldSandbox.Tests.PlayMode.Iter11GameCaptureTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-17 10:06:29Z" end-time="2026-10-17 10:06:30Z" duration="1.308471" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1152" name="Iter11_GameTerrainShots" fullname="WorldSandbox.Tests.PlayMode.Iter11GameCaptureTests.Iter11_GameTerrainShots" methodname="Iter11_GameTerrainShots" classname="WorldSandbox.Tests.PlayMode.Iter11GameCaptureTests" runstate="Runnable" seed="1469436756" result="Passed" start-time="2026-10-17 10:06:29Z" end-time="2026-10-17 10:06:30Z" duration="1.293360" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261014 尺寸=128x128 水比=0.22 陆块=0.78 尝试=1 校验=True 装饰=230 资源=142
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261014 尺寸=128x128 水比=0.22 陆块=0.78 尝试=1 校验=True 装饰=230 资源=142
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[Iter11Game] seed=20261014 map=128x128 walls=317 slopes=18
+[Iter11Game] seed=20261014 map=128x128 walls=317 slopes=18
+[Iter11Game] shot G1-fullmap.png
+[Iter11Game] shot G1-fullmap.png
+[Iter11Game] shot G2-wall-run.png
+[Iter11Game] shot G2-wall-run.png
+[Iter11Game] shot G3-two-tier.png
+[Iter11Game] shot G3-two-tier.png
+[Iter11Game] shot G4-ramp-left.png
+[Iter11Game] shot G4-ramp-left.png
+[Iter11Game] shot G5-ramp-right.png
+[Iter11Game] shot G5-ramp-right.png
+[Iter11Game] shot G6-water-foot.png
+[Iter11Game] shot G6-water-foot.png
+[Iter11Game] shot G7-inland-seam.png
+[Iter11Game] shot G7-inland-seam.png
+[Iter11Game] shot G8-forest-edge.png
+[Iter11Game] shot G8-forest-edge.png
+[Iter11Game] shot G9-shadow.png
+[Iter11Game] shot G9-shadow.png
+[Iter11Game] shot G10-coast-foam.png
+[Iter11Game] shot G10-coast-foam.png
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

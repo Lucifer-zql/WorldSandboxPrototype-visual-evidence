@@ -1,0 +1,13 @@
+name,sprite,x,y,sortingOrder,sortingLayer,active,scaleX,scaleY
+HighGroundShadow_0,Shadow,6.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_1,Shadow,7.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_2,Shadow,8.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_3,Shadow,9.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_4,Shadow,10.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_5,Shadow,11.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_6,Shadow,12.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_7,Shadow,13.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_8,Shadow,14.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_9,Shadow,15.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_10,Shadow,16.500,6.500,150,Default,True,1.000,1.000
+HighGroundShadow_11,Shadow,17.500,6.500,150,Default,True,1.000,1.000

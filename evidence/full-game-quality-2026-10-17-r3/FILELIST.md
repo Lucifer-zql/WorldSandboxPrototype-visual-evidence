@@ -5,7 +5,7 @@
 | 文件 | 字节 |
 | --- | ---: |
 | ENVIRONMENT.md | 2097 |
-| README.md | 7851 |
+| README.md | 8210 |
 | screenshots/r3-01-main-menu-zh.png | 64789 |
 | screenshots/r3-02-new-world-zh.png | 77687 |
 | screenshots/r3-03-world-with-life-zh.png | 391041 |
@@ -49,6 +49,6 @@
 | tests/playmode-full.log | 574 |
 | tests/playmode-full.xml | 299320 |
 | tests/playmode-full-failures.md | 19379 |
-| tests/README.md | 4312 |
+| tests/README.md | 4397 |
 | FILELIST.md | (本文件) |
 | SHA256SUMS.txt | (见该文件) |

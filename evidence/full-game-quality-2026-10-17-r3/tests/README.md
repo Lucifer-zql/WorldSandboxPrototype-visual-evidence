@@ -8,7 +8,7 @@
 | 文件 | 命令 | 实测结果 |
 | --- | --- | --- |
 | `editmode-full.xml` | `unity test . --mode EditMode` | **417/417 通过** |
-| `playmode-full.xml` | `unity test . --mode PlayMode` | **109 总：37 通过 / 72 失败**，逐条分类见 `playmode-full-failures.md` |
+| `playmode-full.xml` | `unity test . --mode PlayMode` | **109 总：37 通过 / 72 失败**，逐条分类见 `playmode-full-failures.md`；其中 D068 自动存档 **6/6**、面板/事件 **5/5**、人口一致性 **1/1** |
 | `d068-ui.xml` | `--filter WorldSandbox.Tests.PlayMode.D068FinalUiTests` | **3/3 通过** |
 | `d068-capture.xml` | 设置 `D068_FINAL_SHOT_DIR` 后运行 `D068FinalCaptureTests` | **4/4 通过，26/26 PNG 落盘** |
 | `d068-character.xml` | `--filter WorldSandbox.Tests.PlayMode.D068CharacterRenderTests` | **3/3 通过**（含移动不穿水/崖/建筑） |

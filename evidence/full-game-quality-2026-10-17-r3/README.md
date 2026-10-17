@@ -80,6 +80,9 @@
 | D068FinalUiTests | **3/3 通过** |
 | D067 真实流程（设置 D067_SHOT_DIR） | **8/11**，逐条见 `tests/README.md` |
 | 全量 PlayMode | **109 总：37 通过 / 72 失败**，逐条分类见 `tests/playmode-full-failures.md` |
+| 全量中的 D068 功能用例 | 自动存档 **6/6**（600 tick 一次、暂停停、读档基线、世界切换、失败反馈、v1 兼容）；面板/事件 **5/5**；人口一致性 **1/1** |
+
+> 三个旧 `D068_Capture_*` 在全量中失败仅因未设置 `D068_SHOT_DIR`；定向 `D068FinalCaptureTests` 设置目录后 **4/4、26 PNG**，见上表。
 
 D-067 的失败不是“截图全挂”：
 - `D067_CaptureEnglishScreens` 写完 8 张英文截图后，按旧控件名 `Btn_Done` 找不到关闭按钮（当前是本地化标签 `Btn_完成`）；

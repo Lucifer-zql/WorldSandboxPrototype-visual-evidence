@@ -1,0 +1,1126 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 42568)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 41072)
+VBCSCompiler prewarm took 15.33 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.5f1 (3ff58d469c8a) revision 4191629'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-18871" at "2026-10-17T11:55:06.6393243Z"
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 32189 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-17T11:55:06Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22984, path: "D:/software/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              dcac2585b6bf496197f87c087ec96f32
+  Correlation Id:          e2c7b7bbf832a9885c4d754e8fea8e9a
+  External correlation Id: 3660868271735764184
+  Machine Id:              xHFm/YCG/e0QoB0uUbSLXqNenIA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-18871" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-18871-notifications" at "2026-10-17T11:55:06.6901297Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-UZJF-SYWM-Y6US-YCYR-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+D:\software\Unity Hub\Editor\6000.6.5f1\Editor\Unity.exe
+-batchmode
+-projectPath
+D:\data\UnityProjects\WorldSandboxPrototype
+-runTests
+-testPlatform
+PlayMode
+-testFilter
+D067R2ToastLayoutTests
+-testResults
+.workbuddy\tmp_iter11\r2-toast3.xml
+-logFile
+.workbuddy\tmp_iter11\r2-toast3.log
+Successfully changed project path to: D:\data\UnityProjects\WorldSandboxPrototype
+D:/data/UnityProjects/WorldSandboxPrototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [10624]  Target information:
+
+Player connection [10624]  * "[IP] 100.64.0.2 [Port] 55504 [Flags] 2 [Guid] 1615034433 [EditorId] 1615034433 [Version] 1048832 [Id] WindowsEditor(7,lucifer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10624]  * "[IP] 192.168.1.4 [Port] 55504 [Flags] 2 [Guid] 1615034433 [EditorId] 1615034433 [Version] 1048832 [Id] WindowsEditor(7,lucifer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10624] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10624] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-43816" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-UZJF-SYWM-Y6US-YCYR-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: f5ecd1e965b1df996773f57c6fd80708
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - D:/software/Unity Hub/Editor/6000.6.5f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = D:/data/UnityProjects/WorldSandboxPrototypeUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.5f1 (3ff58d469c8a)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path D:/software/Unity Hub/Editor/6000.6.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/data/UnityProjects/WorldSandboxPrototype/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:          Intel
+    VRAM:            18347 MB
+    App VRAM Budget: 17579 MB
+    Driver:          32.0.101.8132
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'D:/software/Unity Hub/Editor/6000.6.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/software/Unity Hub/Editor/6000.6.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/software/Unity Hub/Editor/6000.6.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/software/Unity Hub/Editor/6000.6.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/software/Unity Hub/Editor/6000.6.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/software/Unity Hub/Editor/6000.6.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001741 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.793 seconds
+Domain Reload Profiling: 1328ms
+	BeginReloadAssembly (123ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (118ms)
+		TypeCache.Refresh (216ms)
+			TypeCache.ScanAssembly (201ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (794ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (268ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-UZJF-SYWM-Y6US-YCYR-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 50 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.12.4 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e)
+    com.unity.2d.animation@16.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.2d.animation@147f6a6d9e7f)
+    com.unity.2d.psdimporter@15.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.2d.psdimporter@3ef8178676f6)
+    com.unity.2d.spriteshape@16.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.2d.spriteshape@42798c9d35d3)
+    com.unity.2d.tilemap.extras@9.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.2d.tilemap.extras@598e8b65eaae)
+    com.unity.2d.aseprite@6.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.2d.aseprite@ab909e3e9b5f)
+    com.unity.2d.tooling@4.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.2d.tooling@92c2769ac09c)
+    com.unity.ide.rider@3.0.38 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.19.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.visualscripting@1.9.11 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.learn.iet-framework@6.0.4 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.learn.iet-framework@0e744bc08fb9)
+    com.unity.pipeline@0.8.0-exp.1 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.pipeline@62c08c808737)
+    com.unity.nuget.mono-cecil@1.11.6 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.settings-manager@2.1.1 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+    com.unity.2d.common@15.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.2d.common@b779c433ed47)
+    com.unity.searcher@4.9.5 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.2d.sprite@752945c75a6f)
+    com.unity.2d.tilemap@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.2d.tilemap@f4c7bd71ac8a)
+    com.unity.render-pipelines.universal@17.6.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.render-pipelines.universal@2309ae255609)
+    com.unity.test-framework@1.8.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.timeline@4891807c6bd8)
+    com.unity.ugui@2.6.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.ugui@42f0bd825000)
+    com.unity.modules.uielements@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.screencapture@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.editorcoroutines@6.6.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.editorcoroutines@8cd72baa102a)
+    com.unity.modules.ui@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.imgui@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.audio@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.physics2d@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physics@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.director@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.animation@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.ext.nunit@2.1.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.render-pipelines.core@285af6b8c83f)
+    com.unity.shadergraph@17.6.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.shadergraph@58bcb150677d)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.mathematics@1.4.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.modules.tilemap@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.collections@6.6.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.graph-authoring@1.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.test-framework.performance@6.6.0 (location: D:\data\UnityProjects\WorldSandboxPrototype\Library\PackageCache\com.unity.test-framework.performance@54c5bd86aedb)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: D:\software\Unity Hub\Editor\6000.6.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/data/UnityProjects/WorldSandboxPrototype
+DisplayProgressbar: Compiling Scripts
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "D:\software\Unity Hub\Editor\6000.6.5f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "D:\software\Unity Hub\Editor\6000.6.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "D:\software\Unity Hub\Editor\6000.6.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll" in favor of "D:\software\Unity Hub\Editor\6000.6.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s997ms
+[1060/1402  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1394/1402  0s] Csc Library/Bee/artifacts/1900b0aE.dag/WorldSandbox.Bootstrap.dll (+2 others)
+Assets\_Project\Scripts\Bootstrap\GameBootstrap.cs(143,42): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\_Project\Scripts\Bootstrap\GameBootstrap.cs(504,42): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[1396/1402  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/WorldSandbox.Bootstrap.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/WorldSandbox.Bootstrap.dll, with 148 defines and 295 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[1397/1402  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/WorldSandbox.Tests.PlayMode.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/WorldSandbox.Tests.PlayMode.dll, with 148 defines and 277 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[1398/1402  0s] CopyFiles Library/ScriptAssemblies/WorldSandbox.Bootstrap.pdb
+[1399/1402  0s] CopyFiles Library/ScriptAssemblies/WorldSandbox.Bootstrap.dll
+*** Tundra build success (0.95 seconds), 6 items updated, 1402 evaluated
+Assets\_Project\Scripts\Bootstrap\GameBootstrap.cs(143,42): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\_Project\Scripts\Bootstrap\GameBootstrap.cs(504,42): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+AssetDatabase: script compilation time: 1.554453s
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.12 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Start HTTP server: port:7800
+DirectoryNotFoundException: Could not find a part of the path 'D:\software\JetBrains\JetBrains Rider 2024.1\plugins\rider-unity\EditorPlugin'.
+  at System.IO.Enumeration.FileSystemEnumerator`1[TResult].CreateDirectoryHandle (System.String path, System.Boolean ignoreNotFound) [0x0004d] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Enumeration.FileSystemEnumerator`1[TResult]..ctor (System.String directory, System.IO.EnumerationOptions options) [0x00050] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator[TResult]..ctor (System.IO.Enumeration.FileSystemEnumerable`1[TResult] enumerable) [0x00000] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Enumeration.FileSystemEnumerable`1[TResult]..ctor (System.String directory, System.IO.Enumeration.FileSystemEnumerable`1+FindTransform[TResult] transform, System.IO.EnumerationOptions options) [0x00042] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles (System.String directory, System.String expression, System.IO.EnumerationOptions options) [0x00014] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Directory.InternalEnumeratePaths (System.String path, System.String searchPattern, System.IO.SearchTarget searchTarget, System.IO.EnumerationOptions options) [0x0003c] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.EnumerationOptions enumerationOptions) [0x00000] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00008] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at Packages.Rider.Editor.RiderInitializer.Initialize (System.String editorPath) [0x0005e] in .\Library\PackageCache\com.unity.ide.rider@1f60b3138684\Rider\Editor\RiderInitializer.cs:40 
+  at Packages.Rider.Editor.RiderScriptEditor.InitializeInternal (System.String currentEditorPath) [0x002d0] in .\Library\PackageCache\com.unity.ide.rider@1f60b3138684\Rider\Editor\RiderScriptEditor.cs:294 
+  at Packages.Rider.Editor.RiderScriptEditor..cctor () [0x00020] in .\Library\PackageCache\com.unity.ide.rider@1f60b3138684\Rider\Editor\RiderScriptEditor.cs:36 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Packages.Rider.Editor.RiderScriptEditor:.cctor() (at .\Library\PackageCache\com.unity.ide.rider@1f60b3138684\Rider\Editor\RiderScriptEditor.cs:41)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(ReadOnlySpan`1)
+
+(Filename: ./Library/PackageCache/com.unity.ide.rider@1f60b3138684/Rider/Editor/RiderScriptEditor.cs Line: 41)
+
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.201 seconds
+Domain Reload Profiling: 2591ms
+	BeginReloadAssembly (370ms)
+		DisableScriptedObjects (34ms)
+		CreateAndSetChildDomain (150ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (883ms)
+		LoadAssemblies (424ms)
+		TypeCache.Refresh (295ms)
+			TypeCache.ScanAssembly (276ms)
+		AnalyzeDomain (99ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1202ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (523ms)
+			ProcessInitializeOnLoadMethodAttributes (275ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Starting new worker id: 0 with log in D:/data/UnityProjects/WorldSandboxPrototype/Logs/AssetImportWorkerHW0.log
+Refreshing native plugins compatible for Editor in 2.75 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=4c58114be6c7bde4cb486dd2b9ce7510): Total: 5.277 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1891 ms
+		Asset DB Callback time: managed=247 ms, native=32 ms
+		Scripting: domain reloads=1, domain reload time=1480 ms, compile time=1557 ms, other=69 ms
+		Project Asset Count: scripts=1697, non-scripts=3455
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 25.102ms
+	ApplyChangesToAssetFolders: 0.644ms
+	Scan: 227.979ms
+	Collect global state as custom dependencies: 23.336ms
+	OnSourceAssetsModified: 0.719ms
+	CategorizeScriptCompilationAssets: 47.113ms
+	ProcessAssetsWithTransientArtifactChanges: 101.853ms
+	CategorizeAssets: 75.942ms
+	CompileScripts: 1556.624ms
+	ImportOutOfDateAssets: 1224.900ms (1211.598ms without children)
+		UnloadImportedAssets: 1.785ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.020ms
+		ImportSchedulerStart: 10.445ms
+	PostProcessAllAssets: 248.828ms
+		VCAutoAddAssetPostprocess 0.884ms
+		XRBuildSystem.XRAssetImported 0.427ms
+		MonoPostProcessAllAssets: 247.015ms
+			AssetPostprocessor.OnPostprocessAllAssets 155.617ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 22.122ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 16.369ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.610ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.241ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.556ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.271ms
+			AssetChangedListener.OnPostprocessAllAssets 1.724ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.673ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.616ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.439ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.296ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.081ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.806ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.733ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.602ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.546ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.527ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.474ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.441ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.440ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.433ms
+			AssetProcessor.OnPostprocessAllAssets 0.375ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.335ms
+			AssetEvents.OnPostprocessAllAssets 0.328ms
+			PostProcessor.OnPostprocessAllAssets 0.303ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.300ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.297ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.261ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.234ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.210ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.205ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.205ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.194ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.191ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.151ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.143ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.140ms
+			SyncVS.PostprocessSyncProject 0.115ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.089ms
+	PostAssetChangesProfiler: 7.572ms
+	UnloadStreamsBegin: 2.043ms
+	PersistCurrentRevisions: 0.153ms
+	GenerateScriptTypeHashes: 2.858ms
+	GenerateScriptTypeSerializationHashes: 4.956ms
+	Untracked: 1727.354ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 1.614ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-WorldSandboxPrototype
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7786 unused Assets / (7.1 MB). Loaded Objects now: 8800.
+Memory consumption went from 498.9 MB to 491.8 MB.
+Total: 30.182400 ms (FindLiveObjects: 1.069600 ms CreateObjectMapping: 0.385300 ms MarkObjects: 5.992000 ms  DeleteObjects: 22.343300 ms)
+
+[WARNING] Ignore caches that are heterogeneous
+[Project] Loading completed in 8.788 seconds
+	Project init time: 				8.035 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.273 seconds
+		Asset Database init time: 		0.479 seconds
+		Global illumination init time: 	0.004 seconds
+		Assemblies load time: 			1.377 seconds
+		Unity extensions init time: 	0.023 seconds
+		Asset Database refresh time: 	5.278 seconds
+	Scene opening time: 			0.184 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792238115404,"processId":43816,"projectLoad":8.787991199999999,"projectInit":8.0352866,"templateInit":0.0,"packageManagerInit":0.2730081,"assetDatabaseInit":0.4788523,"globalIlluminationInit":0.0035624,"assembliesLoad":1.3773882,"unityExtensionsInit":0.0228025,"assetDatabaseRefresh":5.2776015,"sceneOpening":0.1842462}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792238115404,"processId":43816,"editorVersion":"6000.6.5f1 (3ff58d469c8a)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Running tests for ExecutionSettings with details:
+targetPlatform = 
+playerHeartbeatTimeout = 600
+filters[0] = 
+   Filter with settings:
+   testMode = PlayMode
+   targetPlatform = 
+   testNames = null
+   groupNames = D067R2ToastLayoutTests
+   categoryNames = null
+   assemblyNames = null
+ignoreTests = {}
+featureFlags = null
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs:53)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:InitializeAndExecuteRun () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:64)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 53)
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Reloading assemblies due to reload request.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Worker ready: AssetImportWorkerHW0 0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.57 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Start HTTP server: port:7800
+DirectoryNotFoundException: Could not find a part of the path 'D:\software\JetBrains\JetBrains Rider 2024.1\plugins\rider-unity\EditorPlugin'.
+  at System.IO.Enumeration.FileSystemEnumerator`1[TResult].CreateDirectoryHandle (System.String path, System.Boolean ignoreNotFound) [0x0004d] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Enumeration.FileSystemEnumerator`1[TResult]..ctor (System.String directory, System.IO.EnumerationOptions options) [0x00050] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator[TResult]..ctor (System.IO.Enumeration.FileSystemEnumerable`1[TResult] enumerable) [0x00000] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Enumeration.FileSystemEnumerable`1[TResult]..ctor (System.String directory, System.IO.Enumeration.FileSystemEnumerable`1+FindTransform[TResult] transform, System.IO.EnumerationOptions options) [0x00042] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles (System.String directory, System.String expression, System.IO.EnumerationOptions options) [0x00014] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Directory.InternalEnumeratePaths (System.String path, System.String searchPattern, System.IO.SearchTarget searchTarget, System.IO.EnumerationOptions options) [0x0003c] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.EnumerationOptions enumerationOptions) [0x00000] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00008] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
+  at Packages.Rider.Editor.RiderInitializer.Initialize (System.String editorPath) [0x0005e] in .\Library\PackageCache\com.unity.ide.rider@1f60b3138684\Rider\Editor\RiderInitializer.cs:40 
+  at Packages.Rider.Editor.RiderScriptEditor.InitializeInternal (System.String currentEditorPath) [0x002d0] in .\Library\PackageCache\com.unity.ide.rider@1f60b3138684\Rider\Editor\RiderScriptEditor.cs:294 
+  at Packages.Rider.Editor.RiderScriptEditor..cctor () [0x00020] in .\Library\PackageCache\com.unity.ide.rider@1f60b3138684\Rider\Editor\RiderScriptEditor.cs:36 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Packages.Rider.Editor.RiderScriptEditor:.cctor() (at .\Library\PackageCache\com.unity.ide.rider@1f60b3138684\Rider\Editor\RiderScriptEditor.cs:41)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(ReadOnlySpan`1)
+
+(Filename: ./Library/PackageCache/com.unity.ide.rider@1f60b3138684/Rider/Editor/RiderScriptEditor.cs Line: 41)
+
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.628 seconds
+Domain Reload Profiling: 2714ms
+	BeginReloadAssembly (707ms)
+		DisableScriptedObjects (41ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (173ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (14ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1629ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (289ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (353ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (60ms)
+No restricted APIs configured; Validation skipped.
+Checking 24 assemblies for restricted APIs found 0 usage(s) in 4 ms
+Refreshing native plugins compatible for Editor in 2.54 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=ab63ccb0090f66e4eb9b1321a6f58594): Total: 4.059 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2009 ms
+		Asset DB Callback time: managed=553 ms, native=330 ms
+		Scripting: domain reloads=1, domain reload time=1163 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1697, non-scripts=3455
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.356ms
+	ApplyChangesToAssetFolders: 0.220ms
+	Collect global state as custom dependencies: 4.090ms
+	ProcessAssetsWithTransientArtifactChanges: 228.055ms
+	CategorizeAssets: 76.021ms
+	CompileScripts: 2.113ms
+	ImportOutOfDateAssets: 1642.527ms (1638.707ms without children)
+		CollectScriptTypesHashes: 3.375ms
+		ReloadNativeAssets: 0.951ms
+		UnloadImportedAssets: 1.822ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.820ms
+		ImportSchedulerStart: 0.207ms
+	PostProcessAllAssets: 877.463ms
+		AssemblyValidation.PostprocessAllAssets 36.090ms
+		PostProcessCallbackCreateDeferredMaterials 21.217ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 17.413ms
+		ShaderAssetModifiedCallback 11.773ms
+		ComputeShaderImportPostprocess 11.055ms
+		RaytracingShaderImportPostprocess 10.513ms
+		SpeedTreeImporter.PostprocessAllAssets 8.260ms
+		BlockShaderImporter.PostprocessAllAssets 3.672ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 3.582ms
+		XRBuildSystem.XRAssetImported 0.495ms
+		MonoPostProcessAllAssets: 552.607ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 207.063ms
+			PostProcessor.OnPostprocessAllAssets 36.823ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 36.445ms
+			AssetPostprocessor.OnPostprocessAllAssets 35.266ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 33.072ms
+			MaterialPostprocessor.OnPostprocessAllAssets 31.515ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 24.618ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 20.768ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 16.645ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 15.304ms
+			AssetChangedListener.OnPostprocessAllAssets 13.386ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.421ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 5.636ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 5.030ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.835ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.646ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.385ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.813ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.595ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.592ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.515ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.444ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.440ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.398ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.363ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.340ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.313ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.303ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.300ms
+			AssetEvents.OnPostprocessAllAssets 0.276ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.201ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.167ms
+			SyncVS.PostprocessSyncProject 0.164ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.162ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.148ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.127ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.108ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.106ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.077ms
+			AssetProcessor.OnPostprocessAllAssets 0.069ms
+	PostAssetChangesProfiler: 6.280ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.220ms
+	UnloadStreamsBegin: 3.041ms
+	PersistCurrentRevisions: 0.182ms
+	GenerateScriptTypeHashes: 5.397ms
+	GenerateScriptTypeSerializationHashes: 8.622ms
+	Untracked: 1202.767ms
+
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/18871/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.017s, timestamps: [8.792 - 8.810]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7044 unused Assets / (1.8 MB). Loaded Objects now: 8956.
+Memory consumption went from 486.7 MB to 484.9 MB.
+Total: 13.087400 ms (FindLiveObjects: 2.137800 ms CreateObjectMapping: 0.513700 ms MarkObjects: 8.943200 ms  DeleteObjects: 1.188600 ms)
+
+Importing 'GUID: 97665f58b4824c74e847a8248682f1bc - Path: Assets/InitTestScenea36bb953-f0ea-4c2d-aaec-bb2ef9e0d736.unity' with importer (DefaultImporter)
+Imported 'GUID: 97665f58b4824c74e847a8248682f1bc' -> (Import Result ID: 'd2461e2a83ab90f3028937d13bd8d09f') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=5d682faa21ec96067e82747e0b2a1c4d DependenciesID=3119b6de5f30c05d098098dca44d3317 StaticDependenciesID=6d8163b1ff3eb8c14f42832596144a3d 
+Refreshing native plugins compatible for Editor in 2.85 ms, found 5 plugins.
+Asset Pipeline Refresh (id=4b53f25b16029b241a23e6c6dc2d7284): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Executing IPrebuildSetup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<UnityEngine.TestTools.IPrebuildSetup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:48)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<UnityEngine.TestTools.IPrebuildSetup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:34)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:194)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:129)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs Line: 48)
+
+SpriteAtlasPacking completed in 0.004889 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.824 ms
+	Integration:            85.477 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   86.314 ms
+Unloading 142 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.220500 ms
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameBootstrap:Wire (WorldSandbox.Core.Config.WorldConfig,WorldSandbox.Core.Config.TimeConfig,WorldSandbox.Core.Config.LifeConfig,WorldSandbox.Core.Config.CivConfig,WorldSandbox.Core.Config.FireConfig) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:264)
+WorldSandbox.Bootstrap.GameBootstrap:Awake () (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:107)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Flow] 状态 → MainMenu
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameFlowController:SetState (WorldSandbox.Bootstrap.GameFlowState) (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:480)
+WorldSandbox.Bootstrap.GameFlowController:BootToMainMenu () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:90)
+WorldSandbox.Bootstrap.GameBootstrap:Awake () (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:133)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+Loaded scene 'Assets/_Project/Scenes/Main.unity'
+	Deserialize:            73.205 ms
+	Integration:            92.092 ms
+	Integration of assets:  24.724 ms
+	Thread Wait Time:       1.012 ms
+	Total Operation Time:   191.033 ms
+Unloading 1032 unused Assets / (8.6 MB). Loaded Objects now: 10380.
+Memory consumption went from 0.52 GB to 0.51 GB.
+Total: 13.120500 ms (FindLiveObjects: 1.327000 ms CreateObjectMapping: 0.519200 ms MarkObjects: 9.535700 ms  DeleteObjects: 1.327900 ms)
+
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:14)
+WorldSandbox.Core.Diagnostics.Log:Warn (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:58)
+WorldSandbox.Presentation.Input.PointerGestureRouter:Update () (at Assets/_Project/Scripts/Presentation/Input/PointerGestureRouter.cs:106)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 14)
+
+[WorldSandbox][Flow] 测试提示信息
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:14)
+WorldSandbox.Core.Diagnostics.Log:Warn (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:58)
+WorldSandbox.Bootstrap.GameBootstrap:ShowToast (string,bool) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:570)
+WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests/<R2_Toast_DoesNotCoverMenuOrDialogs>d__6:MoveNext () (at Assets/Tests/PlayMode/D067R2ToastLayoutTests.cs:119)
+UnityEngine.TestTools.TestEnumerator/<Execute>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:52)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:85)
+UnityEngine.TestTools.EnumerableTestMethodCommand:AdvanceEnumerator (System.Collections.IEnumerator) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:64)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:47)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<ExecuteEnumerable>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:66)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<NUnit.Framework.ITestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<UnityEngine.TestTools.IOuterUnityTestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.RetryCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/RetryCommand.cs:37)
+UnityEngine.TestTools.RepeatCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/RepeatCommand.cs:36)
+UnityEngine.TestTools.IgnoreTestCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/IgnoreTestCommand.cs:42)
+UnityEngine.TestTools.StrictCheckCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/StrictCheckCommand.cs:29)
+UnityEngine.TestTools.Utils.CoroutineRunner/<WrapEnumeratorForChecks>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/Utils/CoroutineRunner.cs:58)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 14)
+
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.031000 ms
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameBootstrap:Wire (WorldSandbox.Core.Config.WorldConfig,WorldSandbox.Core.Config.TimeConfig,WorldSandbox.Core.Config.LifeConfig,WorldSandbox.Core.Config.CivConfig,WorldSandbox.Core.Config.FireConfig) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:264)
+WorldSandbox.Bootstrap.GameBootstrap:Awake () (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:107)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Flow] 状态 → MainMenu
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameFlowController:SetState (WorldSandbox.Bootstrap.GameFlowState) (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:480)
+WorldSandbox.Bootstrap.GameFlowController:BootToMainMenu () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:90)
+WorldSandbox.Bootstrap.GameBootstrap:Awake () (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:133)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+Loaded scene 'Assets/_Project/Scenes/Main.unity'
+	Deserialize:            6.825 ms
+	Integration:            22.758 ms
+	Integration of assets:  0.846 ms
+	Thread Wait Time:       0.911 ms
+	Total Operation Time:   31.340 ms
+Unloading 857 unused Assets / (0.7 MB). Loaded Objects now: 10384.
+Memory consumption went from 0.51 GB to 0.50 GB.
+Total: 11.300800 ms (FindLiveObjects: 0.829900 ms CreateObjectMapping: 0.384100 ms MarkObjects: 9.359700 ms  DeleteObjects: 0.333500 ms)
+
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:14)
+WorldSandbox.Core.Diagnostics.Log:Warn (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:58)
+WorldSandbox.Presentation.Input.PointerGestureRouter:Update () (at Assets/_Project/Scripts/Presentation/Input/PointerGestureRouter.cs:106)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 14)
+
+[WorldSandbox][Flow] 状态 → Initializing
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameFlowController:SetState (WorldSandbox.Bootstrap.GameFlowState) (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:480)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:192)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2 (System.Collections.IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+WorldSandbox.Bootstrap.GameFlowController:CreateWorld (WorldSandbox.Core.WorldCreationConfig) (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:187)
+WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests/<R2_Toast_DoesNotCoverPausePanel_AndExpires>d__5:MoveNext () (at Assets/Tests/PlayMode/D067R2ToastLayoutTests.cs:58)
+UnityEngine.TestTools.TestEnumerator/<Execute>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:52)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:85)
+UnityEngine.TestTools.EnumerableTestMethodCommand:AdvanceEnumerator (System.Collections.IEnumerator) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:64)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:47)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<ExecuteEnumerable>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:66)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<NUnit.Framework.ITestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<UnityEngine.TestTools.IOuterUnityTestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.RetryCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/RetryCommand.cs:37)
+UnityEngine.TestTools.RepeatCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/RepeatCommand.cs:36)
+UnityEngine.TestTools.IgnoreTestCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/IgnoreTestCommand.cs:42)
+UnityEngine.TestTools.StrictCheckCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/StrictCheckCommand.cs:29)
+UnityEngine.TestTools.Utils.CoroutineRunner/<WrapEnumeratorForChecks>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/Utils/CoroutineRunner.cs:58)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameBootstrap:ClearWorldScene () (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:432)
+WorldSandbox.Bootstrap.GameBootstrap:BuildWorldScene (WorldSandbox.World.WorldState) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:312)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:219)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Presentation.Input.PointerGestureRouter:Assemble (WorldSandbox.Presentation.CameraRig,WorldSandbox.Core.IMapReader,WorldSandbox.Core.Config.WorldConfig) (at Assets/_Project/Scripts/Presentation/Input/PointerGestureRouter.cs:86)
+WorldSandbox.Bootstrap.GameBootstrap:BuildWorldScene (WorldSandbox.World.WorldState) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:367)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:219)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Presentation.Input.ToolPointerController:Assemble (WorldSandbox.Presentation.Input.PointerGestureRouter,UnityEngine.Camera,WorldSandbox.Core.IMapReader) (at Assets/_Project/Scripts/Presentation/Input/ToolPointerController.cs:41)
+WorldSandbox.Bootstrap.GameBootstrap:BuildWorldScene (WorldSandbox.World.WorldState) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:371)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:219)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameBootstrap:AssembleSimulation () (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:590)
+WorldSandbox.Bootstrap.GameBootstrap:BuildWorldScene (WorldSandbox.World.WorldState) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:375)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:219)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameBootstrap:RestoreRuntime (WorldSandbox.World.WorldState) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:489)
+WorldSandbox.Bootstrap.GameBootstrap:BuildWorldScene (WorldSandbox.World.WorldState) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:376)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:219)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Presentation.CameraRig:CenterOnMap (int,int,bool) (at Assets/_Project/Scripts/Presentation/CameraRig.cs:109)
+WorldSandbox.Bootstrap.GameBootstrap:BuildWorldScene (WorldSandbox.World.WorldState) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:380)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:219)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.UI.UIRoot:Bind (WorldSandbox.UI.Binding.IWorldSnapshotProvider,WorldSandbox.Core.IWorldCommandBus,WorldSandbox.Core.ISimClock,WorldSandbox.Core.IWorldEventBus) (at Assets/_Project/Scripts/UI/UIRoot.cs:164)
+WorldSandbox.Bootstrap.GameBootstrap:AssembleUi () (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:620)
+WorldSandbox.Bootstrap.GameBootstrap:BuildWorldScene (WorldSandbox.World.WorldState) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:386)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:219)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c45858927cc-ed06|Toast测试|64x64|seed=20261017|ticks=0|civ=2|nodes=189|deco=243|build=0|creatures=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameBootstrap:BuildWorldScene (WorldSandbox.World.WorldState) (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:388)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:219)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Flow] 状态 → Playing
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameFlowController:SetState (WorldSandbox.Bootstrap.GameFlowState) (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:480)
+WorldSandbox.Bootstrap.GameFlowController/<CreateWorldRoutine>d__44:MoveNext () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:230)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Flow] 状态 → Paused
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameFlowController:SetState (WorldSandbox.Bootstrap.GameFlowState) (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:480)
+WorldSandbox.Bootstrap.GameFlowController:Pause () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:311)
+WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests/<R2_Toast_DoesNotCoverPausePanel_AndExpires>d__5:MoveNext () (at Assets/Tests/PlayMode/D067R2ToastLayoutTests.cs:67)
+UnityEngine.TestTools.TestEnumerator/<Execute>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:52)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:85)
+UnityEngine.TestTools.EnumerableTestMethodCommand:AdvanceEnumerator (System.Collections.IEnumerator) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:64)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:47)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<ExecuteEnumerable>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:66)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<NUnit.Framework.ITestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<UnityEngine.TestTools.IOuterUnityTestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.RetryCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/RetryCommand.cs:37)
+UnityEngine.TestTools.RepeatCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/RepeatCommand.cs:36)
+UnityEngine.TestTools.IgnoreTestCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/IgnoreTestCommand.cs:42)
+UnityEngine.TestTools.StrictCheckCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/StrictCheckCommand.cs:29)
+UnityEngine.TestTools.Utils.CoroutineRunner/<WrapEnumeratorForChecks>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/Utils/CoroutineRunner.cs:58)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+[WorldSandbox][Flow] 已保存「Toast测试」· 64 × 64 · 2026-10-17 19:55 → C:\Users\18871\AppData\Local\Temp\ws-d067r2-200fb9d8
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WorldSandbox.Core.Diagnostics.Log/UnityLogSink:Write (WorldSandbox.Core.Diagnostics.LogLevel,string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:20)
+WorldSandbox.Core.Diagnostics.Log:Info (string,string) (at Assets/_Project/Scripts/Core/Diagnostics/Log.cs:53)
+WorldSandbox.Bootstrap.GameFlowController:SaveCurrent (bool,string&) (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:348)
+WorldSandbox.Bootstrap.GameFlowController:SaveFromMenu () (at Assets/_Project/Scripts/Bootstrap/GameFlowController.cs:380)
+WorldSandbox.Bootstrap.GameBootstrap:<WireScreenEvents>b__69_8 () (at Assets/_Project/Scripts/Bootstrap/GameBootstrap.cs:184)
+WorldSandbox.UI.ScreenFlowUI:<ShowPause>b__85_1 () (at Assets/_Project/Scripts/UI/ScreenFlowUI.cs:505)
+WorldSandbox.UI.ScreenFlowUI/<>c__DisplayClass97_0:<AddMenuButton>b__0 () (at Assets/_Project/Scripts/UI/ScreenFlowUI.cs:666)
+UnityEngine.Events.InvokableCall:Invoke ()
+UnityEngine.Events.UnityEvent:Invoke ()
+WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests/<R2_Toast_DoesNotCoverPausePanel_AndExpires>d__5:MoveNext () (at Assets/Tests/PlayMode/D067R2ToastLayoutTests.cs:74)
+UnityEngine.TestTools.TestEnumerator/<Execute>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:52)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:85)
+UnityEngine.TestTools.EnumerableTestMethodCommand:AdvanceEnumerator (System.Collections.IEnumerator) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:64)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:47)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<ExecuteEnumerable>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:66)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<NUnit.Framework.ITestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<UnityEngine.TestTools.IOuterUnityTestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:213)
+UnityEngine.TestTools.RetryCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/RetryCommand.cs:37)
+UnityEngine.TestTools.RepeatCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/RepeatCommand.cs:36)
+UnityEngine.TestTools.IgnoreTestCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/IgnoreTestCommand.cs:42)
+UnityEngine.TestTools.StrictCheckCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/NUnitExtensions/Commands/StrictCheckCommand.cs:29)
+UnityEngine.TestTools.Utils.CoroutineRunner/<WrapEnumeratorForChecks>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEngine.TestRunner/Utils/CoroutineRunner.cs:58)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Project/Scripts/Core/Diagnostics/Log.cs Line: 20)
+
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: .workbuddy\tmp_iter11\r2-toast3.xml
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.725 ms
+	Integration:            9.607 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   10.373 ms
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 9539.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 10.828600 ms (FindLiveObjects: 0.695600 ms CreateObjectMapping: 0.205600 ms MarkObjects: 9.276200 ms  DeleteObjects: 0.184900 ms)
+
+Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:48)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:34)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:194)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:129)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs Line: 48)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 9541.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 10.666200 ms (FindLiveObjects: 0.711300 ms CreateObjectMapping: 0.208300 ms MarkObjects: 9.375100 ms  DeleteObjects: 0.017800 ms)
+
+Refreshing native plugins compatible for Editor in 2.13 ms, found 5 plugins.
+Asset Pipeline Refresh (id=c4f3c5708e7789a4782d90d6d9c6dc5e): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+DisplayProgressbar: Undo
+Test run completed. Exiting with code 0 (Ok). Run completed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitApplication (UnityEditor.TestTools.TestRunner.CommandLineTest.Executer/ReturnCodes,string) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs:81)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitIfRunIsCompleted () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs:74)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 81)
+
+MonoPathRemapper: Attempts to remap: 45846; Successful remaps: 25502
+Serialized file version minimum: 22, current 23
+Pipeline Server stopped
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: '3f28d5d8578b66588eb31c7367e4227e') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=054c890a8f4b6dddbea933bc5e4b7df4 DependenciesID=5ae1f977e4866c1a4818af8312a37fad StaticDependenciesID=ce4c1120dd4382bf139613ee07a5cfd7 
+Refreshing native plugins compatible for Editor in 2.20 ms, found 5 plugins.
+Asset Pipeline Refresh (id=36e41d008d81e854eb0975062f1eb74c): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-18871-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-18871 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000008CC8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000059F4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008CC8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000059F4, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3900
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792238128247,"processId":43816,"allocatedMemory":31989313,"memoryLabels":[{"Default":16523269},{"Permanent":15516},{"NewDelete":74311},{"Thread":4088632},{"Manager":37021},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":848601},{"Material":132},{"GfxDevice":58008},{"Animation":952},{"Audio":608},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":33088},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1331280},{"BaseObject":166000},{"Resource":1444},{"Renderer":2504},{"Transform":4685},{"File":19269},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":431590},{"StaticString":3808},{"Utility":2675622},{"Curl":2675},{"PoolAlloc":2264},{"AI":80},{"TypeTree":17165},{"ScriptManager":18984},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":432},{"WebRequest":552},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":464},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":117468},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4933556},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3204},{"Windowing":456},{"Licensing":12725},{"AssetReference":32},{"IPCStream":32}]}

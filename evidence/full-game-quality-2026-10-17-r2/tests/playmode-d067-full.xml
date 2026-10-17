@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="11" result="Failed(Child)" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 13:31:45Z" end-time="2026-10-17 13:31:54Z" duration="9.7679846">
+  <test-suite type="TestSuite" id="1144" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="99" result="Failed" site="Child" start-time="2026-10-17 13:31:45Z" end-time="2026-10-17 13:31:54Z" duration="9.767985" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1284" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="99" result="Failed" site="Child" start-time="2026-10-17 13:31:45Z" end-time="2026-10-17 13:31:54Z" duration="9.760609" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="31852" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1285" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="99" result="Failed" site="Child" start-time="2026-10-17 13:31:45Z" end-time="2026-10-17 13:31:54Z" duration="9.759446" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1286" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="99" result="Failed" site="Child" start-time="2026-10-17 13:31:45Z" end-time="2026-10-17 13:31:54Z" duration="9.758628" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1287" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="99" result="Failed" site="Child" start-time="2026-10-17 13:31:45Z" end-time="2026-10-17 13:31:54Z" duration="9.757909" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1170" name="D067CaptureTests" fullname="WorldSandbox.Tests.PlayMode.D067CaptureTests" classname="WorldSandbox.Tests.PlayMode.D067CaptureTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-17 13:31:45Z" end-time="2026-10-17 13:31:47Z" duration="2.939694" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1171" name="D067_CaptureAllScreens" fullname="WorldSandbox.Tests.PlayMode.D067CaptureTests.D067_CaptureAllScreens" methodname="D067_CaptureAllScreens" classname="WorldSandbox.Tests.PlayMode.D067CaptureTests" runstate="Runnable" seed="263114114" result="Passed" start-time="2026-10-17 13:31:45Z" end-time="2026-10-17 13:31:47Z" duration="2.225313" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fd60f511-813e|晨曦纪元|192x192|seed=20261017|ticks=0|civ=6|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fd60f511-813e|晨曦纪元|192x192|seed=20261017|ticks=0|civ=6|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 已保存「晨曦纪元」· 192 × 192 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-7b47b09e
+[WorldSandbox][Flow] 已保存「晨曦纪元」· 192 × 192 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-7b47b09e
+[WorldSandbox][Flow] 已保存「晨曦纪元」· 192 × 192 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-7b47b09e
+[WorldSandbox][Flow] 已保存「晨曦纪元」· 192 × 192 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-7b47b09e
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=3 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=3 实体=0
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fd60f511-813e|晨曦纪元|192x192|seed=20261017|ticks=3|civ=6|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fd60f511-813e|晨曦纪元|192x192|seed=20261017|ticks=3|civ=6|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fdd8b4d6-df74|小世界|64x64|seed=424242|ticks=0|civ=2|nodes=198|deco=236|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fdd8b4d6-df74|小世界|64x64|seed=424242|ticks=0|civ=2|nodes=198|deco=236|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+]]></output>
+              </test-case>
+              <test-case id="1172" name="D067_CaptureEnglishScreens" fullname="WorldSandbox.Tests.PlayMode.D067CaptureTests.D067_CaptureEnglishScreens" methodname="D067_CaptureEnglishScreens" classname="WorldSandbox.Tests.PlayMode.D067CaptureTests" runstate="Runnable" seed="782526689" result="Passed" start-time="2026-10-17 13:31:47Z" end-time="2026-10-17 13:31:47Z" duration="0.690592" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 en）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 en）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fe4a34db-474e|Aurora|192x192|seed=20261017|ticks=0|civ=4|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fe4a34db-474e|Aurora|192x192|seed=20261017|ticks=0|civ=4|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-7b47b09e
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-7b47b09e
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-7b47b09e
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-7b47b09e
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1173" name="D067R1TerrainRebuildTests" fullname="WorldSandbox.Tests.PlayMode.D067R1TerrainRebuildTests" classname="WorldSandbox.Tests.PlayMode.D067R1TerrainRebuildTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-17 13:31:47Z" end-time="2026-10-17 13:31:49Z" duration="1.663279" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1175" name="D067R1_SmallToLarge_TerrainMatchesData" fullname="WorldSandbox.Tests.PlayMode.D067R1TerrainRebuildTests.D067R1_SmallToLarge_TerrainMatchesData" methodname="D067R1_SmallToLarge_TerrainMatchesData" classname="WorldSandbox.Tests.PlayMode.D067R1TerrainRebuildTests" runstate="Runnable" seed="1041845212" result="Passed" start-time="2026-10-17 13:31:47Z" end-time="2026-10-17 13:31:48Z" duration="0.681312" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fe9d020b-bac1|反向64|64x64|seed=777|ticks=0|civ=1|nodes=163|deco=202|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52fe9d020b-bac1|反向64|64x64|seed=777|ticks=0|civ=1|nodes=163|deco=202|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[diag] size=64 landCells=2767 tmCells=2767 bgCells=4096 rendererEnabled=True tmPos=(0.00, 0.00, 0.00) bounds=Position: (2, 1, 0), Size: (58, 60, 1) cam=Main Camera@(32.00, 32.00, -10.00) ortho=16 mask=-1 grid=(1.00, 1.00, 1.00)
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=256x256
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=256x256
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 256x256 → 相机中心 (128, 128)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 256x256 → 相机中心 (128, 128)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52feb88f47-f0b4|反向256|256x256|seed=777|ticks=0|civ=4|nodes=163|deco=202|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52feb88f47-f0b4|反向256|256x256|seed=777|ticks=0|civ=4|nodes=163|deco=202|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[diag] size=256 landCells=44269 tmCells=44269 bgCells=65536 rendererEnabled=True tmPos=(0.00, 0.00, 0.00) bounds=Position: (3, 2, 0), Size: (250, 252, 1) cam=Main Camera@(128.00, 128.00, -10.00) ortho=16 mask=-1 grid=(1.00, 1.00, 1.00)
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52feed10d2-32de|反向128|128x128|seed=777|ticks=0|civ=2|nodes=163|deco=202|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52feed10d2-32de|反向128|128x128|seed=777|ticks=0|civ=2|nodes=163|deco=202|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[diag] size=128 landCells=11067 tmCells=11067 bgCells=16384 rendererEnabled=True tmPos=(0.00, 0.00, 0.00) bounds=Position: (3, 1, 0), Size: (122, 124, 1) cam=Main Camera@(64.00, 64.00, -10.00) ortho=16 mask=-1 grid=(1.00, 1.00, 1.00)
+]]></output>
+              </test-case>
+              <test-case id="1174" name="D067R1_SwitchWorldSizes_TerrainMatchesData" fullname="WorldSandbox.Tests.PlayMode.D067R1TerrainRebuildTests.D067R1_SwitchWorldSizes_TerrainMatchesData" methodname="D067R1_SwitchWorldSizes_TerrainMatchesData" classname="WorldSandbox.Tests.PlayMode.D067R1TerrainRebuildTests" runstate="Runnable" seed="1298623978" result="Passed" start-time="2026-10-17 13:31:48Z" end-time="2026-10-17 13:31:49Z" duration="0.977864" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff0c2352-5ad9|尺寸192|192x192|seed=20261013|ticks=0|civ=3|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff0c2352-5ad9|尺寸192|192x192|seed=20261013|ticks=0|civ=3|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[diag] size=192 landCells=24739 tmCells=24739 bgCells=36864 rendererEnabled=True tmPos=(0.00, 0.00, 0.00) bounds=Position: (1, 1, 0), Size: (187, 188, 1) cam=Main Camera@(96.00, 96.00, -10.00) ortho=16 mask=-1 grid=(1.00, 1.00, 1.00)
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff313202-6993|尺寸64|64x64|seed=20261013|ticks=0|civ=1|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff313202-6993|尺寸64|64x64|seed=20261013|ticks=0|civ=1|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[diag] size=64 landCells=2749 tmCells=2749 bgCells=4096 rendererEnabled=True tmPos=(0.00, 0.00, 0.00) bounds=Position: (1, 2, 0), Size: (60, 60, 1) cam=Main Camera@(32.00, 32.00, -10.00) ortho=16 mask=-1 grid=(1.00, 1.00, 1.00)
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff3b7b41-bd57|尺寸128|128x128|seed=20261013|ticks=0|civ=2|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff3b7b41-bd57|尺寸128|128x128|seed=20261013|ticks=0|civ=2|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[diag] size=128 landCells=10996 tmCells=10996 bgCells=16384 rendererEnabled=True tmPos=(0.00, 0.00, 0.00) bounds=Position: (1, 1, 0), Size: (125, 125, 1) cam=Main Camera@(64.00, 64.00, -10.00) ortho=16 mask=-1 grid=(1.00, 1.00, 1.00)
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=256x256
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=256x256
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 256x256 → 相机中心 (128, 128)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 256x256 → 相机中心 (128, 128)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff572d5b-5744|尺寸256|256x256|seed=20261013|ticks=0|civ=4|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff572d5b-5744|尺寸256|256x256|seed=20261013|ticks=0|civ=4|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[diag] size=256 landCells=43982 tmCells=43982 bgCells=65536 rendererEnabled=True tmPos=(0.00, 0.00, 0.00) bounds=Position: (1, 2, 0), Size: (252, 252, 1) cam=Main Camera@(128.00, 128.00, -10.00) ortho=16 mask=-1 grid=(1.00, 1.00, 1.00)
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff89bc12-4474|尺寸64|64x64|seed=20261013|ticks=0|civ=1|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ff89bc12-4474|尺寸64|64x64|seed=20261013|ticks=0|civ=1|nodes=167|deco=228|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[diag] size=64 landCells=2749 tmCells=2749 bgCells=4096 rendererEnabled=True tmPos=(0.00, 0.00, 0.00) bounds=Position: (1, 2, 0), Size: (60, 60, 1) cam=Main Camera@(32.00, 32.00, -10.00) ortho=16 mask=-1 grid=(1.00, 1.00, 1.00)
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1176" name="D067R2ToastLayoutTests" fullname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests" classname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-17 13:31:49Z" end-time="2026-10-17 13:31:54Z" duration="4.710444" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1178" name="R2_Toast_DoesNotCoverMenuOrDialogs" fullname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests.R2_Toast_DoesNotCoverMenuOrDialogs" methodname="R2_Toast_DoesNotCoverMenuOrDialogs" classname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests" runstate="Runnable" seed="378659829" result="Passed" start-time="2026-10-17 13:31:49Z" end-time="2026-10-17 13:31:49Z" duration="0.073313" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 测试提示信息
+[WorldSandbox][Flow] 测试提示信息
+]]></output>
+              </test-case>
+              <test-case id="1177" name="R2_Toast_DoesNotCoverPausePanel_AndExpires" fullname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests.R2_Toast_DoesNotCoverPausePanel_AndExpires" methodname="R2_Toast_DoesNotCoverPausePanel_AndExpires" classname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests" runstate="Runnable" seed="831770267" result="Passed" start-time="2026-10-17 13:31:49Z" end-time="2026-10-17 13:31:54Z" duration="4.632707" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ffa46684-72ef|Toast测试|64x64|seed=20261017|ticks=0|civ=2|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c52ffa46684-72ef|Toast测试|64x64|seed=20261017|ticks=0|civ=2|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 已保存「Toast测试」· 64 × 64 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067r2-2a244dff
+[WorldSandbox][Flow] 已保存「Toast测试」· 64 × 64 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067r2-2a244dff
+[toast] rect=(x:173.74, y:47.73, width:292.52, height:15.40) panel=(x:219.93, y:139.93, width:200.15, height:200.15) screen=640x480
+[toast-chain]
+ToastBg anchor=(0.50, 0.00)-(0.50, 0.00) pivot=(0.50, 0.00) pos=(0.00, 124.00) size=(760.00, 40.00) parent=ToastLayer
+ToastLayer anchor=(0.00, 0.00)-(1.00, 1.00) pivot=(0.50, 0.50) pos=(0.00, 0.00) size=(1662.77, 1247.08) parent=ScreenFlowRoot
+ScreenFlowRoot anchor=(0.00, 0.00)-(1.00, 1.00) pivot=(0.50, 0.50) pos=(0.00, 0.00) size=(1662.77, 1247.08) parent=ScreenFlow
+ScreenFlow anchor=(0.00, 0.00)-(1.00, 1.00) pivot=(0.50, 0.50) pos=(0.00, 0.00) size=(1662.77, 1247.08) parent=MainCanvas
+MainCanvas anchor=(0.00, 0.00)-(0.00, 0.00) pivot=(0.50, 0.50) pos=(320.00, 240.00) size=(1662.77, 1247.08) parent=-
+
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1179" name="D067R3LocalizationTests" fullname="WorldSandbox.Tests.PlayMode.D067R3LocalizationTests" classname="WorldSandbox.Tests.PlayMode.D067R3LocalizationTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-17 13:31:54Z" end-time="2026-10-17 13:31:54Z" duration="0.255722" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1181" name="R3_EnglishFlow_ToastAndHud_UseCurrentLanguage" fullname="WorldSandbox.Tests.PlayMode.D067R3LocalizationTests.R3_EnglishFlow_ToastAndHud_UseCurrentLanguage" methodname="R3_EnglishFlow_ToastAndHud_UseCurrentLanguage" classname="WorldSandbox.Tests.PlayMode.D067R3LocalizationTests" runstate="Runnable" seed="174700113" result="Passed" start-time="2026-10-17 13:31:54Z" end-time="2026-10-17 13:31:54Z" duration="0.181278" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 en）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 en）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c530268b127-2c29|English World|64x64|seed=20261017|ticks=0|civ=2|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c530268b127-2c29|English World|64x64|seed=20261017|ticks=0|civ=2|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] Saved "English World" · 64 × 64 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067r3-3e1fc617
+[WorldSandbox][Flow] Saved "English World" · 64 × 64 · 2026-10-17 21:31 → C:\Users\18871\AppData\Local\Temp\ws-d067r3-3e1fc617
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+]]></output>
+              </test-case>
+              <test-case id="1180" name="R3_LanguageSwitch_RefreshesCurrentScreen_AndKeepsInput" fullname="WorldSandbox.Tests.PlayMode.D067R3LocalizationTests.R3_LanguageSwitch_RefreshesCurrentScreen_AndKeepsInput" methodname="R3_LanguageSwitch_RefreshesCurrentScreen_AndKeepsInput" classname="WorldSandbox.Tests.PlayMode.D067R3LocalizationTests" runstate="Runnable" seed="2090688852" result="Passed" start-time="2026-10-17 13:31:54Z" end-time="2026-10-17 13:31:54Z" duration="0.070971" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1182" name="D067WorldFlowTests" fullname="WorldSandbox.Tests.PlayMode.D067WorldFlowTests" classname="WorldSandbox.Tests.PlayMode.D067WorldFlowTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-17 13:31:54Z" end-time="2026-10-17 13:31:54Z" duration="0.182378" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1183" name="D067_FullFlow_CreateSaveExitLoadContinue" fullname="WorldSandbox.Tests.PlayMode.D067WorldFlowTests.D067_FullFlow_CreateSaveExitLoadContinue" methodname="D067_FullFlow_CreateSaveExitLoadContinue" classname="WorldSandbox.Tests.PlayMode.D067WorldFlowTests" runstate="Runnable" seed="214654132" result="Failed" start-time="2026-10-17 13:31:54Z" end-time="2026-10-17 13:31:54Z" duration="0.074078" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  截图未落盘：C:\Users\18871\AppData\Local\Temp\d067-regression-shots\01-main-menu-empty.png（屏幕 640x480，batchmode=True）
+  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at WorldSandbox.Tests.PlayMode.D067WorldFlowTests+<Shot>d__14.MoveNext () [0x00118] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\PlayMode\D067WorldFlowTests.cs:368
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@80f691d4262b\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+]]></output>
+              </test-case>
+              <test-case id="1185" name="D067_InvalidConfig_ShowsErrorAndStaysOnForm" fullname="WorldSandbox.Tests.PlayMode.D067WorldFlowTests.D067_InvalidConfig_ShowsErrorAndStaysOnForm" methodname="D067_InvalidConfig_ShowsErrorAndStaysOnForm" classname="WorldSandbox.Tests.PlayMode.D067WorldFlowTests" runstate="Runnable" seed="2136920993" result="Passed" start-time="2026-10-17 13:31:54Z" end-time="2026-10-17 13:31:54Z" duration="0.050347" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+]]></output>
+              </test-case>
+              <test-case id="1184" name="D067_MenuWithoutSaves_ContinueDisabledAndEmptyLoadList" fullname="WorldSandbox.Tests.PlayMode.D067WorldFlowTests.D067_MenuWithoutSaves_ContinueDisabledAndEmptyLoadList" methodname="D067_MenuWithoutSaves_ContinueDisabledAndEmptyLoadList" classname="WorldSandbox.Tests.PlayMode.D067WorldFlowTests" runstate="Runnable" seed="85956230" result="Passed" start-time="2026-10-17 13:31:54Z" end-time="2026-10-17 13:31:54Z" duration="0.054031" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

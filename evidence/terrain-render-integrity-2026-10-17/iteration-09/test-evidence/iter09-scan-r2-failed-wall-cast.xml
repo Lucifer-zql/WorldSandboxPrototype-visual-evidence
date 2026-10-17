@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="18" result="Failed(Child)" total="18" passed="16" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:56Z" duration="0.6077057">
+  <test-suite type="TestSuite" id="1000" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="349" result="Failed" site="Child" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:56Z" duration="0.607706" total="18" passed="16" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1442" name="WorldSandbox.Tests.EditMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.EditMode.dll" runstate="Runnable" testcasecount="349" result="Failed" site="Child" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:56Z" duration="0.597580" total="18" passed="16" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="4368" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1443" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="349" result="Failed" site="Child" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:56Z" duration="0.595677" total="18" passed="16" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1444" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="349" result="Failed" site="Child" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:56Z" duration="0.593996" total="18" passed="16" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1445" name="EditMode" fullname="WorldSandbox.Tests.EditMode" runstate="Runnable" testcasecount="349" result="Failed" site="Child" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:56Z" duration="0.592287" total="18" passed="16" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1189" name="Iter09RenderOutputScanTests" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:56Z" duration="0.576949" total="18" passed="16" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1209" name="Iter09_RenderOutputScan_Seed" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09_RenderOutputScan_Seed" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:56Z" duration="0.504100" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1206" name="Iter09_RenderOutputScan_Seed(20261013)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09_RenderOutputScan_Seed(20261013)" methodname="Iter09_RenderOutputScan_Seed" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="796278834" result="Passed" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:55Z" duration="0.218697" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+seed=20261013 p0Fail=0 p1Fail=0 p2Fail=0 walls=217 slopes=115 stairs=1
+]]></output>
+                </test-case>
+                <test-case id="1207" name="Iter09_RenderOutputScan_Seed(20261014)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09_RenderOutputScan_Seed(20261014)" methodname="Iter09_RenderOutputScan_Seed" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="653400014" result="Failed" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:55Z" duration="0.142033" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  seed=20261014 P1 混合缘渲染输出违规（详见 p1-output CSV）
+  Expected: 0
+  But was:  33
+]]></message>
+                    <stack-trace><![CDATA[at WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09_RenderOutputScan_Seed (System.Int32 seed) [0x00c46] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\EditMode\Iter09RenderOutputScanTests.cs:319
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+seed=20261014 p0Fail=0 p1Fail=33 p2Fail=0 walls=285 slopes=156 stairs=3
+]]></output>
+                </test-case>
+                <test-case id="1208" name="Iter09_RenderOutputScan_Seed(20261015)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09_RenderOutputScan_Seed(20261015)" methodname="Iter09_RenderOutputScan_Seed" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="107218137" result="Failed" start-time="2026-10-17 04:20:55Z" end-time="2026-10-17 04:20:56Z" duration="0.129113" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  seed=20261015 P1 混合缘渲染输出违规（详见 p1-output CSV）
+  Expected: 0
+  But was:  13
+]]></message>
+                    <stack-trace><![CDATA[at WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09_RenderOutputScan_Seed (System.Int32 seed) [0x00c46] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\EditMode\Iter09RenderOutputScanTests.cs:319
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+seed=20261015 p0Fail=0 p1Fail=13 p2Fail=0 walls=289 slopes=92 stairs=3
+]]></output>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1205" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.067635" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1190" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(1)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(1)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="725894854" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.005094" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1191" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(2)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(2)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1796117220" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003618" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1192" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(3)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(3)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1827685828" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003893" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1193" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(4)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(4)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1888136628" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003809" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1194" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(5)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(5)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1347014411" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003563" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1195" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(6)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(6)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1464499454" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003450" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1196" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(7)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(7)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="45657932" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003505" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1197" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(8)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(8)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1464311351" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.006504" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1198" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(9)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(9)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="941320213" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003305" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1199" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(10)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(10)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="2048081285" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.005060" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1200" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(11)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(11)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1537384479" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.004014" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1201" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(12)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(12)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1303303141" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003944" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1202" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(13)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(13)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="69018864" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003716" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1203" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(14)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(14)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1611133974" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.003376" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+]]></output>
+                </test-case>
+                <test-case id="1204" name="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(15)" fullname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests.Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand(15)" methodname="Iter09P1_EachWaterMask_MixedEdge_RightFamilyPlusBand" classname="WorldSandbox.Tests.EditMode.Iter09RenderOutputScanTests" runstate="Runnable" seed="1449408719" result="Passed" start-time="2026-10-17 04:20:56Z" end-time="2026-10-17 04:20:56Z" duration="0.002774" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+[WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

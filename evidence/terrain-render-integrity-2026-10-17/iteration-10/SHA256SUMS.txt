@@ -47,7 +47,7 @@ a93431a1789c2d62fd0d9673700a9f42822ca7158c8277f22cc79656ed6ff45d *./baseline/ite
 334209f09a7038734c72ef51d0081810dfa76545ef3508fddf55ac8bb6d8fab2 *./baseline/main-head.txt
 6e687a03d26ddf0048fd8792b777f37c9c8128ba5fdb1b7d85c78018d9383af0 *./baseline/production-sha256.txt
 1ed109e4b356435e7ada4f6b46f1afb6df7d5c964d0ad370b993e095ab8b53e4 *./baseline/repo-status.txt
-68657f5878a74aa3999f05ad08090d750f2433708a9be8b121588c1c483c60f5 *./final-report.md
+597ec80c731c1979b63f360df8437665e28a5116cf9c3a73b38d7d46bcbd89f6 *./final-report.md
 0bc3d644c8f55a2643f1bf054253509c93545f9e46348fcf295a16ba08ae1c03 *./regression-final/seed-20261013/MVO1a-fullmap-overview-ortho40.png
 88b9646ee082819177fc3801e7dcbf33c64c1f743d1b61161235e903a104c179 *./regression-final/seed-20261013/MVO1b-fullmap-entire-ortho64.png
 2d23610d2984ef1644e70c8f9d476aa75d6063de716ffba44fc0299df2a6a9a9 *./regression-final/seed-20261013/MVO3a-shore-grass-water.png

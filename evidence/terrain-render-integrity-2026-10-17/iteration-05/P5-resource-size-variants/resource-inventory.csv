@@ -1,0 +1,25 @@
+category,name,file,canvas,frames,frameSize,bbox,sizeLevel,usage,placementRule
+金矿,GoldStone1,Resources\Gold Stone 1.png,128x128,1,128x128,32x29,小(h=29),资源对象金矿,陆地 Grass|Forest，锚点格心；variant 0..5 随机（bbox 大→小级）
+金矿,GoldStone2,Resources\Gold Stone 2.png,128x128,1,128x128,33x28,小(h=28),资源对象金矿,陆地 Grass|Forest，锚点格心；variant 0..5 随机（bbox 大→小级）
+金矿,GoldStone3,Resources\Gold Stone 3.png,128x128,1,128x128,58x52,小(h=52),资源对象金矿,陆地 Grass|Forest，锚点格心；variant 0..5 随机（bbox 大→小级）
+金矿,GoldStone4,Resources\Gold Stone 4.png,128x128,1,128x128,63x55,小(h=55),资源对象金矿,陆地 Grass|Forest，锚点格心；variant 0..5 随机（bbox 大→小级）
+金矿,GoldStone5,Resources\Gold Stone 5.png,128x128,1,128x128,74x80,中(h=80),资源对象金矿,陆地 Grass|Forest，锚点格心；variant 0..5 随机（bbox 大→小级）
+金矿,GoldStone6,Resources\Gold Stone 6.png,128x128,1,128x128,92x81,中(h=81),资源对象金矿,陆地 Grass|Forest，锚点格心；variant 0..5 随机（bbox 大→小级）
+树木,Tree1,Resources\Tree1.png,1536x256,8,192x256,119x190,大(h=190),资源对象树,陆地；bbox 119x190 为大级；variant 0..3%2
+树木,Tree4,Resources\Tree4.png,1536x192,8,192x192,80x122,大(h=122),资源对象树,陆地；bbox 80x122 为中/大级；variant 0..3%2
+树桩,Stump1,Resources\Stump 1.png,192x256,1,192x256,48x40,小(h=40),树耗尽树桩,原位替换（陆地）；4 变体已全量接线（iter-05 补齐核对）
+树桩,Stump2,Resources\Stump 2.png,192x256,1,192x256,43x35,小(h=35),树耗尽树桩,原位替换（陆地）；4 变体已全量接线（iter-05 补齐核对）
+树桩,Stump3,Resources\Stump 3.png,192x256,1,192x256,24x35,小(h=35),树耗尽树桩,原位替换（陆地）；4 变体已全量接线（iter-05 补齐核对）
+树桩,Stump4,Resources\Stump 4.png,192x256,1,192x256,26x26,小(h=26),树耗尽树桩,原位替换（陆地）；4 变体已全量接线（iter-05 补齐核对）
+地面岩石,Rock1,Decorations\Rock1.png,64x64,1,64x64,32x26,小(h=26),装饰,陆地（8 邻崖/水偏好），锚点格心
+地面岩石,Rock2,Decorations\Rock2.png,64x64,1,64x64,50x36,小(h=36),装饰,陆地（8 邻崖/水偏好），锚点格心
+地面岩石,Rock3,Decorations\Rock3.png,64x64,1,64x64,39x29,小(h=29),装饰,陆地（8 邻崖/水偏好），锚点格心
+地面岩石,Rock4,Decorations\Rock4.png,64x64,1,64x64,59x42,小(h=42),装饰,陆地（8 邻崖/水偏好），锚点格心
+水中岩石,WaterRock_01,Decorations\Water Rocks_01.png,1024x64,16,64x64,29x23,小(h=23),旧装饰（已禁）,D-065 iter-05 P4：开放海面禁止——散布契约零产出
+水中岩石,WaterRock_02,Decorations\Water Rocks_02.png,1024x64,16,64x64,50x33,小(h=33),旧装饰（已禁）,D-065 iter-05 P4：开放海面禁止——散布契约零产出
+水中岩石,WaterRock_03,Decorations\Water Rocks_03.png,1024x64,16,64x64,36x25,小(h=25),旧装饰（已禁）,D-065 iter-05 P4：开放海面禁止——散布契约零产出
+水中岩石,WaterRock_04,Decorations\Water Rocks_04.png,1024x64,16,64x64,51x38,小(h=38),旧装饰（已禁）,D-065 iter-05 P4：开放海面禁止——散布契约零产出
+灌木,Bushe1,Decorations\Bushe1.png,1024x128,16,64x128,33x46,小(h=46),装饰,陆地草地（挂树簇偏好）
+灌木,Bushe2,Decorations\Bushe2.png,1024x128,16,64x128,23x34,小(h=34),装饰,陆地草地（挂树簇偏好）
+灌木,Bushe3,Decorations\Bushe3.png,1024x128,16,64x128,41x59,小(h=59),装饰,陆地草地（挂树簇偏好）
+灌木,Bushe4,Decorations\Bushe4.png,1024x128,16,64x128,24x42,小(h=42),装饰,陆地草地（挂树簇偏好）

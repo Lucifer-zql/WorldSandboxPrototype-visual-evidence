@@ -1,0 +1,145 @@
+seed-20261013\MVO1a-fullmap-overview-ortho40.png: duck_px=34 clusters=3 | meat_px=3 clusters=0
+    duck cluster @(563,93) n=7
+    duck cluster @(877,236) n=7
+    duck cluster @(1112,245) n=8
+seed-20261013\MVO3b-grass-forest-edge.png: duck_px=0 clusters=0 | meat_px=20 clusters=1
+    meat cluster @(6,495) n=20
+seed-20261013\TS1a-fullmap-ortho40.png: duck_px=34 clusters=3 | meat_px=3 clusters=0
+    duck cluster @(563,93) n=7
+    duck cluster @(877,236) n=7
+    duck cluster @(1112,245) n=8
+seed-20261013\TS2a-waterfoot-cliff.png: duck_px=32 clusters=1 | meat_px=29 clusters=2
+    duck cluster @(855,357) n=32
+    meat cluster @(6,63) n=20
+    meat cluster @(844,361) n=9
+seed-20261013\TS2b-longest-horizontal-wall.png: duck_px=0 clusters=0 | meat_px=50 clusters=1
+    meat cluster @(939,176) n=50
+seed-20261013\TS2e-wall-endcap.png: duck_px=45 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(10,267) n=45
+seed-20261013\TS2f-hilltop-and-wall.png: duck_px=32 clusters=1 | meat_px=9 clusters=1
+    duck cluster @(423,249) n=32
+    meat cluster @(412,253) n=9
+seed-20261013\TS3a-stairs.png: duck_px=32 clusters=1 | meat_px=9 clusters=1
+    duck cluster @(207,141) n=32
+    meat cluster @(196,145) n=9
+seed-20261013\TS3c-shadow-and-transparency.png: duck_px=51 clusters=1 | meat_px=11 clusters=1
+    duck cluster @(368,177) n=51
+    meat cluster @(356,181) n=11
+seed-20261013\TS4a-grass-forest-edge.png: duck_px=0 clusters=0 | meat_px=20 clusters=1
+    meat cluster @(6,495) n=20
+seed-20261013\TS4c-hill-forest.png: duck_px=0 clusters=0 | meat_px=146 clusters=2
+    meat cluster @(962,283) n=73
+    meat cluster @(1178,499) n=73
+seed-20261013\TS4d-hill-grass.png: duck_px=32 clusters=1 | meat_px=9 clusters=1
+    duck cluster @(423,249) n=32
+    meat cluster @(412,253) n=9
+seed-20261013\TS4e-hill-water.png: duck_px=64 clusters=2 | meat_px=18 clusters=2
+    duck cluster @(459,69) n=32
+    duck cluster @(459,285) n=32
+    meat cluster @(448,73) n=9
+    meat cluster @(448,289) n=9
+seed-20261013\TS4f-clearance.png: duck_px=23 clusters=1 | meat_px=6 clusters=1
+    duck cluster @(999,478) n=23
+    meat cluster @(990,480) n=6
+seed-20261013\tpr2-closeup-clearance.png: duck_px=51 clusters=1 | meat_px=11 clusters=1
+    duck cluster @(98,87) n=51
+    meat cluster @(86,91) n=11
+seed-20261013\tpr2-closeup-clifftop.png: duck_px=0 clusters=0 | meat_px=73 clusters=1
+    meat cluster @(998,175) n=73
+seed-20261013\tpr2-closeup-endcap.png: duck_px=45 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(10,267) n=45
+seed-20261013\tpr2-closeup-stairs.png: duck_px=51 clusters=1 | meat_px=11 clusters=1
+    duck cluster @(98,87) n=51
+    meat cluster @(86,91) n=11
+seed-20261014\MVO1a-fullmap-overview-ortho40.png: duck_px=15 clusters=1 | meat_px=3 clusters=0
+    duck cluster @(275,507) n=6
+seed-20261014\MVO3a-shore-grass-water.png: duck_px=29 clusters=1 | meat_px=81 clusters=2
+    duck cluster @(1214,573) n=29
+    meat cluster @(782,139) n=73
+    meat cluster @(1204,576) n=8
+seed-20261014\MVO3b-grass-forest-edge.png: duck_px=0 clusters=0 | meat_px=73 clusters=1
+    meat cluster @(926,139) n=73
+seed-20261014\TS1a-fullmap-ortho40.png: duck_px=15 clusters=1 | meat_px=3 clusters=0
+    duck cluster @(275,507) n=6
+seed-20261014\TS2a-waterfoot-cliff.png: duck_px=32 clusters=1 | meat_px=82 clusters=2
+    duck cluster @(783,501) n=32
+    meat cluster @(350,67) n=73
+    meat cluster @(772,505) n=9
+seed-20261014\TS2b-longest-horizontal-wall.png: duck_px=23 clusters=1 | meat_px=6 clusters=1
+    duck cluster @(759,538) n=23
+    meat cluster @(750,540) n=6
+seed-20261014\TS2c-longest-vertical-wall.png: duck_px=32 clusters=1 | meat_px=9 clusters=1
+    duck cluster @(135,501) n=32
+    meat cluster @(124,505) n=9
+seed-20261014\TS2d-wall-corner.png: duck_px=0 clusters=0 | meat_px=73 clusters=1
+    meat cluster @(674,391) n=73
+seed-20261014\TS2f-hilltop-and-wall.png: duck_px=32 clusters=1 | meat_px=82 clusters=2
+    duck cluster @(783,537) n=32
+    meat cluster @(350,103) n=73
+    meat cluster @(772,541) n=9
+seed-20261014\TS2g-two-tier-wall.png: duck_px=23 clusters=1 | meat_px=56 clusters=2
+    duck cluster @(639,448) n=23
+    meat cluster @(279,86) n=50
+    meat cluster @(630,450) n=6
+seed-20261014\TS3b-slope.png: duck_px=0 clusters=0 | meat_px=122 clusters=2
+    meat cluster @(365,85) n=108
+    meat cluster @(393,76) n=14
+seed-20261014\TS3c-shadow-and-transparency.png: duck_px=0 clusters=0 | meat_px=122 clusters=2
+    meat cluster @(275,85) n=108
+    meat cluster @(303,76) n=14
+seed-20261014\TS4a-grass-forest-edge.png: duck_px=0 clusters=0 | meat_px=73 clusters=1
+    meat cluster @(926,139) n=73
+seed-20261014\TS4b-shore-foam.png: duck_px=29 clusters=1 | meat_px=81 clusters=2
+    duck cluster @(1214,573) n=29
+    meat cluster @(782,139) n=73
+    meat cluster @(1204,576) n=8
+seed-20261014\TS4d-hill-grass.png: duck_px=29 clusters=1 | meat_px=81 clusters=2
+    duck cluster @(818,573) n=29
+    meat cluster @(386,139) n=73
+    meat cluster @(808,576) n=8
+seed-20261014\TS4e-hill-water.png: duck_px=32 clusters=1 | meat_px=82 clusters=2
+    duck cluster @(783,537) n=32
+    meat cluster @(350,103) n=73
+    meat cluster @(772,541) n=9
+seed-20261014\tpr2-closeup-slope.png: duck_px=0 clusters=0 | meat_px=121 clusters=2
+    meat cluster @(320,84) n=110
+    meat cluster @(347,77) n=11
+seed-20261014\tpr2-closeup-twotier.png: duck_px=37 clusters=1 | meat_px=11 clusters=1
+    duck cluster @(638,477) n=37
+    meat cluster @(627,481) n=11
+seed-20261014\tpr2-closeup-vertwall.png: duck_px=45 clusters=1 | meat_px=0 clusters=0
+    duck cluster @(10,537) n=45
+seed-20261015\MVO1a-fullmap-overview-ortho40.png: duck_px=32 clusters=1 | meat_px=7 clusters=0
+    duck cluster @(176,408) n=11
+seed-20261015\MVO3b-grass-forest-edge.png: duck_px=478 clusters=5 | meat_px=9 clusters=1
+    duck cluster @(135,342) n=339
+    duck cluster @(158,328) n=15
+    duck cluster @(121,363) n=73
+    duck cluster @(141,368) n=19
+    duck cluster @(999,501) n=32
+    meat cluster @(988,505) n=9
+seed-20261015\MVO5b-cloud-adjacent-tree-frame1.png: duck_px=0 clusters=0 | meat_px=56 clusters=1
+    meat cluster @(535,565) n=56
+seed-20261015\MVO5b-cloud-adjacent-tree-frame2.png: duck_px=0 clusters=0 | meat_px=56 clusters=1
+    meat cluster @(535,565) n=56
+seed-20261015\TS1a-fullmap-ortho40.png: duck_px=32 clusters=1 | meat_px=7 clusters=0
+    duck cluster @(176,408) n=11
+seed-20261015\TS3a-stairs.png: duck_px=1 clusters=0 | meat_px=146 clusters=2
+    meat cluster @(62,283) n=73
+    meat cluster @(1214,355) n=73
+seed-20261015\TS4a-grass-forest-edge.png: duck_px=480 clusters=5 | meat_px=9 clusters=1
+    duck cluster @(134,342) n=342
+    duck cluster @(158,329) n=16
+    duck cluster @(121,364) n=71
+    duck cluster @(141,368) n=19
+    duck cluster @(999,501) n=32
+    meat cluster @(988,505) n=9
+seed-20261015\TS4c-hill-forest.png: duck_px=424 clusters=3 | meat_px=0 clusters=0
+    duck cluster @(43,198) n=235
+    duck cluster @(15,208) n=166
+    duck cluster @(38,228) n=21
+seed-20261015\TS4f-clearance.png: duck_px=32 clusters=1 | meat_px=100 clusters=2
+    duck cluster @(1151,507) n=32
+    meat cluster @(129,266) n=50
+    meat cluster @(1089,326) n=50
+== 汇总: 命中图 46 张 | duck 像素总 2378 | meat 像素总 1979 ==

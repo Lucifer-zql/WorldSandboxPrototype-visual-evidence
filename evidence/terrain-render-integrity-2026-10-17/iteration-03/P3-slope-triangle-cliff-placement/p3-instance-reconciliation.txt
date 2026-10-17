@@ -1,0 +1,16 @@
+# P3 逐实例对账 · EditMode 输出摘录（editmode-full-r3.xml）
+
+Render_OverlayInstances_SlotLevelReconciliation_Iter03P3(20261013): Passed
+  [WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+  [WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+  seed=20261013 逐处对账通过：坡 155 墙 176 台阶 1（×2 段） Mount 内芯 443
+
+Render_OverlayInstances_SlotLevelReconciliation_Iter03P3(20261014): Passed
+  [WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+  [WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+  seed=20261014 逐处对账通过：坡 234 墙 314 台阶 3（×2 段） Mount 内芯 373
+
+Render_OverlayInstances_SlotLevelReconciliation_Iter03P3(20261015): Passed
+  [WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+  [WorldSandbox][TerrainRenderer] 部分地形瓦片字段未接线（D-059 七层口径）：基础需 RT_Grass/RT_Forest/WaterBackground；顶面需 hillTopTile(RT_Grass)/mountTopTile(RT_Grass_color3)；坡需 slopeHillTiles/slopeMountTiles 各 [左_36,右_39]；台阶需 stairTiles [左上_36,左下_45,右上_39,右下_48]；阴影需 highGroundShadowSprite(Shadow.png)；旧崖环兼容需 cliffTile + cliffLandTiles/cliffWaterTiles 各 4 槽（_41.._44 陆脚 / _50.._53 水脚，任一空槽该组整体回退 RT_Cliff；水格不铺地形砖）。
+  seed=20261015 逐处对账通过：坡 156 墙 311 台阶 3（×2 段） Mount 内芯 434

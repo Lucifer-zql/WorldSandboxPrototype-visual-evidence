@@ -39,7 +39,7 @@ c2ce743b7f0934d087cae92c77f699a1897b1316be9a975590b0148b056f0919 *./P2-slope-con
 ff166de5d61b728b43b25a1729ca47fc24fe82c14a23942bc8ca372598a72839 *./P2-slope-connector/p2-slopes-seed-20261013.csv
 69d7e6f39bb4525c44c54dfcf1de7b330faf94f534ac179fb15a891958104603 *./P2-slope-connector/p2-slopes-seed-20261014.csv
 d0837aec3b4dfadd38196c701435c54903271841b2bd0e93cc111827ee46ee7a *./P2-slope-connector/p2-slopes-seed-20261015.csv
-81c0d5b796c0b668f8faf0c348c30ccb6819c714f0569f3807a6c5e779347019 *./README.md
+316aed3436f49a86f9dac68c44c621c05b70aa91eaf49718028d0c0ba22860bc *./README.md
 6a35258304b7a91274d163a3f7a0f11b9e892e725927fc0bad6817e95077060a *./diagnostic-scene/README.md
 9800ec7827a297ee9b8b58f62856ebb1bab69c2c54c1f54fa9b2d4f3bd198d3d *./diagnostic-scene/TS8a-p0-two-tier-south-seed-20261013.png
 9800ec7827a297ee9b8b58f62856ebb1bab69c2c54c1f54fa9b2d4f3bd198d3d *./diagnostic-scene/TS8a-p0-two-tier-south-seed-20261014.png
@@ -69,7 +69,7 @@ f5ad5b4196e68f638e97e31478dfd16619f4aff9315366aa92f124379b1eb120 *./diagnostic-s
 155f478904ae1c99cf24c15eb4848e50a9b5b0c6f061fa219963b4eb5241d19d *./diagnostic-scene/TS8i-p2-slope-bottom-east-seed-20261014.png
 155f478904ae1c99cf24c15eb4848e50a9b5b0c6f061fa219963b4eb5241d19d *./diagnostic-scene/TS8i-p2-slope-bottom-east-seed-20261015.png
 9d7370348d4d724c14e164c619b75ff683b04cdfc31f13262b04695fad7243b4 *./final-report.md
-a25c54354d8104ab3a9c3a91c2512f0e5c2ea549732fa127d52f3672a00a5ca1 *./official-reference/iteration-07-observations.md
+b355a54a9c68ea67bd4c03bf44ab7ba51fcf5e4ec8e5cc42b28bde2d53d08aa6 *./official-reference/iteration-07-observations.md
 858ad5e5729806cd316bd80e12446ccf1d441d33a0a57dabf38f252289b735b1 *./official-reference/official-A-castle-west-slope-and-wallring.png
 fb133027b071593dbd527d39edbe09acc3deae229263836f487ef94ee6559858 *./official-reference/official-B-southwest-plateau-wallring-into-water.png
 89c6168e70212f78afd632897e55db70b60c611a9b4719fe3e01a54de41884cb *./official-reference/official-C-northeast-waterfront-plateau-walls.png
@@ -305,3 +305,5 @@ c94cf7aae236989bd6fb52f13f3e14e86a0098ecaa01cd9fcf893cae238be8d0 *./test-evidenc
 1d96b8b34275f547efdb32a6f37c1bfa9b42584839c49b36a937a8e41fd37cb4 *./test-evidence/editmode-r3.xml
 04b09a88562bb983e5660496150da9ba29f9ef444ce01005f0a77e78f86709a1 *./test-evidence/editmode-r4.log
 910687bbc88d75ccd16fa32691ca5f89d5ea1ea6c883534059e004f5a7aed972 *./test-evidence/editmode-r4.xml
+ca44fdf84251ee7aa80f2b8230b01a41af7b7c6a8a4f91258cffa3bf2b519b36 *./test-evidence/editmode-r5.log
+11fe06d884b162f1ea3e948a6c602f4ebe293fce63a2ab7c93da1e098ee3b959 *./test-evidence/editmode-r5.xml

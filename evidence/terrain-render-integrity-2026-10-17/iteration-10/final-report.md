@@ -86,11 +86,13 @@
 
 ## 12. 证据仓库提交
 
-见 §12.1（本次 final-r3 发布提交）。
+`2b9f117`（证据仓库 main；本轮新增 final-r3 / P1-official-r2 / P1-official-2cell /
+test-evidence/final-r3，更新 README/final-report/SHA256SUMS；历史轨迹目录全部保留）
 
 ## 13. 远端 SHA-256 核验
 
-稀疏 clone + `sha256sum -c`：以发布后实算为准（见 §13.1）。
+稀疏 clone（分叶子目录检出，代理 127.0.0.1:7897）+ `sha256sum -c`：**853/853 全部 OK，0 失败**
+（远端真实字节；复算明细 `remote-verify.txt` 归档于 test-evidence/final-r3/）。
 
 ## 14. 历史证据零覆盖
 

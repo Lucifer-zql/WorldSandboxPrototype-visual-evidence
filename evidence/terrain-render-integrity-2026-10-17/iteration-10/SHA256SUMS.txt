@@ -367,7 +367,7 @@ efdcd9fc36c6edff833740cf444efa9e044c798249ea7011ba8810074fcb9a7e *evidence/terra
 c8b442e6ca60fea24703077961747fe72adfa39d0038bbb80cc19f44ce2f6cc9 *evidence/terrain-render-integrity-2026-10-17/iteration-10/final-r3/seed-20261015/tpr2-closeup-stairs.png
 7e9e3b30b46257336f17e804677031c489f321f6c9fb1a369ee4b8d73a8d6de7 *evidence/terrain-render-integrity-2026-10-17/iteration-10/final-r3/seed-20261015/tpr2-closeup-twotier.png
 88740689db58ce3bb8aecb452c248a2a80ff1cc828ca61faf77254505d75b634 *evidence/terrain-render-integrity-2026-10-17/iteration-10/final-r3/seed-20261015/tpr2-closeup-vertwall.png
-4a4610d35086234f8802438a820c7124bda039d3654a23028cf63ef346f139d6 *evidence/terrain-render-integrity-2026-10-17/iteration-10/final-report.md
+df88b44d856dcf250fbaf085964bb9fc2cea3c70b4bb53c0951210af4da1051c *evidence/terrain-render-integrity-2026-10-17/iteration-10/final-report.md
 0bc3d644c8f55a2643f1bf054253509c93545f9e46348fcf295a16ba08ae1c03 *evidence/terrain-render-integrity-2026-10-17/iteration-10/regression-final/seed-20261013/MVO1a-fullmap-overview-ortho40.png
 88b9646ee082819177fc3801e7dcbf33c64c1f743d1b61161235e903a104c179 *evidence/terrain-render-integrity-2026-10-17/iteration-10/regression-final/seed-20261013/MVO1b-fullmap-entire-ortho64.png
 2d23610d2984ef1644e70c8f9d476aa75d6063de716ffba44fc0299df2a6a9a9 *evidence/terrain-render-integrity-2026-10-17/iteration-10/regression-final/seed-20261013/MVO3a-shore-grass-water.png
@@ -614,6 +614,7 @@ f050cfe07b0eb57444bffdd1590c391159d51c4e09ab421be56039964a5d9a6e *evidence/terra
 51d41ba95338a372fa741432f603383d6c46e7563607d035ea44e01c44412192 *evidence/terrain-render-integrity-2026-10-17/iteration-10/test-evidence/final-20261015.xml
 9c5fbb27f13f9ac621e11f546fa366b9034da83a74800708558166de92f78446 *evidence/terrain-render-integrity-2026-10-17/iteration-10/test-evidence/final-r3/editmode-r29.log
 e60dfe5110a38358cac1e6fc49d8cd3e944d1026a654d09a77c8e070d93a844e *evidence/terrain-render-integrity-2026-10-17/iteration-10/test-evidence/final-r3/editmode-r29.xml
+4733920d8477a54e8b1aaca49983dc30e7b82268e40de7c4edd4d532aa921d7d *evidence/terrain-render-integrity-2026-10-17/iteration-10/test-evidence/final-r3/remote-verify.txt
 878d0050e28e39eef883c5d98934ba7d92f9691d6667fc4c6abfb72b733dfec4 *evidence/terrain-render-integrity-2026-10-17/iteration-10/verify-r1/seed-20261013/MVO1a-fullmap-overview-ortho40.png
 64dc26670b6bac82fc08f222971e2d8f1ae02b292f7ed33c32d0d37dda4a78a6 *evidence/terrain-render-integrity-2026-10-17/iteration-10/verify-r1/seed-20261013/MVO1b-fullmap-entire-ortho64.png
 2d23610d2984ef1644e70c8f9d476aa75d6063de716ffba44fc0299df2a6a9a9 *evidence/terrain-render-integrity-2026-10-17/iteration-10/verify-r1/seed-20261013/MVO3a-shore-grass-water.png

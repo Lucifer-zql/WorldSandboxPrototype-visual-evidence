@@ -74,6 +74,7 @@ a25c54354d8104ab3a9c3a91c2512f0e5c2ea549732fa127d52f3672a00a5ca1 *./official-ref
 fb133027b071593dbd527d39edbe09acc3deae229263836f487ef94ee6559858 *./official-reference/official-B-southwest-plateau-wallring-into-water.png
 89c6168e70212f78afd632897e55db70b60c611a9b4719fe3e01a54de41884cb *./official-reference/official-C-northeast-waterfront-plateau-walls.png
 03ec762283b6d11667d60441e5839004508d64f3c92400ae33896c2ae3e0b352 *./official-reference/official-D-低地水岸与森林边界.png
+b666ea192318176c00715985858cd160c98b1f2b3042756392b47615b448e7f8 *./post-production-sha256.txt
 6de18ac69612ccf8d54dbfa526f32e027984e7ce092101eb5a810c30ca0c13aa *./regression-final/seed-20261013/MVO1a-fullmap-overview-ortho40.png
 74d2b20e6ef54ec57b6b8c8bd9481d57e46ceb1816295e59cb4679e65b51b800 *./regression-final/seed-20261013/MVO1b-fullmap-entire-ortho64.png
 3350e4000fdfe49c8ff65a7802c490a8a7b1786e527c651e1479fc47859d243e *./regression-final/seed-20261013/MVO3a-shore-grass-water.png

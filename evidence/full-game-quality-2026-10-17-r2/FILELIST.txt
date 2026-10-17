@@ -1,5 +1,5 @@
 ﻿ENVIRONMENT.md | 802
-README.md | 6503
+README.md | 6469
 screenshots/01-main-menu-zh.png | 59218
 screenshots/02-new-world-form-zh.png | 72902
 screenshots/03-world-fullmap-zh.png | 412801

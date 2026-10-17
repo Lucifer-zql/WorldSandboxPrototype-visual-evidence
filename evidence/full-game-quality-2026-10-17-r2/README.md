@@ -43,7 +43,7 @@
 | 套件 | 结果 | 报告 |
 | --- | --- | --- |
 | 全量 EditMode | **412 / 412 通过，0 失败，0 跳过** | `editmode-full.xml` / `.log` |
-| D-068 PlayMode（自动存档生命周期 5 + 文明面板 4 + 事件日志 1 + 世界切换/读档 1 + 截图 3） | **14 / 14 通过** | `playmode-d068-full.xml` |
+| D-068 PlayMode（自动存档生命周期 6 + 文明面板/事件 5 + 截图 3） | **14 / 14 通过** | `playmode-d068-full.xml` |
 | D-068 截图套件 | 3 / 3 通过（16 张 PNG 全部落盘） | `playmode-d068-capture.xml` |
 | D-067 PlayMode 回归（世界生命周期/流程 UI/R1-R3） | **10 / 11 通过，1 失败**（`D067_FullFlow_CreateSaveExitLoadContinue` 在首个截图步骤失败：batchmode 下 `ScreenCapture` 报告 640×480 且未落盘；功能断言在此之前全部通过。判定为**捕获环境阻塞**，非产品缺陷） | `playmode-d067-full.xml` |
 

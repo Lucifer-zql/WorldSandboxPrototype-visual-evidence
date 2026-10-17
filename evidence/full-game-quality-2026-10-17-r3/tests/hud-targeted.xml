@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 14:57:10Z" end-time="2026-10-17 14:57:10Z" duration="0.1786741">
+  <test-suite type="TestSuite" id="1157" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 14:57:10Z" end-time="2026-10-17 14:57:10Z" duration="0.178674" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1310" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 14:57:10Z" end-time="2026-10-17 14:57:10Z" duration="0.170056" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="22752" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1311" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 14:57:10Z" end-time="2026-10-17 14:57:10Z" duration="0.164691" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1312" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 14:57:10Z" end-time="2026-10-17 14:57:10Z" duration="0.162973" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1313" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 14:57:10Z" end-time="2026-10-17 14:57:10Z" duration="0.160674" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1289" name="UISnapshotConsistencyTests" fullname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests" classname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-17 14:57:10Z" end-time="2026-10-17 14:57:10Z" duration="0.156297" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1290" name="HudEqualsSnapshot" fullname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests.HudEqualsSnapshot" methodname="HudEqualsSnapshot" classname="WorldSandbox.Tests.PlayMode.UISnapshotConsistencyTests" runstate="Runnable" seed="1544115177" result="Passed" start-time="2026-10-17 14:57:10Z" end-time="2026-10-17 14:57:10Z" duration="0.142030" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

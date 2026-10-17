@@ -1,0 +1,54 @@
+# 文件清单（r3）
+
+本清单由实际落盘文件生成；路径相对本批次目录。
+
+| 文件 | 字节 |
+| --- | ---: |
+| ENVIRONMENT.md | 2097 |
+| README.md | 7851 |
+| screenshots/r3-01-main-menu-zh.png | 64789 |
+| screenshots/r3-02-new-world-zh.png | 77687 |
+| screenshots/r3-03-world-with-life-zh.png | 391041 |
+| screenshots/r3-04-civ-panel-zh.png | 436250 |
+| screenshots/r3-05-pause-menu-zh.png | 369314 |
+| screenshots/r3-06-settings-zh.png | 351372 |
+| screenshots/r3-07-event-log-zh.png | 427686 |
+| screenshots/r3-08-characters-closeup-zh.png | 302194 |
+| screenshots/r3-09-characters-after-200ticks-zh.png | 350056 |
+| screenshots/r3-10-loaded-world-zh.png | 249253 |
+| screenshots/r3-11-civ-panel-en.png | 428220 |
+| screenshots/r3-12-pause-menu-en.png | 434103 |
+| screenshots/r3-13-settings-en.png | 424455 |
+| screenshots/r3-14-main-menu-en.png | 92827 |
+| screenshots/r3-15-main-menu-1280x720.png | 66087 |
+| screenshots/r3-16-civ-panel-1280x720.png | 219785 |
+| screenshots/r3-17-terrain-seed-20261013.png | 386978 |
+| screenshots/r3-17-terrain-seed-20261014.png | 443655 |
+| screenshots/r3-17-terrain-seed-20261015.png | 473717 |
+| screenshots/r3-18-coast-cliff-zh.png | 252083 |
+| screenshots/r3-19-confirm-zh.png | 395501 |
+| screenshots/r3-20-save-toast-zh.png | 417680 |
+| screenshots/r3-21-load-game-zh.png | 96268 |
+| screenshots/r3-22-pause-menu-1280x720.png | 228186 |
+| screenshots/r3-23-settings-1280x720.png | 216140 |
+| screenshots/r3-24-new-world-1280x720.png | 73809 |
+| tests/d067-english-capture-individual.xml | 8745 |
+| tests/d067-english-flow-individual.xml | 7159 |
+| tests/d067-full.log | 574 |
+| tests/d067-full.xml | 54118 |
+| tests/d068-capture.log | 517 |
+| tests/d068-capture.xml | 27805 |
+| tests/d068-character.log | 517 |
+| tests/d068-character.xml | 14718 |
+| tests/d068-life-editmode.xml | 7126 |
+| tests/d068-ui.xml | 12659 |
+| tests/editmode-full.log | 516 |
+| tests/editmode-full.xml | 461153 |
+| tests/hardcoded-ui-test.xml | 3887 |
+| tests/hud-targeted.xml | 3960 |
+| tests/playmode-full.log | 574 |
+| tests/playmode-full.xml | 299320 |
+| tests/playmode-full-failures.md | 19379 |
+| tests/README.md | 4312 |
+| FILELIST.md | (本文件) |
+| SHA256SUMS.txt | (见该文件) |

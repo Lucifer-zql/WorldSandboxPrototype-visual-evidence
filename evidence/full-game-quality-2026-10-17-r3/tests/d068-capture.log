@@ -1,0 +1,9 @@
+﻿unity : VBCSCompilerPreWarmer: watching VBCSCompiler (PID 32980)
+所在位置 行:1 字符: 270
++ ... reenshots'; unity test . --mode PlayMode --filter WorldSandbox.Tests. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (VBCSCompilerPre...ler (PID 32980):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 17200)
+VBCSCompiler prewarm took 16.42 ms

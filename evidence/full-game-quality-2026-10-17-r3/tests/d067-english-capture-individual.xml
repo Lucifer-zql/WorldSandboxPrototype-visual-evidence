@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 14:55:59Z" end-time="2026-10-17 14:56:00Z" duration="1.4912274">
+  <test-suite type="TestSuite" id="1157" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-10-17 14:55:59Z" end-time="2026-10-17 14:56:00Z" duration="1.491227" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1310" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-10-17 14:55:59Z" end-time="2026-10-17 14:56:00Z" duration="1.479898" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="39196" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1311" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-10-17 14:55:59Z" end-time="2026-10-17 14:56:00Z" duration="1.478486" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1312" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-10-17 14:55:59Z" end-time="2026-10-17 14:56:00Z" duration="1.477467" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1313" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="109" result="Failed" site="Child" start-time="2026-10-17 14:55:59Z" end-time="2026-10-17 14:56:00Z" duration="1.476496" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1183" name="D067CaptureTests" fullname="WorldSandbox.Tests.PlayMode.D067CaptureTests" classname="WorldSandbox.Tests.PlayMode.D067CaptureTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-17 14:55:59Z" end-time="2026-10-17 14:56:00Z" duration="1.472181" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1185" name="D067_CaptureEnglishScreens" fullname="WorldSandbox.Tests.PlayMode.D067CaptureTests.D067_CaptureEnglishScreens" methodname="D067_CaptureEnglishScreens" classname="WorldSandbox.Tests.PlayMode.D067CaptureTests" runstate="Runnable" seed="1664898963" result="Failed" start-time="2026-10-17 14:55:59Z" end-time="2026-10-17 14:56:00Z" duration="1.449652" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: not null
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at WorldSandbox.Tests.PlayMode.D067CaptureTests.Click (UnityEngine.UI.Button button) [0x00000] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\PlayMode\D067CaptureTests.cs:321
+at WorldSandbox.Tests.PlayMode.D067CaptureTests+<D067_CaptureEnglishScreens>d__8.MoveNext () [0x006ad] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\PlayMode\D067CaptureTests.cs:299
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@80f691d4262b\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=12
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=12
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 en）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 en）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c5ec1d78e55-828a|Aurora|192x192|seed=20261017|ticks=0|civ=4|nodes=189|deco=243|build=4|creatures=12
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c5ec1d78e55-828a|Aurora|192x192|seed=20261017|ticks=0|civ=4|nodes=189|deco=243|build=4|creatures=12
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-17 22:56 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-f14cc01a
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-17 22:56 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-f14cc01a
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-17 22:56 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-f14cc01a
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-17 22:56 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-f14cc01a
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

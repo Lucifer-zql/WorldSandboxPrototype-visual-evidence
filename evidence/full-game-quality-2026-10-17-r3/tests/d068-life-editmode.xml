@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.1697391">
+  <test-suite type="TestSuite" id="1000" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.169739" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1519" name="WorldSandbox.Tests.EditMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.EditMode.dll" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.160907" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="17276" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1520" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.159576" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1521" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.155206" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1522" name="EditMode" fullname="WorldSandbox.Tests.EditMode" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.148679" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1124" name="D068FinalLifeTests" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.140570" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1128" name="CivEconomy_320Ticks_KeepsEveryCivAlive_AndRecordsBirths" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.CivEconomy_320Ticks_KeepsEveryCivAlive_AndRecordsBirths" methodname="CivEconomy_320Ticks_KeepsEveryCivAlive_AndRecordsBirths" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="87322395" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.077830" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[civ 1 pop=2 members=2 food=2 wood=20 houses=2 births=4 deaths=4 starving=False
+civ 2 pop=4 members=4 food=4 wood=40 houses=2 births=2 deaths=0 starving=False
+civ 3 pop=4 members=4 food=2 wood=40 houses=2 births=2 deaths=0 starving=False
+civ 4 pop=4 members=4 food=2 wood=40 houses=2 births=2 deaths=0 starving=False
+]]></output>
+              </test-case>
+              <test-case id="1126" name="CreatureSystem_MovesOnLand_AndWorkStateFollowsHarvestPoint" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.CreatureSystem_MovesOnLand_AndWorkStateFollowsHarvestPoint" methodname="CreatureSystem_MovesOnLand_AndWorkStateFollowsHarvestPoint" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="944663907" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.013437" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1125" name="InitialLife_HasMembersPerCiv_CastlePerCiv_AndSheep" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.InitialLife_HasMembersPerCiv_CastlePerCiv_AndSheep" methodname="InitialLife_HasMembersPerCiv_CastlePerCiv_AndSheep" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="1238395627" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.012198" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1129" name="SaveRoundTrip_KeepsInitialMembersAndCastles" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.SaveRoundTrip_KeepsInitialMembersAndCastles" methodname="SaveRoundTrip_KeepsInitialMembersAndCastles" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="1135364481" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.011955" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1127" name="Snapshot_PopulationEqualsLiveHumanCount_AndCivMemberSum" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.Snapshot_PopulationEqualsLiveHumanCount_AndCivMemberSum" methodname="Snapshot_PopulationEqualsLiveHumanCount_AndCivMemberSum" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="375386479" result="Passed" start-time="2026-10-17 14:30:10Z" end-time="2026-10-17 14:30:10Z" duration="0.007033" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

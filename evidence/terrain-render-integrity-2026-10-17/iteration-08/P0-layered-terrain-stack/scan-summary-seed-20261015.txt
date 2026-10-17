@@ -1,0 +1,4 @@
+## seed=20261015
+P0: connections=978 ok=978 missingWall=0 missingGround=0 missingMid=0 illegalWaterFoot=0 waterCellWalls(legal)=91 northEdges=285 narrowDitch=11 unexplained=0
+P1: inlandEdges=1300 waterEdges=916 inlandCoastalMisuse=0
+P2: slopes=92 ok=92 badUpper=0 badLower=0 overlapWarn=0 

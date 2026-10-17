@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 03:57:22Z" end-time="2026-10-17 03:57:23Z" duration="0.8811372">
+  <test-suite type="TestSuite" id="1108" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-17 03:57:22Z" end-time="2026-10-17 03:57:23Z" duration="0.881137" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1212" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-17 03:57:22Z" end-time="2026-10-17 03:57:23Z" duration="0.869671" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="36624" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1213" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-17 03:57:22Z" end-time="2026-10-17 03:57:23Z" duration="0.865875" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1214" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-17 03:57:22Z" end-time="2026-10-17 03:57:23Z" duration="0.862255" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1215" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="72" result="Failed" site="Child" start-time="2026-10-17 03:57:22Z" end-time="2026-10-17 03:57:23Z" duration="0.859165" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1152" name="MapVisualOverhaulCaptureTests" fullname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests" classname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-10-17 03:57:22Z" end-time="2026-10-17 03:57:23Z" duration="0.853510" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1168" name="TS8h_Iter08SlopeBottomCloseup" fullname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests.TS8h_Iter08SlopeBottomCloseup" methodname="TS8h_Iter08SlopeBottomCloseup" classname="WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests" runstate="Runnable" seed="2036255144" result="Failed" label="Error" start-time="2026-10-17 03:57:22Z" end-time="2026-10-17 03:57:23Z" duration="0.834432" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[WorldSandbox.Tests.Common.CaptureRejectedException : [D-063-A CaptureWriteGuard] 目标文件已存在，D-063-A 默认拒绝覆盖：D:/data/UnityProjects/WorldSandboxPrototype/docs/impl/evidence/terrain-render-integrity-2026-10-17/iteration-08/seed-20261015/TS8h-p2-slope-bottom-west-seed-20261015.png。历史文件与本轮已产出文件均不可覆盖——如需重跑请清空/更换输出目录。]]></message>
+                  <stack-trace><![CDATA[  at WorldSandbox.Tests.Common.CaptureWriteGuard.AuthorizeFile (System.String path) [0x0002c] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\Common\CaptureWriteGuard.cs:186 
+  at WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests+<Snap>d__26.MoveNext () [0x00073] in D:\data\UnityProjects\WorldSandboxPrototype\Assets\Tests\PlayMode\MapVisualOverhaulCaptureTests.cs:223 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@80f691d4262b\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52 ]]></stack-trace>
+                </failure>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261015 尺寸=128x128 水比=0.26 陆块=0.74 尝试=1 校验=True 装饰=253 资源=182
+[WorldSandbox][Bootstrap] 世界初始化完成 seed=20261015 尺寸=128x128 水比=0.26 陆块=0.74 尝试=1 校验=True 装饰=253 资源=182
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[MVO] SetGameViewSize: [OK(1280x720@7)] / [OK(1280x720@7)]; Screen=1280x720（目标 1280x720）; mode=tri-iteration-08; WS_WORLD_SEED=20261015; 实际种子=20261015
+[MVO] SetGameViewSize: [OK(1280x720@7)] / [OK(1280x720@7)]; Screen=1280x720（目标 1280x720）; mode=tri-iteration-08; WS_WORLD_SEED=20261015; 实际种子=20261015
+[MVO] 帧呈现设置 runInBackground=True targetFrameRate=60 vSync=1
+[MVO] 帧呈现设置 runInBackground=True targetFrameRate=60 vSync=1
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (2880 x 1508 1AA) vs (1280 x 720 1AA).
+NextSubPass: Not inside a Renderpass
+NextSubPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+EndRenderPass: Not inside a Renderpass
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

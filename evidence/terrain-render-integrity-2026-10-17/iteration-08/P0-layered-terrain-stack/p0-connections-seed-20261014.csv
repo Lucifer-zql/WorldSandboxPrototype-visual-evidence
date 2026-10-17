@@ -1,0 +1,1136 @@
+seed,x,y,terrain,elev,dir,nt_terrain,nt_elev,source_rule,wall_row,wall_variant,is_mid_bench,flat_below,p0_verdict
+20261014,22,4,Grass,1,S,Water,0,wall-water(r5),5,0,0,water-bg,OK:岩壁入水(合法)
+20261014,22,4,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,23,4,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,24,4,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,24,4,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,25,4,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,26,4,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,26,4,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,27,4,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,28,4,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,28,4,Grass,1,S,Water,0,wall-water(r5),5,2,0,water-bg,OK:岩壁入水(合法)
+20261014,22,5,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,24,5,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,24,5,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,25,5,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,26,5,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,26,5,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,28,5,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,38,5,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,38,5,Grass,1,W,Grass,0,wall-water(r5),5,0,0,flat(land),OK:岩壁入水(合法)
+20261014,39,5,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,40,5,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,40,5,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,22,6,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,28,6,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,38,6,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,38,6,Forest,1,W,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,41,6,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,42,6,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,43,6,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,43,6,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,22,7,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,22,7,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,28,7,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,39,7,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,44,7,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,45,7,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,46,7,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,46,7,Grass,1,S,Water,0,wall-water(r5),5,2,0,water-bg,OK:岩壁入水(合法)
+20261014,23,8,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,23,8,Grass,1,W,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,24,8,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,25,8,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,26,8,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,27,8,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,28,8,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,28,8,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,39,8,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,46,8,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,39,9,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,46,9,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,39,10,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,46,10,Forest,1,N,Forest,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,46,10,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,39,11,Forest,1,N,Forest,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,39,11,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,43,11,Forest,1,N,Forest,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,44,11,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,45,11,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,45,11,Forest,1,E,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,40,12,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,40,12,Forest,1,W,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,41,12,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,42,12,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,42,12,Forest,1,E,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,14,17,Forest,1,E,Forest,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,14,17,Forest,1,S,Forest,0,stairs,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,14,17,Forest,1,W,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,13,18,Forest,1,S,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,13,18,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,15,18,Forest,1,E,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,15,18,Forest,1,S,Forest,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,13,19,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,16,19,Forest,1,S,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,17,19,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,17,19,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,12,20,Forest,1,S,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,12,20,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,18,20,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,18,20,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,12,21,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,19,21,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,19,21,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,12,22,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,19,22,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,19,22,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,12,23,Forest,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,18,23,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,12,24,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,18,24,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,18,24,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,11,25,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,11,25,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,17,25,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,17,25,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,11,26,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,15,26,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,16,26,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,16,26,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,48,26,Forest,1,S,Forest,0,stairs,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,48,26,Forest,1,W,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,49,26,Grass,1,S,Forest,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,50,26,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,50,26,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,11,27,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,11,27,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,12,27,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,13,27,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,14,27,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,14,27,Grass,1,E,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,47,27,Grass,1,S,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,47,27,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,50,27,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,71,27,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,71,27,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,72,27,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,72,27,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,47,28,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,50,28,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,50,28,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,70,28,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,70,28,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,73,28,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,74,28,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,75,28,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,76,28,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,77,28,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,78,28,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,79,28,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,79,28,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,47,29,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,47,29,Grass,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,48,29,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,49,29,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,49,29,Grass,1,E,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,69,29,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,69,29,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,80,29,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,81,29,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,81,29,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,35,30,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,35,30,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,36,30,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,37,30,Forest,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,38,30,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,38,30,Forest,1,S,Forest,0,stairs,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,69,30,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,82,30,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,82,30,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,34,31,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,34,31,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,38,31,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,67,31,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,67,31,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,68,31,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,78,31,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,78,31,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,78,31,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,83,31,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,83,31,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,34,32,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,38,32,Forest,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,65,32,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,65,32,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,66,32,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,74,32,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,74,32,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,75,32,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,76,32,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,77,32,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,79,32,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,80,32,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,80,32,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,84,32,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,84,32,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,34,33,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,38,33,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,64,33,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,64,33,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,71,33,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,71,33,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,72,33,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,73,33,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,80,33,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,85,33,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,86,33,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,87,33,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,88,33,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,88,33,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,118,33,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,118,33,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,119,33,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,120,33,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,120,33,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,120,33,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,34,34,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,38,34,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,38,34,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,64,34,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,71,34,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,76,34,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,81,34,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,81,34,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,89,34,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,89,34,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,116,34,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,116,34,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,117,34,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,119,34,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,34,35,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,37,35,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,64,35,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,64,35,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,70,35,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,70,35,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,75,35,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,75,35,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,77,35,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,77,35,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,78,35,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,79,35,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,82,35,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,82,35,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,90,35,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,90,35,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,115,35,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,115,35,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,119,35,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,34,36,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,34,36,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,37,36,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,65,36,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,65,36,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,70,36,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,70,36,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,74,36,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,74,36,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,80,36,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,80,36,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,83,36,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,84,36,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,85,36,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,86,36,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,87,36,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,87,36,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,91,36,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,91,36,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,114,36,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,114,36,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,119,36,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,35,37,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,35,37,Grass,1,W,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,36,37,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,37,37,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,37,37,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,66,37,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,66,37,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,71,37,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,73,37,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,73,37,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,81,37,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,81,37,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,88,37,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,88,37,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,91,37,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,113,37,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,113,37,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,119,37,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,67,38,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,67,38,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,71,38,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,71,38,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,72,38,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,72,38,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,82,38,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,82,38,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,89,38,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,89,38,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,91,38,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,113,38,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,119,38,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,68,39,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,76,39,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,77,39,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,78,39,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,79,39,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,83,39,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,83,39,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,89,39,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,91,39,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,113,39,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,116,39,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,116,39,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,117,39,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,118,39,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,118,39,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,120,39,Grass,1,E,Water,0,wall-water(r5),5,2,0,water-bg,OK:岩壁入水(合法)
+20261014,120,39,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,68,40,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,68,40,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,75,40,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,80,40,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,80,40,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,84,40,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,84,40,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,85,40,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,89,40,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,89,40,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,91,40,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,112,40,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,112,40,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,115,40,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,115,40,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,119,40,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,119,40,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,120,40,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,120,40,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,69,41,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,75,41,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,75,41,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,81,41,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,81,41,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,86,41,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,86,41,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,87,41,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,88,41,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,88,41,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,91,41,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,112,41,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,114,41,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,114,41,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,119,41,Grass,2,E,Water,0,narrow-ditch-no-wall,-1,-1,0,water-bg,OK:窄水沟不写水格(官方保留形态)
+20261014,69,42,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,69,42,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,74,42,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,74,42,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,82,42,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,91,42,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,111,42,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,111,42,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,111,42,Grass,1,W,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,112,42,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,113,42,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,113,42,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,113,42,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,119,42,Grass,2,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,70,43,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,73,43,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,82,43,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,91,43,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,114,43,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,114,43,Grass,2,W,Water,0,narrow-ditch-no-wall,-1,-1,0,water-bg,OK:窄水沟不写水格(官方保留形态)
+20261014,115,43,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,116,43,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,117,43,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,119,43,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,119,43,Grass,2,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,70,44,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,70,44,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,73,44,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,81,44,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,81,44,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,91,44,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,118,44,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,118,44,Grass,2,E,Water,0,narrow-ditch-no-wall,-1,-1,0,water-bg,OK:窄水沟不写水格(官方保留形态)
+20261014,118,44,Grass,2,W,Water,0,narrow-ditch-no-wall,-1,-1,0,water-bg,OK:窄水沟不写水格(官方保留形态)
+20261014,71,45,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,73,45,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,81,45,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,91,45,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,68,46,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,68,46,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,69,46,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,70,46,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,74,46,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,75,46,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,75,46,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,81,46,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,91,46,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,67,47,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,67,47,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,76,47,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,76,47,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,81,47,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,81,47,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,91,47,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,66,48,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,66,48,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,77,48,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,77,48,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,82,48,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,82,48,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,92,48,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,92,48,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,64,49,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,64,49,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,65,49,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,77,49,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,83,49,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,83,49,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,84,49,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,85,49,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,86,49,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,87,49,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,88,49,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,89,49,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,90,49,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,93,49,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,94,49,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,94,49,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,97,49,Grass,1,E,Water,0,wall-water(r5),5,2,0,water-bg,OK:岩壁入水(合法)
+20261014,97,49,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,97,49,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,60,50,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,60,50,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,61,50,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,62,50,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,63,50,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,77,50,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,77,50,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,91,50,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,95,50,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,96,50,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,97,50,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,60,51,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,70,51,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,70,51,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,71,51,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,71,51,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,76,51,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,91,51,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,97,51,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,60,52,Forest,1,N,Forest,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,60,52,Forest,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,68,52,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,68,52,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,69,52,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,71,52,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,76,52,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,76,52,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,91,52,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,91,52,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,96,52,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,96,52,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,97,52,Grass,2,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,97,52,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,61,53,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,61,53,Forest,1,W,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,62,53,Forest,1,N,Forest,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,68,53,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,68,53,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,70,53,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,71,53,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,71,53,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,75,53,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,75,53,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,92,53,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,95,53,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,95,53,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,95,53,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,97,53,Grass,2,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,63,54,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,63,54,Forest,1,W,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,64,54,Forest,1,N,Forest,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,69,54,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,69,54,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,69,54,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,74,54,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,74,54,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,92,54,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,92,54,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,96,54,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,96,54,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,97,54,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,97,54,Grass,2,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,65,55,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,65,55,Forest,1,W,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,66,55,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,67,55,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,72,55,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,73,55,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,73,55,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,93,55,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,97,55,Grass,1,E,Water,0,wall-water(r5),5,0,0,water-bg,OK:岩壁入水(合法)
+20261014,68,56,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,68,56,Grass,1,W,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,69,56,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,70,56,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,71,56,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,71,56,Grass,1,E,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,93,56,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,93,56,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,98,56,Grass,1,E,Water,0,wall-water(r5),5,2,0,water-bg,OK:岩壁入水(合法)
+20261014,98,56,Grass,1,S,Water,0,wall-water(r5),5,0,0,water-bg,OK:岩壁入水(合法)
+20261014,94,57,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,94,57,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,98,57,Grass,1,E,Water,0,wall-water(r5),5,0,0,water-bg,OK:岩壁入水(合法)
+20261014,95,58,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,99,58,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,99,58,Grass,1,S,Water,0,wall-water(r5),5,0,0,water-bg,OK:岩壁入水(合法)
+20261014,95,59,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,100,59,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,101,59,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,101,59,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,80,60,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,80,60,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,81,60,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,82,60,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,82,60,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,95,60,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,102,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,103,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,104,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,105,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,106,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,107,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,108,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,109,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,110,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,111,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,112,60,Grass,1,E,Water,0,wall-water(r5),5,2,0,water-bg,OK:岩壁入水(合法)
+20261014,112,60,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,79,61,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,79,61,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,83,61,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,83,61,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,94,61,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,94,61,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,112,61,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,112,61,Grass,1,E,Grass,0,wall-water(r5),5,2,0,flat(land),OK:岩壁入水(合法)
+20261014,79,62,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,83,62,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,93,62,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,93,62,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,111,62,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,111,62,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,79,63,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,84,63,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,84,63,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,92,63,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,92,63,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,110,63,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,110,63,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,79,64,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,79,64,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,84,64,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,91,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,91,64,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,91,64,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,92,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,93,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,94,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,95,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,96,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,97,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,98,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,99,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,100,64,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,101,64,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,109,64,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,80,65,Grass,1,N,Forest,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,80,65,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,85,65,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,85,65,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,102,65,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,109,65,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,109,65,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,81,66,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,81,66,Forest,1,W,Forest,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,85,66,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,102,66,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,102,66,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,108,66,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,108,66,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,82,67,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,86,67,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,86,67,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,103,67,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,107,67,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,107,67,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,82,68,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,86,68,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,103,68,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,106,68,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,106,68,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,82,69,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,86,69,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,103,69,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,103,69,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,104,69,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,105,69,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,105,69,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,66,70,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,66,70,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,67,70,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,68,70,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,68,70,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,81,70,Forest,1,S,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,81,70,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,87,70,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,87,70,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,64,71,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,64,71,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,65,71,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,69,71,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,70,71,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,71,71,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,71,71,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,81,71,Grass,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,88,71,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,88,71,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,62,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,62,72,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,63,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,72,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,73,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,74,72,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,74,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,80,72,Forest,1,S,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,80,72,Forest,1,W,Forest,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,89,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,90,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,91,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,92,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,93,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,94,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,95,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,96,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,97,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,98,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,99,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,100,72,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,100,72,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,61,73,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,61,73,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,65,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,65,73,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,66,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,68,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,69,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,70,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,71,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,72,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,73,73,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,73,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,75,73,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,76,73,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,77,73,Forest,1,E,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,77,73,Forest,1,S,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,79,73,Forest,1,S,Forest,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,79,73,Forest,1,W,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,83,73,Grass,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,83,73,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,84,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,85,73,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,85,73,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,101,73,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,101,73,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,61,74,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,65,74,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,65,74,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,74,74,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,75,74,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,75,74,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,78,74,Forest,1,S,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,82,74,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,82,74,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,85,74,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,101,74,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,60,75,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,60,75,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,66,75,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,66,75,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,76,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,77,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,78,75,Grass,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,79,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,80,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,81,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,86,75,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,86,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,95,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,95,75,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,96,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,97,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,98,75,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,98,75,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,101,75,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,59,76,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,59,76,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,67,76,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,67,76,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,86,76,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,95,76,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,98,76,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,101,76,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,58,77,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,58,77,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,59,77,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,60,77,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,61,77,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,62,77,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,63,77,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,64,77,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,68,77,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,68,77,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,86,77,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,94,77,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,94,77,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,99,77,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,99,77,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,101,77,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,58,78,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,58,78,Grass,1,E,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,58,78,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,65,78,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,65,78,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,69,78,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,86,78,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,94,78,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,94,78,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,99,78,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,102,78,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,102,78,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,66,79,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,69,79,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,69,79,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,86,79,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,95,79,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,95,79,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,99,79,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,102,79,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,66,80,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,66,80,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,70,80,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,70,80,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,86,80,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,86,80,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,96,80,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,96,80,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,100,80,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,100,80,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,103,80,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,104,80,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,104,80,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,67,81,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,67,81,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,71,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,71,81,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,72,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,78,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,79,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,80,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,81,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,82,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,83,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,84,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,85,81,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,85,81,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,97,81,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,101,81,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,101,81,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,105,81,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,106,81,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,106,81,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,68,82,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,73,82,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,73,82,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,74,82,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,75,82,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,76,82,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,77,82,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,77,82,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,97,82,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,97,82,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,102,82,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,102,82,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,107,82,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,107,82,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,68,83,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,68,83,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,80,83,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,81,83,Grass,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,82,83,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,83,83,Grass,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,84,83,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,85,83,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,86,83,Grass,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,87,83,Grass,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,88,83,Grass,1,N,Forest,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,98,83,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,103,83,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,104,83,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,104,83,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,83,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,108,83,Grass,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,69,84,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,69,84,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,79,84,Grass,1,N,Forest,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,79,84,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,89,84,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,89,84,Forest,1,W,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,90,84,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,91,84,Grass,1,N,Forest,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,98,84,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,98,84,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,105,84,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,105,84,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,84,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,70,85,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,70,85,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,78,85,Grass,1,N,Forest,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,78,85,Grass,1,E,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,92,85,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,92,85,Grass,1,W,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,93,85,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,99,85,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,105,85,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,85,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,71,86,Grass,1,N,Grass,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,71,86,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,77,86,Grass,1,N,Forest,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,77,86,Grass,1,E,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,94,86,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,99,86,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,99,86,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,105,86,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,86,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,72,87,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,72,87,Grass,1,W,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,73,87,Grass,1,N,Forest,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,76,87,Forest,1,N,Forest,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,76,87,Forest,1,E,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,94,87,Grass,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,100,87,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,100,87,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,105,87,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,87,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,74,88,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,74,88,Forest,1,W,Forest,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,75,88,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,75,88,Forest,1,E,Forest,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,94,88,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,101,88,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,105,88,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,88,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,94,89,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,101,89,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,106,89,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,106,89,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,109,89,Grass,1,E,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,109,89,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,94,90,Forest,1,N,Forest,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,94,90,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,101,90,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,107,90,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,107,90,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,110,90,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,110,90,Grass,1,S,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,95,91,Forest,1,W,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,100,91,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,100,91,Grass,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,91,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,91,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,110,91,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,95,92,Forest,1,N,Forest,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,95,92,Forest,1,W,Forest,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,100,92,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,92,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,110,92,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,96,93,Forest,1,N,Forest,0,north-top-edge,4,2,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,96,93,Forest,1,W,Forest,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,100,93,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,100,93,Grass,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,108,93,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,110,93,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,97,94,Forest,1,N,Forest,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,97,94,Forest,1,W,Forest,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,98,94,Forest,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,99,94,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,101,94,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,101,94,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,102,94,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,108,94,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,108,94,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,110,94,Grass,1,N,Grass,0,north-top-edge,4,1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,110,94,Grass,1,E,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,100,95,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,100,95,Grass,1,W,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,101,95,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,103,95,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,103,95,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,104,95,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,105,95,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,106,95,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,107,95,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,107,95,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,109,95,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,102,96,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,102,96,Grass,1,W,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,103,96,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,104,96,Grass,1,N,Grass,0,north-top-edge,4,3,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,109,96,Grass,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,109,96,Grass,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,105,97,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,105,97,Grass,1,W,Grass,0,wall-land(r4),4,3,0,flat(land),OK:陆脚+低层地表
+20261014,106,97,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,107,97,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,108,97,Grass,1,N,Grass,0,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,108,97,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,41,109,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,41,109,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,42,109,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,43,109,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,44,109,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,45,109,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,45,109,Grass,1,S,Grass,0,wall-water(r5),5,1,0,flat(land),OK:岩壁入水(合法)
+20261014,39,110,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,39,110,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,40,110,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,46,110,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,46,110,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,63,110,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,63,110,Grass,1,W,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,64,110,Grass,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,64,110,Grass,1,S,Grass,0,wall-water(r5),5,1,0,flat(land),OK:岩壁入水(合法)
+20261014,39,111,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,47,111,Grass,1,E,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,47,111,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,61,111,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,61,111,Grass,2,W,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,62,111,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,63,111,Grass,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,63,111,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,65,111,Forest,1,E,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,65,111,Forest,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,38,112,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,38,112,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,48,112,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,49,112,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,50,112,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,51,112,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,52,112,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,53,112,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,54,112,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,55,112,Grass,1,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,56,112,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,56,112,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,57,112,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,58,112,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,59,112,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,60,112,Grass,2,S,Water,0,wall-water(r5),5,1,0,water-bg,OK:岩壁入水(合法)
+20261014,64,112,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,64,112,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,66,112,Forest,1,E,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,66,112,Forest,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,38,113,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,56,113,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,65,113,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,65,113,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,113,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,67,113,Forest,1,S,Grass,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,37,114,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,37,114,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,41,114,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,41,114,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,42,114,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,43,114,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,44,114,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,44,114,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,56,114,Grass,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,56,114,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,65,114,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,114,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,37,115,Forest,1,W,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,41,115,Forest,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,45,115,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,46,115,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,46,115,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,57,115,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,66,115,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,66,115,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,115,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,36,116,Forest,1,S,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,36,116,Forest,1,W,Forest,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,41,116,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,47,116,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,47,116,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,57,116,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,57,116,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,66,116,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,116,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,34,117,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,34,117,Grass,1,W,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,35,117,Forest,1,S,Forest,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,41,117,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,41,117,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,48,117,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,48,117,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,58,117,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,66,117,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,117,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,32,118,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,32,118,Grass,1,W,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,33,118,Grass,1,S,Grass,0,wall-land(r4),4,1,0,flat(land),OK:陆脚+低层地表
+20261014,42,118,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,42,118,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,48,118,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,58,118,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,66,118,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,66,118,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,118,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,31,119,Grass,1,S,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表
+20261014,31,119,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,43,119,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,43,119,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,44,119,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,48,119,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,48,119,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,58,119,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,65,119,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,119,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,31,120,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,45,120,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,45,120,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,46,120,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,47,120,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,47,120,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,58,120,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,65,120,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,65,120,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,120,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,31,121,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,33,121,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,33,121,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,34,121,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,34,121,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,57,121,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,57,121,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,64,121,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,121,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,30,122,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,30,122,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,32,122,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,32,122,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,35,122,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,35,122,Grass,2,S,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,57,122,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,64,122,Forest,2,N,Forest,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,64,122,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,122,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,30,123,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,32,123,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,35,123,Grass,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,48,123,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,48,123,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,49,123,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,49,123,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,56,123,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,56,123,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,63,123,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,67,123,Forest,1,E,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,29,124,Grass,1,S,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,29,124,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,32,124,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,32,124,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,33,124,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,34,124,Grass,2,N,Grass,1,north-top-edge,-1,-1,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,36,124,Grass,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,37,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,38,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,39,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,40,124,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,40,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,47,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,47,124,Forest,2,W,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,50,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,51,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,52,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,53,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,54,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,55,124,Forest,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,63,124,Forest,2,E,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,68,124,Forest,1,N,Grass,0,north-top-edge,4,0,0,flat(land),OK:北缘顶面过渡(官方无墙)
+20261014,68,124,Forest,1,E,Forest,0,wall-land(r4),4,2,0,flat(land),OK:陆脚+低层地表
+20261014,68,124,Forest,1,S,Forest,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,29,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,29,125,Grass,1,W,Grass,0,slope,-1,-1,0,flat(land),OK:豁口替代墙段
+20261014,30,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,31,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,32,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,33,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,34,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,35,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,35,125,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,36,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,37,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,38,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,39,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,40,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,41,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,41,125,Grass,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,42,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,42,125,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,42,125,Grass,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,43,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,44,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,45,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,46,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,46,125,Grass,2,S,Forest,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,46,125,Grass,2,W,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,47,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,48,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,49,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,50,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,51,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,52,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,53,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,54,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,55,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,56,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,57,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,58,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,59,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,60,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,61,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,62,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,63,125,Grass,2,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,63,125,Grass,2,E,Grass,1,mid-bench(P0 不写墙),-1,-1,1,flat(land),OK:中间台面完整
+20261014,64,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,65,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,66,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,67,125,Grass,1,N,Water,0,north-top-edge,-1,-1,0,water-bg,OK:北缘顶面过渡(官方无墙)
+20261014,67,125,Grass,1,E,Grass,0,wall-land(r4),4,0,0,flat(land),OK:陆脚+低层地表

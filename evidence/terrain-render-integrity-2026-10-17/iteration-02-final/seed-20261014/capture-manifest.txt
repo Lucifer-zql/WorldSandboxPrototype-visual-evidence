@@ -70,4 +70,4 @@
 [2026-10-17 08:57:34] stat ts4e hill-water cell=22,4 neighbor=22,3
 [2026-10-17 08:57:34] capture TS4f-clearance.png ortho=6 seed=20261014 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
 [2026-10-17 08:57:34] stat ts4f clearance-anchor=stairs-lower(14,15) nearestTreeDist=7 treesInsideClearance=0 （treesInsideClearance 预期 0——E 净空过滤落地后复验，本轮只记录不断言）
-[2026-10-17 11:47] backfill HEAD=47d8185 branch=main note=主Agent补记：capture 行占位符以本行为准；完整快照见 ../git-state.txt
+[2026-10-17 09:03] backfill HEAD=47d8185 branch=main note=主Agent补记：capture 行占位符以本行为准；完整快照见 ../git-state.txt

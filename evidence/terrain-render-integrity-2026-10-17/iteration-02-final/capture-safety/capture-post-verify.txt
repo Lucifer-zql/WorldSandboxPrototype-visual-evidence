@@ -1,5 +1,5 @@
 # D-065 iter-02 · 历史证据完整性采后核验（零覆盖证明）
-# 生成：2026-10-17 11:47（发布收尾）
+# 生成：2026-10-17 09:03（发布收尾）
 # 方法（可复现）：cd <主仓库根> && sha256sum -c capture-safety/d065i2-capture-pre.sha256.txt
 # 结果：OK = 2312 / FAILED = 0 / MISSING = 0
 # 范围：docs/impl/evidence/ 全部既存文件（含 iteration-00 / iteration-01 / iteration-02 中间批），

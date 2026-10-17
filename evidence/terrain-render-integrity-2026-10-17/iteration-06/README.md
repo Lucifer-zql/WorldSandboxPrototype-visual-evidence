@@ -56,8 +56,12 @@ iteration-06/
 ## 四、回归与保护
 - **EditMode 328/328 全过**；PlayMode 截图套件三种子 12/13/13 total、11/12/12 passed（1 skipped=机位未命中）；
   TS6d 补采三种子各 9 图（独立目录 `P5-resource-size-variants/TS6d-fixed/`，含过程批次 TS6d-run1 留档）。
-- 历史证据（iter-00~05）采前/采后 `sha256sum -c` 零覆盖；本批写盘全经 CaptureWriteGuard；
-  主仓库零 git 写。
+- 历史证据（iter-00~05）采后 `sha256sum -c` 全量核验：**768 文件全过**（iter-00/01/02/02-final/03/04）。
+- **如实记录一处并已修复**：采后核验发现工作区 `iteration-05/P5-resource-size-variants/resource-inventory.csv`
+  被本轮生成脚本误写（mtime 10:25，覆盖了 iter-05 已发布版本）——已从已发布证据仓库权威副本恢复
+  （SHA `c833d5d5…`，与 iter-05 SHA256SUMS 登记值一致），复验 **iter-05 146/146 全过**；发布仓库中
+  iteration-05 历史目录未被触碰（本轮提交 242 项全为 iteration-06 新增）。
+- 本批写盘全经 CaptureWriteGuard；主仓库零 git 写（无提交/推送/PR，无 reset/clean/restore）。
 
 ## 五、局限与如实声明
 1. P1 的"无法复现水色缝隙"以三层验证为据——不否定制作人观察，请求具体截图/坐标；

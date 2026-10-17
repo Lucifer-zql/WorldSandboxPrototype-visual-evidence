@@ -86,7 +86,7 @@ fb9c914453f059013dd20973f422fb93bbb8583c3cf38e20446f5c257c0c732b *./P5-resource-
 a2cfc12b812013c1955e74b803cf5ec2ddbf9ba131bd73f157bd28fcea51b4cf *./P5-resource-size-variants/analysis.md
 8b17ea003972dca655c07a5104f4e83a2852c72927414d19a0bf7a1b491b014f *./P5-resource-size-variants/resource-inventory.csv
 845a0f81c340bf58521c292dac89a5c786d6d980707c004b7b544de2df717634 *./P5-resource-size-variants/variant-distribution.txt
-9e6e89caa22006563d4cde296e4271a348c8d92e275caa0d0fa8eccbeb139893 *./README.md
+7d1876d9d3a7374f3e9aaa266445b8eb9de78ecdbb45b1b4286346b9982c3511 *./README.md
 e56aa529df27e6ac989da0b4e498cafc8d0ea32b18c5e33fbe0d5956497f1f0b *./regression-final/seed-20261013/MVO1a-fullmap-overview-ortho40.png
 4078a1ef822d17d67ab228dab481030eeb5988f8d031f192982302238df368f4 *./regression-final/seed-20261013/MVO1b-fullmap-entire-ortho64.png
 2d23610d2984ef1644e70c8f9d476aa75d6063de716ffba44fc0299df2a6a9a9 *./regression-final/seed-20261013/MVO3a-shore-grass-water.png

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 12:55:43Z" end-time="2026-10-17 12:55:44Z" duration="0.2564678">
+  <test-suite type="TestSuite" id="1000" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:43Z" end-time="2026-10-17 12:55:44Z" duration="0.256468" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1507" name="WorldSandbox.Tests.EditMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.EditMode.dll" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:43Z" end-time="2026-10-17 12:55:44Z" duration="0.245629" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="5056" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1508" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:43Z" end-time="2026-10-17 12:55:44Z" duration="0.242264" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1509" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:43Z" end-time="2026-10-17 12:55:44Z" duration="0.235994" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1510" name="EditMode" fullname="WorldSandbox.Tests.EditMode" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:43Z" end-time="2026-10-17 12:55:44Z" duration="0.223811" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1477" name="WorldLifecycleTests" fullname="WorldSandbox.Tests.EditMode.WorldLifecycleTests" classname="WorldSandbox.Tests.EditMode.WorldLifecycleTests" runstate="Runnable" testcasecount="21" result="Passed" start-time="2026-10-17 12:55:43Z" end-time="2026-10-17 12:55:44Z" duration="0.214975" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1497" name="SaveService_CorruptFile_IsReportedNotDeleted" fullname="WorldSandbox.Tests.EditMode.WorldLifecycleTests.SaveService_CorruptFile_IsReportedNotDeleted" methodname="SaveService_CorruptFile_IsReportedNotDeleted" classname="WorldSandbox.Tests.EditMode.WorldLifecycleTests" runstate="Runnable" seed="519399640" result="Passed" start-time="2026-10-17 12:55:43Z" end-time="2026-10-17 12:55:44Z" duration="0.047865" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1499" name="SaveService_MultipleSaves_SortedByTimeAndIndependent" fullname="WorldSandbox.Tests.EditMode.WorldLifecycleTests.SaveService_MultipleSaves_SortedByTimeAndIndependent" methodname="SaveService_MultipleSaves_SortedByTimeAndIndependent" classname="WorldSandbox.Tests.EditMode.WorldLifecycleTests" runstate="Runnable" seed="564260915" result="Passed" start-time="2026-10-17 12:55:44Z" end-time="2026-10-17 12:55:44Z" duration="0.094056" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1496" name="SaveService_RefusesOverwriteUnlessAsked" fullname="WorldSandbox.Tests.EditMode.WorldLifecycleTests.SaveService_RefusesOverwriteUnlessAsked" methodname="SaveService_RefusesOverwriteUnlessAsked" classname="WorldSandbox.Tests.EditMode.WorldLifecycleTests" runstate="Runnable" seed="2131380754" result="Passed" start-time="2026-10-17 12:55:44Z" end-time="2026-10-17 12:55:44Z" duration="0.023775" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1495" name="SaveService_SaveListLoadDelete_Works" fullname="WorldSandbox.Tests.EditMode.WorldLifecycleTests.SaveService_SaveListLoadDelete_Works" methodname="SaveService_SaveListLoadDelete_Works" classname="WorldSandbox.Tests.EditMode.WorldLifecycleTests" runstate="Runnable" seed="992023283" result="Passed" start-time="2026-10-17 12:55:44Z" end-time="2026-10-17 12:55:44Z" duration="0.021489" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1498" name="SaveService_WorldIdsCannotEscapeDirectory" fullname="WorldSandbox.Tests.EditMode.WorldLifecycleTests.SaveService_WorldIdsCannotEscapeDirectory" methodname="SaveService_WorldIdsCannotEscapeDirectory" classname="WorldSandbox.Tests.EditMode.WorldLifecycleTests" runstate="Runnable" seed="1846499558" result="Passed" start-time="2026-10-17 12:55:44Z" end-time="2026-10-17 12:55:44Z" duration="0.000845" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

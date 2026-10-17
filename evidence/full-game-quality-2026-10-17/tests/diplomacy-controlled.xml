@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.1205141">
+  <test-suite type="TestSuite" id="1000" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.120514" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1507" name="WorldSandbox.Tests.EditMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.EditMode.dll" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.106861" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="40696" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1508" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.105940" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1509" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.105154" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1510" name="EditMode" fullname="WorldSandbox.Tests.EditMode" runstate="Runnable" testcasecount="407" result="Passed" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.104573" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1068" name="CivilizationSimulationTests" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.099167" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1072" name="Civ_Diplomacy_FarNeighbours_TurnFriendly" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_Diplomacy_FarNeighbours_TurnFriendly" methodname="Civ_Diplomacy_FarNeighbours_TurnFriendly" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="1418869750" result="Passed" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.063543" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[far relation=Friendly
+]]></output>
+              </test-case>
+              <test-case id="1073" name="Civ_Diplomacy_MidRange_StaysNeutral" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_Diplomacy_MidRange_StaysNeutral" methodname="Civ_Diplomacy_MidRange_StaysNeutral" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="2083962716" result="Passed" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.008943" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[mid relation=Neutral
+]]></output>
+              </test-case>
+              <test-case id="1071" name="Civ_Diplomacy_NearNeighbours_TurnHostile" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_Diplomacy_NearNeighbours_TurnHostile" methodname="Civ_Diplomacy_NearNeighbours_TurnHostile" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="501687869" result="Passed" start-time="2026-10-17 12:55:02Z" end-time="2026-10-17 12:55:02Z" duration="0.008617" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[near relation=Hostile evaluations=25
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

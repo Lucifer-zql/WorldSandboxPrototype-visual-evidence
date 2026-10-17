@@ -6,20 +6,22 @@ D-066 远端字节校验记录（Iteration-11 阻断项修复）
 本轮提交链（均只动 iteration-11/）:
   d2e899c  D-066 发布（94 files changed, +44636/-3）
   d208eeb  追加本校验记录（不在清单内）
-  c8f976f  D-066 报告定稿 + 清单重算（2 files changed）
+  c8f976f  报告定稿 + 清单重算（2 files changed）
+  74c5dff  校验记录定稿（不在清单内）
+  517dece  报告数字校正（坡背景 38 处；阴影高格行数）+ 清单重算
+  ebf64f7  报告 §5 定稿 + 清单重算  ← 最终校验提交
 
 校验方法:
   1) git clone --depth 1 --filter=blob:none --sparse（经本地代理 127.0.0.1:7897）
   2) git sparse-checkout set evidence/terrain-render-integrity-2026-10-17/iteration-11
   3) 按 SHA256SUMS.txt 逐行读取远端工作区文件原始字节，复算 SHA-256 并比对
 
-结果:
-  HEAD d2e899c（D-066 发布清单）: ok = 385  bad = 0  missing = 0
-  HEAD d208eeb（仅追加本记录）  : ok = 385  bad = 0  missing = 0
-  HEAD c8f976f（报告定稿清单）  : ok = 385  bad = 0  missing = 0  ← 最终
+结果（每个提交均逐文件复算，结论一致）:
+  d2e899c / d208eeb / c8f976f / 74c5dff / 517dece / ebf64f7 :
+    ok = 385   bad = 0   missing = 0
 
 说明: SHA256SUMS.txt 与本记录文件自身不入清单（自引用）；本文件为最后一次追加，
-      不改动任何被清单覆盖的文件，故 c8f976f 的 385 项校验结果对当前仓库 HEAD 仍然成立。
+      不改动任何被清单覆盖的文件，故 ebf64f7 的 385 项校验对仓库当前 HEAD 仍然成立。
 
 历史证据零覆盖:
   git diff --name-only 3d23e70 HEAD -> 全部位于 iteration-11/ 之下

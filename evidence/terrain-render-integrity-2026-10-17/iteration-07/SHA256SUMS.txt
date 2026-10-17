@@ -22,12 +22,13 @@ cb0d1bb2071d95aa7a3162432a881189277578e02a254f500a11f39f285dd271 *./P3-layered-c
 6d2ffeb62c636e62aed52eabdd20516420658a39a3c56dacbc0c5897043f9e42 *./P4-water-rock-regression/TS7g-open-water-no-rocks-seed-20261014.png
 3c1c04b96193fdd0fec0461b6d9e88bc1952fdda5b900eab1719f47cecccbcc2 *./P4-water-rock-regression/TS7g-open-water-no-rocks-seed-20261015.png
 b03964d62f7ba4bec8c00f6822ecc0846067b03d0968519a694292a11ee7d299 *./P4-water-rock-regression/analysis.md
-f6feea47f7e07144d418b699e56c8f74e29ada1de076d4e6e6b8ae561606b93d *./README.md
-740d34bc8f7ee956825b55caa2de7dee3cf48a82a4d52642d3ab2dbe89cdd1af *./official-reference/README.md
+852889ccba010659cb783a8ec121e655f033ce59f851674aab94f052ca4d1d07 *./README.md
+a25c54354d8104ab3a9c3a91c2512f0e5c2ea549732fa127d52f3672a00a5ca1 *./official-reference/README.md
 858ad5e5729806cd316bd80e12446ccf1d441d33a0a57dabf38f252289b735b1 *./official-reference/official-A-castle-west-slope-and-wallring.png
 fb133027b071593dbd527d39edbe09acc3deae229263836f487ef94ee6559858 *./official-reference/official-B-southwest-plateau-wallring-into-water.png
 89c6168e70212f78afd632897e55db70b60c611a9b4719fe3e01a54de41884cb *./official-reference/official-C-northeast-waterfront-plateau-walls.png
 03ec762283b6d11667d60441e5839004508d64f3c92400ae33896c2ae3e0b352 *./official-reference/official-D-低地水岸与森林边界.png
+bc02e73433fd08d56bc55e7076e1f6689fa212b24c62a826fec97e43debecd6b *./post-production-sha256.txt
 22549acc07176273ea23b73270fe0b610282e8cf66fb1de818351461173e6174 *./pre-baseline-production-sha256.txt
 9aa3aa19eb35b288d1c36ebc3ea37263565f0267dd48f7c117b70a75c8429775 *./pre-fix/seed-20261013/MVO1a-fullmap-overview-ortho40.png
 e1c5217377dfafeb52aa69d0852a67460e4b8dc1558d293a1f49ed785c674f13 *./pre-fix/seed-20261013/MVO1b-fullmap-entire-ortho64.png

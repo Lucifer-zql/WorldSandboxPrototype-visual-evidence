@@ -1,0 +1,13 @@
+[2026-10-17 13:03:18] cleanState handleCancel=invoked mouseNote=编辑器内无法脚本移动光标，运行方请将光标移出取景区或固定于角落
+[2026-10-17 13:03:18] ---- session mode=tri-iteration-10/P1-single-stair seedEnv=20261013 effectiveSeed=20261013 screen=1280x720 ----
+[2026-10-17 13:03:18] capture TS9a-p1-all-15-masks-grid-seed-20261013.png ortho=9 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:18] capture TS9b-p1-masks-1-6-closeup-seed-20261013.png ortho=4.5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:18] capture TS9c-p1-masks-11-15-closeup-seed-20261013.png ortho=4.5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:18] capture TS9i-p1-pure-water-mask-grid-seed-20261013.png ortho=9 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:19] capture TS9j-p1-pure-water-missing-shore-closeup-seed-20261013.png ortho=5 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:19] capture TS9d-p2-slope-run-west-seed-20261013.png ortho=4 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:19] capture TS9e-p2-short-slope-run-seed-20261013.png ortho=4 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:19] capture TS9h-p2-isolated-slope-pruned-to-wall-seed-20261013.png ortho=4 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:19] capture TS9f-p0-two-tier-south-seed-20261013.png ortho=6 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:19] capture TS9g-p0-west-edge-seed-20261013.png ortho=6 seed=20261013 screen=1280x720 HEAD=<待主Agent补记> dirtyFiles=<待主Agent补记>
+[2026-10-17 13:03:19] stat ts9 iter09 diagnostic scenes done

@@ -1,0 +1,16 @@
+# 主仓库状态快照 —— iteration-02-final 采集时的代码状态（2026-10-17 11:47 补记）
+
+- 主仓库：WorldSandboxPrototype｜分支：main｜HEAD：47d8185（与 iter-00/01 相同，未提交）
+- 工作区：397 项脏（以 git-status-porcelain.txt 为准）
+- 代码状态要点：**本轮（iter-02）生产路径唯一改动 = TerrainTilemapRenderer.cs**（P1 修复：
+  底色层陆地格铺"显式完整片"）——SHA-256 由 iter-00 的 `500c97eb…2204` 变为
+  `51f0593031ac401fea160a4a474330041b7b5ed31072142b6d50e8e74da64b5a`；
+  其余关键生产文件（TerrainOverlayPlan / WaterFoamRenderer / Main.unity / RT_Forest / RT_Grass /
+  GameBootstrap）与 iter-00 逐位相同（未触碰）；测试侧新增 P1 契约用例 1 个（CliffTileSelectionTests）。
+
+## 关键文件哈希（final）
+
+| 文件 | SHA-256 |
+| --- | --- |
+| Assets/_Project/Scripts/Presentation/TerrainTilemapRenderer.cs | 51f0593031ac401fea160a4a474330041b7b5ed31072142b6d50e8e74da64b5a |
+| （其余六个 iter-00 关键文件与 iter-00 git-state.txt 逐位相同——见 ../iteration-00-baseline/git-state.txt） | （同） |

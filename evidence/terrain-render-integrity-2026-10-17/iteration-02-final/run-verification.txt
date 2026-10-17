@@ -1,0 +1,41 @@
+# iteration-02-final 采集运行取证（2026-10-17，v2 最终修复版）
+
+## 命令形态（三发，串行单实例，窗口化；本轮起已带 -testResults/-logFile 持久化）
+
+    WS_WORLD_SEED=<种子> MVO_CAPTURE_MODE=tri-iteration-02-final \
+      "<Unity 6000.6.5f1>" -projectPath <主仓库> -runTests -testPlatform PlayMode \
+      -testFilter WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests \
+      -testResults "<本目录>/seed-<种子>/test-results.xml" \
+      -logFile "<本目录>/seed-<种子>/test-run.log"
+
+## 运行结果（XML/日志随批发布于各 seed 目录）
+
+| 种子 | 退出码 | 产出 | 图数 | PlayMode XML |
+| --- | --- | --- | --- | --- |
+| 20261013 | 0 | 33 文件（30 图 + manifest + XML + log） | 30 | 9 passed + 1 skipped + 0 failed |
+| 20261014 | 0 | 36 文件（33 图 + manifest + XML + log） | 33 | 9 passed + 1 skipped + 0 failed |
+| 20261015 | 0 | 36 文件（33 图 + manifest + XML + log） | 33 | 9 passed + 1 skipped + 0 failed |
+
+（seed13 图数 30 同前两轮：TS2c/TS2d/tpr2-closeup-vertwall 该种子未命中，程序跳过。）
+
+## EditMode 证据
+
+- 最终版：`test-evidence/editmode-304-final.xml|.log`（**304/304 全过**，含 P1 契约测试
+  `Render_BackgroundUnderlay_CoversLandCells_Iter02P1`——底色=显式完整片断言）。
+- v1 中间版：`test-evidence/editmode-304-p1v1.xml`（历史）。
+
+## 修复代码差异（相对 iteration-00/01 的工作区）
+
+唯一生产文件：`Assets/_Project/Scripts/Presentation/TerrainTilemapRenderer.cs`
+1. `ApplyCell`：底色层由"仅水格"扩展为"水格=水面 tile；陆地格=**显式完整片**（RuleTile m_Id=5 槽
+   sprite 的独立 Tile，实测 0% 透明；提取失败回退基础片）"；
+2. 新增 `ExtractUnderlayTile`（复用既有 `GetTilingRules`/`RuleField` 反射 helper；Presentation
+   程序集不引用 2D Tilemap Extras 包程序集，未扩 asmdef 引用）；
+3. `SetGrassTile` 增加底色缓存失效；类注释契约同步。
+测试文件：`CliffTileSelectionTests`（+1 契约用例）；其余生产/素材/场景零改动。
+
+## 像素级复验（三种子 TS1b × 数据非水格 × 0 阈值）
+
+v0（iter-00 未修）：226/146（seed13）→ v1（iter-02 中间）：103/57 → **v2（本批）：48/29、
+35/29、63/23（单格 ≤3px）**；残余形态=白/青/深三色 1px 点线段（装饰素材边缘图案与水色值巧合；
+露底通道已堵死）；像素占比 <0.01%，视觉不可见级。详见 `analysis/p1-verification-scan.txt`。

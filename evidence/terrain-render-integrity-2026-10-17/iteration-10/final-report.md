@@ -109,3 +109,7 @@ test-evidence/final-r3，更新 README/final-report/SHA256SUMS；历史轨迹目
 3. **color3 边带色差**：Mount 顶面水缘使用 color1 band（已知局限）。
 4. **立面格可走性**：数据层 Hill 可走、视觉为悬崖格（官方素材体系固有）——**待制作人确认**。
 5. **Shadow 层半透明方块**：阴影贴图 3×3 覆盖的硬边在部分镜头可见（既有层行为，非本轮缺陷）。
+6. **Agent D 视觉复核（verify-r1 批）逐项对照**：其 P0-1/P0-2/P0-3/P0-5/P0-6 在 final-r3 不成立
+   （东西墙按官方删除、墙单行无纵向叠加、楼梯形态与官方 guide 一致、直切为素材端头/阴影矩形、
+   水脚白浪为素材设计）；P0-4 内陆水泡沫边**不采纳**（规范 D.2 明确岸线泡沫语义、iter-01 已裁定
+   内陆水域合法）。完整对照见 `peer-review/agent-d-verify-r1-review.md` 与裁剪件 `peer-review/crops/`。

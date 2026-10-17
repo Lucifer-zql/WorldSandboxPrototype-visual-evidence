@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 12:26:10Z" end-time="2026-10-17 12:26:16Z" duration="5.221713">
+  <test-suite type="TestSuite" id="1127" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="85" result="Passed" start-time="2026-10-17 12:26:10Z" end-time="2026-10-17 12:26:16Z" duration="5.221713" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1250" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="85" result="Passed" start-time="2026-10-17 12:26:10Z" end-time="2026-10-17 12:26:16Z" duration="5.213991" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="47504" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1251" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="85" result="Passed" start-time="2026-10-17 12:26:10Z" end-time="2026-10-17 12:26:16Z" duration="5.212717" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1252" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="85" result="Passed" start-time="2026-10-17 12:26:10Z" end-time="2026-10-17 12:26:16Z" duration="5.211859" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1253" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode" runstate="Runnable" testcasecount="85" result="Passed" start-time="2026-10-17 12:26:10Z" end-time="2026-10-17 12:26:16Z" duration="5.211145" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1159" name="D067R2ToastLayoutTests" fullname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests" classname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-17 12:26:10Z" end-time="2026-10-17 12:26:16Z" duration="5.204800" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1161" name="R2_Toast_DoesNotCoverMenuOrDialogs" fullname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests.R2_Toast_DoesNotCoverMenuOrDialogs" methodname="R2_Toast_DoesNotCoverMenuOrDialogs" classname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests" runstate="Runnable" seed="27799591" result="Passed" start-time="2026-10-17 12:26:10Z" end-time="2026-10-17 12:26:11Z" duration="0.406386" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 测试提示信息
+[WorldSandbox][Flow] 测试提示信息
+]]></output>
+              </test-case>
+              <test-case id="1160" name="R2_Toast_DoesNotCoverPausePanel_AndExpires" fullname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests.R2_Toast_DoesNotCoverPausePanel_AndExpires" methodname="R2_Toast_DoesNotCoverPausePanel_AndExpires" classname="WorldSandbox.Tests.PlayMode.D067R2ToastLayoutTests" runstate="Runnable" seed="694873405" result="Passed" start-time="2026-10-17 12:26:11Z" end-time="2026-10-17 12:26:16Z" duration="4.772552" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 6 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=0
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 64x64 → 相机中心 (32, 32)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 5 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c49d43b38bb-4b15|Toast测试|64x64|seed=20261017|ticks=0|civ=2|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2c49d43b38bb-4b15|Toast测试|64x64|seed=20261017|ticks=0|civ=2|nodes=189|deco=243|build=0|creatures=0
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 已保存「Toast测试」· 64 × 64 · 2026-10-17 20:26 → C:\Users\18871\AppData\Local\Temp\ws-d067r2-334c5eb8
+[WorldSandbox][Flow] 已保存「Toast测试」· 64 × 64 · 2026-10-17 20:26 → C:\Users\18871\AppData\Local\Temp\ws-d067r2-334c5eb8
+[toast] rect=(x:173.74, y:47.73, width:292.52, height:15.40) panel=(x:219.93, y:139.93, width:200.15, height:200.15) screen=640x480
+[toast-chain]
+ToastBg anchor=(0.50, 0.00)-(0.50, 0.00) pivot=(0.50, 0.00) pos=(0.00, 124.00) size=(760.00, 40.00) parent=ToastLayer
+ToastLayer anchor=(0.00, 0.00)-(1.00, 1.00) pivot=(0.50, 0.50) pos=(0.00, 0.00) size=(1662.77, 1247.08) parent=ScreenFlowRoot
+ScreenFlowRoot anchor=(0.00, 0.00)-(1.00, 1.00) pivot=(0.50, 0.50) pos=(0.00, 0.00) size=(1662.77, 1247.08) parent=ScreenFlow
+ScreenFlow anchor=(0.00, 0.00)-(1.00, 1.00) pivot=(0.50, 0.50) pos=(0.00, 0.00) size=(1662.77, 1247.08) parent=MainCanvas
+MainCanvas anchor=(0.00, 0.00)-(0.00, 0.00) pivot=(0.50, 0.50) pos=(320.00, 240.00) size=(1662.77, 1247.08) parent=-
+
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

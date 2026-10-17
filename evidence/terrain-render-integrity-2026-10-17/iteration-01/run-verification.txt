@@ -1,0 +1,33 @@
+# iteration-01 采集运行取证（2026-10-17 08:25~08:40）
+
+## 命令形态（三发，串行单实例，窗口化——截图需帧缓冲，不适用 -batchmode）
+
+    WS_WORLD_SEED=<种子> MVO_CAPTURE_MODE=tri-iteration-01 \
+      "<Unity 6000.6.5f1>" -projectPath <主仓库> -runTests -testPlatform PlayMode \
+      -testFilter WorldSandbox.Tests.PlayMode.MapVisualOverhaulCaptureTests
+
+## 运行结果
+
+| 种子 | 退出码 | 产出 | 图数 | 与 iteration-00 图名集合对照 |
+| --- | --- | --- | --- | --- |
+| 20261013 | 0 | 31 文件（30 图 + capture-manifest.txt） | 30 | 完全一致（30/30） |
+| 20261014 | 0 | 34 文件（33 图 + capture-manifest.txt） | 33 | 完全一致（33/33） |
+| 20261015 | 0 | 34 文件（33 图 + capture-manifest.txt） | 33 | 完全一致（33/33） |
+
+（seed13 图数少于 14/15 的原因同基线：TS2c / TS2d / tpr2-closeup-vertwall 三项在该种子
+未命中"≥2 格相邻竖列/转角"实例，程序 Debug.Log 跳过、不产图——与 iteration-00 行为一致。）
+
+## 局限（如实声明）
+
+本轮命令**未带** `-testResults` / `-logFile` 参数，三发的 PlayMode 测试 XML 与完整 stdout
+未持久化（stdout 经管道 tail 截断，仅保留退出码）。执行成功由以下事实共同证明：
+
+1. 三发退出码均为 **0**；
+2. 产出图集与 iteration-00 **逐名一致**且图档可正常打开（30/33/33）；
+3. 捕获门禁（目标文件已存在一律拒绝）全程生效——若曾中途失败并重跑，产出会因门禁全拒而不可得；
+4. 本轮 PlayMode 命令形态与 iteration-00 相同（后者完整产出含 XML/日志，见该批 seed 目录）。
+
+EditMode 侧证据完整：本轮新增审计套件 `D065I1_*`（TerrainWaterIntegrityTests）303/303 全过，
+XML/日志归档于主仓库 `docs/impl/parallel-repair/d065i1-editmode-water.xml|.log`。
+
+修正措施：**iteration-02 起**采集命令将携带 `-testResults` / `-logFile` 指向本批次目录。

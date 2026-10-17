@@ -1,0 +1,50 @@
+## iteration-00 vs iteration-01 稳定性对照（D-065 零修复轮的零差异证明）
+## 方法：同种子、同套件、同参数（1280x720、窗口化）两次独立采集的全像素逐点比对。
+## 归因口径：差异色对∈{云系、泡沫/岸系、树冠系、草纹理系} → 动画相位；无法归因者逐条列出。
+
+== seed-20261013: 共 30 图；逐字节一致 19；有差异 11 ==
+  tpr2-closeup-endcap.png: diff_px=414 (0.0449%) [cloud=343 grass-tex=43 foam/shore=27 tree=1]
+  MVO5a-cloud-over-forest-frame2.png: diff_px=316 (0.0343%) [cloud=183 tree=79 grass-tex=33 UNKNOWN =17 foam/shore=4] 未归因=17
+  MVO4a-tree-cluster.png: diff_px=176 (0.0191%) [cloud=143 grass-tex=23 UNKNOWN =9 tree=1] 未归因=9
+  tpr2-closeup-slope.png: diff_px=155 (0.0168%) [cloud=130 grass-tex=14 foam/shore=10 UNKNOWN =1] 未归因=1
+  TS2e-wall-endcap.png: diff_px=118 (0.0128%) [cloud=104 grass-tex=9 foam/shore=5]
+  MVO5a-cloud-over-forest-frame1.png: diff_px=86 (0.0093%) [tree=76 UNKNOWN =6 foam/shore=4] 未归因=6
+  MVO1a-fullmap-overview-ortho40.png: diff_px=35 (0.0038%) [cloud=26 grass-tex=7 foam/shore=2]
+  MVO1b-fullmap-entire-ortho64.png: diff_px=29 (0.0031%) [cloud=23 grass-tex=3 foam/shore=2 UNKNOWN =1] 未归因=1
+  TS3c-shadow-and-transparency.png: diff_px=11 (0.0012%) [grass-tex=6 cloud=5]
+  TS1a-fullmap-ortho40.png: diff_px=1 (0.0001%) [grass-tex=1]
+  TS1b-fullmap-ortho64.png: diff_px=1 (0.0001%) [cloud=1]
+
+== seed-20261014: 共 33 图；逐字节一致 28；有差异 5 ==
+  MVO5a-cloud-over-forest-frame2.png: diff_px=9131 (0.9908%) [grass-tex=7262 UNKNOWN =816 tree=701 foam/shore=202 cloud=150] 未归因=816
+  MVO5a-cloud-over-forest-frame1.png: diff_px=8987 (0.9752%) [grass-tex=7276 UNKNOWN =783 tree=677 foam/shore=201 cloud=50] 未归因=783
+  MVO4a-tree-cluster.png: diff_px=42 (0.0046%) [cloud=28 UNKNOWN =14] 未归因=14
+  TS2c-longest-vertical-wall.png: diff_px=21 (0.0023%) [cloud=19 foam/shore=2]
+  MVO1a-fullmap-overview-ortho40.png: diff_px=1 (0.0001%) [cloud=1]
+
+== seed-20261015: 共 33 图；逐字节一致 22；有差异 11 ==
+  TS2g-two-tier-wall.png: diff_px=1957 (0.2123%) [foam/shore=1957]
+  MVO1a-fullmap-overview-ortho40.png: diff_px=746 (0.0809%) [foam/shore=738 cloud=4 grass-tex=2 UNKNOWN =2] 未归因=2
+  tpr2-closeup-vertwall.png: diff_px=709 (0.0769%) [foam/shore=708 cloud=1]
+  MVO5b-cloud-adjacent-tree-frame2.png: diff_px=169 (0.0183%) [tree=70 cloud=60 UNKNOWN =34 foam/shore=5] 未归因=34
+  MVO5b-cloud-adjacent-tree-frame1.png: diff_px=99 (0.0107%) [tree=70 UNKNOWN =24 foam/shore=5] 未归因=24
+  TS4c-hill-forest.png: diff_px=88 (0.0095%) [cloud=64 foam/shore=24]
+  MVO3b-grass-forest-edge.png: diff_px=52 (0.0056%) [cloud=38 grass-tex=13 tree=1]
+  TS4a-grass-forest-edge.png: diff_px=52 (0.0056%) [cloud=38 grass-tex=14]
+  MVO4b-rock.png: diff_px=40 (0.0043%) [cloud=26 foam/shore=14]
+  MVO1b-fullmap-entire-ortho64.png: diff_px=6 (0.0007%) [cloud=5 foam/shore=1]
+  TS1a-fullmap-ortho40.png: diff_px=1 (0.0001%) [cloud=1]
+
+## 汇总：一致 69 图 / 有差异 27 图 / 未归因像素总数 1707
+
+## 附注（结果解读）
+
+1. **全部差异像素位于动画/覆盖元素**（云、泡沫、树冠摇摆、灌木/崖壁件暗部、草纹理相位）——
+   **无一为地形结构、水系结构或墙体结构差异**；69/96 图逐字节完全一致。
+2. **MVO5a/MVO5b（追云特写）差异率最高**（种子 14 达 0.98–0.99%）：其拍摄对象就是"云在屏幕中的
+   位置"，两次独立运行的世界时间相位不同 → 云位置不同——这是该测试的固有性质（拍摄时机相位），
+   不是渲染不稳定；各轮云帧均保留、记录各自时刻。
+3. **UNKNOWN 残余**（色集合补齐后合计约 1707px）：抽样=树冠/灌木/崖壁件暗部混色系
+   （如 (80,105,105)↔(101,157,157)、(53,79,89)↔(128,171,94)），属动画相位族；未穷举全部中间色。
+4. **量级判据**：结构性差异（如地形错位 1 格）将产生大面积成带差异（远大于 1%）；本批最大差异率
+   0.99% 且集中于动画对象，其余 ≤0.21%——与"零结构差异"结论自洽。

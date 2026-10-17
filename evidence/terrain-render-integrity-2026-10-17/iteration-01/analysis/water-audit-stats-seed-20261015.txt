@@ -1,0 +1,52 @@
+## seed=20261015 waterCells=4324 landCells=12060 (26.3916%)
+components=4
+  comp#0 size=3516 bbox=(0,0)-(127,127) EDGE
+  comp#1 size=710 bbox=(72,13)-(114,33) INLAND
+  comp#2 size=30 bbox=(50,49)-(55,55) INLAND
+  comp#3 size=68 bbox=(21,78)-(30,86) INLAND
+  INLAND comp#1 size=710 bbox=(72,13)-(114,33) 宽43×高21
+    row y=13: x[80,82] w=3
+    row y=14: x[75,91] w=17
+    row y=15: x[74,110] w=37
+    row y=16: x[73,112] w=40
+    row y=17: x[73,113] w=41
+    row y=18: x[73,114] w=42
+    row y=19: x[73,114] w=42
+    row y=20: x[72,114] w=43
+    row y=21: x[72,114] w=43
+    row y=22: x[72,114] w=43
+    row y=23: x[73,114] w=42
+    row y=24: x[73,114] w=42
+    row y=25: x[73,114] w=42
+    row y=26: x[73,114] w=42
+    row y=27: x[74,113] w=40
+    row y=28: x[75,113] w=39
+    row y=29: x[76,113] w=38
+    row y=30: x[87,112] w=26
+    row y=31: x[90,111] w=22
+    row y=32: x[92,110] w=19
+    row y=33: x[96,109] w=14
+    straight-edges: maxLeft=4 maxRight=9 maxTop=19 maxBottom=14
+  INLAND comp#2 size=30 bbox=(50,49)-(55,55) 宽6×高7
+    row y=49: x[53,54] w=2
+    row y=50: x[51,55] w=5
+    row y=51: x[50,55] w=6
+    row y=52: x[50,55] w=6
+    row y=53: x[51,55] w=5
+    row y=54: x[52,55] w=4
+    row y=55: x[53,54] w=2
+    straight-edges: maxLeft=2 maxRight=5 maxTop=2 maxBottom=2
+  INLAND comp#3 size=68 bbox=(21,78)-(30,86) 宽10×高9
+    row y=78: x[24,28] w=5
+    row y=79: x[23,29] w=7
+    row y=80: x[22,30] w=9
+    row y=81: x[22,30] w=9
+    row y=82: x[21,30] w=10
+    row y=83: x[21,30] w=10
+    row y=84: x[22,29] w=8
+    row y=85: x[22,28] w=7
+    row y=86: x[23,25] w=3
+    straight-edges: maxLeft=2 maxRight=4 maxTop=5 maxBottom=3
+pinchCells(宽度1处) count=0
+  
+water component sizes: 3516,710,68,30

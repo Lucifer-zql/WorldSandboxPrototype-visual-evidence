@@ -1,0 +1,52 @@
+# D-065 iter-01 · 离线逐位复算与 Unity 实跑互证（水陆分布）
+
+## 目的
+在不启动 Unity 的条件下用同一份水陆生成源码逐位复算三种子的水格分布，并以 Unity 实跑的
+`ts1` 统计（基线 manifest）与 EditMode 审计套件（D065I1_*）双重对照，证明：
+① 本批数据侧审计所用"数据水格 mask"与游戏真实生成逐位一致；
+② 三种子水况自基线以来未漂移。
+
+## 方法
+1. 用 Roslyn csc 离线编译**真实项目源文件**（非复制）：
+   - Assets/_Project/Scripts/Core/Enums/TerrainType.cs
+   - Assets/_Project/Scripts/Core/World/MapIndex.cs
+   - Assets/_Project/Scripts/Core/Config/IntRange.cs
+   - Assets/_Project/Scripts/World/DeterministicRandom.cs
+   - Assets/_Project/Scripts/World/MapBounds.cs
+   - Assets/_Project/Scripts/World/TerrainStore.cs
+   - Assets/_Project/Scripts/World/GenSteps/WaterLandStep.cs
+2. 唯一 shim：`WorldGenConfig`（真类为 ScriptableObject，离线无 Unity 运行时时不可实例化）。
+   shim 仅含本复算消费的 5 个字段，取值与真类代码默认逐字一致：
+   MapWidth=128、MapHeight=128、WorldEdgeThickness=1、WaterRatioMin=0.20、WaterRatioMax=0.35。
+   **未复制任何业务方法**（水陆算法全部来自真实源文件）。
+3. 复刻调用流：attemptRng = FromCombinedSeed(CombineSeed(seed, 1))；
+   WaterLandStep.Apply(terrain, bounds, cfg, attemptRng.Fork(1))（对应 WorldGenerator 的
+   attempt=1 路径与 Fork(1) 盐位）。
+4. 运行：Unity 自带 Mono（6000.6.5f1/Editor/Data/MonoBleedingEdge/bin/mono.exe）。
+
+## 结果（水格总数）
+
+| 种子 | 离线复算 attempt=1 | Unity 实跑（基线 manifest ts1 waterCells） | 一致性 |
+| --- | --- | --- | --- |
+| 20261013 | 5388 | 5388 | 逐位一致 |
+| 20261014 | 3605 | 3605 | 逐位一致 |
+| 20261015 | 4324 | 4324 | 逐位一致 |
+
+（attempt=2/3 的值分别为 4919/4259、3605/5036、3605/3958，均与实跑不符——进一步确认
+ 三种子实际生效的就是 attempt=1，与水格数判据一致。）
+
+## Unity 内二次对证（EditMode 套件 D065I1_*）
+`Assets/Tests/EditMode/TerrainWaterIntegrityTests.cs`（D-065 iter-01 审计固化）在 Unity 内
+直接调用 WorldGenerator 生成三世界，断言：
+- 水格数 = 5388 / 3605 / 4324（与上表及离线复算一致）；
+- 内湖清单（数量 + bbox + 面积）与离线复算**逐位一致**：
+  seed13: (19,57,29,83,165)、(47,98,60,115,194)；seed14: (45,97,65,111,281)；
+  seed15: (72,13,114,33,710)、(50,49,55,55,30)、(21,78,30,86,68)；
+- 边缘圈全水（R-MAP-12）；无 <3 格残余水分量（清理契约）；水比 ∈ [0.20,0.35]。
+结果：303/303 全过（见同批 test-results / d065i1-editmode-water.xml 归档）。
+
+## 局限（如实声明）
+- shim 仅含上列 5 字段；若真类新增影响 WaterLandStep 行为的字段，本复算须同步——快照断言
+  （D065I1_*）会先行报警，形成双重防线。
+- 本复算只覆盖水陆分布（审计对象）；高程/散布链不在本复算范围（其一致性由 TS 统计与既有套件覆盖）。
+- 复算工具与脚本为本轮审计自建（非项目生产代码），随本批证据发布副本以便复验。

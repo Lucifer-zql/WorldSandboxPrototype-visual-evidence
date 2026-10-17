@@ -1,0 +1,24 @@
+## seed=20261014 waterCells=3605 landCells=12779 (22.0032%)
+components=2
+  comp#0 size=3324 bbox=(0,0)-(127,127) EDGE
+  comp#1 size=281 bbox=(45,97)-(65,111) INLAND
+  INLAND comp#1 size=281 bbox=(45,97)-(65,111) 宽21×高15
+    row y=97: x[48,60] w=13
+    row y=98: x[47,63] w=17
+    row y=99: x[46,64] w=19
+    row y=100: x[46,64] w=19
+    row y=101: x[45,65] w=21
+    row y=102: x[45,65] w=21
+    row y=103: x[45,65] w=21
+    row y=104: x[45,65] w=21
+    row y=105: x[45,65] w=21
+    row y=106: x[45,65] w=21
+    row y=107: x[45,65] w=21
+    row y=108: x[46,64] w=19
+    row y=109: x[46,63] w=18
+    row y=110: x[47,62] w=16
+    row y=111: x[48,60] w=13
+    straight-edges: maxLeft=7 maxRight=7 maxTop=13 maxBottom=13
+pinchCells(宽度1处) count=0
+  
+water component sizes: 3324,281

@@ -1,0 +1,57 @@
+## seed=20261013 waterCells=5388 landCells=10996 (32.8857%)
+components=3
+  comp#0 size=5029 bbox=(0,0)-(127,127) EDGE
+  comp#1 size=165 bbox=(19,57)-(29,83) INLAND
+  comp#2 size=194 bbox=(47,98)-(60,115) INLAND
+  INLAND comp#1 size=165 bbox=(19,57)-(29,83) 宽11×高27
+    row y=57: x[27,27] w=1
+    row y=58: x[26,27] w=2
+    row y=59: x[25,28] w=4
+    row y=60: x[25,28] w=4
+    row y=61: x[25,28] w=4
+    row y=62: x[25,28] w=4
+    row y=63: x[25,28] w=4
+    row y=64: x[25,28] w=4
+    row y=65: x[25,28] w=4
+    row y=66: x[24,28] w=5
+    row y=67: x[24,27] w=4
+    row y=68: x[24,27] w=4
+    row y=69: x[24,27] w=4
+    row y=70: x[24,27] w=4
+    row y=71: x[23,28] w=6
+    row y=72: x[23,28] w=6
+    row y=73: x[22,28] w=7
+    row y=74: x[22,28] w=7
+    row y=75: x[21,28] w=8
+    row y=76: x[21,29] w=9
+    row y=77: x[20,29] w=10
+    row y=78: x[20,29] w=10
+    row y=79: x[19,29] w=11
+    row y=80: x[19,29] w=11
+    row y=81: x[19,29] w=11
+    row y=82: x[19,28] w=10
+    row y=83: x[20,26] w=7
+    straight-edges: maxLeft=7 maxRight=8 maxTop=0 maxBottom=7
+  INLAND comp#2 size=194 bbox=(47,98)-(60,115) 宽14×高18
+    row y=98: x[55,55] w=1
+    row y=99: x[49,58] w=10
+    row y=100: x[48,59] w=12
+    row y=101: x[48,60] w=13
+    row y=102: x[48,60] w=13
+    row y=103: x[47,60] w=14
+    row y=104: x[47,60] w=14
+    row y=105: x[47,60] w=14
+    row y=106: x[48,60] w=13
+    row y=107: x[48,60] w=13
+    row y=108: x[48,60] w=13
+    row y=109: x[48,59] w=12
+    row y=110: x[48,59] w=12
+    row y=111: x[49,58] w=10
+    row y=112: x[49,57] w=9
+    row y=113: x[49,57] w=9
+    row y=114: x[50,56] w=7
+    row y=115: x[51,55] w=5
+    straight-edges: maxLeft=5 maxRight=8 maxTop=6 maxBottom=5
+pinchCells(宽度1处) count=53
+  (19,0)V (20,0)V (21,0)V (22,0)V (23,0)V (24,0)V (0,17)H (0,18)H (0,19)H (0,20)H (0,21)H (0,22)H (0,23)H (0,24)H (0,25)H (0,26)H (0,27)H (0,28)H (0,29)H (0,30)H (0,31)H (0,32)H (0,33)H (0,34)H (0,35)H (0,36)H (0,37)H (0,38)H (0,39)H (0,40)H (0,41)H (0,42)H (0,43)H (0,44)H (0,45)H (0,46)H (0,47)H (0,48)H (0,49)H (0,50)H (0,51)H (0,52)H (0,53)H (0,54)H (106,54)V (0,55)H (0,56)H (0,57)H (27,57)H (0,58)H (0,59)H (0,60)H (55,98)H
+water component sizes: 5029,194,165

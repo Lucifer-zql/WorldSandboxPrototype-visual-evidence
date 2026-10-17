@@ -179,11 +179,15 @@ PlayMode `FastNoiseRenderIntegrationTests` 同步改为逐格集合比对（不�
 
 ## 5. P1 证据与哈希
 
-见随附 `SHA256SUMS.txt` 与 `tests/remote-verify.txt`（在**全部内容稳定后**生成/复验；以证据仓库 HEAD 为准）：
+**校验提交 `d2e899c7947360b3ffd3e2b873502116aef0eeb3`（D-066 发布）：清单 385 文件 → `ok=385 / bad=0 / missing=0`。**
+其后追加 `tests/remote-verify.txt` 记录（提交 `d208eeb`），该文件与 `SHA256SUMS.txt` 自身不入清单，
+被清单覆盖的 385 个文件字节未变，已在 `d208eeb` 上再次逐文件复算通过（同一结果）。
 
 - 清单覆盖 `iteration-11/` 下全部文件（含本报告、D-066 逐格 CSV、三种子真实游戏截图、测试 XML/日志）；
-- 远端用 `git clone --depth 1 --filter=blob:none --sparse`（经本地代理）检出同一提交，按清单逐文件复算 SHA-256；
-- `iteration-00 … iteration-10` 与基线提交 `3d23e70` 逐目录比对，文件数与内容零变化。
+- 远端用 `git clone --depth 1 --filter=blob:none --sparse`（经本地代理 127.0.0.1:7897）检出同一提交，
+  按 `SHA256SUMS.txt` 逐文件读取原始字节复算 SHA-256；
+- 历史零覆盖：`git diff --name-only 3d23e70 <HEAD>` 全部落在 `iteration-11/` 之下；
+  `iteration-00…10` 文件数 111/134/71/145/170/147/242/388/310/755/866 未变（基线提交 `3d23e70`）。
 
 ---
 

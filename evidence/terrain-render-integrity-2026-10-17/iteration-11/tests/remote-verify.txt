@@ -1,29 +1,27 @@
-D-065 Iteration-11 远端字节校验记录
+D-066 远端字节校验记录（Iteration-11 阻断项修复）
 
 证据仓库: https://github.com/Lucifer-zql/WorldSandboxPrototype-visual-evidence.git
-基线 HEAD（本轮开始）: 3d23e70bdee129c58c23ec6bde411af73ee155f1
-本轮提交链: bb8370c（iteration-11 首次发布，295 文件） -> 5666909（清单路径修正） -> c848585（清单定稿）
-            -> 03751ce（报告终稿+校验记录） -> 2f971ad（删除误产生的嵌套目录，保留顶层唯一副本）
-以仓库最终 HEAD 为准（本记录与其后的报告终稿为追加提交）。
+基线 HEAD（本轮开始）: 07acd235a9e8d68c864e0d1264deb134246a709f
+D-066 发布提交: d2e899c7947360b3ffd3e2b873502116aef0eeb3
+  改动: 94 files changed, 44636 insertions(+), 3 deletions(-)（仅 iteration-11/）
+  说明: 本记录文件与 SHA256SUMS.txt 自身不入清单（自引用），在其后追加，故仓库 HEAD 会再前进一次；
+        以 d2e899c 为"清单内容"的校验提交，追加记录不改动任何被清单覆盖的文件。
 
 校验方法:
   1) git clone --depth 1 --filter=blob:none --sparse（经本地代理 127.0.0.1:7897）
   2) git sparse-checkout set evidence/terrain-render-integrity-2026-10-17/iteration-11
   3) 按 SHA256SUMS.txt 逐行读取远端工作区文件原始字节，复算 SHA-256 并比对
-  4) 另以 raw.githubusercontent 直取 final-report.md 原始字节独立复算
 
-结果（最终 HEAD 2f971ad，清单所列 294 文件）:
-  ok = 294
-  bad = 0
-  missing = 0
-
-独立 raw 抓取:
-  final-report.md sha256 = 75F210394861211EEA1C89FB6B9A92E70510A53C86A780AA2AEBFED695B2F299（当时版本）
-  与清单一致: YES
+结果（HEAD d2e899c，清单 385 文件）:
+  ok = 385  bad = 0  missing = 0
 
 历史证据零覆盖:
-  git diff --name-only 3d23e70 HEAD -> 仅 iteration-11/ 之下文件
+  git diff --name-only 3d23e70 HEAD -> 387 项，全部位于 iteration-11/ 之下
   iteration-00-baseline:111 / iteration-01:134 / iteration-02:71 / iteration-03:145 / iteration-04:170
   iteration-05:147 / iteration-06:242 / iteration-07:388 / iteration-08:310 / iteration-09:755 / iteration-10:866
 
-说明: SHA256SUMS.txt 与 tests/remote-verify.txt 自身不入清单（自引用/校验记录）。
+D-066 新增/更新内容:
+  d066-report.md; d066/（S7-ramp-backdrop、ramp-placement-seed-*、shadow-placement-seed-*、
+  shadow-sprite-audit、aia-captures 17 张）；game-d066-seed-20261013|14|15（真实游戏截图）；
+  tests/d066-editmode.xml（373/373）、tests/d066-playmode-full.xml（73 通过/0 失败/1 既有跳过）、
+  tests/d066-game-*.xml。

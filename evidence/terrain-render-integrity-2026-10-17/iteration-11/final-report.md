@@ -1,5 +1,9 @@
 # D-065 Iteration-11 最终报告：Guide-driven Terrain Placement Correction
 
+> **后续增补**：ChatGPT 独立验收提出的阻断项（坡路被崖壁覆盖、阴影只比数量、PlayMode 51 例未闭环）
+> 已在 **`d066-report.md`** 中修复并复验（EditMode 373/373、PlayMode 73 通过 / 0 失败 / 1 既有跳过）。
+> 本报告保留 Iteration-11 当时的结论，D-066 以增补报告为准。
+
 > 日期：2026-10-17｜Unity 6000.6.5f1 / URP 2D｜固定种子 **20261013 / 20261014 / 20261015**
 > 规则基线：`tinyswords-tileset-guide` commit `a89e226242b839760dbe533d8d1a3ba6738e3746`、
 > `guideVersion = 0.0.0.7`、`guide.json` SHA-256 `8F93443009C89FBBCCD84C707DE759AAB84F919D18C1E681BBC8666E27B43A0E`

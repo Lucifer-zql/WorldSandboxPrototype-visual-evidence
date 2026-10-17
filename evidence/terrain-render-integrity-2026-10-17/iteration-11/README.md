@@ -4,6 +4,13 @@
 > 规则基线：`tinyswords-tileset-guide` commit `a89e226242b839760dbe533d8d1a3ba6738e3746`，
 > `guideVersion = 0.0.0.7`，`guide.json` SHA-256 `8F93443009C89FBBCCD84C707DE759AAB84F919D18C1E681BBC8666E27B43A0E`。
 
+## D-066 增补（2026-10-17，独立验收阻断项）
+
+ChatGPT 独立验收提出的三项阻断已在 `d066-report.md` 闭环：坡路与崖壁背景的叠放（Slope 层 170→185 +
+背景强制中段）、阴影逐格规则与素材缩放实测、PlayMode 全量在合规新目录下重跑（73 通过 / 0 失败 / 1 既有跳过）。
+D-066 证据在 `d066/`（坡路/阴影逐格 CSV、S7 场景、Shadow Alpha 审计、AIA 审计截图）与
+`game-d066-seed-20261013|14|15/`（真实游戏画面）。**以 `d066-report.md` 为最新结论。**
+
 ## 目录
 
 | 路径 | 内容 |
@@ -18,7 +25,10 @@
 | `game-seed-20261013/` `game-seed-20261014/` `game-seed-20261015/` | **真实游戏场景**（Main.unity + GameBootstrap 正式装配）截图 |
 | `game-seed-20261013-prefix/` | 阴影修正前的同机位真实场景截图（前后对照，保留） |
 | `tests/` | EditMode / PlayMode XML 与日志 |
-| `final-report.md` | 最终报告（含剩余问题） |
+| `final-report.md` | Iteration-11 最终报告（含剩余问题） |
+| `d066-report.md` | **D-066 阻断项修复报告（最新结论）** |
+| `d066/` | D-066 坡路/阴影逐格 CSV、S7 场景、Shadow 审计、AIA 审计截图 |
+| `game-d066-seed-*` | D-066 真实游戏画面（三种子） |
 
 ## 一句话结论
 

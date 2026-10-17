@@ -1,0 +1,17 @@
+ramp_x,top_y,lower_y,side,panel_level,corner_x,corner_y,corner_elev,top_sprite,lower_sprite,corner_sprite,backdrop_wall,backdrop_expected,north_elev,apron_ok,slope_order,wall_order,ramp_layer_above_wall,verdict
+120,26,25,Right,1,119,26,1,Tilemap_color1_39,Tilemap_color1_48,Tilemap_color2_15,Tilemap_color1_42,1,1,1,185,180,1,ok
+53,37,36,Left,1,54,37,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color2_15,,0,0,1,185,180,1,ok
+64,39,38,Right,1,63,39,1,Tilemap_color1_39,Tilemap_color1_48,Tilemap_color2_15,,0,0,1,185,180,1,ok
+54,56,55,Left,1,55,56,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color2_15,,0,0,1,185,180,1,ok
+109,60,59,Left,1,110,60,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color2_15,,0,0,1,185,180,1,ok
+52,64,63,Left,1,53,64,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color4_15,Tilemap_color1_42,1,1,1,185,180,1,ok
+96,65,64,Right,1,95,65,1,Tilemap_color1_39,Tilemap_color1_48,Tilemap_color2_15,,0,0,1,185,180,1,ok
+42,69,68,Left,1,43,69,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color4_15,,0,0,1,185,180,1,ok
+105,72,71,Left,1,106,72,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color4_15,Tilemap_color1_42,1,1,1,185,180,1,ok
+95,76,75,Right,1,94,76,1,Tilemap_color1_39,Tilemap_color1_48,Tilemap_color4_15,,0,0,1,185,180,1,ok
+42,78,77,Left,1,43,78,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color4_15,Tilemap_color1_42,1,1,1,185,180,1,ok
+66,83,82,Right,1,65,83,1,Tilemap_color1_39,Tilemap_color1_48,Tilemap_color2_15,,0,0,1,185,180,1,ok
+38,87,86,Left,1,39,87,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color2_15,Tilemap_color1_42,1,1,1,185,180,1,ok
+29,93,92,Left,1,30,93,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color2_15,,0,0,1,185,180,1,ok
+52,94,93,Right,1,51,94,1,Tilemap_color1_39,Tilemap_color1_48,Tilemap_color2_15,Tilemap_color1_42,1,1,1,185,180,1,ok
+36,100,99,Left,1,37,100,1,Tilemap_color1_36,Tilemap_color1_45,Tilemap_color2_15,,0,0,1,185,180,1,ok

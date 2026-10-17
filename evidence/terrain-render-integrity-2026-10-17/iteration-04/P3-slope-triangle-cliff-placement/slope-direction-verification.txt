@@ -1,0 +1,4 @@
+坡件方向验证（_36 应配东邻高地 / _39 应配西邻高地）：
+  seed 20261013: {('Tilemap_color1_39', 'W高'): 59, ('Tilemap_color1_36', 'E高'): 96} 方向违规 0 []
+  seed 20261014: {('Tilemap_color1_36', 'E高'): 125, ('Tilemap_color1_39', 'W高'): 109} 方向违规 0 []
+  seed 20261015: {('Tilemap_color1_36', 'E高'): 86, ('Tilemap_color1_39', 'W高'): 70} 方向违规 0 []

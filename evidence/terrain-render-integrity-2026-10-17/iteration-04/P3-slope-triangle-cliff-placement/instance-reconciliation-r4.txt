@@ -1,0 +1,16 @@
+# 逐实例对账（EditMode r4；坡/墙/台阶槽位级 + P2 贴花双向 + P1 全图选片）
+Render_OverlayInstances_SlotLevelReconciliation_Iter03P3: Passed
+  seed=20261013 逐处对账通过：坡 155 墙 176 台阶 1（×2 段） Mount 贴花格 648
+Render_OverlayInstances_SlotLevelReconciliation_Iter03P3: Passed
+  seed=20261014 逐处对账通过：坡 234 墙 314 台阶 3（×2 段） Mount 贴花格 652
+Render_OverlayInstances_SlotLevelReconciliation_Iter03P3: Passed
+  seed=20261015 逐处对账通过：坡 156 墙 311 台阶 3（×2 段） Mount 贴花格 655
+Audit_DumpPerCellTileSelection_Iter04P1: Passed
+Audit_DumpPerCellTileSelection_Iter04P1: Passed
+Audit_DumpPerCellTileSelection_Iter04P1: Passed
+TileSelection_AllSeeds_InteriorAndBoundaryRules_Iter04P1: Passed
+  seed=20261013 全图选片规则断言通过（128×128）
+TileSelection_AllSeeds_InteriorAndBoundaryRules_Iter04P1: Passed
+  seed=20261014 全图选片规则断言通过（128×128）
+TileSelection_AllSeeds_InteriorAndBoundaryRules_Iter04P1: Passed
+  seed=20261015 全图选片规则断言通过（128×128）

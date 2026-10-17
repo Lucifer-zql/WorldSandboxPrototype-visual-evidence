@@ -1,0 +1,3 @@
+seed 20261013: 10996 行 → selection-inventory-seed-20261013.csv | 分类 {'water-border': 760, 'OK': 10996, 'inland': 9176, 'fringe-cell': 1060}
+seed 20261014: 12779 行 → selection-inventory-seed-20261014.csv | 分类 {'water-border': 579, 'OK': 12779, 'fringe-cell': 1039, 'inland': 11161}
+seed 20261015: 12060 行 → selection-inventory-seed-20261015.csv | 分类 {'water-border': 756, 'OK': 12060, 'inland': 10556, 'fringe-cell': 748}

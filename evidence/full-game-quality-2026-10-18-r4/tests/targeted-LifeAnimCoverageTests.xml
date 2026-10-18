@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-18 00:00:40Z" end-time="2026-10-18 00:00:43Z" duration="2.412468">
+  <test-suite type="TestSuite" id="1159" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:40Z" end-time="2026-10-18 00:00:43Z" duration="2.412468" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1314" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:40Z" end-time="2026-10-18 00:00:43Z" duration="2.403596" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="48596" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1315" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:40Z" end-time="2026-10-18 00:00:43Z" duration="2.401944" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1316" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:40Z" end-time="2026-10-18 00:00:43Z" duration="2.400657" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="SetUpFixture" id="1272" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode.PlayModeCaptureEnvironment" classname="WorldSandbox.Tests.PlayMode.PlayModeCaptureEnvironment" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:40Z" end-time="2026-10-18 00:00:43Z" duration="2.398879" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <output><![CDATA[[PlayModeCaptureEnvironment] root=C:\Users\18871\AppData\Local\Temp\ws-playmode-capture-20261018-080040-efd84a
+[PlayModeCaptureEnvironment] root=C:\Users\18871\AppData\Local\Temp\ws-playmode-capture-20261018-080040-efd84a
+]]></output>
+            <test-suite type="TestFixture" id="1248" name="LifeAnimCoverageTests" fullname="WorldSandbox.Tests.PlayMode.LifeAnimCoverageTests" classname="WorldSandbox.Tests.PlayMode.LifeAnimCoverageTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-18 00:00:40Z" end-time="2026-10-18 00:00:43Z" duration="2.377435" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1249" name="RunAndSheepStates_FrameAdvanceAndStateSwap" fullname="WorldSandbox.Tests.PlayMode.LifeAnimCoverageTests.RunAndSheepStates_FrameAdvanceAndStateSwap" methodname="RunAndSheepStates_FrameAdvanceAndStateSwap" classname="WorldSandbox.Tests.PlayMode.LifeAnimCoverageTests" runstate="Runnable" seed="1290003575" result="Passed" start-time="2026-10-18 00:00:40Z" end-time="2026-10-18 00:00:43Z" duration="2.363720" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[
+IgnoreFailingMessages:true
+
+IgnoreFailingMessages:true
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=128x128
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=12
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=12
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 128x128 → 相机中心 (64, 64)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2caad96de631-7dee|新世界|128x128|seed=20261013|ticks=0|civ=4|nodes=167|deco=228|build=4|creatures=12
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2caad96de631-7dee|新世界|128x128|seed=20261013|ticks=0|civ=4|nodes=167|deco=228|build=4|creatures=12
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[LifeAnimCoverage] Run/羊 Move/Eat 帧推进与状态换帧集断言通过
+[LifeAnimCoverage] Run/羊 Move/Eat 帧推进与状态换帧集断言通过
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

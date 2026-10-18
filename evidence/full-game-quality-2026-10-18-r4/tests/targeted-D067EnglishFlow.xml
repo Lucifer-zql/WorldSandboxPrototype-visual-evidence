@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-17 23:33:11Z" end-time="2026-10-17 23:33:12Z" duration="1.5297811">
+  <test-suite type="TestSuite" id="1158" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 23:33:11Z" end-time="2026-10-17 23:33:12Z" duration="1.529781" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1312" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 23:33:11Z" end-time="2026-10-17 23:33:12Z" duration="1.514173" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="23328" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1313" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 23:33:11Z" end-time="2026-10-17 23:33:12Z" duration="1.512692" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1314" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 23:33:11Z" end-time="2026-10-17 23:33:12Z" duration="1.511608" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="SetUpFixture" id="1270" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode.PlayModeCaptureEnvironment" classname="WorldSandbox.Tests.PlayMode.PlayModeCaptureEnvironment" runstate="Runnable" testcasecount="109" result="Passed" start-time="2026-10-17 23:33:11Z" end-time="2026-10-17 23:33:12Z" duration="1.509728" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <output><![CDATA[[PlayModeCaptureEnvironment] root=C:\Users\18871\AppData\Local\Temp\ws-playmode-capture-20261018-073311-77fa5b
+[PlayModeCaptureEnvironment] root=C:\Users\18871\AppData\Local\Temp\ws-playmode-capture-20261018-073311-77fa5b
+]]></output>
+            <test-suite type="TestFixture" id="1184" name="D067CaptureTests" fullname="WorldSandbox.Tests.PlayMode.D067CaptureTests" classname="WorldSandbox.Tests.PlayMode.D067CaptureTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-17 23:33:11Z" end-time="2026-10-17 23:33:12Z" duration="1.488463" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1186" name="D067_CaptureEnglishScreens" fullname="WorldSandbox.Tests.PlayMode.D067CaptureTests.D067_CaptureEnglishScreens" methodname="D067_CaptureEnglishScreens" classname="WorldSandbox.Tests.PlayMode.D067CaptureTests" runstate="Runnable" seed="1678026817" result="Passed" start-time="2026-10-17 23:33:11Z" end-time="2026-10-17 23:33:12Z" duration="1.463823" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=192x192
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=12
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=12
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：地图 192x192 → 相机中心 (96, 96)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 en）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 en）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2ca70246aad9-57e6|Aurora|192x192|seed=20261017|ticks=0|civ=4|nodes=189|deco=243|build=4|creatures=12
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2ca70246aad9-57e6|Aurora|192x192|seed=20261017|ticks=0|civ=4|nodes=189|deco=243|build=4|creatures=12
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] 状态 → Paused
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-18 07:33 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-f5d0934c
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-18 07:33 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-f5d0934c
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-18 07:33 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-f5d0934c
+[WorldSandbox][Flow] Saved "Aurora" · 192 × 192 · 2026-10-18 07:33 → C:\Users\18871\AppData\Local\Temp\ws-d067-shot-f5d0934c
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+[WorldSandbox][Flow] 已退出世界，返回主菜单（运行上下文已清理）
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

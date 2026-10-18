@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.5432682">
+  <test-suite type="TestSuite" id="1159" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.543268" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1314" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.533385" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="40696" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1315" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.531251" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1316" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.529410" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="SetUpFixture" id="1272" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode.PlayModeCaptureEnvironment" classname="WorldSandbox.Tests.PlayMode.PlayModeCaptureEnvironment" runstate="Runnable" testcasecount="110" result="Passed" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.527169" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <output><![CDATA[[PlayModeCaptureEnvironment] root=C:\Users\18871\AppData\Local\Temp\ws-playmode-capture-20261018-080002-09e337
+[PlayModeCaptureEnvironment] root=C:\Users\18871\AppData\Local\Temp\ws-playmode-capture-20261018-080002-09e337
+]]></output>
+            <test-suite type="TestFixture" id="1234" name="FinalIntegrationTests" fullname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" classname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.483041" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1235" name="FullStack_GameBootstrap_AssemblesClockSnapshotAndUi" fullname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests.FullStack_GameBootstrap_AssemblesClockSnapshotAndUi" methodname="FullStack_GameBootstrap_AssemblesClockSnapshotAndUi" classname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" runstate="Runnable" seed="15695478" result="Passed" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.441677" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=12
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=12
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2caac221553b-1c61|新世界|128x128|seed=20261013|ticks=0|civ=4|nodes=167|deco=228|build=4|creatures=12
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2caac221553b-1c61|新世界|128x128|seed=20261013|ticks=0|civ=4|nodes=167|deco=228|build=4|creatures=12
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+]]></output>
+              </test-case>
+              <test-case id="1236" name="KeyboardBridge_ProxyAvailable_And_SingleTogglePerKeyPress" fullname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests.KeyboardBridge_ProxyAvailable_And_SingleTogglePerKeyPress" methodname="KeyboardBridge_ProxyAvailable_And_SingleTogglePerKeyPress" classname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" runstate="Runnable" seed="2069019694" result="Passed" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.024224" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.title
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.title
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.close
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.close
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.prev
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.prev
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.next
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.next
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.no_civ
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.no_civ
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.open_format
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.open_format
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.name
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.name
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.id
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.id
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.population
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.population
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.food
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.food
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.wood
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.wood
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.gold
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.gold
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.houses
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.houses
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.decision
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.decision
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.decision_updated
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.decision_updated
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.stats
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.stats
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.status
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.status
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.pause
+[WorldSandbox][UI] 本地化警告（文案表缺键）：civ.panel.pause
+[WorldSandbox][UI] UIRoot 装配完成（视图 1 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 1 个；本地化 zh-Hans）。
+]]></output>
+              </test-case>
+              <test-case id="1237" name="UiSnapshotProvider_ForwardsSource_And_NullIsGraceful" fullname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests.UiSnapshotProvider_ForwardsSource_And_NullIsGraceful" methodname="UiSnapshotProvider_ForwardsSource_And_NullIsGraceful" classname="WorldSandbox.Tests.PlayMode.FinalIntegrationTests" runstate="Runnable" seed="1765279108" result="Passed" start-time="2026-10-18 00:00:02Z" end-time="2026-10-18 00:00:02Z" duration="0.002507" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,27 @@
+# r4 full PlayMode baseline failures
+# XML: tests/baseline-full-playmode.xml
+# total=110 passed=101 failed=8 skipped=1
+
+1. FinalIntegrationTests.FullStack_GameBootstrap_AssemblesClockSnapshotAndUi
+   应装配 6 个阶段系统（TimeAdvance→Snapshot）
+
+2. Iter11GameCaptureTests.Iter11_GameTerrainShots
+   System.InvalidOperationException : [D-063-A CapturePathGuard] 目标文件已存在，拒绝覆盖：D:/data/UnityProjects/WorldSandboxPrototype/docs/impl/evidence/terrain-render-integrity-2026-10-17/iteration-11/game-d066-seed-20261013/G1-fullmap.png
+
+3. LifeAnimCoverageTests.RunAndSheepStates_FrameAdvanceAndStateSwap
+   回 Idle 应换回 Idle 帧集
+
+4. LifeViewIntegrationTests.LifeViews_SpawnSyncRemove_WithScreenshot
+   初始无生物 → 无视图
+
+5. NineSliceEvidenceTests.CaptureNineSliceEvidence
+   UIRoot 未完成真实装配（IsBound=false）
+
+6. ToolInputChainTests.LeftClick_CreatureTool_FullChain_InputToDataEventView
+   输入后生物数据应真实增加（Success ≠ 完成）
+
+7. UiAssetsEvidenceTests.DetailCard_AvatarsDrivenBySemantics_WithEvidence
+   Axe 人类头像应为斧图标（S-4），实际=Tool_04
+
+8. VisualVerificationTests.E_CreaturesAnimation
+   id=1 视图应存在（E1 展示行首位）

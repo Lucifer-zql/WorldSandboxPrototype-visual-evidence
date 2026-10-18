@@ -1,0 +1,9 @@
+﻿unity : VBCSCompilerPreWarmer: watching VBCSCompiler (PID 35184)
+所在位置 行:1 字符: 129
++ ... ew($false); unity test . --mode EditMode --output Logs/r4-editmode-fi ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (VBCSCompilerPre...ler (PID 35184):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 43508)
+VBCSCompiler prewarm took 13.64 ms

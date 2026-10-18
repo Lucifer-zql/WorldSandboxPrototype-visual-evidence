@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-18 00:18:49Z" end-time="2026-10-18 00:18:49Z" duration="0.0802736">
+  <test-suite type="TestSuite" id="1000" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-18 00:18:49Z" end-time="2026-10-18 00:18:49Z" duration="0.080274" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1519" name="WorldSandbox.Tests.EditMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.EditMode.dll" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-18 00:18:49Z" end-time="2026-10-18 00:18:49Z" duration="0.069551" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="23352" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1520" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-18 00:18:49Z" end-time="2026-10-18 00:18:49Z" duration="0.067498" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1521" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-18 00:18:49Z" end-time="2026-10-18 00:18:49Z" duration="0.065801" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1522" name="EditMode" fullname="WorldSandbox.Tests.EditMode" runstate="Runnable" testcasecount="417" result="Passed" start-time="2026-10-18 00:18:49Z" end-time="2026-10-18 00:18:49Z" duration="0.063942" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1245" name="LocalizationKeyTests" fullname="WorldSandbox.Tests.EditMode.LocalizationKeyTests" classname="WorldSandbox.Tests.EditMode.LocalizationKeyTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-18 00:18:49Z" end-time="2026-10-18 00:18:49Z" duration="0.048986" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1246" name="AllKeysHaveBothLanguages" fullname="WorldSandbox.Tests.EditMode.LocalizationKeyTests.AllKeysHaveBothLanguages" methodname="AllKeysHaveBothLanguages" classname="WorldSandbox.Tests.EditMode.LocalizationKeyTests" runstate="Runnable" seed="1223776702" result="Passed" start-time="2026-10-18 00:18:49Z" end-time="2026-10-18 00:18:49Z" duration="0.013583" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1247" name="NoHardcodedChineseInUIScripts" fullname="WorldSandbox.Tests.EditMode.LocalizationKeyTests.NoHardcodedChineseInUIScripts" methodname="NoHardcodedChineseInUIScripts" classname="WorldSandbox.Tests.EditMode.LocalizationKeyTests" runstate="Runnable" seed="832899856" result="Passed" start-time="2026-10-18 00:18:49Z" end-time="2026-10-18 00:18:49Z" duration="0.018694" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

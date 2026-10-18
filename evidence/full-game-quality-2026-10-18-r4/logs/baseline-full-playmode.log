@@ -1,0 +1,10 @@
+﻿unity : VBCSCompilerPreWarmer: watching VBCSCompiler (PID 41272)
+所在位置 行:1 字符: 129
++ ... ew($false); unity test . --mode PlayMode --output Logs/r4-playmode-fu ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (VBCSCompilerPre...ler (PID 41272):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 50680)
+VBCSCompiler prewarm took 16.34 ms
+Error: 测试失败：Unity 进程以代码 2 退出。

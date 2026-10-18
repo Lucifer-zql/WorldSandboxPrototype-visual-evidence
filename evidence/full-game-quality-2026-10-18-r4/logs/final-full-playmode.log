@@ -1,0 +1,9 @@
+﻿unity : VBCSCompilerPreWarmer: watching VBCSCompiler (PID 48156)
+所在位置 行:1 字符: 129
++ ... ew($false); unity test . --mode PlayMode --output Logs/r4-playmode-fi ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (VBCSCompilerPre...ler (PID 48156):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 47968)
+VBCSCompiler prewarm took 16.82 ms

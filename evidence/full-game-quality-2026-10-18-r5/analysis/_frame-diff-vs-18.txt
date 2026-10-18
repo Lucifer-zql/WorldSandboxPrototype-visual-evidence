@@ -1,0 +1,46 @@
+frame                                      diff%
+01-main-menu-zh.png                        0.757
+02-new-world-default-zh.png                1.266
+03-world-overview-t0.png                   4.202
+04-world-life-t0.png                      13.856
+05-world-life-1to1.png                    16.429
+06-world-t300.png                          4.172
+07-world-t1200.png                         4.299
+08-world-overview-t1200.png                3.693
+09-tool-water.png                          3.683
+10-tool-tree.png                           4.335
+11-tool-sheep.png                          4.457
+12-tool-human.png                          4.322
+13-tool-remove.png                         4.577
+14-civ-panel-zh.png                       10.157
+15-event-log-zh.png                       11.456
+16-pause-zh.png                           11.833
+17-settings-zh.png                        11.500
+18-civ-panel-en.png                       26.375
+19-hud-en.png                             30.941
+20-hud-1280x720.png                       31.068
+21-civ-panel-1280x720.png                 26.119
+22-save-toast-zh.png                       5.062
+23-exit-confirm-zh.png                     5.860
+24-load-list-zh.png                        2.289
+25-loaded-world-zh.png                     5.805
+26-second-world-64.png                     4.367
+27-switch-back-first-world.png             4.789
+28-toolbar-collapsed.png                  17.865
+29-toolbar-terrain-open.png               17.707
+30-toolbar-water-selected.png             17.498
+31-toolbar-resource-open.png               4.693
+32-toolbar-remove.png                      4.468
+33-toolbar-terrain-reopen.png              4.627
+
+===== audit-18 metrics.log =====
+﻿[main-menu] tick=-1 pop=<no-snapshot> creatures=<no-snapshot>
+[world-t0-overview] tick=23 pop=12 creatures=16 settlements=0 nodes=167 buildings=4 civs=4 trees=153 | civ1:晨曦王国 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest | civ2:苍林部族 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest | civ3:赤岩氏族 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest | civ4:碧海城邦 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest
+[t-start] tick=6 pop=9 creatures=13 settlements=0 nodes=167 buildings=4 civs=4 trees=153 | civ1:晨曦王国 pop=2 food=8 wood=0 gold=0 houses=0 births=0 deaths=0 starving=0 decision=Harvest | civ2:苍林部族 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest | civ3:赤岩氏族 pop=2 food=8 wood=0 gold=0 houses=0 births=0 deaths=0 starving=0 decision=Harvest | civ4:碧海城邦 pop=2 food=8 wood=0 gold=0 houses=0 births=0 deaths=0 starving=0 decision=Harvest
+[t+300] tick=306 pop=32 creatures=36 settlements=0 nodes=147 buildings=16 civs=4 trees=133 | civ1:晨曦王国 pop=8 food=6 wood=24 gold=4 houses=3 births=6 deaths=0 starving=0 decision=Harvest | civ2:苍林部族 pop=8 food=8 wood=28 gold=4 houses=3 births=6 deaths=0 starving=0 decision=Harvest | civ3:赤岩氏族 pop=8 food=4 wood=24 gold=0 houses=3 births=6 deaths=0 starving=0 decision=Harvest | civ4:碧海城邦 pop=8 f
+
+===== audit-19 metrics.log =====
+﻿[main-menu] tick=-1 pop=<no-snapshot> creatures=<no-snapshot>
+[world-t0-overview] tick=25 pop=12 creatures=16 settlements=0 nodes=167 buildings=4 civs=4 trees=153 | civ1:晨曦王国 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest | civ2:苍林部族 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest | civ3:赤岩氏族 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest | civ4:碧海城邦 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest
+[t-start] tick=7 pop=9 creatures=13 settlements=0 nodes=167 buildings=4 civs=4 trees=153 | civ1:晨曦王国 pop=2 food=8 wood=0 gold=0 houses=0 births=0 deaths=0 starving=0 decision=Harvest | civ2:苍林部族 pop=3 food=7 wood=4 gold=0 houses=0 births=1 deaths=0 starving=0 decision=Harvest | civ3:赤岩氏族 pop=2 food=8 wood=0 gold=0 houses=0 births=0 deaths=0 starving=0 decision=Harvest | civ4:碧海城邦 pop=2 food=8 wood=0 gold=0 houses=0 births=0 deaths=0 starving=0 decision=Harvest
+[t+300] tick=309 pop=32 creatures=36 settlements=0 nodes=147 buildings=16 civs=4 trees=133 | civ1:晨曦王国 pop=8 food=6 wood=24 gold=4 houses=3 births=6 deaths=0 starving=0 decision=Harvest | civ2:苍林部族 pop=8 food=8 wood=28 gold=4 houses=3 births=6 deaths=0 starving=0 decision=Harvest | civ3:赤岩氏族 pop=8 food=4 wood=24 gold=0 houses=3 births=6 deaths=0 starving=0 decision=Harvest | civ4:碧海城邦 pop=8 f

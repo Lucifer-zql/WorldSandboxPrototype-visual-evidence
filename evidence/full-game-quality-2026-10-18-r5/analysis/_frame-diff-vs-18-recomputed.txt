@@ -1,0 +1,39 @@
+frame                                     legacy%   lum_gt12%   maxch_gt12%   pixels
+01-main-menu-zh.png                           0.757       0.704         0.757   1440000
+02-new-world-default-zh.png                   1.266       1.231         1.266   1440000
+03-world-overview-t0.png                      4.202       3.951         4.202   1440000
+04-world-life-t0.png                         13.856       8.168        13.856   1440000
+05-world-life-1to1.png                       16.429       9.657        16.429   1440000
+06-world-t300.png                             4.172       3.869         4.172   1440000
+07-world-t1200.png                            4.299       3.973         4.299   1440000
+08-world-overview-t1200.png                   3.693       3.523         3.693   1440000
+09-tool-water.png                             3.683       3.364         3.683   1440000
+10-tool-tree.png                              4.335       4.044         4.335   1440000
+11-tool-sheep.png                             4.457       4.202         4.457   1440000
+12-tool-human.png                             4.322       4.063         4.322   1440000
+13-tool-remove.png                            4.577       3.910         4.577   1440000
+14-civ-panel-zh.png                          10.157       6.629        10.157   1440000
+15-event-log-zh.png                          11.456       6.922        11.456   1440000
+16-pause-zh.png                              11.833       7.604        11.833   1440000
+17-settings-zh.png                           11.500       7.315        11.500   1440000
+18-civ-panel-en.png                          26.375      19.778        26.375   1440000
+19-hud-en.png                                30.941      21.827        30.941   1440000
+20-hud-1280x720.png                          31.068      21.894        31.068    921600
+21-civ-panel-1280x720.png                    26.119      19.407        26.119    921600
+22-save-toast-zh.png                          5.062       4.715         5.062   1440000
+23-exit-confirm-zh.png                        5.860       4.992         5.860   1440000
+24-load-list-zh.png                           2.289       2.194         2.289   1440000
+25-loaded-world-zh.png                        5.805       5.688         5.805   1440000
+26-second-world-64.png                        4.367       4.058         4.367   1440000
+27-switch-back-first-world.png                4.789       4.294         4.789   1440000
+28-toolbar-collapsed.png                     17.865       7.800        17.865   1440000
+29-toolbar-terrain-open.png                  17.707       7.526        17.707   1440000
+30-toolbar-water-selected.png                17.498       7.312        17.498   1440000
+31-toolbar-resource-open.png                  4.693       4.260         4.693   1440000
+32-toolbar-remove.png                         4.468       4.106         4.468   1440000
+33-toolbar-terrain-reopen.png                 4.627       3.477         4.627   1440000
+
+method:
+  legacy%      = sum(ImageChops.difference(rgb).histogram()[12:]) / pixels   (768-bin slice, see note)
+  lum_gt12%    = |Luma(a)-Luma(b)| > 12   per pixel / pixels
+  maxch_gt12%  = max over R,G,B of |a-b| > 12 per pixel / pixels

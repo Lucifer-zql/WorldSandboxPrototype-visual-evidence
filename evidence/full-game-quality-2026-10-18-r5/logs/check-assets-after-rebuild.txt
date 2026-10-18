@@ -1,0 +1,21 @@
+[OK] Skill 唯一源：4 个文件（.agents\skills\tiny-swords-assets）
+[OK] 副本一致：.claude/skills/tiny-swords-assets（4 文件 SHA256 全部匹配）
+[OK] 副本一致：.workbuddy/skills/tiny-swords-assets（4 文件 SHA256 全部匹配）
+[OK] PNG 哈希清单一致：185/185 全部匹配
+[OK] 机读清单可解析：185 个条目
+[OK] 清单覆盖率：磁盘 185 个 PNG 与清单完全一致
+[OK] 切片统计：共 961 个 Sprite 子资源；被场景/Prefab/SO 引用 162/185
+[OK] Alpha bbox 复测：全部与清单一致
+[OK] 层序常量与权威规范一致（12 项）
+[OK] 文档在位：docs/Tiny-Swords-地形素材使用规范.md
+[OK] 文档在位：docs/Tiny-Swords-素材清单与摆放规则矩阵.md
+[OK] 文档在位：docs/05-美术与素材使用规范.md
+[OK] 文档在位：docs/帧数登记表.md
+[OK] 文档在位：docs/图标含义登记表.md
+[OK] 文档在位：docs/素材许可记录.md
+[OK] 文档在位：docs/14-AI工具接入与素材Skill维护.md
+[OK] 文档在位：AGENTS.md
+[OK] 文档在位：CLAUDE.md
+
+== 汇总：PASS=18 WARN=0 FAIL=0 => PASS ==
+（注意：本脚本只覆盖机读数据与静态事实；视觉验收仍需真实 Unity 截图。）

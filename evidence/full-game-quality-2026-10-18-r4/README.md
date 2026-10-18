@@ -19,7 +19,7 @@
 ### 1.2 历史 72 条逐条映射
 
 `tests/72-failure-map.md`：把 r3 记录的 **72** 条失败逐条按测试名映射到本轮最终 XML，**72/72 全部定位**；其中 **71 Passed / 0 Failed / 1 Skipped**。
-唯一 skip 是 `MVO_TPR3_StateContrast_SameFraming`（要求 `tpr3-*`，本轮 `tri-playmode-full`），未计通过。33 条 legacy_capture_guard 中其余 32 条已通过；9 条截图目录前置、28 条旧世界装配、1 条 R3 隔离、1 条 F_BuildingsFx 全部通过。
+唯一 skip 是 `MVO_TPR3_StateContrast_SameFraming`（要求 `tpr3-*`，本轮 `tri-playmode-full`），未计通过。三类归并：**生产逻辑缺陷 0**、测试夹具/顺序 30、环境/取证前置 42；33 条 legacy_capture_guard 中其余 32 条已通过，9 条截图目录前置、28 条旧世界装配、1 条 R3 隔离、1 条 F_BuildingsFx 全部通过。
 
 ### 1.3 基线 8 失败的真实归因与修复
 

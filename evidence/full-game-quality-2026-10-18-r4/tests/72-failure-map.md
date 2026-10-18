@@ -9,6 +9,7 @@
 - 共 72 条；在最终 XML 中定位 72/72 条；Passed 71、Failed 0、Skipped 1。
 - 72/72 均能在最终 XML 中按测试名定位；无改名/删除/漏测。
 - 唯一 skip：MVO_TPR3_StateContrast_SameFraming（r3 归入 legacy_capture_guard，现为模式约束）。
+- 三类归并：**生产逻辑缺陷 0**；测试夹具/顺序 30；环境/取证前置 42。
 
 ## 逐条
 

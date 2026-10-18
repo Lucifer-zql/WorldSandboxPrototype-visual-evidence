@@ -74,7 +74,7 @@ a5e8e15ee4d206da15f646cdba81ce8823d16ba5a7c81cd768c930353319707d  evidence/indep
 5f149522cf6ae14f83f042fa9ee67d836127b6446b68a71be2f3037e0ecc23fc  evidence/full-game-quality-2026-10-18-r4/logs/baseline-full-playmode.log
 48fb26a0fb4ae0615152de3ae77d14cfa0ddeda9ae92c256ab12f00f5bcccfde  evidence/full-game-quality-2026-10-18-r4/logs/final-full-editmode.log
 5e98151668e7c48efbad3882b3b80c6ceeb43cf74641a14e72ae6f8fc2b48a6d  evidence/full-game-quality-2026-10-18-r4/logs/final-full-playmode.log
-03afc9d75f76c563d6e8fc56d2e05e44ec37f55597c6f07b871bcef97c674154  evidence/full-game-quality-2026-10-18-r4/README.md
+50dff3118a755848585be091ac2d25ec53701327017b5bb3d511831b87b2b7ae  evidence/full-game-quality-2026-10-18-r4/README.md
 05e4641de440690f82afb6c58cb2cfe112e4eab1649f17f6987711deb6b8698f  evidence/full-game-quality-2026-10-18-r4/screenshots/buildings/F1-buildings-castle-houses.png
 fb15efde971755953660058bcd6b3cf6b784280c02e8d91836f06be3acb556fc  evidence/full-game-quality-2026-10-18-r4/screenshots/buildings/F3-water-splash-reject.png
 40341bd8a2370cd6a962c424d8c8ba85482fa2344fad4bd73b4707278628c7d6  evidence/full-game-quality-2026-10-18-r4/screenshots/d067/01-main-menu-empty.png
@@ -139,7 +139,7 @@ ce409a8457adda4ddb4b6a2801c659286eee8768983df588096e3d1f8cf1d2f3  evidence/full-
 8cd366e6feccc3dfbb511dccb5667b76aa1536ca470e3b38aa7f4d069b1885b8  evidence/full-game-quality-2026-10-18-r4/screenshots/terrain/TS8a-p0-two-tier-south-seed-20261013.png
 5e9285771dab9c184778971b1163d2fab03d950fc41d3f9db09c258a912cf788  evidence/full-game-quality-2026-10-18-r4/screenshots/terrain/TS8f-p2-slope-pair-west-seed-20261013.png
 dead2bcf42479d3b1fbccf8955814398f53186aca0ff515fbf4e6af18044dd14  evidence/full-game-quality-2026-10-18-r4/screenshots/terrain/TS9f-p0-two-tier-south-seed-20261013.png
-091f8fb526289807dafc51667480db99735e726c4832d30f8a48fab6c462211c  evidence/full-game-quality-2026-10-18-r4/tests/72-failure-map.md
+4631d4e0aaf8dc864ff8f9a42da9cb3af813311ebe961f5f33be32b5ec1a6303  evidence/full-game-quality-2026-10-18-r4/tests/72-failure-map.md
 0b06b7b8851b75a1d64a0603d8a334818d1ae31e28f5a07f56f06d1b1d958375  evidence/full-game-quality-2026-10-18-r4/tests/baseline-failures.txt
 e1d40b6b9a5be576d14359ab2d917b138b409fb509f4acd1a5d537a5b12ad672  evidence/full-game-quality-2026-10-18-r4/tests/baseline-full-playmode.xml
 bbbc814a2ed44d7243ab7c17f4b37568afbd7d273240310267b320952c775e63  evidence/full-game-quality-2026-10-18-r4/tests/final-full-editmode.xml

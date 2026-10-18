@@ -16,7 +16,12 @@
 - 唯一 skipped：`MapVisualOverhaulCaptureTests.MVO_TPR3_StateContrast_SameFraming`，要求 `tpr3-*` 模式而本轮 `tri-playmode-full`，属模式约束，不是失败。
 - EditMode 首跑为 416/417：`LocalizationKeyTests.AllKeysHaveBothLanguages` 发现 8 个 `civ.name.N` 文案表键缺少 `LocalizationKeys` 常量（表键孤儿）；补 8 个稳定常量后定向 `tests/localization-targeted.xml` 2/2、全量 417/417。
 
-### 1.2 基线 8 失败的真实归因与修复
+### 1.2 历史 72 条逐条映射
+
+`tests/72-failure-map.md`：把 r3 记录的 **72** 条失败逐条按测试名映射到本轮最终 XML，**72/72 全部定位**；其中 **71 Passed / 0 Failed / 1 Skipped**。
+唯一 skip 是 `MVO_TPR3_StateContrast_SameFraming`（要求 `tpr3-*`，本轮 `tri-playmode-full`），未计通过。33 条 legacy_capture_guard 中其余 32 条已通过；9 条截图目录前置、28 条旧世界装配、1 条 R3 隔离、1 条 F_BuildingsFx 全部通过。
+
+### 1.3 基线 8 失败的真实归因与修复
 
 | # | 用例 | 真实归因 | 修复 |
 |---|---|---|---|
@@ -50,6 +55,7 @@
 ## 4. 关键文件与复现
 
 - `tests/baseline-full-playmode.xml`、`tests/baseline-failures.txt`：基线 101/8/1 与 8 条失败原文。
+- `tests/72-failure-map.md`：r3 历史 72 条逐条映射（72/72 定位，71 pass / 0 fail / 1 skip）。
 - `tests/final-full-playmode.xml`（最终树重跑，563.5s）、`tests/final-full-playmode-first.xml`（前一版 551.8s）、`tests/final-full-editmode.xml`：最终 109/0/1、417/0/0。
 - `tests/localization-targeted.xml` 与 `tests/targeted-*.xml`：关键定向回归（D-067、D-068、8 条失败类）。
 - `logs/`：Unity CLI 控制台输出（完整断言/堆栈以 XML 为准）。

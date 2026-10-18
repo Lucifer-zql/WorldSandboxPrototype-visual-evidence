@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-18 11:46:00Z" end-time="2026-10-18 11:46:00Z" duration="0.6325278">
+  <test-suite type="TestSuite" id="1168" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="117" result="Passed" start-time="2026-10-18 11:46:00Z" end-time="2026-10-18 11:46:00Z" duration="0.632528" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1332" name="WorldSandbox.Tests.PlayMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.PlayMode.dll" runstate="Runnable" testcasecount="117" result="Passed" start-time="2026-10-18 11:46:00Z" end-time="2026-10-18 11:46:00Z" duration="0.625469" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="22404" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1333" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="117" result="Passed" start-time="2026-10-18 11:46:00Z" end-time="2026-10-18 11:46:00Z" duration="0.624659" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1334" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="117" result="Passed" start-time="2026-10-18 11:46:00Z" end-time="2026-10-18 11:46:00Z" duration="0.623918" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="SetUpFixture" id="1283" name="PlayMode" fullname="WorldSandbox.Tests.PlayMode.PlayModeCaptureEnvironment" classname="WorldSandbox.Tests.PlayMode.PlayModeCaptureEnvironment" runstate="Runnable" testcasecount="117" result="Passed" start-time="2026-10-18 11:46:00Z" end-time="2026-10-18 11:46:00Z" duration="0.622806" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <output><![CDATA[[PlayModeCaptureEnvironment] root=C:\Users\18871\AppData\Local\Temp\ws-playmode-capture-20261018-194600-9adb1e
+[PlayModeCaptureEnvironment] root=C:\Users\18871\AppData\Local\Temp\ws-playmode-capture-20261018-194600-9adb1e
+]]></output>
+            <test-suite type="TestFixture" id="1180" name="BuildingRenderSyncTests" fullname="WorldSandbox.Tests.PlayMode.BuildingRenderSyncTests" classname="WorldSandbox.Tests.PlayMode.BuildingRenderSyncTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-18 11:46:00Z" end-time="2026-10-18 11:46:00Z" duration="0.602818" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1181" name="CivBuiltHouse_IsVisibleOnMap" fullname="WorldSandbox.Tests.PlayMode.BuildingRenderSyncTests.CivBuiltHouse_IsVisibleOnMap" methodname="CivBuiltHouse_IsVisibleOnMap" classname="WorldSandbox.Tests.PlayMode.BuildingRenderSyncTests" runstate="Runnable" seed="1558039807" result="Passed" start-time="2026-10-18 11:46:00Z" end-time="2026-10-18 11:46:00Z" duration="0.590056" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Bootstrap] 基础装配完成（IMPL-01 占位）；[WorldSandbox] 前缀可筛选
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Flow] 状态 → MainMenu
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Input] PointerGestureRouter 未装配（等待 GameBootstrap 调用 Assemble，STEP-08）→ 本帧跳过手势路由。
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Flow] 状态 → Initializing
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Bootstrap] 世界运行上下文已清理
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] PointerGestureRouter 装配完成：padding=4，地图=64x64
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Input] ToolPointerController 装配完成（指针→格分发）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 模拟运行时装配完成：系统 7 个、TicksPerSecond=10（IMPL-06 M-01）
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=8
+[WorldSandbox][Bootstrap] 运行时恢复完成：tick=0 实体=8
+[WorldSandbox][Camera] 初始取景：世界坐标 (38.5, 20) → 相机中心 (38.5, 20)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][Camera] 初始取景：世界坐标 (38.5, 20) → 相机中心 (38.5, 20)，Z=-10，orthoSize=16（不变）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][UI] UIRoot 装配完成（视图 6 个；本地化 zh-Hans）。
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2d0d61bfbcb4-2cbf|民居渲染|64x64|seed=20261013|ticks=0|civ=2|nodes=167|deco=228|build=2|creatures=8
+[WorldSandbox][Bootstrap] 世界装配完成：w-8df2d0d61bfbcb4-2cbf|民居渲染|64x64|seed=20261013|ticks=0|civ=2|nodes=167|deco=228|build=2|creatures=8
+[WorldSandbox][Flow] 状态 → Playing
+[WorldSandbox][Flow] 状态 → Playing
+[AnimationDriver] 人类 Work/None 帧集未接线 → 回退 Idle 帧
+[AnimationDriver] 人类 Work/None 帧集未接线 → 回退 Idle 帧
+[WorldSandbox][Sim] 事件队列限流：本帧丢弃 21 条事件（累计丢弃 21；04 R-ORDER-05）。
+[WorldSandbox][Sim] 事件队列限流：本帧丢弃 21 条事件（累计丢弃 21；04 R-ORDER-05）。
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

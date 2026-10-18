@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="33" result="Passed" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.6662314">
+  <test-suite type="TestSuite" id="1000" name="WorldSandboxPrototype" fullname="WorldSandboxPrototype" runstate="Runnable" testcasecount="430" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.666231" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1535" name="WorldSandbox.Tests.EditMode.dll" fullname="D:/data/UnityProjects/WorldSandboxPrototype/Library/ScriptAssemblies/WorldSandbox.Tests.EditMode.dll" runstate="Runnable" testcasecount="430" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.656883" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="38556" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1536" name="WorldSandbox" fullname="WorldSandbox" runstate="Runnable" testcasecount="430" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.655486" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1537" name="Tests" fullname="WorldSandbox.Tests" runstate="Runnable" testcasecount="430" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.654421" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1538" name="EditMode" fullname="WorldSandbox.Tests.EditMode" runstate="Runnable" testcasecount="430" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.653259" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1068" name="CivilizationSimulationTests" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.417929" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1076" name="AutoSave_IsSeparateFromManual_AndKeepsThree" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.AutoSave_IsSeparateFromManual_AndKeepsThree" methodname="AutoSave_IsSeparateFromManual_AndKeepsThree" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="1286069476" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.128856" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1077" name="AutoSave_LoadContinuesSimulation" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.AutoSave_LoadContinuesSimulation" methodname="AutoSave_LoadContinuesSimulation" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="1988930864" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.024887" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[auto-load pop 12→12
+]]></output>
+              </test-case>
+              <test-case id="1079" name="AutoSave_Rotation_KeepsManualSavesIntact" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.AutoSave_Rotation_KeepsManualSavesIntact" methodname="AutoSave_Rotation_KeepsManualSavesIntact" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="1979970277" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.076958" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1078" name="AutoSave_SameMoment_ProducesDistinctIds_AndKeepsNewestThree" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.AutoSave_SameMoment_ProducesDistinctIds_AndKeepsNewestThree" methodname="AutoSave_SameMoment_ProducesDistinctIds_AndKeepsNewestThree" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="1898261760" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.046496" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1073" name="Civ_Diplomacy_FarNeighbours_TurnFriendly" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_Diplomacy_FarNeighbours_TurnFriendly" methodname="Civ_Diplomacy_FarNeighbours_TurnFriendly" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="1031465574" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.015861" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[far relation=Friendly
+]]></output>
+              </test-case>
+              <test-case id="1074" name="Civ_Diplomacy_MidRange_StaysNeutral" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_Diplomacy_MidRange_StaysNeutral" methodname="Civ_Diplomacy_MidRange_StaysNeutral" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="1602911032" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.014558" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[mid relation=Neutral
+]]></output>
+              </test-case>
+              <test-case id="1072" name="Civ_Diplomacy_NearNeighbours_TurnHostile" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_Diplomacy_NearNeighbours_TurnHostile" methodname="Civ_Diplomacy_NearNeighbours_TurnHostile" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="546400108" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.019005" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[near relation=Hostile evaluations=25
+]]></output>
+              </test-case>
+              <test-case id="1075" name="Civ_SaveRoundTrip_PreservesEconomyAndDiplomacy" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_SaveRoundTrip_PreservesEconomyAndDiplomacy" methodname="Civ_SaveRoundTrip_PreservesEconomyAndDiplomacy" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="999328283" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.013298" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1069" name="Civ_System_GrowsPopulationAndUsesEconomy" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_System_GrowsPopulationAndUsesEconomy" methodname="Civ_System_GrowsPopulationAndUsesEconomy" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="1820025926" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.009350" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[pop=24 food=26 houses=8 hits 529→493
+]]></output>
+              </test-case>
+              <test-case id="1070" name="Civ_System_LongRun_PopulationGrowsBeyondFour_AndBuildsMoreHouses" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_System_LongRun_PopulationGrowsBeyondFour_AndBuildsMoreHouses" methodname="Civ_System_LongRun_PopulationGrowsBeyondFour_AndBuildsMoreHouses" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="1133891463" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.036287" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[t=500 pop=33 houses=9 food=33 trees=129
+t=1000 pop=45 houses=12 food=21 trees=105
+t=1500 pop=54 houses=15 food=0 trees=78
+t=2000 pop=59 houses=15 food=11 trees=54
+t=2500 pop=63 houses=17 food=20 trees=28
+t=3000 pop=63 houses=17 food=35 trees=4
+t=3500 pop=63 houses=17 food=0 trees=0
+t=4000 pop=57 houses=17 food=0 trees=0
+t=4500 pop=55 houses=17 food=0 trees=0
+t=5000 pop=51 houses=17 food=0 trees=0
+
+]]></output>
+              </test-case>
+              <test-case id="1071" name="Civ_System_ProducesDiplomacyStates" fullname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests.Civ_System_ProducesDiplomacyStates" methodname="Civ_System_ProducesDiplomacyStates" classname="WorldSandbox.Tests.EditMode.CivilizationSimulationTests" runstate="Runnable" seed="762955399" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.011799" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[pairs=6 全部被评估
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1108" name="CreatureActivityTests" fullname="WorldSandbox.Tests.EditMode.CreatureActivityTests" classname="WorldSandbox.Tests.EditMode.CreatureActivityTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.068431" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1109" name="CivMembers_SpreadOut_NotOneBlob" fullname="WorldSandbox.Tests.EditMode.CreatureActivityTests.CivMembers_SpreadOut_NotOneBlob" methodname="CivMembers_SpreadOut_NotOneBlob" classname="WorldSandbox.Tests.EditMode.CreatureActivityTests" runstate="Runnable" seed="2055455388" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.030625" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1111" name="CreatureAge_IncreasesWithTicks" fullname="WorldSandbox.Tests.EditMode.CreatureActivityTests.CreatureAge_IncreasesWithTicks" methodname="CreatureAge_IncreasesWithTicks" classname="WorldSandbox.Tests.EditMode.CreatureActivityTests" runstate="Runnable" seed="363617856" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.006592" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1110" name="Houses_KeepSpacing_NotPiledAtCapital" fullname="WorldSandbox.Tests.EditMode.CreatureActivityTests.Houses_KeepSpacing_NotPiledAtCapital" methodname="Houses_KeepSpacing_NotPiledAtCapital" classname="WorldSandbox.Tests.EditMode.CreatureActivityTests" runstate="Runnable" seed="398468617" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.029526" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1123" name="D068CivilizationUiTests" fullname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests" classname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.034656" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1126" name="Diplomacy_EventOnlyOnRealTransition" fullname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests.Diplomacy_EventOnlyOnRealTransition" methodname="Diplomacy_EventOnlyOnRealTransition" classname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests" runstate="Runnable" seed="650978808" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.009209" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[relation=Hostile events=7 transitions=7
+]]></output>
+              </test-case>
+              <test-case id="1125" name="Famine_EventPublishedOncePerTransition_DeathsCarryRealTick" fullname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests.Famine_EventPublishedOncePerTransition_DeathsCarryRealTick" methodname="Famine_EventPublishedOncePerTransition_DeathsCarryRealTick" classname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests" runstate="Runnable" seed="815031572" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.003199" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[famine=1 deaths=2 pop=8 ticks=1000,2000
+]]></output>
+              </test-case>
+              <test-case id="1128" name="PanelAndEvent_KeyMappingIsComplete" fullname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests.PanelAndEvent_KeyMappingIsComplete" methodname="PanelAndEvent_KeyMappingIsComplete" classname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests" runstate="Runnable" seed="253440" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.003550" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1124" name="Snapshot_ExposesRealCivilizationAndDiplomacyData" fullname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests.Snapshot_ExposesRealCivilizationAndDiplomacyData" methodname="Snapshot_ExposesRealCivilizationAndDiplomacyData" classname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests" runstate="Runnable" seed="1734046735" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.008626" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1127" name="V1JsonWithoutRelations_LoadsAndContinuesSimulation" fullname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests.V1JsonWithoutRelations_LoadsAndContinuesSimulation" methodname="V1JsonWithoutRelations_LoadsAndContinuesSimulation" classname="WorldSandbox.Tests.EditMode.D068CivilizationUiTests" runstate="Runnable" seed="637692699" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.008069" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1129" name="D068FinalLifeTests" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.069282" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1133" name="CivEconomy_320Ticks_KeepsEveryCivAlive_AndRecordsBirths" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.CivEconomy_320Ticks_KeepsEveryCivAlive_AndRecordsBirths" methodname="CivEconomy_320Ticks_KeepsEveryCivAlive_AndRecordsBirths" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="1956330100" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.031564" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[civ 1 pop=9 members=9 food=7 wood=28 houses=3 births=7 deaths=0 starving=False
+civ 2 pop=9 members=9 food=7 wood=28 houses=3 births=7 deaths=0 starving=False
+civ 3 pop=9 members=9 food=6 wood=28 houses=3 births=7 deaths=0 starving=False
+civ 4 pop=9 members=9 food=6 wood=28 houses=3 births=7 deaths=0 starving=False
+]]></output>
+              </test-case>
+              <test-case id="1131" name="CreatureSystem_MovesOnLand_AndWorkStateFollowsHarvestPoint" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.CreatureSystem_MovesOnLand_AndWorkStateFollowsHarvestPoint" methodname="CreatureSystem_MovesOnLand_AndWorkStateFollowsHarvestPoint" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="1980745762" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.015827" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1130" name="InitialLife_HasMembersPerCiv_CastlePerCiv_AndSheep" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.InitialLife_HasMembersPerCiv_CastlePerCiv_AndSheep" methodname="InitialLife_HasMembersPerCiv_CastlePerCiv_AndSheep" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="808243272" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.006465" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1134" name="SaveRoundTrip_KeepsInitialMembersAndCastles" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.SaveRoundTrip_KeepsInitialMembersAndCastles" methodname="SaveRoundTrip_KeepsInitialMembersAndCastles" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="1184503342" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.006275" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1132" name="Snapshot_PopulationEqualsLiveHumanCount_AndCivMemberSum" fullname="WorldSandbox.Tests.EditMode.D068FinalLifeTests.Snapshot_PopulationEqualsLiveHumanCount_AndCivMemberSum" methodname="Snapshot_PopulationEqualsLiveHumanCount_AndCivMemberSum" classname="WorldSandbox.Tests.EditMode.D068FinalLifeTests" runstate="Runnable" seed="1315552518" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.006987" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1160" name="EventNarrativeTests" fullname="WorldSandbox.Tests.EditMode.EventNarrativeTests" classname="WorldSandbox.Tests.EditMode.EventNarrativeTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.014092" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1162" name="BirthFamineBuilding_EventsNameCivilization" fullname="WorldSandbox.Tests.EditMode.EventNarrativeTests.BirthFamineBuilding_EventsNameCivilization" methodname="BirthFamineBuilding_EventsNameCivilization" classname="WorldSandbox.Tests.EditMode.EventNarrativeTests" runstate="Runnable" seed="1992171263" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.002257" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1163" name="BuildingEvent_WithoutCivilization_UsesGenericText" fullname="WorldSandbox.Tests.EditMode.EventNarrativeTests.BuildingEvent_WithoutCivilization_UsesGenericText" methodname="BuildingEvent_WithoutCivilization_UsesGenericText" classname="WorldSandbox.Tests.EditMode.EventNarrativeTests" runstate="Runnable" seed="1321559232" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.001003" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1161" name="DeathEvent_WordingDistinguishesCause_AndNamesCivilization" fullname="WorldSandbox.Tests.EditMode.EventNarrativeTests.DeathEvent_WordingDistinguishesCause_AndNamesCivilization" methodname="DeathEvent_WordingDistinguishesCause_AndNamesCivilization" classname="WorldSandbox.Tests.EditMode.EventNarrativeTests" runstate="Runnable" seed="316563757" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.001166" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1164" name="ToolEvents_CarryRealTick" fullname="WorldSandbox.Tests.EditMode.EventNarrativeTests.ToolEvents_CarryRealTick" methodname="ToolEvents_CarryRealTick" classname="WorldSandbox.Tests.EditMode.EventNarrativeTests" runstate="Runnable" seed="1886494012" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.007953" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1322" name="SettlementStageTests" fullname="WorldSandbox.Tests.EditMode.SettlementStageTests" classname="WorldSandbox.Tests.EditMode.SettlementStageTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.027407" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1324" name="EmptyCivilization_DoesNotBirth" fullname="WorldSandbox.Tests.EditMode.SettlementStageTests.EmptyCivilization_DoesNotBirth" methodname="EmptyCivilization_DoesNotBirth" classname="WorldSandbox.Tests.EditMode.SettlementStageTests" runstate="Runnable" seed="61707172" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.006718" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1323" name="EmptyCivilization_DoesNotHarvest" fullname="WorldSandbox.Tests.EditMode.SettlementStageTests.EmptyCivilization_DoesNotHarvest" methodname="EmptyCivilization_DoesNotHarvest" classname="WorldSandbox.Tests.EditMode.SettlementStageTests" runstate="Runnable" seed="429992789" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.006485" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1327" name="HarvestSystem_RunsBefore_SettlementStage" fullname="WorldSandbox.Tests.EditMode.SettlementStageTests.HarvestSystem_RunsBefore_SettlementStage" methodname="HarvestSystem_RunsBefore_SettlementStage" classname="WorldSandbox.Tests.EditMode.SettlementStageTests" runstate="Runnable" seed="482025413" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.000264" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1326" name="SettlementStage_BuildsHouseAndGivesBirth" fullname="WorldSandbox.Tests.EditMode.SettlementStageTests.SettlementStage_BuildsHouseAndGivesBirth" methodname="SettlementStage_BuildsHouseAndGivesBirth" classname="WorldSandbox.Tests.EditMode.SettlementStageTests" runstate="Runnable" seed="1936630165" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.006036" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1325" name="SettlementStage_RefreshesPopulationAndConsumesFood" fullname="WorldSandbox.Tests.EditMode.SettlementStageTests.SettlementStage_RefreshesPopulationAndConsumesFood" methodname="SettlementStage_RefreshesPopulationAndConsumesFood" classname="WorldSandbox.Tests.EditMode.SettlementStageTests" runstate="Runnable" seed="577495425" result="Passed" start-time="2026-10-18 11:25:08Z" end-time="2026-10-18 11:25:08Z" duration="0.006283" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+Saving results to: C:/Users/18871/AppData/LocalLow/DefaultCompany/WorldSandboxPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,2 @@
+MyClaw proactive discovery preview acceptance fixture.
+Disposable branch only. No product changes.
